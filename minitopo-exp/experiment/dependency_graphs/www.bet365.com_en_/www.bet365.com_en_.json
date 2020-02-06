@@ -1,0 +1,1254 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.bet365.com_en_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.bet365.com/en/",
+         "path" : "/pages/bet365.com/www.bet365.com/en/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 593.661999795586,
+               "time" : 280.890999827534,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 874.55299962312
+            },
+            {
+               "s_time" : 959.722999949008,
+               "time" : 0.0769998878239448,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 959.799999836832
+            },
+            {
+               "s_time" : 961.212999653071,
+               "time" : 0.0570002011959332,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 961.269999854267
+            },
+            {
+               "s_time" : 963.515999726951,
+               "time" : 0.0599999912079738,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 963.575999718159
+            },
+            {
+               "s_time" : 965.32899979502,
+               "time" : 0.0630002468819839,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 965.392000041902
+            },
+            {
+               "s_time" : 1010.25699963793,
+               "time" : 0.121000222860062,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1010.37799986079
+            },
+            {
+               "s_time" : 1012.94699963182,
+               "time" : 0.117000192410046,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 1013.06399982423
+            },
+            {
+               "s_time" : 1016.12199982628,
+               "time" : 0.0849999487400055,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 1016.20699977502
+            },
+            {
+               "s_time" : 1030.45600000769,
+               "time" : 0.0819996930601974,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 1030.53799970075
+            },
+            {
+               "s_time" : 1055.96899986267,
+               "time" : 0.0809999182799856,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 1056.04999978095
+            },
+            {
+               "s_time" : 1059.32299979031,
+               "time" : 0.0479998998400788,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1059.37099969015
+            },
+            {
+               "s_time" : 1062.26599961519,
+               "time" : 0.0710003077999772,
+               "type" : "evalhtml",
+               "id" : "r1_c12",
+               "e_time" : 1062.33699992299
+            },
+            {
+               "s_time" : 1066.02399982512,
+               "time" : 0.0649997964501381,
+               "type" : "evalhtml",
+               "id" : "r1_c13",
+               "e_time" : 1066.08899962157
+            },
+            {
+               "s_time" : 1070.77799970284,
+               "time" : 0.0750003382599971,
+               "type" : "evalhtml",
+               "id" : "r1_c14",
+               "e_time" : 1070.8530000411
+            },
+            {
+               "s_time" : 1072.55199970677,
+               "time" : 210.32899990678,
+               "id" : "r1_c15",
+               "type" : "evalhtml",
+               "e_time" : 1282.88099961355
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/style/sportsbook_vB23.css",
+         "path" : "/pages/bet365.com/www.bet365.com/home/style/sportsbook_vB23.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 725.839999970049,
+               "time" : 6.98899989947597,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 732.828999869525
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 609.754999633878,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/style/eng-font_vB5.css",
+         "path" : "/pages/bet365.com/www.bet365.com/home/style/eng-font_vB5.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 809.963999781758,
+               "time" : 52.8759998269379,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 862.839999608696
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 610.272999852896,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/swfobject_vB007cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/swfobject_vB007cr.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 949.426000006497,
+               "time" : 10.296999942511,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 959.722999949008
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 610.707999672741,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/Browser_vA009cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/Browser_vA009cr.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 960.387999657542,
+               "time" : 0.824999995529083,
+               "id" : "comp_16",
+               "type" : 1,
+               "e_time" : 961.212999653071
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 611.138999927789,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/cookies_vA006cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/cookies_vA006cr.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 962.620999664068,
+               "time" : 0.895000062883014,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 963.515999726951
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 611.714999657124,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/flashcheckmsgs_v3cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/flashcheckmsgs_v3cr.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 964.390999637544,
+               "time" : 0.938000157475926,
+               "id" : "comp_20",
+               "type" : 1,
+               "e_time" : 965.32899979502
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 612.449999898672,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/FlashDetection_vA011cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/FlashDetection_vA011cr.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1008.78599984571,
+               "time" : 1.47099979222003,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 1010.25699963793
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 612.927000038326,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/Mobile_vA003cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/Mobile_vA003cr.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1011.62499981001,
+               "time" : 1.32199982180998,
+               "id" : "comp_24",
+               "type" : 1,
+               "e_time" : 1012.94699963182
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 613.357999827713,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/SOBetConfirm_vA005cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/SOBetConfirm_vA005cr.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 1014.70999978483,
+               "time" : 1.41200004145003,
+               "id" : "comp_26",
+               "type" : 1,
+               "e_time" : 1016.12199982628
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 613.84700005874,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/SlipObj_vA016cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/SlipObj_vA016cr.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 1023.06499984115,
+               "time" : 7.39100016653992,
+               "id" : "comp_28",
+               "type" : 1,
+               "e_time" : 1030.45600000769
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 614.310999866575,
+            "type" : "application/x-javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/Navigation_vA090cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/Navigation_vA090cr.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 1042.39599965513,
+               "time" : 13.57300020754,
+               "id" : "comp_31",
+               "type" : 1,
+               "e_time" : 1055.96899986267
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 614.828999619931,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/BettingSlipCommon_vA009cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/BettingSlipCommon_vA009cr.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 1056.09599966556,
+               "time" : 3.22700012475002,
+               "id" : "comp_33",
+               "type" : 1,
+               "e_time" : 1059.32299979031
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 615.270999725908,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/tooltip_vA005cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/tooltip_vA005cr.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 1059.40199969336,
+               "time" : 2.86399992182987,
+               "id" : "comp_35",
+               "type" : 1,
+               "e_time" : 1062.26599961519
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 615.840999875218,
+            "type" : "application/x-javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/globals_vA048cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/globals_vA048cr.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 1062.38200003281,
+               "time" : 3.64199979230989,
+               "id" : "comp_37",
+               "type" : 1,
+               "e_time" : 1066.02399982512
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 616.450999863446,
+            "type" : "application/x-javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/scorecastsoccer_vA002cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/scorecastsoccer_vA002cr.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 1068.21900000796,
+               "time" : 2.55899969487996,
+               "id" : "comp_39",
+               "type" : 1,
+               "e_time" : 1070.77799970284
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 616.892999969423,
+            "type" : "application/x-javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/js/checkmsgs_v1cr.js",
+         "path" : "/pages/bet365.com/www.bet365.com/home/js/checkmsgs_v1cr.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1071.64399977773,
+               "time" : 0.907999929039988,
+               "id" : "comp_41",
+               "type" : 1,
+               "e_time" : 1072.55199970677
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 617.32399975881,
+            "type" : "application/x-javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/body-bg.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/body-bg.gif",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 863.518999889493,
+            "type" : "image/gif",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/PageLoader.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/PageLoader.gif",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 863.94099984318,
+            "type" : "image/gif",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/flashvercheck/50x51-flash-icon.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/flashvercheck/50x51-flash-icon.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 864.316999912262,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/30x30-tool-icon.png",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/30x30-tool-icon.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 864.720999728888,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/head1.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/head1.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 865.170999895781,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/sec-nav-bg-grad.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/sec-nav-bg-grad.gif",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 866.307999938726,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/844x214-Crouch.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/844x214-Crouch.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 866.71799980104,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/sc/NCDNO/NCDNO_210x204_eng.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/sc/NCDNO/NCDNO_210x204_eng.gif",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 869.97799994424,
+            "type" : "image/gif",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/eng/bg-sports-title-white.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/eng/bg-sports-title-white.gif",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 869.576999917626,
+            "type" : "image/gif",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/bg-sports-right.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/bg-sports-right.gif",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 870.343999937177,
+            "type" : "image/gif",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/eng/liveinplay.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/eng/liveinplay.gif",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 870.706999674439,
+            "type" : "image/gif",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/eng/204x30-live-streaming-02.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/eng/204x30-live-streaming-02.gif",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 871.073999907821,
+            "type" : "image/gif",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/bg-casino.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/bg-casino.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 871.440999675542,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-casino-title.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-casino-title.gif",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 872.232999652624,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-Products.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-Products.gif",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 871.822999790311,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/bg-poker.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/bg-poker.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 872.625999618322,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-poker-title.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-poker-title.gif",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 872.998999897391,
+            "type" : "image/gif",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://members.bet365.com/Members/Helpers/site.aspx",
+         "path" : "/pages/bet365.com/members.bet365.com/Members/Helpers/site.aspx/index.html",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 1370.50499999896,
+               "time" : 3.8389996625499,
+               "type" : "evalhtml",
+               "id" : "r19_c1",
+               "e_time" : 1374.34399966151
+            },
+            {
+               "s_time" : 1516.70099981129,
+               "time" : 0.128000043329848,
+               "type" : "evalhtml",
+               "id" : "r19_c2",
+               "e_time" : 1516.82899985462
+            },
+            {
+               "s_time" : 1584.29799973965,
+               "time" : 0.190000049769878,
+               "id" : "r19_c3",
+               "type" : "evalhtml",
+               "e_time" : 1584.48799978942
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 838.269999716431,
+            "type" : "text/html",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-games-title.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-games-title.gif",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 873.749000020325,
+            "type" : "image/gif",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/PharaohTreasure.jpg",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/PharaohTreasure.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 873.36799968034,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/en/flashversion.swf",
+         "path" : "/pages/bet365.com/www.bet365.com/en/flashversion.swf",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1282.88099961355,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-bingo-title.gif",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/eng/bg-bingo-title.gif",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 874.55299962312,
+            "type" : "image/gif",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bet365.com/home/images/landingpage/imgs/col4/199x81_Bingo2012.JPG",
+         "path" : "/pages/bet365.com/www.bet365.com/home/images/landingpage/imgs/col4/199x81_Bingo2012.JPG",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 874.138999730349,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://members.bet365.com/Members/WebResource.axd?d=PzHIV997Xr-ihQfFcs_Ob1_ZP45zWHjooWJTD_ROn4uv4rxHLfM5XI_Di0NvSCCxxVSCHUMXaG4k5HXCzR1imExzAZPoNzi7aJMx7u5KsUshGfNv0&v=NoBreak&r=Cookies",
+         "path" : "/pages/bet365.com/members.bet365.com/Members/WebResource.axd",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 1512.34499970451,
+               "time" : 4.35600010678013,
+               "id" : "comp_86",
+               "type" : 1,
+               "e_time" : 1516.70099981129
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1372.90199985728,
+            "type" : "text/javscript",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://members.bet365.com/Members/WebResource.axd?d=-jdY3uyud4FRcxlf6Nh7s3dRVF0FedIkUS9IMJrSqIML680EhBG9wAlBdYld9YZSDhIzeAVumjZ4vp7JANRhrGGXOXWGGJnm1NxxO5vA4tIbD6qi0&v=NoBreak&r=swfobject",
+         "path" : "/pages/bet365.com/members.bet365.com/Members/WebResource.axd",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 1578.95099977031,
+               "time" : 5.34699996934,
+               "id" : "comp_90",
+               "type" : 1,
+               "e_time" : 1584.29799973965
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1374.34399966151,
+            "type" : "text/javscript",
+            "id" : "download_41"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "r1_c13",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_37"
+      },
+      {
+         "a2" : "r1_c14",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_39"
+      },
+      {
+         "a2" : "r1_c15",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_41"
+      },
+      {
+         "a2" : "comp_16",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "comp_22",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "comp_24",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_26",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "comp_28",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "comp_31",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "comp_33",
+         "time" : -1,
+         "id" : "dep23",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "comp_35",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "comp_37",
+         "time" : -1,
+         "id" : "dep25",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "comp_39",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "comp_37"
+      },
+      {
+         "a2" : "comp_41",
+         "time" : -1,
+         "id" : "dep27",
+         "a1" : "comp_39"
+      },
+      {
+         "a2" : "r19_c2",
+         "time" : -1,
+         "id" : "dep28",
+         "a1" : "comp_86"
+      },
+      {
+         "a2" : "r19_c3",
+         "time" : -1,
+         "id" : "dep29",
+         "a1" : "comp_90"
+      },
+      {
+         "a2" : "comp_90",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "comp_86"
+      },
+      {
+         "a2" : "download_41",
+         "time" : -1,
+         "id" : "dep31",
+         "a1" : "r19_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 2.39699985831999,
+         "id" : "dep32",
+         "a1" : "r19_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : -1,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : -1,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : -1,
+         "id" : "dep35",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 279.705999884754,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 280.087000224739,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 244.607999920845,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 279.337000101805,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 278.963999822736,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 278.160999994725,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 278.570999857038,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 277.778999879956,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 277.412000112235,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 277.044999878853,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 276.682000141591,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 275.91500012204,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 276.316000148654,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 273.056000005454,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 272.64600014314,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 271.509000100195,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 271.058999933302,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 270.655000116676,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 270.279000047594,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 269.857000093907,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 23.661999963224,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 23.2310001738371,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 22.78900006786,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 22.179000079632,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 21.6089999303221,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 21.166999824345,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 20.649000070989,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 20.1850002631541,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 19.696000032127,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 19.26500024274,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 18.788000103086,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 18.0529998615381,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 17.477000132203,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 17.0459998771551,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 16.61100005731,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 16.092999838292,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      }
+   ]
+}

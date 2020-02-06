@@ -1,0 +1,1242 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.chase.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.chase.com/",
+         "path" : "/pages/chase.com/www.chase.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1468.5120000504,
+               "time" : 452.65900017693,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1921.17100022733
+            },
+            {
+               "s_time" : 2122.3389999941,
+               "time" : 0.974000431599961,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2123.3130004257
+            },
+            {
+               "s_time" : 2309.48200030252,
+               "time" : 9.56499995663989,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 2319.04700025916
+            },
+            {
+               "s_time" : 2334.36800027266,
+               "time" : 1188.04899975658,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 3522.41700002924
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecomhomepage/clientlibs.css",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecomhomepage/clientlibs.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1848.44900015742,
+               "time" : 72.78699986636,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 1921.23600002378
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1472.78399998322,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/scripts/Reporting.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/scripts/Reporting.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1967.88400039077,
+               "time" : 154.45499960333,
+               "id" : "comp_5",
+               "type" : 1,
+               "e_time" : 2122.3389999941
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1473.39900024235,
+            "type" : "application/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 2215.870000422,
+               "time" : 93.6119998805202,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 2309.48200030252
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1473.86500006542,
+            "type" : "application/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/publishoptimized/homepage-po-min.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/publishoptimized/homepage-po-min.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 2319.10199997947,
+               "time" : 15.2660002931902,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 2334.36800027266
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1474.20700034127,
+            "type" : "application/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/scripts/Personalization.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/scripts/Personalization.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 2916.71100025997,
+               "time" : 1.86199974267993,
+               "id" : "comp_66",
+               "type" : 2,
+               "e_time" : 2918.57300000265
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2123.3130004257,
+            "type" : "application/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecomhomepage/images/homepage_background_1px.jpg",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecomhomepage/images/homepage_background_1px.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2424.56100042909,
+            "type" : "image/jpeg",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/common/images/rumba_sw-logo-section.png",
+         "path" : "/pages/chase.com/www.chase.com/content/dam/chasecom/en/common/images/rumba_sw-logo-section.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2425.29000015929,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/rumba_sw-nav-bg.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/rumba_sw-nav-bg.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2425.61500007287,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-unmatched/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1351397388926.jpg",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-unmatched/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1351397388926.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2426.60400038585,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/swat-sprite.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/swat-sprite.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2424.95100013912,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/chase/appsconfig/clientconfig.js",
+         "path" : "/pages/chase.com/www.chase.com/etc/chase/appsconfig/clientconfig.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 2974.61500018835,
+               "time" : 2.00700014829999,
+               "id" : "comp_71",
+               "type" : 2,
+               "e_time" : 2976.62200033665
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2475.40400037542,
+            "type" : "text/plain",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/json2.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/json2.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 3012.63300003484,
+               "time" : 0.691000372170038,
+               "id" : "comp_74",
+               "type" : 2,
+               "e_time" : 3013.32400040701
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2475.96399998292,
+            "type" : "application/javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jqueryui-1.10.2.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jqueryui-1.10.2.js",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 3096.8180000782,
+               "time" : 27.9800002463203,
+               "id" : "comp_129",
+               "type" : 2,
+               "e_time" : 3124.79800032452
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2532.58100012317,
+            "type" : "application/javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/ui/modal.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/ui/modal.js",
+         "id" : "r26",
+         "comps" : [
+            {
+               "s_time" : 2918.61500032246,
+               "time" : 0.818999949839963,
+               "id" : "comp_68",
+               "type" : 2,
+               "e_time" : 2919.4340002723
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2538.74600026757,
+            "type" : "application/javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/contentjs/js/content/browser/history.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/contentjs/js/content/browser/history.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 3230.00800004229,
+               "time" : 1.02900015190016,
+               "id" : "comp_132",
+               "type" : 2,
+               "e_time" : 3231.03700019419
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2539.27000006661,
+            "type" : "application/javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/util/string/trimLeft.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/util/string/trimLeft.js",
+         "id" : "r28",
+         "comps" : [
+            {
+               "s_time" : 3040.0470001623,
+               "time" : 0.369000248610064,
+               "id" : "comp_77",
+               "type" : 2,
+               "e_time" : 3040.41600041091
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2542.09100035951,
+            "type" : "application/javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-partner/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348985611510.jpg",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-partner/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348985611510.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2427.33600037172,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-atm/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348996198358.jpg",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-atm/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348996198358.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2426.98800005019,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-commitment/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348985911175.jpg",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-commitment/_jcr_content/par/layout/cell-0-0/multitask/image.img.jpg/1348985911175.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2427.70900018513,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-global-finance/_jcr_content/par/layout/cell-0-0/multitask/image.img.png/1366647855538.png",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/mega-menu-global-finance/_jcr_content/par/layout/cell-0-0/multitask/image.img.png/1366647855538.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2428.50500019267,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-top.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-top.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2428.89200011268,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-middle.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-middle.png",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2429.5130004175,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-bottom.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/swat-bg-ftr-bottom.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2429.84600039199,
+            "type" : "image/png",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/EHL-Slice.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/EHL-Slice.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2430.17100030556,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/socialmedia/images/social_icon_twitter_24x24.png",
+         "path" : "/pages/chase.com/www.chase.com/content/dam/chasecom/en/socialmedia/images/social_icon_twitter_24x24.png",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2430.50300003961,
+            "type" : "image/png",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/template/modal.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/jpmc/template/modal.js",
+         "id" : "r30",
+         "comps" : [
+            {
+               "s_time" : 3235.48300005496,
+               "time" : 0.365000218149817,
+               "id" : "comp_135",
+               "type" : 2,
+               "e_time" : 3235.84800027311
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2922.14200040326,
+            "type" : "application/javascript",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/socialmedia/images/social_icon_youtube_24x24.png",
+         "path" : "/pages/chase.com/www.chase.com/content/dam/chasecom/en/socialmedia/images/social_icon_youtube_24x24.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2430.841000285,
+            "type" : "image/png",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/arrow_megamenu_right.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/arrow_megamenu_right.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2888.55700008571,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/conf/ui/floater/modal/size.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/conf/ui/floater/modal/size.js",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 3256.55500032008,
+               "time" : 0.574999954550094,
+               "id" : "comp_159",
+               "type" : 2,
+               "e_time" : 3257.13000027463
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2973.59100030735,
+            "type" : "application/javascript",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/conf/ui/floater/modal/style.js",
+         "path" : "/pages/chase.com/www.chase.com/apps/chase/clientlibs/foundation/jpmcjs/js/conf/ui/floater/modal/style.js",
+         "id" : "r32",
+         "comps" : [
+            {
+               "s_time" : 3257.33300019056,
+               "time" : 0.591999851159926,
+               "id" : "comp_162",
+               "type" : 2,
+               "e_time" : 3257.92500004172
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2975.85000004619,
+            "type" : "application/javascript",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/login_unknown.png",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/login_unknown.png",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3080.8340003714,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://s.xp1.ru4.com/meta?_callback=jQuery19108402264029718935_1378094071551&_o=15629&_t=col_uk_home&ssv_v1st=&ssv_pfid=&ssv_zip=&ssv_cigseg=&ssv_locale=&ssv_random=2&ssv_product=&ssv_userType=&ssvm_lids=&_=1378094071552",
+         "path" : "/missing/s.xp1.ru4.com/meta",
+         "id" : "r33",
+         "comps" : [
+            {
+               "s_time" : 3372.92600004002,
+               "time" : 0.951000023640063,
+               "id" : "comp_165",
+               "type" : 2,
+               "e_time" : 3373.87700006366
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3012.17200001702,
+            "type" : "text/html",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://mfasa.chase.com/auth/login.html",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/login.html/index.html",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 3438.11800004914,
+               "time" : 120.72100024671,
+               "type" : "evalhtml",
+               "id" : "r22_c1",
+               "e_time" : 3558.83900029585
+            },
+            {
+               "s_time" : 3627.04699998721,
+               "time" : 0.10200031102022,
+               "type" : "evalhtml",
+               "id" : "r22_c2",
+               "e_time" : 3627.14900029823
+            },
+            {
+               "s_time" : 3627.85700010136,
+               "time" : 0.0769998878199658,
+               "type" : "evalhtml",
+               "id" : "r22_c3",
+               "e_time" : 3627.93399998918
+            },
+            {
+               "s_time" : 3635.57600043714,
+               "time" : 0.0969995744499101,
+               "type" : "evalhtml",
+               "id" : "r22_c4",
+               "e_time" : 3635.67300001159
+            },
+            {
+               "s_time" : 3637.50800024718,
+               "time" : 12.3370001092599,
+               "id" : "r22_c5",
+               "type" : "evalhtml",
+               "e_time" : 3649.84500035644
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2380.32600004226,
+            "type" : "text/html",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/common/modular/weblink-disclosure-lite/_jcr_content/par.html",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/common/modular/weblink-disclosure-lite/_jcr_content/par.html/index.html",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3268.87300005183,
+            "type" : "text/html",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/ads/742_Cards_Ink_Plus_B/_jcr_content/adcreationcontainer/par.html",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/ads/742_Cards_Ink_Plus_B/_jcr_content/adcreationcontainer/par.html/index.html",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3383.39700037614,
+            "type" : "text/html",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://mfasa.chase.com/auth/js/json.js",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/js/json.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 3556.6500001587,
+               "time" : 2.04499997197991,
+               "id" : "comp_184",
+               "type" : null,
+               "e_time" : 3558.69500013068
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3442.00900010765,
+            "type" : "application/javascript",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/ads/retail/229956_checking_trip.png",
+         "path" : "/pages/chase.com/www.chase.com/content/dam/chasecom/en/ads/retail/229956_checking_trip.png",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3424.95900020003,
+            "type" : "image/png",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/loading.gif",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/loading.gif",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3427.83300019801,
+            "type" : "image/gif",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/ads/corporateshared/Sapphire_AMEX_ForeignFees_triplet_FNL.png",
+         "path" : "/missing/www.chase.com/content/dam/chasecom/en/ads/corporateshared/Sapphire_AMEX_ForeignFees_triplet_FNL.png",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3427.07400023937,
+            "type" : "image/png",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/dam/chasecom/en/ads/creditcards/217608_marketplace_A31489_hero.jpg",
+         "path" : "/missing/www.chase.com/content/dam/chasecom/en/ads/creditcards/217608_marketplace_A31489_hero.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3427.4970004335,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/etc/designs/chasecom/images/loader-gray-faster-40x40_v5.gif",
+         "path" : "/pages/chase.com/www.chase.com/etc/designs/chasecom/images/loader-gray-faster-40x40_v5.gif",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3424.52300013974,
+            "type" : "image/gif",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://mfasa.chase.com/auth/js/plugin.min.js",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/js/plugin.min.js",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 3624.98400034383,
+               "time" : 2.06299964337995,
+               "id" : "comp_187",
+               "type" : 1,
+               "e_time" : 3627.04699998721
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3442.52200005576,
+            "type" : "application/javascript",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://mfasa.chase.com/auth/js/mfp.js",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/js/mfp.js",
+         "id" : "r44",
+         "comps" : [
+            {
+               "s_time" : 3627.21800012514,
+               "time" : 0.63899997622002,
+               "id" : "comp_188",
+               "type" : 1,
+               "e_time" : 3627.85700010136
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3442.83800013363,
+            "type" : "application/javascript",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://mfasa.chase.com/auth/js/swfobject.js",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/js/swfobject.js",
+         "id" : "r45",
+         "comps" : [
+            {
+               "s_time" : 3633.7370001711,
+               "time" : 1.83900026603987,
+               "id" : "comp_189",
+               "type" : 1,
+               "e_time" : 3635.57600043714
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3443.15200019628,
+            "type" : "application/javascript",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://mfasa.chase.com/auth/js/device.js",
+         "path" : "/pages/chase.com/mfasa.chase.com/auth/js/device.js",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 3636.4670000039,
+               "time" : 1.04100024328,
+               "id" : "comp_190",
+               "type" : 1,
+               "e_time" : 3637.50800024718
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3443.61600000411,
+            "type" : "application/x-javascript",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.chase.com/content/chasecom/en/snippets/ads/742_Cards_Ink_Plus_B/_jcr_content/adcreationcontainer/par/multitask/image.img.png/1375211700093.png",
+         "path" : "/pages/chase.com/www.chase.com/content/chasecom/en/snippets/ads/742_Cards_Ink_Plus_B/_jcr_content/adcreationcontainer/par/multitask/image.img.png/1375211700093.png",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3543.67900034413,
+            "type" : "image/png",
+            "id" : "download_46"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r22_c2",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_187"
+      },
+      {
+         "a2" : "r22_c3",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_188"
+      },
+      {
+         "a2" : "r22_c4",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_189"
+      },
+      {
+         "a2" : "r22_c5",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_190"
+      },
+      {
+         "a2" : "comp_188",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_187"
+      },
+      {
+         "a2" : "comp_189",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_188"
+      },
+      {
+         "a2" : "comp_190",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_189"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 105.56100029499,
+         "id" : "dep12",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 5.49799995497006,
+         "id" : "dep13",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 1109.24799973145,
+         "id" : "dep14",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 5.03400014713998,
+         "id" : "dep15",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 1108.78399992362,
+         "id" : "dep16",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 1108.46999986097,
+         "id" : "dep17",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 4.72000008449004,
+         "id" : "dep18",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 1108.46999986097,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 1108.1539997831,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 4.40400000662021,
+         "id" : "dep21",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 1108.1539997831,
+         "id" : "dep22",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 1090.15499986708,
+         "id" : "dep23",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 1093.12900016084,
+         "id" : "dep24",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 1092.70599996671,
+         "id" : "dep25",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 1093.46499992535,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 1090.59099992737,
+         "id" : "dep27",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 3.89100005851014,
+         "id" : "dep28",
+         "a1" : "r22_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1107.64099983499,
+         "id" : "dep29",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 1049.02900010348,
+         "id" : "dep30",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 934.50499977917,
+         "id" : "dep31",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 45.9579997696001,
+         "id" : "dep32",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 677.80399974436,
+         "id" : "dep33",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 746.46600009874,
+         "id" : "dep34",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 641.48199977353,
+         "id" : "dep35",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 639.22300003469,
+         "id" : "dep36",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 554.18899981305,
+         "id" : "dep37",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 96.47300001234,
+         "id" : "dep38",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 587.7740001306,
+         "id" : "dep39",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 96.1349997669499,
+         "id" : "dep40",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 95.8030000328999,
+         "id" : "dep41",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 95.4780001193299,
+         "id" : "dep42",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 95.1450001448397,
+         "id" : "dep43",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 94.5239998400198,
+         "id" : "dep44",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 94.1369999200101,
+         "id" : "dep45",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 93.3409999124701,
+         "id" : "dep46",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 92.6199997775298,
+         "id" : "dep47",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 92.9680000990597,
+         "id" : "dep48",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 207.72300008685,
+         "id" : "dep49",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 204.90199979395,
+         "id" : "dep50",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 204.37799999491,
+         "id" : "dep51",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 198.21299985051,
+         "id" : "dep52",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 141.59599971026,
+         "id" : "dep53",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 141.03600010276,
+         "id" : "dep54",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 90.5829998664599,
+         "id" : "dep55",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 92.2360001131901,
+         "id" : "dep56",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 91.2469998002098,
+         "id" : "dep57",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 90.9219998866297,
+         "id" : "dep58",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 90.1930001564301,
+         "id" : "dep59",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep60",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 5.69500029086998,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 5.35300001501992,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 5.35300001501992,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 4.88700019194994,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 4.88700019194994,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.27199993281988,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      }
+   ]
+}

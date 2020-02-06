@@ -1,0 +1,1369 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.livejournal.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.livejournal.com/",
+         "path" : "/pages/livejournal.com/www.livejournal.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 164.814000017941,
+               "time" : 141.367999836802,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 306.181999854743
+            },
+            {
+               "s_time" : 462.425000034273,
+               "time" : 0.0719996169210049,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 462.496999651194
+            },
+            {
+               "s_time" : 517.248999793082,
+               "time" : 0.219000037759997,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 517.467999830842
+            },
+            {
+               "s_time" : 595.995999872684,
+               "time" : 0.076999887824968,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 596.072999760509
+            },
+            {
+               "s_time" : 602.080000098795,
+               "time" : 130.81599958241,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 732.895999681205
+            },
+            {
+               "s_time" : 740.987999830395,
+               "time" : 1334.43399984389,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : 2075.42199967429
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/??lj_base.css,contextualhover.css,esn.css,widgets/widget-layout.css,widgets/ljtoday.css,widgets/waves.css,widgets/featuredcommunities.css,main.css,entryunit.css,lj_base-app.css,horizon/layout-adaptive.css?v=1377871128",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com.dup.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 237.199999857694,
+               "time" : 69.039999973029,
+               "id" : "comp_2",
+               "type" : 4,
+               "e_time" : 306.239999830723
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 175.358999986202,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/c2/7602110/cs.js",
+         "path" : "/pages/livejournal.com/b.scorecardresearch.com/c2/7602110/cs.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 732.967999763787,
+               "time" : 8.02000006660796,
+               "id" : "comp_23",
+               "type" : 1,
+               "e_time" : 740.987999830395
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 209.019999951124,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/js/??.ljlib.js?v=1377871128",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/js.add.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 315.448999870569,
+               "time" : 146.976000163704,
+               "id" : "comp_5",
+               "type" : 1,
+               "e_time" : 462.425000034273
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 206.313999835402,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/tmpl/??Widgets/contextualhover.jqtmpl?v=1343758569&tm=1531215;uselang=en_LJ",
+         "path" : "/missing/l-stat.livejournal.com/tmpl",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 596.130999736488,
+               "time" : 5.94900036230706,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 602.080000098795
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 208.594999741763,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/tmpl/??Widgets/bubble.tmpl,Widgets/entryunit.tmpl,Widgets/HomePage/top_promo.tmpl?v=1377753671&tm=1531215;uselang=en_LJ",
+         "path" : "/missing/l-stat.livejournal.com/tmpl",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 583.029999863356,
+               "time" : 12.966000009328,
+               "id" : "comp_11",
+               "type" : 1,
+               "e_time" : 595.995999872684
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 208.071999717504,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/js/??jquery/jquery.lj.carousel.js,lib/underscore.min.js,lib/backbone.min.js,mainpage/ljtoday.js,mainpage/main.js,mainpage/sidebar.js,horizon-adaptive.js,lj.api.js?v=1377871128",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/js.add.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 462.555999867618,
+               "time" : 54.692999925464,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 517.248999793082
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 206.971999723464,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic-ext,cyrillic,latin-ext",
+         "path" : "/pages/livejournal.com/fonts.googleapis.com/css.add.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 572.292000055313,
+               "time" : 363.558999728412,
+               "id" : "comp_10",
+               "type" : 4,
+               "e_time" : 935.850999783725
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 207.451999653131,
+            "type" : "text/css",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/horizon/horizon-header-logout.png?v=27874",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/horizon/horizon-header-logout.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 603.639999870211,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ic.pics.livejournal.com/theljstaff/13549668/12746/12746_original.jpg",
+         "path" : "/pages/livejournal.com/ic.pics.livejournal.com/theljstaff/13549668/12746/12746_original.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 682.351999916136,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 1181.32499977946,
+               "time" : 67.4689998850299,
+               "id" : "comp_94",
+               "type" : 2,
+               "e_time" : 1248.79399966449
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 709.435000084341,
+            "type" : "text/javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/userhead/3?v=1320912411",
+         "path" : "/missing/l-files.livejournal.net/userhead/3",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 687.78399983421,
+            "type" : "image/gif",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/js/ads/xtcore.js",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/js/ads/xtcore.js",
+         "id" : "r47",
+         "comps" : [
+            {
+               "s_time" : 1248.83799999952,
+               "time" : 15.59499977157,
+               "id" : "comp_96",
+               "type" : 2,
+               "e_time" : 1264.43299977109
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 750.536999665201,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xc3.services.livejournal.com/ljcounter?d=srv:bil1-ws16,r:0,j:0,uri:%22%2F%22,vig:0,extra:",
+         "path" : "/missing/xc3.services.livejournal.com/ljcounter",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 742.199999745935,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-api.livejournal.com/__api/?callback=jQuery1378093500000homepage__get_rating&request=%7B%22jsonrpc%22%3A%222.0%22%2C%22method%22%3A%22homepage.get_rating%22%2C%22params%22%3A%7B%22homepage%22%3A1%2C%22sort%22%3A%22visitors%22%2C%22page%22%3A0%2C%22country%22%3A%22noncyr%22%2C%22locale%22%3A%22en_US%22%2C%22category_id%22%3A0%7D%2C%22id%22%3A1378093500000%7D",
+         "path" : "/missing/l-api.livejournal.com/__api",
+         "id" : "r48",
+         "comps" : [
+            {
+               "s_time" : 1264.60699969903,
+               "time" : 220.13900009915,
+               "id" : "comp_99",
+               "type" : 2,
+               "e_time" : 1484.74599979818
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 917.167000006884,
+            "type" : "application/javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/logo.png?v=31583",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/logo.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 939.91700001061,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/facebook-16.png?v=29916",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/facebook-16.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 940.320999827236,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/twitter-16.png?v=29916",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/twitter-16.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 940.721999853849,
+            "type" : "image/png",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/vgift/842/small",
+         "path" : "/pages/livejournal.com/l-files.livejournal.net/vgift/842/small.add",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 937.355000060052,
+            "type" : "image/png",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/userhead/567?v=1322424142",
+         "path" : "/pages/livejournal.com/l-files.livejournal.net/userhead/567.add",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 938.197999726981,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/showmore.gif?v=11430",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/showmore.gif",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 941.127999685705,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/vgift/728/small",
+         "path" : "/pages/livejournal.com/l-files.livejournal.net/vgift/728/small.add",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 937.796999700367,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ic.pics.livejournal.com/theljstaff/13549668/12220/12220_original.png",
+         "path" : "/pages/livejournal.com/ic.pics.livejournal.com/theljstaff/13549668/12220/12220_original.png",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 939.056999981403,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ic.pics.livejournal.com/theljstaff/13549668/13194/13194_original.jpg",
+         "path" : "/pages/livejournal.com/ic.pics.livejournal.com/theljstaff/13549668/13194/13194_original.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 938.618999905884,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ic.pics.livejournal.com/theljstaff/13549668/13482/13482_original.jpg",
+         "path" : "/pages/livejournal.com/ic.pics.livejournal.com/theljstaff/13549668/13482/13482_original.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 939.497000072151,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/openid-16.gif?v=17127",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/openid-16.gif",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 941.577000077814,
+            "type" : "image/gif",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/google-16.png?v=29916",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/google-16.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 941.983999684453,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/vkontakte-16.png?v=29916",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/vkontakte-16.png",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 942.952999845147,
+            "type" : "image/png",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/mailru-16.gif?v=11910",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/mailru-16.gif",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 942.524000070989,
+            "type" : "image/gif",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/tools/endpoints/journals_top.bml?callback=jQuery18306487788176164031_1378094275763&what=users&sort=visitors&country=noncyr&length=10&locale=en_US&_=1378094276263",
+         "path" : "/missing/l-stat.livejournal.com/tools/endpoints/journals_top.bml",
+         "id" : "r49",
+         "comps" : [
+            {
+               "s_time" : 1642.90899969637,
+               "time" : 2.67700012774003,
+               "id" : "comp_102",
+               "type" : 2,
+               "e_time" : 1645.58599982411
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 924.340999685228,
+            "type" : "application/javascript",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/popup-cls.gif?v=10883",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/popup-cls.gif",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 943.345999810845,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/preloader/preloader-blue-lblue.gif?v=1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/preloader/preloader-blue-lblue.gif",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 944.607999641448,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/preloader/preloader-blue-yellow.gif?v=1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/preloader/preloader-blue-yellow.gif",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 944.179999642074,
+            "type" : "image/gif",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/preloader/preloader-blue-white-xl.gif?v=22967",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/preloader/preloader-blue-white-xl.gif",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 943.769000004977,
+            "type" : "image/gif",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/preloader/preloader-blue-gray.gif?v=16423",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/preloader/preloader-blue-gray.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 945.026000030339,
+            "type" : "image/gif",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/tools/endpoints/journals_top.bml?callback=jQuery18306487788176164031_1378094275764&what=communities&sort=authority&country=noncyr&length=10&locale=en_US&_=1378094276264",
+         "path" : "/missing/l-stat.livejournal.com/tools/endpoints/journals_top.bml",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 1665.53099965677,
+               "time" : 3.54500021784997,
+               "id" : "comp_105",
+               "type" : 2,
+               "e_time" : 1669.07599987462
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 924.870999995619,
+            "type" : "application/javascript",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/main.png?v=31151",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/main.png",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 945.465999655426,
+            "type" : "image/png",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/userinfo.gif?v=17080",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/userinfo.gif",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 951.185999903828,
+            "type" : "image/gif",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/popup-expand.png?v=1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/popup-expand.png",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 951.770999934524,
+            "type" : "image/png",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/community.gif?v=556?v=108.1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/community.gif",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 952.228999696672,
+            "type" : "image/gif",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/userinfo.gif?v=17080?v=108.1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/userinfo.gif",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 952.658999711275,
+            "type" : "image/gif",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/browserframe-107-112.png?v=30262",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/browserframe-107-112.png",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 953.111999668181,
+            "type" : "image/png",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/customize/previews/chameleon/ljgetstyle-skyline.png",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/customize/previews/chameleon/ljgetstyle-skyline.png",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 953.557000029832,
+            "type" : "image/png",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/sc.png?ver=1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/sc.png",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 953.97699996829,
+            "type" : "image/png",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-api.livejournal.com/__api/?callback=jQuery1378093500000sitemessage__get_message&request=%7B%22jsonrpc%22%3A%222.0%22%2C%22method%22%3A%22sitemessage.get_message%22%2C%22params%22%3A%7B%22locale%22%3A%22en_US%22%2C%22country%22%3A%22US%22%7D%2C%22id%22%3A1378093500000%7D",
+         "path" : "/missing/l-api.livejournal.com/__api",
+         "id" : "r53",
+         "comps" : [
+            {
+               "s_time" : 2046.23299976811,
+               "time" : 0.419000163670034,
+               "id" : "comp_321",
+               "type" : 2,
+               "e_time" : 2046.65199993178
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1084.10899993032,
+            "type" : "application/javascript",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=5853312&utmhn=www.livejournal.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=938x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=LiveJournal%3A%20Discover%20global%20communities%20of%20friends%20who%20share%20your%20unique%20passions%20and%20interests.&utmhid=1735313613&utmr=-&utmp=%2F&utmht=1378094276578&utmac=UA-24823174-1&utmcc=__utma%3D48425145.553010981.1378094277.1378094277.1378094277.1%3B%2B__utmz%3D48425145.1378094277.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qB~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1241.95799976587,
+            "type" : "image/gif",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v4/Q_pTky3Sc3ubRibGToTAYvNa3x_v530UFDN5-Uc_5x8.woff",
+         "path" : "/pages/livejournal.com/themes.googleusercontent.com/static/fonts/ptsansnarrow/v4/Q_pTky3Sc3ubRibGToTAYvNa3x_v530UFDN5-Uc_5x8.woff",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1082.97699969262,
+            "type" : "font/woff",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/ptsansnarrow/v4/UyYrYy3ltEffJV9QueSi4aKMDwIKrnRjMtEm_ZQuMjU.woff",
+         "path" : "/pages/livejournal.com/themes.googleusercontent.com/static/fonts/ptsansnarrow/v4/UyYrYy3ltEffJV9QueSi4aKMDwIKrnRjMtEm_ZQuMjU.woff",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1083.57500005513,
+            "type" : "font/woff",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/syndicated.gif?v=6283?v=108.1",
+         "path" : "/missing/l-stat.livejournal.com/img/syndicated.gif",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1590.14099976048,
+            "type" : "image/gif",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.top100.ru/top100/top100.js",
+         "path" : "/pages/livejournal.com/st.top100.ru/top100/top100.js",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 2057.23999999464,
+               "time" : 15.8819998614399,
+               "id" : "comp_327",
+               "type" : 2,
+               "e_time" : 2073.12199985608
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 702.810999937356,
+            "type" : "application/x-javascript",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.rambler.ru/static/green2.min.js",
+         "path" : "/pages/livejournal.com/ad.rambler.ru/static/green2.min.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 2047.79199976474,
+               "time" : 6.55500032008013,
+               "id" : "comp_324",
+               "type" : 2,
+               "e_time" : 2054.34700008482
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 707.733999937773,
+            "type" : "application/x-javascript",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/homepage_rs/20873612/5012694",
+         "path" : "/missing/l-files.livejournal.net/homepage_rs/20873612/5012694",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1605.89599981904,
+            "type" : "image/jpeg",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://logc400.xiti.com/hit.xiti?s=528851&s2=1&p=journal::personal::www::www.livejournal.com/&hl=20x57x56&vrn=1ac=0&an=&x1=[LiveJournal:%20Discover%20global%20communities%20of%20friends%20who%20share%20your%20unique%20passions%20and%20interests.]&x2=[undef]&x3=2&x4=0&x5=[horizon]&x6=0&x7=[lj]&x8=1&x9=1&x10=1&x11=2&x12=0&x13=0&x14=[undef]&x15=0&x16=2&x17=[undef]&f1=[noncyr]&f2=1&f3=2&f4=2&tag=[undef]&ptype=1-0-0&ati=&lng=en-US&vtag=43006&idp=2057563680452&jv=1&r=2048x1152x24x24&re=953x1014&ref=",
+         "path" : "/missing/logc400.xiti.com/hit.xiti",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1265.05499985069,
+            "type" : "image/gif",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/userinfo2.gif?v=108.1",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/userinfo2.gif",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1790.04799993709,
+            "type" : "image/gif",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-stat.livejournal.com/img/icons/unit.png?v=29813",
+         "path" : "/pages/livejournal.com/l-stat.livejournal.com/img/icons/unit.png",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1790.52500007674,
+            "type" : "image/png",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/userhead/639?v=1328103978",
+         "path" : "/missing/l-files.livejournal.net/userhead/639",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.11500005051,
+            "type" : "image/png",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://l-files.livejournal.net/userhead/992?v=1354269640",
+         "path" : "/missing/l-files.livejournal.net/userhead/992",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.59599975497,
+            "type" : "image/png",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.tns-counter.ru/V13b***R%3E*sup_ru/ru/UTF-8/tmsec=lj_noncyr/629452150",
+         "path" : "/missing/www.tns-counter.ru/V13b***R_3E*sup_ru/ru/UTF-8/tmsec_lj_noncyr/629452150",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1791.53299983591,
+            "type" : "image/gif",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.rambler.ru/ban.ban?rn=1378094277396&op=16&ifr=6&pg=8983&sres=2048x1152&vres=953x1014&words=&cb=_callbacks_._0hl35r1ud",
+         "path" : "/missing/ad.rambler.ru/ban.ban",
+         "id" : "r62",
+         "comps" : [
+            {
+               "s_time" : 2513.35299992934,
+               "time" : 18.87900009751,
+               "id" : "comp_330",
+               "type" : null,
+               "e_time" : 2532.23200002685
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2062.75999965146,
+            "type" : "text/javascript",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://counter.rambler.ru/top100.scn?1132242&rn=602454171&v=0.3&bs=953x1014&ce=1&rf&en=UTF-8&pt=LiveJournal%3A%20Discover%20global%20communities%20of%20friends%20who%20share%20your%20unique%20passions%20and%20interests.&cd=24-bit&sr=2048x1152&la=en-US&ja=1&acn=Mozilla&an=Netscape&pl=MacIntel&tz=420&fv=11.8%20r800&sv&cv=__uid%26xz%26mn&le=0",
+         "path" : "/missing/counter.rambler.ru/top100.scn",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2075.42199967429,
+            "type" : "image/gif",
+            "id" : "download_59"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_23"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_11",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "download_59",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 1321.77199982107,
+         "id" : "dep11",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 1050.54500000552,
+         "id" : "dep12",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 1048.60799992458,
+         "id" : "dep13",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 1048.12700022011,
+         "id" : "dep14",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 1049.53700024635,
+         "id" : "dep15",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 1049.0600001067,
+         "id" : "dep16",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 524.067000020295,
+         "id" : "dep17",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 864.907999988645,
+         "id" : "dep18",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 105.653999838978,
+         "id" : "dep19",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 100.730999838561,
+         "id" : "dep20",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 849.152999930085,
+         "id" : "dep21",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 342.587000224735,
+         "id" : "dep22",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 341.988999862225,
+         "id" : "dep23",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 500.969999935475,
+         "id" : "dep24",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 343.121000099925,
+         "id" : "dep25",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 212.989000137895,
+         "id" : "dep26",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 212.569000199437,
+         "id" : "dep27",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 212.123999837786,
+         "id" : "dep28",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 211.67099988088,
+         "id" : "dep29",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 211.240999866277,
+         "id" : "dep30",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 210.783000104129,
+         "id" : "dep31",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 210.198000073433,
+         "id" : "dep32",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 204.477999825031,
+         "id" : "dep33",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 183.883000165224,
+         "id" : "dep34",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 204.038000199944,
+         "id" : "dep35",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 202.781000174582,
+         "id" : "dep36",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 203.191999811679,
+         "id" : "dep37",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 203.619999811053,
+         "id" : "dep38",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 202.35799998045,
+         "id" : "dep39",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 183.352999854833,
+         "id" : "dep40",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 201.536000240594,
+         "id" : "dep41",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 201.965000014752,
+         "id" : "dep42",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 200.995999854058,
+         "id" : "dep43",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 200.589000247419,
+         "id" : "dep44",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 198.509000241756,
+         "id" : "dep45",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 197.631000075489,
+         "id" : "dep46",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 198.069000151008,
+         "id" : "dep47",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 196.808999869972,
+         "id" : "dep48",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 200.13999985531,
+         "id" : "dep49",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 197.209999896586,
+         "id" : "dep50",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 196.367000229657,
+         "id" : "dep51",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 199.734000023454,
+         "id" : "dep52",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 199.332999996841,
+         "id" : "dep53",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 198.929000180215,
+         "id" : "dep54",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 176.179000176489,
+         "id" : "dep55",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 1.21199991553999,
+         "id" : "dep56",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 9.54899983480607,
+         "id" : "dep57",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 85.703999735415,
+         "id" : "dep58",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 107.354999985546,
+         "id" : "dep59",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 80.271999817341,
+         "id" : "dep60",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 1.55999977141596,
+         "id" : "dep61",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 42.63799963519,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 42.157999705523,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 43.257999699563,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 43.780999723822,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 41.499999817461,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 44.205999933183,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 10.544999968261,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      }
+   ]
+}

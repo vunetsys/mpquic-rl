@@ -1,0 +1,1564 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.youjizz.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.youjizz.com/",
+         "path" : "/pages/youjizz.com/www.youjizz.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 253.468000330031,
+               "time" : 211.701999884099,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 465.17000021413
+            },
+            {
+               "s_time" : 635.639999993145,
+               "time" : 4.382000304759,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 640.022000297904
+            },
+            {
+               "s_time" : 641.789000015706,
+               "time" : 0.0440003350379357,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 641.833000350744
+            },
+            {
+               "s_time" : 642.529000062495,
+               "time" : 0.034000258893002,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 642.563000321388
+            },
+            {
+               "s_time" : 645.738000050187,
+               "time" : 0.0650002621119938,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 645.803000312299
+            },
+            {
+               "s_time" : 876.914999913424,
+               "time" : 0.072000082582008,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 876.986999996006
+            },
+            {
+               "s_time" : 877.548000309616,
+               "time" : 0.0370000489060658,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 877.585000358522
+            },
+            {
+               "s_time" : 878.847000189126,
+               "time" : 0.0370000489050426,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 878.884000238031
+            },
+            {
+               "s_time" : 882.033000234514,
+               "time" : 0.059999991208997,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 882.093000225723
+            },
+            {
+               "s_time" : 882.956000044942,
+               "time" : 0.0400003045799622,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 882.996000349522
+            },
+            {
+               "s_time" : 885.806000325829,
+               "time" : 0.0679995864629745,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 885.873999912292
+            },
+            {
+               "s_time" : 886.727000121027,
+               "time" : 0.0419998541480027,
+               "type" : "evalhtml",
+               "id" : "r1_c12",
+               "e_time" : 886.768999975175
+            },
+            {
+               "s_time" : 888.989000115544,
+               "time" : 0.527999829501027,
+               "type" : "evalhtml",
+               "id" : "r1_c13",
+               "e_time" : 889.516999945045
+            },
+            {
+               "s_time" : 890.589999966323,
+               "time" : 239.109000191097,
+               "type" : "evalhtml",
+               "id" : "r1_c14",
+               "e_time" : 1129.69900015742
+            },
+            {
+               "s_time" : 1143.89300020412,
+               "time" : 418.06200006976,
+               "id" : "r1_c15",
+               "type" : "evalhtml",
+               "e_time" : 1561.95500027388
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/rating/css/rating3.css",
+         "path" : "/missing/youjizz.com/rating/css/rating3.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 436.099000275135,
+               "time" : 0.451999716460989,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 436.550999991596
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 270.681000314653,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/css/styleb.css",
+         "path" : "/pages/youjizz.com/youjizz.com/css/styleb.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 461.791000328958,
+               "time" : 1.03399995714403,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 462.825000286102
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 271.28200000152,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/css/style.css",
+         "path" : "/pages/youjizz.com/youjizz.com/css/style.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 452.126000076532,
+               "time" : 0.121999997645958,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 452.248000074178
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 271.631000097841,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/xmoov_flv/assets/javascript/swfobject.js",
+         "path" : "/pages/youjizz.com/youjizz.com/xmoov_flv/assets/javascript/swfobject.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 596.260000020266,
+               "time" : 39.379999972879,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 635.639999993145
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 273.543999996036,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/js/thumbchange.js",
+         "path" : "/pages/youjizz.com/youjizz.com/js/thumbchange.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 641.866000369191,
+               "time" : 0.662999693303959,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 642.529000062495
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 274.366000201553,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/js/AC_RunActiveContent.js",
+         "path" : "/pages/youjizz.com/youjizz.com/js/AC_RunActiveContent.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 640.08600031957,
+               "time" : 1.70299969613609,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 641.789000015706
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 274.007000029087,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/style2.css",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/style2.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 482.437999919057,
+               "time" : 5.09400013834198,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 487.532000057399
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 272.000000346452,
+            "type" : "text/css",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/jquery.lazyload.js",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/jquery.lazyload.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 878.911999985576,
+               "time" : 3.121000248938,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 882.033000234514
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 276.216000318527,
+            "type" : "text/javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/jquery.autocomplete.css",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/jquery.autocomplete.css",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 477.072000037879,
+               "time" : 0.00900030136102714,
+               "id" : "comp_7",
+               "type" : 4,
+               "e_time" : 477.08100033924
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 278.231000062078,
+            "type" : "text/css",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/jquery.dropdown.js",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/jquery.dropdown.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 885.918000247329,
+               "time" : 0.808999873697985,
+               "id" : "comp_28",
+               "type" : 1,
+               "e_time" : 886.727000121027
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 277.418000157923,
+            "type" : "text/javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/abw.jquery.js",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/abw.jquery.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 882.141000125557,
+               "time" : 0.814999919385059,
+               "id" : "comp_24",
+               "type" : 1,
+               "e_time" : 882.956000044942
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 276.626999955624,
+            "type" : "text/javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/jquery.autocomplete.js",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/jquery.autocomplete.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 886.803000234067,
+               "time" : 2.18599988147696,
+               "id" : "comp_30",
+               "type" : 1,
+               "e_time" : 888.989000115544
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 277.798000257462,
+            "type" : "text/javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/js/localdata.js",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/js/localdata.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 889.549000188708,
+               "time" : 1.04099977761507,
+               "id" : "comp_32",
+               "type" : 1,
+               "e_time" : 890.589999966323
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 278.603000100702,
+            "type" : "text/javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/js/default.js",
+         "path" : "/pages/youjizz.com/youjizz.com/js/default.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 643.293000292033,
+               "time" : 2.44499975815404,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 645.738000050187
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 274.716000072658,
+            "type" : "application/x-javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/js/jquery-1.7.1.min.js",
+         "path" : "/pages/youjizz.com/youjizz.com/js/jquery-1.7.1.min.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 771.82300016284,
+               "time" : 105.091999750584,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 876.914999913424
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 275.076000019908,
+            "type" : "application/x-javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/rating/js/ratingjq.js",
+         "path" : "/pages/youjizz.com/youjizz.com/rating/js/ratingjq.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 877.042000181973,
+               "time" : 0.506000127643006,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 877.548000309616
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 275.457000359893,
+            "type" : "application/x-javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/js/contentlist.js",
+         "path" : "/pages/youjizz.com/youjizz.com/js/contentlist.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 877.613000106066,
+               "time" : 1.23400008305998,
+               "id" : "comp_20",
+               "type" : 1,
+               "e_time" : 878.847000189126
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 275.805000215769,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/css/social.css",
+         "path" : "/pages/youjizz.com/youjizz.com/css/social.css",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 588.653000071645,
+               "time" : 53.943000268191,
+               "id" : "comp_9",
+               "type" : 2,
+               "e_time" : 642.596000339836
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 465.17000021413,
+            "type" : "text/css",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/urchin.js",
+         "path" : "/pages/youjizz.com/www.google-analytics.com/urchin.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 1127.4280003272,
+               "time" : 16.46499987692,
+               "id" : "comp_42",
+               "type" : 1,
+               "e_time" : 1143.89300020412
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 299.114000052214,
+            "type" : "text/javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://promo.badoink.com/youjizz/custom_text.js",
+         "path" : "/pages/youjizz.com/promo.badoink.com/youjizz/custom_text.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 885.250000283122,
+               "time" : 0.556000042707069,
+               "id" : "comp_26",
+               "type" : 1,
+               "e_time" : 885.806000325829
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 277.019999921322,
+            "type" : "application/javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/bg.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/bg.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 892.997000366449,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.static.youjizz.com/gfx/social/clock.png",
+         "path" : "/pages/youjizz.com/cdnb.static.youjizz.com/gfx/social/clock.png",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 982.321999967098,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://syndication.traffichaus.com/adserve/index.php?z=15&loc=home",
+         "path" : "/missing/syndication.traffichaus.com/adserve/index.php",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 1501.30699994043,
+               "time" : 6.3590002246201,
+               "id" : "r25_c1",
+               "type" : "evalhtml",
+               "e_time" : 1507.66600016505
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 898.644000291824,
+            "type" : "text/html",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://youjizz.com/gfx_new/go.gif",
+         "path" : "/pages/youjizz.com/youjizz.com/gfx_new/go.gif",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 981.864000204951,
+            "type" : "image/gif",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://syndication.traffichaus.com/adserve/index.php?z=126",
+         "path" : "/pages/youjizz.com/syndication.traffichaus.com/adserve/index.php/index.html",
+         "id" : "r35",
+         "comps" : [
+            {
+               "s_time" : 1519.80799995363,
+               "time" : 3.35100013761985,
+               "id" : "r35_c1",
+               "type" : "evalhtml",
+               "e_time" : 1523.15900009125
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1125.54999999702,
+            "type" : "text/html",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://syndication.traffichaus.com/adserve/index.php?z=92",
+         "path" : "/pages/youjizz.com/syndication.traffichaus.com/adserve/index.php/index.html",
+         "id" : "r37",
+         "comps" : [
+            {
+               "s_time" : 1536.26100020483,
+               "time" : 9.3959998339401,
+               "id" : "r37_c1",
+               "type" : "evalhtml",
+               "e_time" : 1545.65700003877
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1129.69900015742,
+            "type" : "text/html",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.engine.streamate.doublepimp.com/Scripts/infinity.js.aspx",
+         "path" : "/missing/cdn.engine.streamate.doublepimp.com/Scripts/infinity.js.aspx",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 1548.94899995998,
+               "time" : 12.0520000346,
+               "id" : "comp_80",
+               "type" : null,
+               "e_time" : 1561.00099999458
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 892.412000335753,
+            "type" : "application/x-javascript",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=1.4&utmn=825205416&utmcs=UTF-8&utmsr=2048x1152&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmcn=1&utmdt=Porn%20Tube%2C%20You%20Porn%2C%20Free%20Porn%20Movies%2C%20Porntube%2C%20Sex%20Tube%2C%20Pornotube%2C%20Porno%20Tube%2C%20Sextube%2C%20xxx&utmhn=www.youjizz.com&utmhid=799268630&utmr=-&utmp=/&utmac=UA-3428380-1&utmcc=__utma%3D27953588.825205416.1378093936.1378093936.1378093936.1%3B%2B__utmz%3D27953588.1378093936.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)%3B%2B",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1318.34900006652,
+            "type" : "image/gif",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://as.sexad.net/as/if?p=youjizz&w=728&h=90",
+         "path" : "/pages/youjizz.com/as.sexad.net/as/if/index.html",
+         "id" : "r45",
+         "comps" : [
+            {
+               "s_time" : 1614.07000012696,
+               "time" : 633.42799991369,
+               "id" : "r45_c1",
+               "type" : "evalhtml",
+               "e_time" : 2247.49800004065
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1508.71000019833,
+            "type" : "text/html",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/yjlogo.jpeg",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/yjlogo.jpeg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1452.54600001499,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/right.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/right.gif",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1453.34800006822,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/left.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/left.gif",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1452.95100007206,
+            "type" : "image/gif",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx/spacer.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx/spacer.gif",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1454.5380002819,
+            "type" : "image/gif",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/input.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/input.gif",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1454.13600001484,
+            "type" : "image/gif",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx/hd.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx/hd.gif",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1453.74600030482,
+            "type" : "image/gif",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://engine.streamate.doublepimp.com/Tag.engine?guid=f88e4c90-e6a2-40fc-a341-050bf521abde&rand0.5966492192819715&ver=async&time=420&referrerUrl=&fingerPrint=2498953351",
+         "path" : "/missing/engine.streamate.doublepimp.com/Tag.engine",
+         "id" : "r48",
+         "comps" : [
+            {
+               "s_time" : 1842.57900016382,
+               "time" : 1.79499993101012,
+               "id" : "comp_242",
+               "type" : 2,
+               "e_time" : 1844.37400009483
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1561.95500027388,
+            "type" : "application/json",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ads2.contentabc.com/ads?spot_id=7306",
+         "path" : "/pages/youjizz.com/ads2.contentabc.com/ads/index.html",
+         "id" : "r47",
+         "comps" : [
+            {
+               "s_time" : 1814.8340000771,
+               "time" : 457.46200019494,
+               "type" : "evalhtml",
+               "id" : "r47_c1",
+               "e_time" : 2272.29600027204
+            },
+            {
+               "s_time" : 2277.65600010753,
+               "time" : 740.07399985566,
+               "id" : "r47_c2",
+               "type" : "evalhtml",
+               "e_time" : 3017.72999996319
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1549.15799992159,
+            "type" : "text/html",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ads2.contentabc.com/ads?spot_id=1376",
+         "path" : "/pages/youjizz.com/ads2.contentabc.com/ads/index.html",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 1835.28900006786,
+               "time" : 468.85900013149,
+               "id" : "r46_c1",
+               "type" : "evalhtml",
+               "e_time" : 2304.14800019935
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1524.42699996755,
+            "type" : "text/html",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/star_off.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/star_off.gif",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1454.9630000256,
+            "type" : "image/gif",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/star_on.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/star_on.gif",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1455.3930000402,
+            "type" : "image/gif",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.youjizz.com/gfx_new/fotter.gif",
+         "path" : "/pages/youjizz.com/www.youjizz.com/gfx_new/fotter.gif",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1455.78500023112,
+            "type" : "image/gif",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.engine.streamate.doublepimp.com/Scripts/MediaScripts/PopUnder.js",
+         "path" : "/missing/cdn.engine.streamate.doublepimp.com/Scripts/MediaScripts/PopUnder.js",
+         "id" : "r52",
+         "comps" : [
+            {
+               "s_time" : 1857.91900008917,
+               "time" : 2.2020000033101,
+               "id" : "comp_247",
+               "type" : 2,
+               "e_time" : 1860.12100009248
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1846.05500008911,
+            "type" : "application/x-javascript",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/f/9/9/f99a830cc811d7d603f5a14e0d7f4d971372959248-p5741564-p5741572-852-480-400-h264.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/f/9/9/f99a830cc811d7d603f5a14e0d7f4d971372959248-p5741564-p5741572-852-480-400-h264.flv-1.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1450.66899992526,
+            "type" : "image/jpeg",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/8/d/b/8db6433148aa76d49280f896734f8ea61375491662-720-480-1800-h264.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/8/d/b/8db6433148aa76d49280f896734f8ea61375491662-720-480-1800-h264.flv-1.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1449.861000292,
+            "type" : "image/jpeg",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/a/b/f/abf84f5d92ebe660e917eba81d5f7d1e1365402113.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/a/b/f/abf84f5d92ebe660e917eba81d5f7d1e1365402113.flv-1.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1451.19199994951,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/6/a/1/6a131185983c86a3d3e20d9aa047a7231349656110.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/6/a/1/6a131185983c86a3d3e20d9aa047a7231349656110.flv-1.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1451.6390003264,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/4/d/5/4d53e6366483f03a85dae7f31b0f7c811374157850-640-360-1877-h264.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/4/d/5/4d53e6366483f03a85dae7f31b0f7c811374157850-640-360-1877-h264.flv-1.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1452.11800001562,
+            "type" : "image/jpeg",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdnb.pics.youjizz.com/2/e/f/2efd2b59a154f60f5131641f6c01c8381374247861-464-238-463-h264.flv-1.jpg",
+         "path" : "/missing/cdnb.pics.youjizz.com/2/e/f/2efd2b59a154f60f5131641f6c01c8381374247861-464-238-463-h264.flv-1.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1418.07400016114,
+            "type" : "image/jpeg",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.ifa.camads.net/dif/yjl/728x90-bl/images/btn-bg-red.jpg",
+         "path" : "/missing/static.ifa.camads.net/dif/yjl/728x90-bl/images/btn-bg-red.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1616.76800018176,
+            "type" : "image/jpeg",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://e.sexad.net/S20130514/bundle.js",
+         "path" : "/pages/redtube.com/e.sexad.net/S20130514/bundle.js",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 1991.52000015602,
+               "time" : 224.84300006181,
+               "id" : "comp_274",
+               "type" : 2,
+               "e_time" : 2216.36300021783
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1622.76200018823,
+            "type" : "application/javascript",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn1.ads.brazzers.com/ads/design4/assets/AC_RunActiveContent.js",
+         "path" : "/pages/pornhub.com/cdn1.ads.brazzers.com/ads/design4/assets/AC_RunActiveContent.js",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 2272.30300009251,
+               "time" : 5.35300001501992,
+               "id" : "comp_292",
+               "type" : 1,
+               "e_time" : 2277.65600010753
+            },
+            {
+               "s_time" : 2265.10800002143,
+               "time" : 6.88200024887965,
+               "id" : "comp_291",
+               "type" : null,
+               "e_time" : 2271.99000027031
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1819.03700018302,
+            "type" : "application/javascript",
+            "id" : "download_51"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c13",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_30"
+      },
+      {
+         "a2" : "r1_c14",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_32"
+      },
+      {
+         "a2" : "r1_c15",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_42"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep23",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "comp_22",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "comp_24",
+         "time" : -1,
+         "id" : "dep25",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_26",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "comp_28",
+         "time" : -1,
+         "id" : "dep27",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "comp_30",
+         "time" : -1,
+         "id" : "dep28",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "comp_32",
+         "time" : -1,
+         "id" : "dep29",
+         "a1" : "comp_30"
+      },
+      {
+         "a2" : "comp_32",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r47_c2",
+         "time" : -1,
+         "id" : "dep31",
+         "a1" : "comp_292"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 4.20300010591995,
+         "id" : "dep32",
+         "a1" : "r47_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 204.96700005606,
+         "id" : "dep33",
+         "a1" : "r45_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 8.69200006127016,
+         "id" : "dep34",
+         "a1" : "r45_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 2.6980000548001,
+         "id" : "dep35",
+         "a1" : "r45_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : -1,
+         "id" : "dep36",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_47",
+         "time" : -1,
+         "id" : "dep37",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 307.74600012228,
+         "id" : "dep38",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 307.29899974539,
+         "id" : "dep39",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 305.96800008788,
+         "id" : "dep40",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 306.77599972114,
+         "id" : "dep41",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 10.7660000212502,
+         "id" : "dep42",
+         "a1" : "r46_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 31.2210000120101,
+         "id" : "dep43",
+         "a1" : "r47_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 231.98499996215,
+         "id" : "dep44",
+         "a1" : "r45_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : -1,
+         "id" : "dep45",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 311.49999983608,
+         "id" : "dep46",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 311.06999982148,
+         "id" : "dep47",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_38",
+         "time" : -1,
+         "id" : "dep48",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 0.208999961610061,
+         "id" : "dep49",
+         "a1" : "comp_80"
+      },
+      {
+         "a2" : "download_36",
+         "time" : -1,
+         "id" : "dep50",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 309.8530001007,
+         "id" : "dep51",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 310.24299981072,
+         "id" : "dep52",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 310.64500007778,
+         "id" : "dep53",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 309.05799986794,
+         "id" : "dep54",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 309.4549998641,
+         "id" : "dep55",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 308.65299981087,
+         "id" : "dep56",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 364.81699999421,
+         "id" : "dep57",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 174.4559998624,
+         "id" : "dep58",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1.82200036942993,
+         "id" : "dep59",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep60",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 234.960000030697,
+         "id" : "dep61",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 91.274000238628,
+         "id" : "dep62",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 8.05400032550097,
+         "id" : "dep63",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 91.732000000775,
+         "id" : "dep64",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 2.40700040012598,
+         "id" : "dep65",
+         "a1" : "r1_c14"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 22.336999885738,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 21.989000029862,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 21.607999689877,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 21.247999742627,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 25.134999770671,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 24.329999927431,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 23.158999625593,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 23.949999827892,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 24.762999732047,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 22.747999988496,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 18.532000016421,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 20.538999699056,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 20.897999871522,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 20.075999666005,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 18.16299976781,
+         "id" : "dep83",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 17.813999671489,
+         "id" : "dep84",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 17.212999984622,
+         "id" : "dep85",
+         "a1" : "r1_c1"
+      }
+   ]
+}

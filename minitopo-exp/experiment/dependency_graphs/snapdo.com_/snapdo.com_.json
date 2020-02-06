@@ -1,0 +1,602 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "snapdo.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://snapdo.com/",
+         "path" : "/pages/snapdo.com/snapdo.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 437.040999997407,
+               "time" : 480.136999860406,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 917.177999857813
+            },
+            {
+               "s_time" : 1247.90699966252,
+               "time" : 0.0710003077999772,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1247.97799997032
+            },
+            {
+               "s_time" : 1251.1410000734,
+               "time" : 0.0689998269101579,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1251.20999990031
+            },
+            {
+               "s_time" : 1253.56599967927,
+               "time" : 3.46100004390019,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 1257.02699972317
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/css/screen.css",
+         "path" : "/pages/snapdo.com/snapdo.com/css/screen.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 769.625999964774,
+               "time" : 3.13000008463803,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 772.756000049412
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 444.70899971202,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/css/flags.css",
+         "path" : "/pages/snapdo.com/snapdo.com/css/flags.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 775.132999755442,
+               "time" : 2.14400002732896,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 777.276999782771
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 445.179999805987,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/css/social.css",
+         "path" : "/pages/snapdo.com/snapdo.com/css/social.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 778.343999758363,
+               "time" : 1.22600002214301,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 779.569999780506
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 445.57400001213,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.googleapis.com/css?family=Signika:300",
+         "path" : "/pages/snapdo.com/fonts.googleapis.com/css.add.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 800.725999753922,
+               "time" : 45.094000175596,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 845.819999929518
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 438.645999878645,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/js/jquery-1.5.1.min.js",
+         "path" : "/pages/snapdo.com/snapdo.com/js/jquery-1.5.1.min.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1184.86399995163,
+               "time" : 63.0429997108902,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 1247.90699966252
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 701.461999677122,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/js/jquery.timers-1.2.js",
+         "path" : "/pages/snapdo.com/snapdo.com/js/jquery.timers-1.2.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1248.01900004968,
+               "time" : 3.12200002371992,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 1251.1410000734
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 702.031999826431,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/js/functions.js",
+         "path" : "/pages/snapdo.com/snapdo.com/js/functions.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1251.247999724,
+               "time" : 2.3179999552699,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 1253.56599967927
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 702.404999639839,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://snapdo.com/img/noise.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/noise.png/index.html",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 846.435999963433,
+            "type" : "text/html",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/logo.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/logo.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 847.006999887526,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/flags/arrowC.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/flags/arrowC.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 847.340999636799,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/flags/flags_new.gif",
+         "path" : "/pages/snapdo.com/snapdo.com/img/flags/flags_new.gif",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 848.31599984318,
+            "type" : "image/gif",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/twitter_ico.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/twitter_ico.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 848.650999832898,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/facbook_ico.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/facbook_ico.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 849.083999637514,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/icon1.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/icon1.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 849.417999852449,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 1294.51699974015,
+               "time" : 77.8109999373601,
+               "id" : "comp_28",
+               "type" : null,
+               "e_time" : 1372.32799967751
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.02699972317,
+            "type" : "text/javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/signika/v3/koFYE26bhT88HgRA8f4vbb3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "path" : "/pages/snapdo.com/themes.googleusercontent.com/static/fonts/signika/v3/koFYE26bhT88HgRA8f4vbb3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 917.177999857813,
+            "type" : "font/woff",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/bubble1.jpg",
+         "path" : "/pages/snapdo.com/snapdo.com/img/bubble1.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 849.754000082612,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/backgrounds/sky.jpg",
+         "path" : "/pages/snapdo.com/snapdo.com/img/backgrounds/sky.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 850.095999892801,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/info1a.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/info1a.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 850.418000016361,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/info2.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/info2.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 850.732000079006,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=263411068&utmhn=snapdo.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=935x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Snap.do%20-%20Rediscover%20the%20Web&utmhid=1638668431&utmr=-&utmp=%2F&utmht=1378093923754&utmac=UA-31093111-1&utmcc=__utma%3D134988467.1275073190.1378093924.1378093924.1378093924.1%3B%2B__utmz%3D134988467.1378093924.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qB~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1368.11599973589,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/info3.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/info3.png",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 851.059999782592,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/btn_download_1.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/btn_download_1.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 851.386999711394,
+            "type" : "image/png",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://snapdo.com/img/arrows.png",
+         "path" : "/pages/snapdo.com/snapdo.com/img/arrows.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 851.717999670655,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "download_24",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 414.345999713987,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 414.018999785185,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 73.5989999957401,
+         "id" : "dep9",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 413.691000081599,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 413.377000018954,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 413.054999895394,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 412.713000085205,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 412.376999855042,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 412.042999640107,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 411.609999835491,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 411.274999845773,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 410.299999639392,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 409.965999890119,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 409.394999966026,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 265.363999642432,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 264.990999829024,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 264.420999679715,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.60499988123797,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 8.53300001472297,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 8.13899980857997,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 7.66799971461296,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      }
+   ]
+}

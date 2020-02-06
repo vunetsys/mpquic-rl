@@ -1,0 +1,22 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "media.tumblr.com_",
+   "objs" : [
+      {
+         "when_comp_start" : -1,
+         "url" : "http://media.tumblr.com/",
+         "path" : "/pages/media.tumblr.com/media.tumblr.com",
+         "id" : "r1",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "application/xml",
+            "id" : "download_0"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : []
+}

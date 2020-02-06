@@ -1,0 +1,169 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.google.pl_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.google.pl/",
+         "path" : "/pages/google.pl/www.google.pl/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 223.979000002146,
+               "time" : 234.853999689221,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 458.832999691367
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.pl/logos/doodles/2013/first_day_of_school_2013_poland__russia-2021005.2-res.png",
+         "path" : "/missing/www.google.pl/logos/doodles/2013/first_day_of_school_2013_poland__russia-2021005.2-res.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 450.655999593437,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.pl/logos/doodles/2013/first_day_of_school_2013_poland__russia-2021005.2-hp.jpg",
+         "path" : "/missing/www.google.pl/logos/doodles/2013/first_day_of_school_2013_poland__russia-2021005.2-hp.jpg",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 451.397999655455,
+            "type" : "image/jpeg",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.pl/xjs/_/js/k=xjs.s.en_US.M4-36_38X9A.O/m=c,sb,cr,epb,jp,r,hsm,j,p,pcc,csi/am=AACK/rt=j/d=1/sv=1/rs=AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "path" : "/pages/google.pl/www.google.pl/xjs/_/js/k_xjs.s.en_US.M4-36_38X9A.O/m_c_sb_cr_epb_jp_r_hsm_j_p_pcc_csi/am_AACK/rt_j/d_1/sv_1/rs_AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw.add.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 567.555999848992,
+               "time" : 627.793999854478,
+               "id" : "comp_39",
+               "type" : null,
+               "e_time" : 1195.34999970347
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 458.832999691367,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.pl/xjs/_/js/k=xjs.s.en_US.M4-36_38X9A.O/m=sy5,cdos,sy25,gf,vm,sy63,sy104,sy105,sy157,tbui,mb,sy43,sy44,sy46,sy47,sy45,sy48,sy132,sy140,sy50,sy133,sy141,wobnm,sy55,sy24,cfm,abd,sy69,sy67,sy70,sy15,sy72,sy66,sy68,sy76,sy73,sy77,sy74,sy75,sy78,sy79,sy54,sy58,sy49,sy81,sy82,sy101,sy103,sy71,sy94,sy51,sy64,sy80,sy87,sy102,sy106,sy107,sy109,sy108,llc,foot,sy27,bihu,sy41,sy138,kp,sy142,sy144,lu,m,sy130,sy155,tnv,sy96,sy95,ttbcdr,sy83,adp,sy110,async,erh,hv,sy28,jsaleg,lc,ob,sf,sy121,sfa,tbpr,sy98,tr/am=AACK/rt=j/d=0/sv=1/rs=AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "path" : "/pages/google.pl/www.google.pl/xjs/_/js/k_xjs.s.en_US.M4-36_38X9A.O/m_sy5_cdos_sy25_gf_vm_sy63_sy104_sy105_sy157_tbui_mb_sy43_sy44_sy46_sy47_sy45_sy48_sy132_sy140_sy50_sy133_sy141_wobnm_sy55_sy24_cfm_abd_sy69_sy67_sy70_sy15_sy72_sy66_sy68_sy76_sy73_sy77_sy74_sy75_sy78_sy79_sy54_sy58_sy49_sy81_sy82_sy101_sy103_sy71_sy94_sy51_sy64_sy80_sy87_sy102_sy106_sy107_sy109_sy108_llc_foot_sy27_bihu_sy41_sy138_kp_sy142_sy144_lu_m_sy130_sy155_tnv_sy96_sy95_ttbcdr_sy83_adp_sy110_async_erh_hv_sy28_jsaleg_lc_ob_sf_sy121_sfa_tbpr_sy98_tr_am_AACK_rt_j_d_0_sv_1_rs_AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw.add.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1241.49199994281,
+               "time" : 390.15599992126,
+               "id" : "comp_51",
+               "type" : null,
+               "e_time" : 1631.64799986407
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 984.709999989718,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.pl/extern_chrome/a6b9ae671e26b124.js?bav=on.2,or.r_qf.",
+         "path" : "/pages/google.pl/www.google.pl/extern_chrome/a6b9ae671e26b124.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1631.68799970299,
+               "time" : 16.03299984708,
+               "id" : "comp_56",
+               "type" : null,
+               "e_time" : 1647.72099955007
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 962.796999607235,
+            "type" : "text/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.gstatic.com/inputtools/images/tia.png",
+         "path" : "/pages/google.com.br/www.gstatic.com/inputtools/images/tia.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1114.46599988267,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_7",
+         "time" : 546.910000033678,
+         "id" : "dep1",
+         "a1" : "comp_39"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 395.240999758243,
+         "id" : "dep2",
+         "a1" : "comp_39"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 417.154000140726,
+         "id" : "dep3",
+         "a1" : "comp_39"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 227.418999653309,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 226.676999591291,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      }
+   ]
+}

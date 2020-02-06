@@ -1,0 +1,1541 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.yelp.com_seattle",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.yelp.com/seattle",
+         "path" : "/pages/yelp.com/www.yelp.com/seattle/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 323.70899990201,
+               "time" : 420.032000169158,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 743.741000071168
+            },
+            {
+               "s_time" : 748.757999856025,
+               "time" : 1417.38300025464,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2166.14100011066
+            },
+            {
+               "s_time" : 2331.91099995747,
+               "time" : 172.29899996892,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 2504.20999992639
+            },
+            {
+               "s_time" : 2556.2749998644,
+               "time" : 4.36000013724015,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 2560.63500000164
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/css/56a2b3d68f94/www-pkg-en_US.css",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/css/56a2b3d68f94/www-pkg-en_US.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 603.523999918252,
+               "time" : 155.261999927461,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 758.785999845713
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 353.004999924451,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/assets/2/www/css/c3a213353d26/homepage-en_US.css",
+         "path" : "/missing/s3-media2.ak.yelpcdn.com/assets/2/www/css/c3a213353d26/homepage-en_US.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 597.461000084877,
+               "time" : 1.703999936581,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 599.165000021458
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 353.833999950439,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/js/d56bd43138e5/assets/vendor_external/LAB.min.js",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/assets/2/www/js/d56bd43138e5/assets/vendor_external/LAB.min.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 743.776000104845,
+               "time" : 4.98199975117996,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 748.757999856025
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 364.324000198394,
+            "type" : "application/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/325472601571/p.gif",
+         "path" : "/pages/yelp.com/s3-media1.ak.yelpcdn.com/assets/2/www/img/325472601571/p.gif",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 644.292000215501,
+            "type" : "image/gif",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/fb28898c41a0/sprites/common.png",
+         "path" : "/missing/s3-media2.ak.yelpcdn.com/assets/2/www/img/fb28898c41a0/sprites/common.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 671.606999821961,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/b5ae1c96c818/ico/stars/v2/stars_map.png",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/assets/2/www/img/b5ae1c96c818/ico/stars/v2/stars_map.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 695.718000177294,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 1064.38300013542,
+               "time" : 136.99800008908,
+               "id" : "comp_72",
+               "type" : 2,
+               "e_time" : 1201.3810002245
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 755.226000212133,
+            "type" : "text/javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2b3c301fd11/sprites/best_of_yelp.png",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/img/c2b3c301fd11/sprites/best_of_yelp.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 765.614999923855,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/bphoto/_nKmTEXonPqjqKS4XfRJVA/60s.jpg",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/bphoto/_nKmTEXonPqjqKS4XfRJVA/60s.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 766.046000178903,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/b7e9d647188d/gfx/header_print.gif",
+         "path" : "/pages/yelp.com/s3-media2.ak.yelpcdn.com/assets/2/www/img/b7e9d647188d/gfx/header_print.gif",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 770.934000145644,
+            "type" : "image/gif",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/J-hUSw0L7UppzTbV90Fi3A/30s.jpg",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/photo/J-hUSw0L7UppzTbV90Fi3A/30s.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 776.96799999103,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/photo/pllcCPWOFb5GPPseyxc7uQ/30s.jpg",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/photo/pllcCPWOFb5GPPseyxc7uQ/30s.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 766.456999816,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/7ccfbbb81622/structural/header_stars.png",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/assets/2/www/img/7ccfbbb81622/structural/header_stars.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 772.677999921143,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/photo/gcRBS9asYxZG8eJkRbtmOw/30s.jpg",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/photo/gcRBS9asYxZG8eJkRbtmOw/30s.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 766.861999873072,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/photo/Y4T43rVTEHPk9ydgKllkYQ/30s.jpg",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/photo/Y4T43rVTEHPk9ydgKllkYQ/30s.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 767.853000201285,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/936bf04da316/ico/stars/v2/stars_map_very_large.png",
+         "path" : "/missing/s3-media2.ak.yelpcdn.com/assets/2/www/img/936bf04da316/ico/stars/v2/stars_map_very_large.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 771.786999888718,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/bphoto/M1T74gOXf2aUyGMxN2kVlA/60s.jpg",
+         "path" : "/missing/s3-media2.ak.yelpcdn.com/bphoto/M1T74gOXf2aUyGMxN2kVlA/60s.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 771.331999916583,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/ephoto/dvwjNRXO7Z-PrFOuw_KO9w/60s.jpg",
+         "path" : "/missing/s3-media2.ak.yelpcdn.com/ephoto/dvwjNRXO7Z-PrFOuw_KO9w/60s.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 772.241999860853,
+            "type" : "image/png",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/bphoto/uI-5XXrWBQDJPttBYQJI6g/60s.jpg",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/bphoto/uI-5XXrWBQDJPttBYQJI6g/60s.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 767.26600015536,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e0bcd848f6ae/gfx/logo.png",
+         "path" : "/pages/yelp.com/s3-media1.ak.yelpcdn.com/assets/2/www/img/e0bcd848f6ae/gfx/logo.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 773.138000164181,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2b7fc3fbe074/gfx/homepage/burst_bg.png",
+         "path" : "/pages/yelp.com/s3-media1.ak.yelpcdn.com/assets/2/www/img/2b7fc3fbe074/gfx/homepage/burst_bg.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 773.55600008741,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/photo/XC1twnG11Fy1ieySjVKJaQ/60s.jpg",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/photo/XC1twnG11Fy1ieySjVKJaQ/60s.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 773.944000247866,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/bphoto/jWn1bMKr16CdvyFY-IBzVQ/60s.jpg",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/bphoto/jWn1bMKr16CdvyFY-IBzVQ/60s.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 778.055999893695,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/bphoto/f7u-rEBjaOCZCc2V9u-nFQ/60s.jpg",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/bphoto/f7u-rEBjaOCZCc2V9u-nFQ/60s.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 777.457999996841,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/mY807rx_coAjT2qTe9jBwQ/30s.jpg",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/photo/mY807rx_coAjT2qTe9jBwQ/30s.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 778.59599981457,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/WfubCEKS8n8zSUIKWk8LDQ/60s.jpg",
+         "path" : "/missing/s3-media3.ak.yelpcdn.com/photo/WfubCEKS8n8zSUIKWk8LDQ/60s.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 779.118999838829,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/20983a63ea50/default_avatars/user_60_square.png",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/assets/2/www/img/20983a63ea50/default_avatars/user_60_square.png",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 774.362000171095,
+            "type" : "image/png",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/da8c9c954017/sprites/homepage.png",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/assets/2/www/img/da8c9c954017/sprites/homepage.png",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 779.556999914348,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.quantserve.com/quant.js",
+         "path" : "/pages/tumblr.com/secure.quantserve.com/quant.js",
+         "id" : "r45",
+         "comps" : [
+            {
+               "s_time" : 1201.41999982297,
+               "time" : 7.38100009038999,
+               "id" : "comp_75",
+               "type" : 2,
+               "e_time" : 1208.80099991336
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 753.2689999789,
+            "type" : "application/x-javascript",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.yelp.com/spice?r=7ad8cc242999d389&pagevis=0",
+         "path" : "/missing/www.yelp.com/spice",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 759.31299990043,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/bphoto/RupkggpU7FejLqAvk55p5g/258s.jpg",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/bphoto/RupkggpU7FejLqAvk55p5g/258s.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 774.759000167251,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/dqat-S7YSFw1YT9-Nlzycw/60s.jpg",
+         "path" : "/missing/s3-media3.ak.yelpcdn.com/photo/dqat-S7YSFw1YT9-Nlzycw/60s.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 779.980999883264,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/bphoto/gTyNi5NTYlPsdSP0D8o7zw/ls.jpg",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/bphoto/gTyNi5NTYlPsdSP0D8o7zw/ls.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 768.256000243127,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/bphoto/ZvG8MjhFBYigoysRswM8dA/ls.jpg",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/bphoto/ZvG8MjhFBYigoysRswM8dA/ls.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 768.668999895453,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/photo/XQT_fVCsJOrfQYWIuYXKkQ/60s.jpg",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/photo/XQT_fVCsJOrfQYWIuYXKkQ/60s.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 769.586999900639,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/ephoto/SN4RZy6Vs3wgTHj36Bbjdg/60s.jpg",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/ephoto/SN4RZy6Vs3wgTHj36Bbjdg/60s.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 769.098999910057,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/bphoto/3AneY-VMjyllKCIYLzRE6w/ls.jpg",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/bphoto/3AneY-VMjyllKCIYLzRE6w/ls.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 775.25300020352,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/731dcc3ca0bc/gfx/homepage/homepage_sprite.png",
+         "path" : "/pages/yelp.com/s3-media1.ak.yelpcdn.com/assets/2/www/img/731dcc3ca0bc/gfx/homepage/homepage_sprite.png",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 775.686000008136,
+            "type" : "image/png",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/e41bc8917803/structural/happy_footer.png",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/img/e41bc8917803/structural/happy_footer.png",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 770.053999964148,
+            "type" : "image/png",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/vp5lAD0LV2sANPKKVP6w-Q/60s.jpg",
+         "path" : "/missing/s3-media3.ak.yelpcdn.com/photo/vp5lAD0LV2sANPKKVP6w-Q/60s.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 780.402999836951,
+            "type" : "image/png",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/2fb72f83ab0f/logo/burst_tiny.png",
+         "path" : "/pages/yelp.com/s3-media3.ak.yelpcdn.com/assets/2/www/img/2fb72f83ab0f/logo/burst_tiny.png",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 781.266000121832,
+            "type" : "image/png",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media3.ak.yelpcdn.com/photo/c039ZiXlhCnt_v9SFTJUEg/60s.jpg",
+         "path" : "/missing/s3-media3.ak.yelpcdn.com/photo/c039ZiXlhCnt_v9SFTJUEg/60s.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 780.832999851555,
+            "type" : "image/jpeg",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/4ed2548aad2a/logo/logo_tiny.png",
+         "path" : "/pages/yelp.com/s3-media4.ak.yelpcdn.com/assets/2/www/img/4ed2548aad2a/logo/logo_tiny.png",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 770.488000009209,
+            "type" : "image/png",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/ephoto/B-_ApodOXuBYL_hhXk359g/60s.jpg",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/ephoto/B-_ApodOXuBYL_hhXk359g/60s.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 776.099999900907,
+            "type" : "image/png",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media1.ak.yelpcdn.com/photo/Sagzs4cd0ruWEK_T9DaFHg/60s.jpg",
+         "path" : "/missing/s3-media1.ak.yelpcdn.com/photo/Sagzs4cd0ruWEK_T9DaFHg/60s.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 776.544999796897,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+         "path" : "/pages/zedo.com/ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+         "id" : "r49",
+         "comps" : [
+            {
+               "s_time" : 1356.11299984157,
+               "time" : 68.70499998331,
+               "id" : "comp_79",
+               "type" : 2,
+               "e_time" : 1424.81799982488
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 978.722000028938,
+            "type" : "text/javascript",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "path" : "/pages/linkedin.com/b.scorecardresearch.com/beacon.js",
+         "id" : "r53",
+         "comps" : [
+            {
+               "s_time" : 1728.53899979964,
+               "time" : 1.17000006139006,
+               "id" : "comp_109",
+               "type" : 2,
+               "e_time" : 1729.70899986103
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 980.458999983966,
+            "type" : "application/x-javascript",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/js/50f5c95fc3a8/assets/module_logged_out-en_US.min.js",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/js/50f5c95fc3a8/assets/module_logged_out-en_US.min.js",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 1609.89500023425,
+               "time" : 2.31499969959009,
+               "id" : "comp_91",
+               "type" : 2,
+               "e_time" : 1612.20999993384
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 979.631000198424,
+            "type" : "application/javascript",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/js/fa7a6e0bd76a/assets/module_home-en_US.min.js",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/js/fa7a6e0bd76a/assets/module_home-en_US.min.js",
+         "id" : "r52",
+         "comps" : [
+            {
+               "s_time" : 1678.7880002521,
+               "time" : 5.06499968469006,
+               "id" : "comp_100",
+               "type" : 2,
+               "e_time" : 1683.85299993679
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 980.086000170559,
+            "type" : "application/javascript",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media4.ak.yelpcdn.com/assets/2/www/js/9675e4879f36/assets/module_core-en_US.min.js",
+         "path" : "/missing/s3-media4.ak.yelpcdn.com/assets/2/www/js/9675e4879f36/assets/module_core-en_US.min.js",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 1436.14300014451,
+               "time" : 150.29500005767,
+               "id" : "comp_88",
+               "type" : 2,
+               "e_time" : 1586.43800020218
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 979.193000122905,
+            "type" : "application/javascript",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "path" : "/pages/bbc.co.uk/www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1303.06399986148,
+               "time" : 53.0060003511601,
+               "id" : "comp_77",
+               "type" : 2,
+               "e_time" : 1356.07000021264
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 642.614000011235,
+            "type" : "text/javascript",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-us.imrworldwide.com/cgi-bin/m1?ci=us-804377h&cg=0&cc=1&si=http%3A//www.yelp.com/seattle&rp=&ts=compact&rnd=1378094387651&ja=1",
+         "path" : "/missing/secure-us.imrworldwide.com/cgi-bin/m1",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1066.85200007632,
+            "type" : "image/gif",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=1025542448&utmhn=www.yelp.com&utme=8(User%20Status*from_qype*4!account%20level*content_country)9(anonymous*false*4!anon*US)11(2!1*4!1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=941x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Seattle%20Restaurants%2C%20Dentists%2C%20Bars%2C%20Beauty%20Salons%2C%20Doctors&utmhid=595693896&utmr=-&utmp=%2Fhome%2Fseattle&utmht=1378094388031&utmac=UA-30501-1&utmcc=__utma%3D165223479.1131233455.1378094388.1378094388.1378094388.1%3B%2B__utmz%3D165223479.1378094388.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qRC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1139.36799997464,
+            "type" : "image/gif",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.quantserve.com/pixel;r=1286697128;a=p-M4yfUTCPeS3vn;fpan=1;fpa=P0-2068981432-1378094388101;ns=0;ce=1;cm=;je=1;sr=2048x1152x24;enc=n;dst=1;et=1378094388099;tzo=420;ref=;url=http%3A%2F%2Fwww.yelp.com%2Fseattle;ogl=",
+         "path" : "/missing/pixel.quantserve.com/pixel_r_1286697128_a_p-M4yfUTCPeS3vn_fpan_1_fpa_P0-2068981432-1378094388101_ns_0_ce_1_cm__je_1_sr_2048x1152x24_enc_n_dst_1_et_1378094388099_tzo_420_ref__url_http_3A_2F_2Fwww.yelp.com_2Fseattle_ogl_",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1209.42099997774,
+            "type" : "image/gif",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=2&utmn=881992855&utmhn=www.yelp.com&utme=8(User%20Status*from_qype*4!account%20level*content_country)9(anonymous*false*4!anon*US)11(2!1*4!1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=941x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Seattle%20Restaurants%2C%20Dentists%2C%20Bars%2C%20Beauty%20Salons%2C%20Doctors&utmhid=595693896&utmr=-&utmp=%2Fhome%2Fseattle&utmht=1378094388068&utmac=UA-30501-24&utmcc=__utma%3D165223479.1131233455.1378094388.1378094388.1378094388.1%3B%2B__utmz%3D165223479.1378094388.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmmt=1&utmu=qRCg~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1290.7440001145,
+            "type" : "image/gif",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=3&utmn=19184440&utmhn=www.yelp.com&utme=8(User%20Status*from_qype*4!account%20level*content_country)9(anonymous*false*4!anon*US)11(2!1*4!1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=941x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Seattle%20Restaurants%2C%20Dentists%2C%20Bars%2C%20Beauty%20Salons%2C%20Doctors&utmhid=595693896&utmr=-&utmp=%2Fhome%2Fseattle&utmht=1378094388091&utmac=UA-30501-10&utmcc=__utma%3D165223479.1131233455.1378094388.1378094388.1378094388.1%3B%2B__utmz%3D165223479.1378094388.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmmt=1&utmu=qRCg~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1291.3379999809,
+            "type" : "image/gif",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://pixel.quantserve.com/api/segments.json?a=p-M4yfUTCPeS3vn&callback=yelp.common.util.quantcast.callback",
+         "path" : "/missing/pixel.quantserve.com/api/segments.json",
+         "id" : "r59",
+         "comps" : [
+            {
+               "s_time" : 1918.39500004426,
+               "time" : 0.909999944269885,
+               "id" : "comp_119",
+               "type" : 2,
+               "e_time" : 1919.30499998853
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1608.77700010315,
+            "type" : "application/x-javascript",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/31cc06776ad5/gfx/burst_loader_ani.gif",
+         "path" : "/pages/yelp.com/s3-media2.ak.yelpcdn.com/assets/2/www/img/31cc06776ad5/gfx/burst_loader_ani.gif",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1647.29000022635,
+            "type" : "image/gif",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_25.js",
+         "path" : "/pages/imgur.com/partner.googleadservices.com/gpt/pubads_impl_25.js",
+         "id" : "r58",
+         "comps" : [
+            {
+               "s_time" : 1919.34600006789,
+               "time" : 156.50600008666,
+               "id" : "comp_121",
+               "type" : 2,
+               "e_time" : 2075.85200015455
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1349.06399995089,
+            "type" : "text/javascript",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.yelp.com/hovercard/user?id=k0ZaWr17fcmpTelOG7yfMw&id=ukGJ9fPJu6MYQwZToNUhcQ&id=JAEn_bm6uFVobnZglXRMBw&id=-g4qJyLzZh33eHR1KBLJOg&id=JAEn_bm6uFVobnZglXRMBw",
+         "path" : "/missing/www.yelp.com/hovercard/user",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1657.18200011179,
+            "type" : "application/json",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://connect.facebook.net/en_US/all.js",
+         "path" : "/pages/bing.com/connect.facebook.net/en_US/all.js",
+         "id" : "r64",
+         "comps" : [
+            {
+               "s_time" : 2165.65100010484,
+               "time" : 130.62800001353,
+               "id" : "comp_210",
+               "type" : 2,
+               "e_time" : 2296.27900011837
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1935.25299988687,
+            "type" : "application/x-javascript",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.yelp.com/hovercard/business?id=Y9_f3EMDI8sTbCfl4e6pnQ&id=OyvW1j1Iqm7iohZ-kizrtA&id=yuRIs1xnMMDNosiQ3e97_w&id=ftQ12qryRBDmw6ITNEzXqw&id=Cc9Ng7ArJRVUg_Oc9q9rmw&id=fW_96OCHKv2XauUPjeDffw&id=CyA0Ut1d6CmL4QnUAJedsw&id=cHQYUYMuCHHRG_RYIZQ1GA&id=ip8g2ZA_bpZiMiuhvAfwtA&id=egYEcdwV_RJJBcFnhiwx4A&id=W6CmfleU8e_bQTSYicW-sQ&id=QNBn628p776ez-1w-zgTsQ&id=R-dFbb1B-VDWi7xWNJkh0Q&id=qCc1sZTdPZkLzYixaoNgTg",
+         "path" : "/missing/www.yelp.com/hovercard/business",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1643.23899988085,
+            "type" : "application/json",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2195219518849024&output=json_html&callback=callbackProxy&impl=fif&iu=%2F1014943%2Fyelp_us%2Fwelcome%2F915x35&sz=915x35%7C988x50%7C970x66%7C970x90&cust_params=sk%3Dno%26city%3DSeattle%26signed_in%3Dno%26mode%3Dlive%26language%3Den%26country%3Dus%26section%3Dwelcome%26dma_code%3D819&cookie_enabled=1&lmt=1378119588&dt=1378094388892&cc=100&biw=941&bih=999&oid=3&adx=0&ady=0&adk=1285605711&gut=v2&ifi=1&u_tz=-420&u_his=11&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1980&u_cd=24&u_nplug=6&u_nmime=93&u_sd=1&flash=11.8.800&url=http%3A%2F%2Fwww.yelp.com%2Fseattle&vrg=25&vrp=25&ga_vid=1131233455.1378094388&ga_sid=1378094388&ga_hid=1573027999&ga_fc=true",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r67",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2020.8209999837,
+            "type" : "text/javascript",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2195219518849024&output=json_html&callback=callbackProxy&impl=fif&iu=%2F1014943%2Fyelp_us%2Fwelcome%2F625x100&sz=625x100&cust_params=sk%3Dno%26city%3DSeattle%26signed_in%3Dno%26mode%3Dlive%26language%3Den%26country%3Dus%26section%3Dwelcome%26dma_code%3D819&cookie=ID%3Dbe38ea97454b97ac%3AT%3D1378094388%3AS%3DALNI_MaJW5DTVfxDxdXMJ_2djlpHVJayxQ&cookie_enabled=1&lmt=1378119589&dt=1378094389042&cc=100&biw=941&bih=999&oid=3&adx=0&ady=0&adk=1220061475&gut=v2&ifi=2&u_tz=-420&u_his=11&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1980&u_cd=24&u_nplug=6&u_nmime=93&u_sd=1&flash=11.8.800&url=http%3A%2F%2Fwww.yelp.com%2Fseattle&vrg=25&vrp=25&ga_vid=1131233455.1378094388&ga_sid=1378094388&ga_hid=1573027999&ga_fc=true",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r71",
+         "comps" : [
+            {
+               "s_time" : 2306.22899997979,
+               "time" : 25.6819999776799,
+               "id" : "comp_217",
+               "type" : 1,
+               "e_time" : 2331.91099995747
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2166.14100011066,
+            "type" : "text/javascript",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://static.ak.facebook.com/connect/xd_arbiter.php?version=26#channel=f23990941c&channel_path=%2Fhtml%2Ffacebook_xd_channel.html%3Ffb_xd_fragment%23xd_sig%3Df9326a4%26&origin=http%3A%2F%2Fwww.yelp.com",
+         "path" : "/missing/static.ak.facebook.com/connect/xd_arbiter.php",
+         "id" : "r76",
+         "comps" : [
+            {
+               "s_time" : 2404.72800005227,
+               "time" : 33.3549999632,
+               "id" : "r76_c1",
+               "type" : "evalhtml",
+               "e_time" : 2438.08300001547
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2386.65100000799,
+            "type" : "text/html",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=26#channel=f23990941c&channel_path=%2Fhtml%2Ffacebook_xd_channel.html%3Ffb_xd_fragment%23xd_sig%3Df9326a4%26&origin=http%3A%2F%2Fwww.yelp.com",
+         "path" : "/missing/s-static.ak.facebook.com/connect/xd_arbiter.php",
+         "id" : "r77",
+         "comps" : [
+            {
+               "s_time" : 2458.23600003496,
+               "time" : 23.7770001404001,
+               "id" : "r77_c1",
+               "type" : "evalhtml",
+               "e_time" : 2482.01300017536
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2395.23500017822,
+            "type" : "text/html",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2195219518849024&output=json_html&callback=callbackProxy&impl=fif&iu=%2F1014943%2Fyelp_us%2Fwelcome%2F300x250&sz=300x250&cust_params=sk%3Dno%26city%3DSeattle%26signed_in%3Dno%26mode%3Dlive%26language%3Den%26country%3Dus%26section%3Dwelcome%26dma_code%3D819&cookie=ID%3Dbe38ea97454b97ac%3AT%3D1378094388%3AS%3DALNI_MaJW5DTVfxDxdXMJ_2djlpHVJayxQ&cookie_enabled=1&lmt=1378119589&dt=1378094389204&cc=100&biw=941&bih=999&oid=3&adx=0&ady=0&adk=2905124963&gut=v2&ifi=3&u_tz=-420&u_his=11&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1980&u_cd=24&u_nplug=6&u_nmime=93&u_sd=1&flash=11.8.800&url=http%3A%2F%2Fwww.yelp.com%2Fseattle&vrg=25&vrp=25&ga_vid=1131233455.1378094388&ga_sid=1378094388&ga_hid=1573027999&ga_fc=true",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r73",
+         "comps" : [
+            {
+               "s_time" : 2491.02899990976,
+               "time" : 5.52699994296017,
+               "id" : "comp_282",
+               "type" : null,
+               "e_time" : 2496.55599985272
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2333.09900015593,
+            "type" : "text/javascript",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/osd.js",
+         "path" : "/pages/youtube.com/pagead2.googlesyndication.com/pagead/osd.js",
+         "id" : "r79",
+         "comps" : [
+            {
+               "s_time" : 2527.28899987414,
+               "time" : 27.6300003752203,
+               "id" : "comp_297",
+               "type" : 2,
+               "e_time" : 2554.91900024936
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2504.20999992639,
+            "type" : "text/javascript",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.2mdn.net/879366/flashwrite_1_2.js",
+         "path" : "/pages/amazon.com/s0.2mdn.net/879366/flashwrite_1_2.js",
+         "id" : "r78",
+         "comps" : [
+            {
+               "s_time" : 2555.83399999887,
+               "time" : 0.440999865530102,
+               "id" : "comp_299",
+               "type" : 1,
+               "e_time" : 2556.2749998644
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2497.06500023603,
+            "type" : "text/javascript",
+            "id" : "download_69"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_217"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_299"
+      },
+      {
+         "a2" : "download_69",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_68",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 1.18800019846003,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 63.3240002207503,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 54.7400000505204,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_64",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 1272.06300012767,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 894.481000024825,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 1186.49500003084,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 908.424000255765,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 600.306000094865,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 898.532000370325,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 860.019000247125,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 542.580000124875,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 541.986000258475,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 460.663000121715,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 390.610000118615,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 318.094000220295,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 318.905000109225,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 230.43500026688,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 231.328000314534,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 230.873000342399,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 231.701000127941,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 229.964000172913,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 27.786999940872,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 27.3420000448821,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 21.7300001531841,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 32.07499999553,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 32.508000265807,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 31.6449999809261,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 21.2960001081231,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 26.9280001521111,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 26.495000347495,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 20.3410000540321,
+         "id" : "dep37",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 20.829000044614,
+         "id" : "dep38",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 19.911000039428,
+         "id" : "dep39",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 19.498000387102,
+         "id" : "dep40",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 31.223000027239,
+         "id" : "dep41",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 26.001000311226,
+         "id" : "dep42",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 10.555000044405,
+         "id" : "dep43",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 4.51100012287498,
+         "id" : "dep44",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 30.799000058323,
+         "id" : "dep45",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 25.60400031507,
+         "id" : "dep46",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 30.3609999828041,
+         "id" : "dep47",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 29.837999958545,
+         "id" : "dep48",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 28.700000140816,
+         "id" : "dep49",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 29.29800003767,
+         "id" : "dep50",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 25.186000391841,
+         "id" : "dep51",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 24.798000231385,
+         "id" : "dep52",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 24.380000308156,
+         "id" : "dep53",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 18.508000299335,
+         "id" : "dep54",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 23.484000004828,
+         "id" : "dep55",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 22.574000060558,
+         "id" : "dep56",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 23.029000032693,
+         "id" : "dep57",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 19.09500034526,
+         "id" : "dep58",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 18.104000017047,
+         "id" : "dep59",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 23.9200000651181,
+         "id" : "dep60",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 17.698999959975,
+         "id" : "dep61",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 28.210000135005,
+         "id" : "dep62",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 22.176000289619,
+         "id" : "dep63",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 17.288000322878,
+         "id" : "dep64",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 16.85700006783,
+         "id" : "dep65",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 6.46800035610806,
+         "id" : "dep66",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 372.009000275284,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 347.897999919951,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 320.583000313491,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 40.615000296384,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 30.125000048429,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 29.296000022441,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      }
+   ]
+}

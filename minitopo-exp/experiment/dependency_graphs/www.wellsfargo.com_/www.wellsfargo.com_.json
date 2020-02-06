@@ -1,0 +1,1247 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.wellsfargo.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.wellsfargo.com/",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 2205.00600012019,
+               "time" : 758.56600003317,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 2963.57200015336
+            },
+            {
+               "s_time" : 3190.55700022727,
+               "time" : 0.0579999759802377,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 3190.61500020325
+            },
+            {
+               "s_time" : 3482.61900013313,
+               "time" : 0.634999945759773,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 3483.25400007889
+            },
+            {
+               "s_time" : 3505.74500020593,
+               "time" : 163.47000002861,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 3669.21500023454
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/970x260/chk_openinmineveryday_970x260.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/970x260/chk_openinmineveryday_970x260.jpg",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2262.48600007966,
+            "type" : "image/jpeg",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/234x144/efs_theresstilltimecd3059_234x144.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/234x144/efs_theresstilltimecd3059_234x144.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2281.32300032303,
+            "type" : "image/jpeg",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/234x144/chk_collegesaving_234x144.png",
+         "path" : "/missing/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/234x144/chk_collegesaving_234x144.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2281.76300041378,
+            "type" : "image/png",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/970x260/efs_nopaymentsnodiscv2_970x260.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/970x260/efs_nopaymentsnodiscv2_970x260.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2280.89800011367,
+            "type" : "image/jpeg",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/online-banking/970x260/mba_convenience1_970x260.jpg",
+         "path" : "/missing/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/online-banking/970x260/mba_convenience1_970x260.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2280.42400022969,
+            "type" : "image/jpeg",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/234x144/mtg_fthbcourse1dmiwefthe2_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/234x144/mtg_fthbcourse1dmiwefthe2_234x144.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2548.08600014076,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/234x144/mtg_buyingprequaldmiweghcpp_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/234x144/mtg_buyingprequaldmiweghcpp_234x144.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2549.53000042588,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/234x144/efs_nopaymentsnodiscv2_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/student-loans/234x144/efs_nopaymentsnodiscv2_234x144.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2549.94900012389,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/auto-loans/234x144/afg_usedcarapply_234x144.png",
+         "path" : "/missing/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/auto-loans/234x144/afg_usedcarapply_234x144.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2550.37800036371,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/retirement/234x144/irw_401kroll2retirement_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/retirement/234x144/irw_401kroll2retirement_234x144.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2551.73200042918,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/insurance/234x144/ire_rentersassurantpmf_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/insurance/234x144/ire_rentersassurantpmf_234x144.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2553.70000004768,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/234x144/chk_checkingeveryday_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/234x144/chk_checkingeveryday_234x144.png",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2554.53700013459,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/savings/234x144/sav_savingssimpler_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/savings/234x144/sav_savingssimpler_234x144.png",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2554.93700038642,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/227x238/chk_openinmincouplebeach_227x238.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/checking/227x238/chk_openinmincouplebeach_227x238.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2555.33400038257,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/227x238/mtg_2ndprequalfindout06dm_227x238.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/mortgage/227x238/mtg_2ndprequalfindout06dm_227x238.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2555.73600018397,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/savings/227x238/sav_pinwheel_227x238.jpg",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/savings/227x238/sav_pinwheel_227x238.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2563.24800010771,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/javascript/user-prefs.js",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/javascript/user-prefs.js",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 3185.70200027898,
+               "time" : 4.85499994828979,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 3190.55700022727
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2595.98400024697,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/css/home/homepage.css",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/css/home/homepage.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 2871.30900006741,
+               "time" : 87.8190002404199,
+               "id" : "comp_10",
+               "type" : 4,
+               "e_time" : 2959.12800030783
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2247.4190001376,
+            "type" : "text/css",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-mortarboard.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-mortarboard.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2282.181000337,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-house.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-house.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2282.5830001384,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-graph.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-graph.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2282.98300039023,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/global/wf-logo.gif",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/global/wf-logo.gif",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2256.22300012037,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-compass.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-compass.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2283.41300040483,
+            "type" : "image/png",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-key-old-fashioned.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-key-old-fashioned.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2283.80800038576,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-lock.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-lock.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2284.197000321,
+            "type" : "image/png",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/insurance/234x144/ins_ilflifechanges_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/insurance/234x144/ins_ilflifechanges_234x144.png",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2554.12600003183,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-survey1.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/icons/personal/icon-c63-survey1.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2284.58400024101,
+            "type" : "image/png",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/young-man_campus_smartphone_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/young-man_campus_smartphone_227x288.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2284.9740004167,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/father-daughter_house-exterior_shoulders-airplane_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/father-daughter_house-exterior_shoulders-airplane_227x288.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2285.38100002334,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/couple_outside_smiling-looking-out_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/couple_outside_smiling-looking-out_227x288.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2563.88500006869,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/family-4_front-house_taking-off-to-vacation_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/family-4_front-house_taking-off-to-vacation_227x288.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2564.99500013888,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/grandma-grandson_painting_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/grandma-grandson_painting_227x288.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2564.58600005135,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/tablet_fraud-screen-shot_227x288.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/tablet_fraud-screen-shot_227x288.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2565.38300029933,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/contextual/banner/defaults/other/oth_cyberthreats_234x144.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/contextual/banner/defaults/other/oth_cyberthreats_234x144.png",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2565.75500033796,
+            "type" : "image/png",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/contextual/banner/defaults/online-banking/olb_alertsa_234x144.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/contextual/banner/defaults/online-banking/olb_alertsa_234x144.png",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2566.11800007522,
+            "type" : "image/png",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/global/stagecoach.jpg",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/global/stagecoach.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2614.33400027454,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/global/icon-equal-housing.gif",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/global/icon-equal-housing.gif",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2616.97100009769,
+            "type" : "image/gif",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/banking-made-easy_227X288.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/photography/lifestyle/227x288/banking-made-easy_227X288.png",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2566.49100035429,
+            "type" : "image/png",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/online-banking/234x144/mba_iabrown_234x144.png",
+         "path" : "/pages/wellsfargo.com/a248.e.akamai.net/f/248/1856/90m/www.wellsfargo.com/assets/images/contextual/banner/online-banking/234x144/mba_iabrown_234x144.png",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2550.89200008661,
+            "type" : "image/png",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/js/frameworks/jq/jquery.js",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/js/frameworks/jq/jquery.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 3364.31400012225,
+               "time" : 118.30500001088,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 3482.61900013313
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2596.42200032249,
+            "type" : "application/x-javascript",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/js/global/home.js",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/js/global/home.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 3483.29000035301,
+               "time" : 22.4549998529201,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 3505.74500020593
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2596.81400004774,
+            "type" : "application/x-javascript",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/icon-lock-sm.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/icon-lock-sm.png",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2960.3880001232,
+            "type" : "image/png",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/homepage/hp_signon_bg.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/homepage/hp_signon_bg.png",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2961.15900017321,
+            "type" : "image/png",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/homepage/hp_lock_icon2.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/homepage/hp_lock_icon2.png",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2961.49800019339,
+            "type" : "image/png",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/btn-icon-search.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/btn-icon-search.png",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2960.81100031734,
+            "type" : "image/png",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/bg-c63-ribbon.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/bg-c63-ribbon.png",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2962.19200035557,
+            "type" : "image/png",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/bg-c63-ribbon-shadow.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/bg-c63-ribbon-shadow.png",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2961.84500027448,
+            "type" : "image/png",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/chevron-right-blue.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/chevron-right-blue.png",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2963.22800032794,
+            "type" : "image/png",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/homepage/hp_af_bg.gif",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/homepage/hp_af_bg.gif",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2962.53300039098,
+            "type" : "image/gif",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/arrow-right-gray.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/arrow-right-gray.png",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2962.87799999118,
+            "type" : "image/png",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/bg-footer.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/bg-footer.png",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2963.57200015336,
+            "type" : "image/png",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/homepage/carousel_dot_active.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/homepage/carousel_dot_active.png",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3575.76800044626,
+            "type" : "image/png",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/homepage/carousel_dot.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/homepage/carousel_dot.png",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3668.41600043699,
+            "type" : "image/png",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/bg-fat-nav.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/bg-fat-nav.png",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3668.81100041792,
+            "type" : "image/png",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www01.wellsfargomedia.com/assets/images/css/template/bg-c63-chevron.png",
+         "path" : "/pages/wellsfargo.com/www01.wellsfargomedia.com/assets/images/css/template/bg-c63-chevron.png",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3669.21500023454,
+            "type" : "image/png",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&pid=222-6531-64&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2F&cb=1378094421804&event=PageLoad&eventDescription=DisplayMarqueeCarouselItem&clist=242-6525-16~224-6277-32",
+         "path" : "/missing/www.wellsfargo.com/assets/images/global/s.gif",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3596.10200021416,
+            "type" : "image/gif",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/assets/images/global/s.gif?log=1&pid=222-6531-64&pageUrl=https%3A%2F%2Fwww.wellsfargo.com%2F&cb=1378094421883&event=PageLoad&eventDescription=DisplayRibbonCarouselItem&clist=182-6519-16~223-6251-32",
+         "path" : "/missing/www.wellsfargo.com/assets/images/global/s.gif",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3665.41400039569,
+            "type" : "image/gif",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/assets/images/global/chevron-large-left-grey.png",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/assets/images/global/chevron-large-left-grey.png",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3667.31200041249,
+            "type" : "image/png",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.wellsfargo.com/assets/images/global/chevron-large-right-grey.png",
+         "path" : "/pages/wellsfargo.com/www.wellsfargo.com/assets/images/global/chevron-large-right-grey.png",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3667.9980000481,
+            "type" : "image/png",
+            "id" : "download_59"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "download_59",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 161.56700020656,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 159.66900018976,
+         "id" : "dep8",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 90.35700000823,
+         "id" : "dep9",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_55",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 163.06600021199,
+         "id" : "dep11",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 162.67100023106,
+         "id" : "dep12",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 70.02300024033,
+         "id" : "dep13",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_51",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 757.87199987099,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 757.52700027079,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 758.22200020775,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 756.83900015429,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 757.18600023538,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 755.80500019715,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 756.4920000732,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 756.15300005302,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 755.38200000301,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 391.80799992755,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 391.80799992755,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 391.4160002023,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 391.4160002023,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 345.88599996642,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 361.4850002341,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 411.9649999775,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 409.32800015435,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 361.11199995503,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 360.74900021777,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 360.37700017914,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 359.57999993116,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 359.98900001869,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 358.8789999485,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 80.3749999031502,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 79.9680002965101,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 79.57800012082,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 349.11999991164,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 79.1910002008099,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 78.8020002655699,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 78.4070002846402,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 51.2170000001802,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 77.9770002700398,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 77.5770000182101,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 77.1750002168101,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 42.41300001741,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 390.97800012678,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 358.24199998752,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 350.73000006378,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 350.32800026238,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 349.93100026623,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 349.5310000144,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 348.69399992749,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 346.72600030899,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 345.37200024352,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 344.9430000037,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 344.52400030569,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 343.08000002057,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 75.4180001095001,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 75.8919999934801,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 76.75700029359,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 76.3170002028401,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 57.4799999594698,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      }
+   ]
+}

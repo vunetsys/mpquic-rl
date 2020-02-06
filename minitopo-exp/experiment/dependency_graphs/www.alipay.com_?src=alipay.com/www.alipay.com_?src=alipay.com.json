@@ -1,0 +1,1239 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.alipay.com_?src=alipay.com",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.alipay.com/?src=alipay.com",
+         "path" : "/pages/alipay.com/www.alipay.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 2591.21000021696,
+               "time" : 1637.58099963889,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 4228.79099985585
+            },
+            {
+               "s_time" : 4233.55099977925,
+               "time" : 259.42400004715,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 4492.9749998264
+            },
+            {
+               "s_time" : 4781.20800014585,
+               "time" : 6.03599986062,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 4787.24400000647
+            },
+            {
+               "s_time" : 4797.61100001633,
+               "time" : 5468.84399978447,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 10266.4549998008
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??alipay.light.base-1.1.js,alipay.tracker-1.9.js,alipay.fmsmng.monitor-1.0.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 4203.94999999553,
+               "time" : 29.60099978372,
+               "id" : "comp_7",
+               "type" : 1,
+               "e_time" : 4233.55099977925
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2635.71299985051,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/homeindex/1.0.1/homeindex.css",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/homeindex/1.0.1/homeindex.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 4234.6930000931,
+               "time" : 256.62299990654,
+               "id" : "comp_9",
+               "type" : 4,
+               "e_time" : 4491.31599999964
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2636.4350002259,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??alipay.smartracker-1.1.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 4787.29799995199,
+               "time" : 10.3130000643396,
+               "id" : "comp_25",
+               "type" : 1,
+               "e_time" : 4797.61100001633
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2645.21199977025,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??/arale.core-1.1.js,alipay.alipayIndexSimple.base-1.4.js,alipay.smartracker-1.1.js,alipay.heatmap.heattracker-1.2.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 4698.92700016499,
+               "time" : 82.2809999808596,
+               "id" : "comp_21",
+               "type" : 1,
+               "e_time" : 4781.20800014585
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2644.71099991351,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201206/2qz2UvlUVF.gif",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201206/2qz2UvlUVF.gif",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4492.47700022534,
+            "type" : "image/gif",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201307/jebhAW6Vx.png",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201307/jebhAW6Vx.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4248.2560002245,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201303/2NwD1Q6ihZ.png",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201303/2NwD1Q6ihZ.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4492.9749998264,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??/arale.class-1.0.js,arale.tmpl-1.0.js,arale.aspect-1.0.js,aralex.base-1.1.js,aralex.utils.IframeShim-1.2.js,arale.fx-1.1.js,aralex.switchable-1.1.js,aralex.slider.ScrollSlider-1.5.js,aralex.slider.FadeSlider-1.2.js,alipay.alipayIndexSimple.main-1.4.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 5079.06399993226,
+               "time" : 24.38399987295,
+               "id" : "comp_33",
+               "type" : 2,
+               "e_time" : 5103.44799980521
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5004.30400017649,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201307/giwBgXzV1_src.jpg",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201307/giwBgXzV1_src.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5121.45400000736,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://kcart.alipay.com/web/bi.do?ref=-&pg=https%3A%2F%2Fwww.alipay.com%2F%3Fsrc%3Dalipay.com&r=1378091702436&v=1.0&screen=2048x1152&color=-&BIProfile=page&sc=24-bit&utmhn=www.alipay.com&rnd=0.36939733382314444&_clnt=macos%2F10.6.8%7Cwebkit%2F537.1%7Cchrome%2F22.0.1195.0",
+         "path" : "/missing/kcart.alipay.com/web/bi.do",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4228.79099985585,
+            "type" : "image/gif",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://auth.alipay.com/login/homeB.htm?redirectType=parent",
+         "path" : "/pages/alipay.com/auth.alipay.com/login/homeB.htm/index.html",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 6346.95000015199,
+               "time" : 12.1359997428999,
+               "type" : "evalhtml",
+               "id" : "r9_c1",
+               "e_time" : 6359.08599989489
+            },
+            {
+               "s_time" : 6564.63799998164,
+               "time" : 1.79699994624025,
+               "type" : "evalhtml",
+               "id" : "r9_c2",
+               "e_time" : 6566.43499992788
+            },
+            {
+               "s_time" : 6587.27600006387,
+               "time" : 13.8789997436097,
+               "type" : "evalhtml",
+               "id" : "r9_c3",
+               "e_time" : 6601.15499980748
+            },
+            {
+               "s_time" : 6667.51200007275,
+               "time" : 33.4529997780901,
+               "type" : "evalhtml",
+               "id" : "r9_c4",
+               "e_time" : 6700.96499985084
+            },
+            {
+               "s_time" : 6716.16100007668,
+               "time" : 68.0639999918703,
+               "type" : "evalhtml",
+               "id" : "r9_c5",
+               "e_time" : 6784.22500006855
+            },
+            {
+               "s_time" : 6841.25899989158,
+               "time" : 0.105999875810085,
+               "type" : "evalhtml",
+               "id" : "r9_c6",
+               "e_time" : 6841.36499976739
+            },
+            {
+               "s_time" : 6843.19300018251,
+               "time" : 0.0959997996696984,
+               "type" : "evalhtml",
+               "id" : "r9_c7",
+               "e_time" : 6843.28899998218
+            },
+            {
+               "s_time" : 6847.80699992552,
+               "time" : 1346.77900001407,
+               "type" : "evalhtml",
+               "id" : "r9_c8",
+               "e_time" : 8194.58599993959
+            },
+            {
+               "s_time" : 8398.1030001305,
+               "time" : 1861.1260000616,
+               "id" : "r9_c9",
+               "type" : "evalhtml",
+               "e_time" : 10259.2290001921
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4259.66800004244,
+            "type" : "text/html",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??alipay.light.base-1.8.js,alipay.tracker-1.11.js,alipay.smartracker-1.6.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 6566.4749997668,
+               "time" : 20.8010002970705,
+               "id" : "comp_49",
+               "type" : 1,
+               "e_time" : 6587.27600006387
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6354.68599991873,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/authcenter/authcenter.global-2.9-homeB.css",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/authcenter/authcenter.global-2.9-homeB.css",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 6414.72100000829,
+               "time" : 0.0390000641300503,
+               "id" : "comp_44",
+               "type" : 4,
+               "e_time" : 6414.76000007242
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6355.11100012809,
+            "type" : "text/css",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/al/alice.components.secuirty-edit-1.1.css",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/al/alice.components.secuirty-edit-1.1.css",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 6414.07300019637,
+               "time" : 0.0139996409398009,
+               "id" : "comp_43",
+               "type" : 4,
+               "e_time" : 6414.08699983731
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6355.51099991426,
+            "type" : "text/css",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/??seajs/1.3.1/sea.js,seajs/1.3.1/plugin-combo.js,jquery/jquery/1.7.2/jquery.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com.dup.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 6437.76000011712,
+               "time" : 126.87799986452,
+               "id" : "comp_45",
+               "type" : 1,
+               "e_time" : 6564.63799998164
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6353.95999997854,
+            "type" : "application/x-javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/alipay.security.um-1.6.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar/alipay.security.um-1.6.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 6707.9420001246,
+               "time" : 8.21899995207968,
+               "id" : "comp_64",
+               "type" : 1,
+               "e_time" : 6716.16100007668
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6356.75199981779,
+            "type" : "application/x-javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/alipay.auth.checkcode-1.6.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar/alipay.auth.checkcode-1.6.js",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 6841.42399998382,
+               "time" : 1.76900019869026,
+               "id" : "comp_73",
+               "type" : 1,
+               "e_time" : 6843.19300018251
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6358.38600015268,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/authcenter/authcenter.main-2.7-aliLogin.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/authcenter/authcenter.main-2.7-aliLogin.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 6843.32699980587,
+               "time" : 4.48000011964996,
+               "id" : "comp_75",
+               "type" : 1,
+               "e_time" : 6847.80699992552
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6358.7440000847,
+            "type" : "application/x-javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/ar/??alipay.light.base-1.8.js,alipay.light.page-1.11-sizzle.js,alipay.security.base-1.6.js,alipay.security.edit-1.11.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/ar.add.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 6620.76700013131,
+               "time" : 46.7449999414403,
+               "id" : "comp_57",
+               "type" : 1,
+               "e_time" : 6667.51200007275
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6356.33900016546,
+            "type" : "application/x-javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/authcenter/authcenter.base-1.8.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com/authcenter/authcenter.base-1.8.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 6787.32200013474,
+               "time" : 53.9369997568401,
+               "id" : "comp_71",
+               "type" : 1,
+               "e_time" : 6841.25899989158
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6358.00699982792,
+            "type" : "application/x-javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://kcart.alipay.com/web/1.do?ref=-&pg=https%3A%2F%2Fwww.alipay.com%2F%3Fsrc%3Dalipay.com&r=1378091702436&v=1.0&screen=2048x1152&color=-&BIProfile=page&sc=24-bit&utmhn=www.alipay.com&rnd=0.36939733382314444&_clnt=macos%2F10.6.8%7Cwebkit%2F537.1%7Cchrome%2F22.0.1195.0&cna=t/CqCkbFczACAYDQBNR4kx6a",
+         "path" : "/missing/kcart.alipay.com/web/1.do",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5778.54199986905,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://kcart.alipay.com/web/bi.do?ref=https%3A%2F%2Fwww.alipay.com%2F%3Fsrc%3Dalipay.com&pg=https%3A%2F%2Fauth.alipay.com%2Flogin%2FhomeB.htm%3FredirectType%3Dparent&r=1378091704790&v=1.0&screen=2048x1152&color=-&BIProfile=iframe&sc=24-bit&utmhn=auth.alipay.com&rnd=0.7081152696628124&_clnt=macos%2F10.6.8%7Cwebkit%2F537.1%7Cchrome%2F22.0%7Cmac%2F-1",
+         "path" : "/missing/kcart.alipay.com/web/bi.do",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6601.15499980748,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://kcart.alipay.com/web/bi.do?ref=https%3A%2F%2Fauth.alipay.com%2Flogin%2FhomeB.htm%3FredirectType%3Dparent&pg=https%3A%2F%2Fauth.alipay.com%2Flogin%2FhomeB.htm%3Fseed%3Dac-no&r=1378091704895&v=1.0&BIProfile=clk",
+         "path" : "/missing/kcart.alipay.com/web/bi.do",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6693.01299983636,
+            "type" : "image/gif",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201307/giwCOMS9f_src.jpg",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201307/giwCOMS9f_src.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7420.16599979252,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201307/giwCOJmhb_src.jpg",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201307/giwCOJmhb_src.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7486.78399994969,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://i.alipayobjects.com/e/201307/giwC9uSe7_src.jpg",
+         "path" : "/pages/alipay.com/i.alipayobjects.com/e/201307/giwC9uSe7_src.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7487.19500005245,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://rds.alipay.com/ua_authcenter_login.js?t=20130831",
+         "path" : "/pages/alipay.com/rds.alipay.com/ua_authcenter_login.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 8320.73100004345,
+               "time" : 77.3720000870508,
+               "id" : "comp_130",
+               "type" : 1,
+               "e_time" : 8398.1030001305
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6359.08599989489,
+            "type" : "application/x-javascript",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/??authcenter/authcenter.main-2.7-index.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com.dup.js",
+         "id" : "r35",
+         "comps" : [
+            {
+               "s_time" : 9540.30899982899,
+               "time" : 1.26000028103954,
+               "id" : "comp_177",
+               "type" : 2,
+               "e_time" : 9541.56900011003
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 8409.19400006533,
+            "type" : "application/x-javascript",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://img.alipay.com/common/um/lsa.swf?v=1",
+         "path" : "/pages/alipay.com/img.alipay.com/common/um/lsa.swf",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6773.30000000075,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://omeo.alipay.com/service/checkcode?sessionID=03df58789717be8faf415f4b3bce1460&r=0.05196616867323667",
+         "path" : "/missing/omeo.alipay.com/service/checkcode",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6600.04500020295,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ynuf.alipay.com/service/clear.png?xt=HBb2bc11ae262b717f83bbf5aea0e678c8&xa=0000000000000A2126231E1B",
+         "path" : "/missing/ynuf.alipay.com/service/clear.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6700.96499985084,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://passport.alipay.com/api/havana_top.js?site=1&single=true&_input_charset=utf-8&r=1378091706613&callback=arale.cache.callbacks.jsonp2",
+         "path" : "/missing/passport.alipay.com/api/havana_top.js",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 9542.12599992752,
+               "time" : 13.4800001978892,
+               "id" : "comp_180",
+               "type" : 2,
+               "e_time" : 9555.60600012541
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 8405.86199983954,
+            "type" : "text/javascript",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://img.alipay.com/global/loading.gif",
+         "path" : "/pages/alipay.com/img.alipay.com/global/loading.gif",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 9099.92800001055,
+            "type" : "image/gif",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://a.alipayobjects.com/??static/ar/arale.class-1.0.js,static/ar/arale.tmpl-1.0.js,static/ar/arale.aspect-1.0.js,static/ar/aralex.base-1.1.js,static/ar/alipay.placeholder-1.0.js,static/ar/aralex.validator.Validator-1.6.js,static/ar/aralex.validator.ClassicValidator-1.6.js,authcenter/authcenter.main-2.7.js",
+         "path" : "/pages/alipay.com/a.alipayobjects.com.dup.js",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 10225.0179997645,
+               "time" : 23.5910001211014,
+               "id" : "comp_192",
+               "type" : 2,
+               "e_time" : 10248.6089998856
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 10031.8379998207,
+            "type" : "application/x-javascript",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://assets.alipay.com/al/alice.components.secuirty-edit-1.1.css",
+         "path" : "/pages/alipay.com/assets.alipay.com/al/alice.components.secuirty-edit-1.1.css",
+         "id" : "r33",
+         "comps" : [
+            {
+               "s_time" : 10106.9479999132,
+               "time" : 0.90999994430058,
+               "id" : "comp_188",
+               "type" : 2,
+               "e_time" : 10107.8579998575
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 8194.58599993959,
+            "type" : "text/css",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ynuf.alipay.com/service/um.json?xv=0.8.1&xt=HBb2bc11ae262b717f83bbf5aea0e678c8&xf=0&xa=0000000000000A2126231E1B&xh=&x0=-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-&x1=1%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5EMacIntel&x2=Mozilla%5E%5E-%5E%5ENetscape%5E%5E5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_6_8)%20AppleWebKit%2F537.1%20(KHTML%2C%20like%20Gecko)%20Chrome%2F22.0.1195.0%20Safari%2F537.1%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5E-%5E%5EMozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_6_8)%20AppleWebKit%2F537.1%20(KHTML%2C%20like%20Gecko)%20Chrome%2F22.0.1195.0%20Safari%2F537.1%5E%5E-%5E%5E-&xs=&_callback=_4247_1378091708248",
+         "path" : "/missing/ynuf.alipay.com/service/um.json",
+         "id" : "r44",
+         "comps" : [
+            {
+               "s_time" : 10298.0160000734,
+               "time" : 215.4939998873,
+               "id" : "comp_198",
+               "type" : null,
+               "e_time" : 10513.5099999607
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 10042.2860002145,
+            "type" : "text/javascript",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://img.alipay.com/pa/frame/v2/ico-pa.png",
+         "path" : "/pages/alipay.com/img.alipay.com/pa/frame/v2/ico-pa.png",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 9652.25199982524,
+            "type" : "image/png",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://img.alipay.com/pa/frame/v2/ico-text.png",
+         "path" : "/pages/alipay.com/img.alipay.com/pa/frame/v2/ico-text.png",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 10266.4549998008,
+            "type" : "image/png",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apimg.alipay.com/sys/authcenter/style/renew_20110718/common.png",
+         "path" : "/pages/alipay.com/apimg.alipay.com/sys/authcenter/style/renew_20110718/common.png",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 9566.12800015137,
+            "type" : "image/png",
+            "id" : "download_39"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_21"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "r9_c2",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_45"
+      },
+      {
+         "a2" : "r9_c3",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_49"
+      },
+      {
+         "a2" : "r9_c4",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_57"
+      },
+      {
+         "a2" : "r9_c5",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_64"
+      },
+      {
+         "a2" : "r9_c6",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_71"
+      },
+      {
+         "a2" : "r9_c7",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_73"
+      },
+      {
+         "a2" : "r9_c8",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_75"
+      },
+      {
+         "a2" : "r9_c9",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_130"
+      },
+      {
+         "a2" : "comp_73",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_71"
+      },
+      {
+         "a2" : "comp_75",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_73"
+      },
+      {
+         "a2" : "comp_130",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_75"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 1168.02500002087,
+         "id" : "dep15",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_38",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 1254.14899969474,
+         "id" : "dep17",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1644.183000084,
+         "id" : "dep18",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_35",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "r9_c8"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 3396.97499992326,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 1633.7349996902,
+         "id" : "dep21",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 701.824999880049,
+         "id" : "dep22",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 7.75899970903993,
+         "id" : "dep23",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 3608.25099982321,
+         "id" : "dep24",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_31",
+         "time" : -1,
+         "id" : "dep25",
+         "a1" : "r9_c4"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 1903.35399983451,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 12.7690001390802,
+         "id" : "dep27",
+         "a1" : "r9_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 1802.43400018662,
+         "id" : "dep28",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 57.13899992407,
+         "id" : "dep29",
+         "a1" : "r9_c5"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 1975.68899998442,
+         "id" : "dep30",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 11.0909999348296,
+         "id" : "dep31",
+         "a1" : "r9_c9"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 3611.583000049,
+         "id" : "dep32",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep33",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1561.47499987856,
+         "id" : "dep34",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 639.38800012693,
+         "id" : "dep35",
+         "a1" : "r9_c8"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 2689.58400003612,
+         "id" : "dep36",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 638.97700002417,
+         "id" : "dep37",
+         "a1" : "r9_c8"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 2689.17299993336,
+         "id" : "dep38",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 572.358999867,
+         "id" : "dep39",
+         "a1" : "r9_c8"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 2622.55499977619,
+         "id" : "dep40",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 25.5009997636098,
+         "id" : "dep41",
+         "a1" : "r9_c4"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1895.40199982003,
+         "id" : "dep42",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : -1,
+         "id" : "dep43",
+         "a1" : "r9_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1803.54399979115,
+         "id" : "dep44",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 980.930999852721,
+         "id" : "dep45",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 11.0569996759295,
+         "id" : "dep46",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 1560.39599981159,
+         "id" : "dep47",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 9.38900001346974,
+         "id" : "dep48",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1558.72800014913,
+         "id" : "dep49",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 11.79399993271,
+         "id" : "dep50",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 1561.13300006837,
+         "id" : "dep51",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 11.43600000069,
+         "id" : "dep52",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 1560.77500013635,
+         "id" : "dep53",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 9.80199966580039,
+         "id" : "dep54",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 1559.14099980146,
+         "id" : "dep55",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 7.00999982654957,
+         "id" : "dep56",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 1556.34899996221,
+         "id" : "dep57",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 8.5609997622696,
+         "id" : "dep58",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 1557.89999989793,
+         "id" : "dep59",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 8.16099997610036,
+         "id" : "dep60",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 1557.50000011176,
+         "id" : "dep61",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 7.73599976673995,
+         "id" : "dep62",
+         "a1" : "r9_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 1557.0749999024,
+         "id" : "dep63",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 26.1170002631907,
+         "id" : "dep64",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 323.84299999103,
+         "id" : "dep66",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 206.69300016016,
+         "id" : "dep67",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_7",
+         "time" : -1,
+         "id" : "dep68",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 14.7050004452503,
+         "id" : "dep69",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 258.92600044609,
+         "id" : "dep70",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 53.50099969655,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 53.50099969655,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 54.0019995532898,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 54.0019995532898,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 45.2250000089398,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 44.5029996335502,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      }
+   ]
+}

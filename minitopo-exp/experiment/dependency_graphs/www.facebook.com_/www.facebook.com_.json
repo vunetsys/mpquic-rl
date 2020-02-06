@@ -1,0 +1,546 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.facebook.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.facebook.com/",
+         "path" : "/pages/facebook.com/www.facebook.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 3877.63700028881,
+               "time" : 27.0759998820799,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 3904.71300017089
+            },
+            {
+               "s_time" : 4484.29200006649,
+               "time" : 680.00699998811,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 5164.2990000546
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y7/r/QvPK5s6OObz.css",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/y7/r/QvPK5s6OObz.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 4386.71300001442,
+               "time" : 3.96199990063997,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 4390.67499991506
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3903.3790002577,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y6/r/uVUsIMGmEnE.css",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/y6/r/uVUsIMGmEnE.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 4396.17400011048,
+               "time" : 8.69400007649983,
+               "id" : "comp_7",
+               "type" : 4,
+               "e_time" : 4404.86800018698
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3904.02400027961,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/ZK6wqmf4TxR.css",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/ZK6wqmf4TxR.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 4444.79600014165,
+               "time" : 14.5820002071596,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 4459.37800034881
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3904.37800018117,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yx/r/a2SqCQg0p-_.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yx/r/a2SqCQg0p-_.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 4461.14700008184,
+               "time" : 23.14499998465,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 4484.29200006649
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3904.71300017089,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y7/r/1tpcm92GfJD.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/y7/r/1tpcm92GfJD.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 4996.4930000715,
+               "time" : 54.5570002868699,
+               "id" : "comp_30",
+               "type" : 2,
+               "e_time" : 5051.05000035837
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4556.57200003043,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y5/r/r6qyhbeqhqN.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/y5/r/r6qyhbeqhqN.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 5068.37900029495,
+               "time" : 33.3789996802798,
+               "id" : "comp_42",
+               "type" : 2,
+               "e_time" : 5101.75799997523
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4557.58400028571,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yv/r/J5B8kXvBs5D.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yv/r/J5B8kXvBs5D.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 5053.06100007147,
+               "time" : 15.2250002138308,
+               "id" : "comp_38",
+               "type" : 2,
+               "e_time" : 5068.2860002853
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4558.07400029153,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yP/r/TI7ZugUMIkh.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yP/r/TI7ZugUMIkh.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 5051.23200034723,
+               "time" : 1.71099975705056,
+               "id" : "comp_34",
+               "type" : 2,
+               "e_time" : 5052.94300010428
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4558.48299991339,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yO/r/hzqHMuJYZqd.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yO/r/hzqHMuJYZqd.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 5111.55400006101,
+               "time" : 70.9069999866097,
+               "id" : "comp_58",
+               "type" : 2,
+               "e_time" : 5182.46100004762
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4560.60300022364,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yI/r/Mr-d_xx3iBv.js",
+         "path" : "/pages/facebook.com/fbstatic-a.akamaihd.net/rsrc.php/v2/yI/r/Mr-d_xx3iBv.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 5101.84100037441,
+               "time" : 0.484999734900157,
+               "id" : "comp_46",
+               "type" : 2,
+               "e_time" : 5102.32600010931
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4561.41000008211,
+            "type" : "application/x-javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yp/r/AWiFbACFkKg.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yp/r/AWiFbACFkKg.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 5102.41900011897,
+               "time" : 4.0199998766202,
+               "id" : "comp_50",
+               "type" : 2,
+               "e_time" : 5106.43899999559
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4562.15699994937,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yW/r/G1UZ3j4YA9a.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yW/r/G1UZ3j4YA9a.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 5106.56200023368,
+               "time" : 4.90499986335999,
+               "id" : "comp_54",
+               "type" : 2,
+               "e_time" : 5111.46700009704
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4563.27400030568,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yy/r/Nex7-keoPFV.js",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yy/r/Nex7-keoPFV.js",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 5182.56699992344,
+               "time" : 2.69400002435032,
+               "id" : "comp_62",
+               "type" : null,
+               "e_time" : 5185.26099994779
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4563.76300007105,
+            "type" : "application/x-javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yO/r/NvDsovCxpa9.png",
+         "path" : "/missing/fbstatic-a.akamaihd.net/rsrc.php/v2/yO/r/NvDsovCxpa9.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4910.23400006816,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yh/r/xQ0DwmqUr-m.png",
+         "path" : "/pages/facebook.com/fbstatic-a.akamaihd.net/rsrc.php/v2/yh/r/xQ0DwmqUr-m.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4909.90600036457,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/y4/r/-PAXP-deijE.gif",
+         "path" : "/pages/facebook.com/fbstatic-a.akamaihd.net/rsrc.php/v2/y4/r/-PAXP-deijE.gif",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4910.56000022218,
+            "type" : "image/gif",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbstatic-a.akamaihd.net/rsrc.php/v2/yb/r/GsNJNwuI-UM.gif",
+         "path" : "/pages/facebook.com/fbstatic-a.akamaihd.net/rsrc.php/v2/yb/r/GsNJNwuI-UM.gif",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4910.88500013575,
+            "type" : "image/gif",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851565_602269956474188_918638970_n.png",
+         "path" : "/pages/facebook.com/fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851565_602269956474188_918638970_n.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4514.985000249,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851558_160351450817973_1678868765_n.png",
+         "path" : "/pages/facebook.com/fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851558_160351450817973_1678868765_n.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4909.57200014964,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851585_216271631855613_2121533625_n.png",
+         "path" : "/pages/facebook.com/fbcdn-dragon-a.akamaihd.net/hphotos-ak-ash3/851585_216271631855613_2121533625_n.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4909.16600031778,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 424.87400025129,
+         "id" : "dep5",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 425.28000008315,
+         "id" : "dep6",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 30.6930001825103,
+         "id" : "dep7",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 426.59300006926,
+         "id" : "dep8",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 426.26800015569,
+         "id" : "dep9",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 425.61400029808,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 425.94200000167,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 79.4710000045598,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 78.9820002391898,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 77.8649998828805,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 77.1180000156201,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 76.3110001571504,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 74.1909998469,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 73.7820002250401,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 73.2920002192204,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 72.2799999639401,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 26.7409998923599,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 26.3869999907997,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 25.74199996889,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      }
+   ]
+}

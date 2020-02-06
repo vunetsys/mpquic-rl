@@ -1,0 +1,535 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.craigslist.org_about_sites",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.craigslist.org/about/sites",
+         "path" : "/pages/craigslist.org/www.craigslist.org/about/sites/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 163.802000228316,
+               "time" : 299.40399993211,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 463.206000160426
+            },
+            {
+               "s_time" : 726.900999899954,
+               "time" : 0.114000402391071,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 727.015000302345
+            },
+            {
+               "s_time" : 727.68700029701,
+               "time" : 0.0499999150630401,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 727.737000212073
+            },
+            {
+               "s_time" : 744.148000143468,
+               "time" : 1.90699985250899,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 746.054999995977
+            },
+            {
+               "s_time" : 868.685000110418,
+               "time" : 0.0959997996681068,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 868.780999910086
+            },
+            {
+               "s_time" : 889.948000200093,
+               "time" : 859.658000059427,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : 1749.60600025952
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/styles/clnew.css?v=bbeb3ad72c97ac06cd38a5970fe1981e",
+         "path" : "/pages/craigslist.org/www.craigslist.org/styles/clnew.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 297.058000229299,
+               "time" : 166.200999636203,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 463.258999865502
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 170.903000049293,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/styles/leaflet-stock.css?v=442447dcbf8d380da8b3c8ebca5f3135",
+         "path" : "/pages/craigslist.org/www.craigslist.org/styles/leaflet-stock.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 275.449000298977,
+               "time" : 6.094999611378,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 281.543999910355
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 172.815000172704,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/styles/MarkerCluster.Default.css?v=32034ed5e13448e0f9b02c81f072f507",
+         "path" : "/pages/craigslist.org/www.craigslist.org/styles/MarkerCluster.Default.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 282.167000230402,
+               "time" : 0.184999778866995,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 282.352000009269
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 175.803000107408,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/styles/MarkerCluster.css?v=2145c86eef214f53a14667e2e9f29f40",
+         "path" : "/pages/craigslist.org/www.craigslist.org/styles/MarkerCluster.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 282.684000208974,
+               "time" : 0.0779996626080219,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 282.761999871582
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 174.304999876767,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae",
+         "path" : "/pages/craigslist.org/www.craigslist.org/js/jquery-1.9.1.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 579.2519999668,
+               "time" : 147.648999933154,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 726.900999899954
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 188.758000265807,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/js/sites_page_maps.js?v=86f6e748996cd8d92f25584ed016f693",
+         "path" : "/pages/craigslist.org/www.craigslist.org/js/sites_page_maps.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 727.084999904037,
+               "time" : 0.602000392972968,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 727.68700029701
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 190.580999944359,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/js/formats.js?v=113bb8f3a6aabf01ed5ee776e013978c",
+         "path" : "/pages/craigslist.org/www.craigslist.org/js/formats.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 728.947000112385,
+               "time" : 15.201000031083,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 744.148000143468
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 192.873999942094,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/js/leaflet.markercluster.js?v=662f2d7cc9d4c0e5f7422107b0defebd",
+         "path" : "/pages/craigslist.org/www.craigslist.org/js/leaflet.markercluster.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 869.048000313342,
+               "time" : 20.8999998867511,
+               "id" : "comp_20",
+               "type" : 1,
+               "e_time" : 889.948000200093
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 193.752999883145,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.craigslist.org/js/leaflet-cl.js?v=ea9ed968826425f8e83a2792b9ce462e",
+         "path" : "/pages/craigslist.org/www.craigslist.org/js/leaflet-cl.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 756.037999875844,
+               "time" : 112.647000234574,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 868.685000110418
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 193.348000291735,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://map0.craigslist.org/t04/1/0/0.png",
+         "path" : "/pages/craigslist.org/map0.craigslist.org/t04/1/0/0.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 957.266999874264,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.craigslist.org/about/areas.json",
+         "path" : "/pages/craigslist.org/www.craigslist.org/about/areas.json/index.html",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 983.026000205427,
+            "type" : "text/html",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://map2.craigslist.org/t04/1/1/1.png",
+         "path" : "/pages/craigslist.org/map2.craigslist.org/t04/1/1/1.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 974.327000323683,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://post.craigslist.org/images/map/zoom-in.png",
+         "path" : "/pages/craigslist.org/post.craigslist.org/images/map/zoom-in.png",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1011.2860002555,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://map1.craigslist.org/t04/1/1/0.png",
+         "path" : "/pages/craigslist.org/map1.craigslist.org/t04/1/1/0.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 964.012000244111,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://post.craigslist.org/images/map/zoom-out.png",
+         "path" : "/pages/craigslist.org/post.craigslist.org/images/map/zoom-out.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1061.02399993688,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://map1.craigslist.org/t04/1/0/1.png",
+         "path" : "/pages/craigslist.org/map1.craigslist.org/t04/1/0/1.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1062.39600013942,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.craigslist.org/about/localstorage",
+         "path" : "/pages/craigslist.org/www.craigslist.org/about/localstorage/index.html",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 1903.72400032356,
+               "time" : 11.6539997980001,
+               "id" : "r11_c1",
+               "type" : "evalhtml",
+               "e_time" : 1915.37800012156
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1300.84400018677,
+            "type" : "text/html",
+            "id" : "download_17"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 410.895999986677,
+         "id" : "dep10",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 172.447999939327,
+         "id" : "dep11",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 171.075999736787,
+         "id" : "dep12",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 74.064000044018,
+         "id" : "dep13",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 121.338000055407,
+         "id" : "dep14",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 84.37900012359,
+         "id" : "dep15",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 93.0780000053339,
+         "id" : "dep16",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 67.318999674171,
+         "id" : "dep17",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 29.546000063419,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 29.950999654829,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 29.071999713778,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 26.778999716043,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 26.778999716043,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 24.956000037491,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 24.956000037491,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 10.502999648451,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 12.000999879092,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 9.01299994438801,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 7.10099982097702,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      }
+   ]
+}

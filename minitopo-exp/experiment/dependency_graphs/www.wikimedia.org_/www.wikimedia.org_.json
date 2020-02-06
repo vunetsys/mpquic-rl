@@ -1,0 +1,362 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.wikimedia.org_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.wikimedia.org/",
+         "path" : "/pages/wikimedia.org/www.wikimedia.org/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1195.16200013459,
+               "time" : 621.18799984455,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 1816.34999997914
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://bits.wikimedia.org/meta.wikimedia.org/load.php?debug=false&lang=en&modules=ext.gadget.wm-portal&only=styles&skin=vector&*",
+         "path" : "/pages/wikipedia.org/bits.wikimedia.org/meta.wikimedia.org/load.php.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1869.01699984446,
+               "time" : 1.74000021069992,
+               "id" : "comp_918",
+               "type" : null,
+               "e_time" : 1870.75700005516
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1200.34199999645,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1201.06500014663,
+            "type" : "image/png",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1205.77500015497,
+            "type" : "image/png",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1206.14500017837,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1205.13400016353,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1206.85600023717,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikinews/en/b/bc/Wiki.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1206.50100009516,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1207.22999982536,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1207.59999984875,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1207.97199988738,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1208.34100013599,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png",
+         "path" : "/missing/upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1208.72500026599,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1209.08599998802,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1209.45900026709,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png",
+         "path" : "/pages/wikimedia.org/upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1209.84800020233,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://en.wiktionary.org/images/wiktionary-en.png",
+         "path" : "/pages/wikimedia.org/en.wiktionary.org/images/wiktionary-en.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1201.59000018612,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png",
+         "path" : "/pages/wikimedia.org/wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png.dup",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1816.34999997914,
+            "type" : "image/png",
+            "id" : "download_17"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_17",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 6.42800005153003,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 14.68600006774,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 14.2970001325,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 13.9239998534299,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 13.5630001314,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 13.1790000014,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 12.80999975279,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 12.43799971416,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 12.06799969077,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 11.3389999605699,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 11.69400010258,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 9.97200002893987,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 10.9830000437801,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 10.61300002038,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.90300001203991,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 5.1799998618601,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      }
+   ]
+}

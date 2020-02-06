@@ -1,0 +1,844 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.alibaba.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.alibaba.com/",
+         "path" : "/pages/alibaba.com/www.alibaba.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 456.149000208825,
+               "time" : 514.453999698162,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 970.602999906987
+            },
+            {
+               "s_time" : 973.567999899387,
+               "time" : 3.02400020882499,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 976.592000108212
+            },
+            {
+               "s_time" : 1002.72900005803,
+               "time" : 1178.66299999877,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 2181.3920000568
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/js/6v/atom/??atom-sc.js?t=6453147c_8d4fdfe7c",
+         "path" : "/pages/alibaba.com/style.aliunicorn.com/js/6v/atom.add.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 946.773000061512,
+               "time" : 26.794999837875,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 973.567999899387
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 501.145000103861,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/css/6v/??run/aisn/home/default.css,apollo/mod/header/header-sc.css,run/aisn/home/ie6/ie6.css,run/aisn/home/bs/bs.css,run/aisn/home/ug/ug.css,run/aisn/home/wc/wc.css,run/aisn/home/gsd/gsd.css,run/aisn/home/cate/cate.css,run/aisn/home/utm/utm.css,run/aisn/home/fp/fp.css,apollo/mod/footer/footer-sc.css?t=0_11c0c27b39",
+         "path" : "/pages/alibaba.com/style.aliunicorn.com/css/6v.add.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 920.543999876827,
+               "time" : 53.662999998778,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 974.206999875605
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 496.594000142068,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/js/beacon_en.js",
+         "path" : "/pages/alibaba.com/img.alibaba.com/js/beacon_en.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 977.589999791235,
+               "time" : 25.1390002667951,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 1002.72900005803
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 508.624999783933,
+            "type" : "application/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/js/6v/lib/gallery/jquery/jquery.js?t=4b3d51b3_0",
+         "path" : "/pages/aliexpress.com/style.aliunicorn.com/js/6v/lib/gallery/jquery/jquery.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1359.09500019625,
+               "time" : 22.9989998042599,
+               "id" : "comp_28",
+               "type" : 2,
+               "e_time" : 1382.09400000051
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 970.602999906987,
+            "type" : "application/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/env/aisn/2012home/20120920_590x225_welcome.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/env/aisn/2012home/20120920_590x225_welcome.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 976.592000108212,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 1488.40999975801,
+               "time" : 89.6519999951101,
+               "id" : "comp_31",
+               "type" : 2,
+               "e_time" : 1578.06199975312
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1138.15699983388,
+            "type" : "text/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/wimg/monitor/start-render.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/wimg/monitor/start-render.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1144.25999997184,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/simg/sprites/app/header-v2.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/simg/sprites/app/header-v2.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1144.67799989507,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/wimg/monitor/first-screen.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/wimg/monitor/first-screen.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1145.45299997553,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/simg/sprites/env/aisn/home/ls-home.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/simg/sprites/env/aisn/home/ls-home.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1145.06099978462,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/simg/sprites/app/footer_v3_1.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/simg/sprites/app/footer_v3_1.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1145.83300007507,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/js/6v/biz/??common/header/header-sc.js,aisn/home/run/top.js,aisn/home/run/bottom.js?t=1d1aa6ac1_4480fdeb15",
+         "path" : "/pages/alibaba.com/style.aliunicorn.com/js/6v/biz.add.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 1613.14400006086,
+               "time" : 4.98199975117996,
+               "id" : "comp_33",
+               "type" : 2,
+               "e_time" : 1618.12599981204
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1489.90100016817,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=405128736&utmhn=www.alibaba.com&utme=8(PageType)9(New%20Homepage)&utmcs=UTF-8&utmsr=2048x1152&utmvp=942x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Manufacturers%2C%20Suppliers%2C%20Exporters%20%26%20Importers%20from%20the%20worlds%20largest%20online%20B2B%20marketplace-Alibaba.com&utmhid=793978927&utmr=-&utmp=%2F&utmht=1378091805455&utmac=UA-23294633-1&utmcc=__utma%3D226363722.1712846837.1378091805.1378091805.1378091805.1%3B%2B__utmz%3D226363722.1378091805.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qQ~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1564.16099984199,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://style.aliunicorn.com/js/6v/??lib/arale/class/class.js,lib/arale/events/events.js,lib/arale/base/base.js,lib/arale/cookie/cookie.js,lib/arale/placeholder/placeholder.js,lib/arale/position/position.js,lib/arale/iframe-shim/iframe-shim.js,lib/arale/widget/widget.js,lib/arale/overlay/overlay.js,lib/arale/popup/popup.js,lib/arale/templatable/templatable.js,lib/arale/autocomplete/autocomplete.js,lib/gallery/handlebars/handlebars.js,lib/icbu/scroll-trigger/scroll-trigger.js,lib/icbu/ghost-panel/ghost-panel.js,biz/common/header/header-module-base.js,biz/common/cookie-info/cookie-info.js,biz/common/beacon/beacon-sc.js,biz/common/searchbar/searchbar-sc.js,biz/common/lazyload-images/lazyload-images.js,biz/common/bottom-toolbar/bottom-toolbar.js,biz/common/utm-model/utm-model.js,biz/aisn/home/banner/banner.js,biz/aisn/home/load/load.js,biz/aisn/home/wc/wc.js,biz/aisn/home/utm/utm.js,biz/aisn/home/survey/survey.js?t=f011b8d34_7864a90cb2",
+         "path" : "/pages/alibaba.com/style.aliunicorn.com/js/6v.add.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1643.23600009084,
+               "time" : 52.4470000527799,
+               "id" : "comp_37",
+               "type" : 3,
+               "e_time" : 1695.68300014362
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1625.65700011328,
+            "type" : "application/x-javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/cms/landing/mega_offer/apparel.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/cms/landing/mega_offer/apparel.png",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1928.32199996337,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/big_buyer/bigbuyer/2013/ecreditcard/20130819_homepage_790x115.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/big_buyer/bigbuyer/2013/ecreditcard/20130819_homepage_790x115.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1891.9810000807,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://utm.alibaba.com/eventdriver/recommendEntry.do?pageId=80d004d47f0000015224031b140dcac28e3236a8c4&sceneId=3038&perPage=5&callback=jQuery18306884111636318266_1378091805366&_=1378091805840",
+         "path" : "/missing/utm.alibaba.com/eventdriver/recommendEntry.do",
+         "id" : "r30",
+         "comps" : [
+            {
+               "s_time" : 2153.5800001584,
+               "time" : 0.703999772670159,
+               "id" : "comp_53",
+               "type" : 2,
+               "e_time" : 2154.28399993107
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1950.19599981606,
+            "type" : "text/javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://utm.alibaba.com/eventdriver/recommendEntry.do?pageId=80d004d47f0000015224031b140dcac28e3236a8c4&sceneId=3039&perPage=5&callback=jQuery18306884111636318266_1378091805367&_=1378091805847",
+         "path" : "/missing/utm.alibaba.com/eventdriver/recommendEntry.do",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 2155.62399988994,
+               "time" : 1.39599991961995,
+               "id" : "comp_56",
+               "type" : 2,
+               "e_time" : 2157.01999980956
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1955.4360001348,
+            "type" : "text/javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/cms/landing/mega_offer/bed.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/cms/landing/mega_offer/bed.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2055.0640001893,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/cms/landing/mega_offer/earrings.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/cms/landing/mega_offer/earrings.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2056.84199975803,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_1.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_1.png",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2057.65399988741,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/cms/landing/mega_offer/cream.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/cms/landing/mega_offer/cream.png",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2056.03200010955,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_3.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_3.png",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2058.47000004724,
+            "type" : "image/png",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/simg/single/flag/cn.png",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/simg/single/flag/cn.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2072.69599987194,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_4.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_4.png",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2069.25400020555,
+            "type" : "image/png",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_5.png",
+         "path" : "/pages/alibaba.com/img.alibaba.com/images/cms/upload/sourcing/featured_partners/20121016_featured_partners_links_5.png",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2069.8699997738,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/3.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/3.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2071.21599977836,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/4.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/4.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2071.8680000864,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/2.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/2.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2070.78799977899,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/1.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/1.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2070.3569999896,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://acookie.alibaba.com/1.gif?cache=3737&pre=&ver=40&time=1378091804901&XzOzGe85AA=1546808323&a3G4ApKGeL=Eje6JuOK3Rz7DrodbGD-E3u5e7zMRwtoVaOa7zyLSRY_",
+         "path" : "/missing/acookie.alibaba.com/1.gif",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2125.91100018471,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/5.jpg",
+         "path" : "/pages/alibaba.com/i02.i.aliimg.com/images/cms/upload/promotion/bargain_buys/201308/0830/5.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2072.29699986055,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i01.i.aliimg.com/photo/v1/122881/Booster_Press.jpg_100x100.jpg",
+         "path" : "/missing/i01.i.aliimg.com/photo/v1/122881/Booster_Press.jpg_100x100.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2168.68499992415,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i01.i.aliimg.com/photo/v1/122869/Bench_Type_Hydaraulic_Press.jpg_100x100.jpg",
+         "path" : "/pages/alibaba.com/i01.i.aliimg.com/photo/v1/122869/Bench_Type_Hydaraulic_Press.jpg_100x100.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2181.3920000568,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i00.i.aliimg.com/photo/v342/66328/Sand_blast_nozzles.jpg_100x100.jpg",
+         "path" : "/missing/i00.i.aliimg.com/photo/v342/66328/Sand_blast_nozzles.jpg_100x100.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2175.92399986461,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i00.i.aliimg.com/photo/v0/10043296/Whitening_Collagen_Mask.jpg_100x100.jpg",
+         "path" : "/missing/i00.i.aliimg.com/photo/v0/10043296/Whitening_Collagen_Mask.jpg_100x100.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2160.56799981743,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i00.i.aliimg.com/photo/v0/10091194/Mono_Potassium_Glycyrrhizinate_A.jpg_100x100.jpg",
+         "path" : "/missing/i00.i.aliimg.com/photo/v0/10091194/Mono_Potassium_Glycyrrhizinate_A.jpg_100x100.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2177.05899989232,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "download_37",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1157.8389997594,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 1173.19499980658,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_34",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 1165.95599986612,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 1069.56799980252,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 1123.18200012668,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 1067.62799993157,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 1068.05899972096,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 1069.13900002837,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1068.48699972033,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 1067.14099971577,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1066.52500014752,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 1069.96699981391,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1055.74099998921,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1053.30300005152,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 1054.92499982938,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 1054.1129997,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1052.33500013127,
+         "id" : "dep23",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 952.70700007677,
+         "id" : "dep24",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 947.46699975803,
+         "id" : "dep25",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 889.25200002267,
+         "id" : "dep26",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 925.59299990534,
+         "id" : "dep27",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 622.92800005525,
+         "id" : "dep28",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 561.43199978396,
+         "id" : "dep29",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 487.17200011014,
+         "id" : "dep30",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 143.10400001704,
+         "id" : "dep31",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 142.33199972659,
+         "id" : "dep32",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 142.7239999175,
+         "id" : "dep33",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 141.94899983704,
+         "id" : "dep34",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 141.53099991381,
+         "id" : "dep35",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 135.42799977585,
+         "id" : "dep36",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep37",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 52.475999575108,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 40.444999933243,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 44.995999895036,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      }
+   ]
+}

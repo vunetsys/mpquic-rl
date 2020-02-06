@@ -1,0 +1,635 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.flipkart.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.flipkart.com/",
+         "path" : "/pages/flipkart.com/www.flipkart.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 913.993999827653,
+               "time" : 1006.77399989218,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1920.76799971983
+            },
+            {
+               "s_time" : 2084.25899967551,
+               "time" : 0.0869999639699017,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2084.34599963948
+            },
+            {
+               "s_time" : 2143.41699983925,
+               "time" : 344.70300003886,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 2488.11999987811
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://stats.g.doubleclick.net/dc.js",
+         "path" : "/pages/avg.com/stats.g.doubleclick.net/dc.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 964.521999936551,
+               "time" : 125.669999979439,
+               "id" : "comp_4",
+               "type" : 2,
+               "e_time" : 1090.19199991599
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 950.391999911517,
+            "type" : "text/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://stats.g.doubleclick.net/__utm.gif?utmwv=5.4.4dc&utms=1&utmn=1837186012&utmhn=www.flipkart.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=956x652&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Online%20Shopping%20India%20-%20Shop%20Online%20for%20Books%2C%20Mobile%20Phones%2C%20Digital%20Cameras%2C%20Watches%20%26%20More%20at%20Flipkart.com&utmhid=226592428&utmr=-&utmp=%2F&utmht=1378094404898&utmac=UA-2015996-1&utmcc=__utma%3D19769839.1474138043.1378094405.1378094405.1378094405.1%3B%2B__utmz%3D19769839.1378094405.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~",
+         "path" : "/missing/stats.g.doubleclick.net/__utm.gif",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1087.1179997921,
+            "type" : "image/gif",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/basic-8043cdac-nogz.css",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/basic-8043cdac-nogz.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1403.72699964792,
+               "time" : 44.4200001657,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 1448.14699981362
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 953.134999610484,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/flipkart_india-5ef1726d.png",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/flipkart_india-5ef1726d.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1448.99499975145,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/flyout_border-ccd50e3b.png",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/flyout_border-ccd50e3b.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1449.83899965882,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/gray_1x1-81857055.gif",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1450.22799959406,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/new-vd-sprite-d159338e.png",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/new-vd-sprite-d159338e.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1449.44299990311,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://lognormal.net/boomerang/b2aa7e9a45dfa4c1f7c25594d8b343d3eb5149e9caba1dc3b6e16bb7",
+         "path" : "/missing/lognormal.net/boomerang/b2aa7e9a45dfa4c1f7c25594d8b343d3eb5149e9caba1dc3b6e16bb7",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1718.10599975288,
+               "time" : 17.69899995997,
+               "id" : "comp_24",
+               "type" : 2,
+               "e_time" : 1735.80499971285
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1430.22999959067,
+            "type" : "application/javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/lego/DOTD-HP-56efc82a.png",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/lego/DOTD-HP-56efc82a.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1808.83400002494,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1a.flixcart.com//www/promos/new/20130822-190243-foz-hp.jpg",
+         "path" : "/pages/flipkart.com/img1a.flixcart.com",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1871.46299984306,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-105040-clp-footwear-184.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-105040-clp-footwear-184.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1811.56499963254,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/prod/js/lib-b2d4670.js",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/prod/js/lib-b2d4670.js",
+         "id" : "r29",
+         "comps" : [
+            {
+               "s_time" : 1960.76799975708,
+               "time" : 123.49099991843,
+               "id" : "comp_88",
+               "type" : 1,
+               "e_time" : 2084.25899967551
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1888.14699975774,
+            "type" : "text/javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/prod/js/main-0888cbd.js",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/prod/js/main-0888cbd.js",
+         "id" : "r30",
+         "comps" : [
+            {
+               "s_time" : 2099.48199987411,
+               "time" : 43.9349999651399,
+               "id" : "comp_92",
+               "type" : 1,
+               "e_time" : 2143.41699983925
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1888.5949999094,
+            "type" : "text/javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img8a.flixcart.com/www/promos/new/20130830-123404-beauty-vn.jpg",
+         "path" : "/pages/flipkart.com/img8a.flixcart.com/www/promos/new/20130830-123404-beauty-vn.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1880.3259995766,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/image/backpack/g/k/3/85z-0-71-002-american-tourister-backpack-100x100-imad92af69dsh9hd.jpeg",
+         "path" : "/missing/img6a.flixcart.com/image/backpack/g/k/3/85z-0-71-002-american-tourister-backpack-100x100-imad92af69dsh9hd.jpeg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1919.51999999583,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123420-clothing-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123420-clothing-vn.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1915.86199961603,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/image/backpack/r/u/5/85z-0-91-011-american-tourister-backpack-100x100-imad92ag3frqyd5r.jpeg",
+         "path" : "/missing/img6a.flixcart.com/image/backpack/r/u/5/85z-0-91-011-american-tourister-backpack-100x100-imad92ag3frqyd5r.jpeg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1919.93099963292,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/promos/new/20130830-123451-laptops-vn.jpg",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/promos/new/20130830-123451-laptops-vn.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1920.36099964753,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/prod/images/social-sprite-6b58d7e1.png",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/prod/images/social-sprite-6b58d7e1.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1919.06799981371,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img8a.flixcart.com/www/promos/new/20130830-123409-books-vn.jpg",
+         "path" : "/pages/flipkart.com/img8a.flixcart.com/www/promos/new/20130830-123409-books-vn.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1915.41799996048,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130822-171144-vis-nav.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130822-171144-vis-nav.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1916.66899994016,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123439-footwear-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123439-footwear-vn.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1916.26499965787,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img6a.flixcart.com/www/promos/new/20130830-123503-movies-vn.jpg",
+         "path" : "/pages/flipkart.com/img6a.flixcart.com/www/promos/new/20130830-123503-movies-vn.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1920.76799971983,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123457-mobiles-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123457-mobiles-vn.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1917.08899987862,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123542-tablets-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123542-tablets-vn.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1917.49099968001,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123414-cameras-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123414-cameras-vn.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1917.9179999046,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123357-bags-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123357-bags-vn.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1918.32199972123,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img7a.flixcart.com/www/promos/new/20130830-123445-gaming-vn.jpg",
+         "path" : "/pages/flipkart.com/img7a.flixcart.com/www/promos/new/20130830-123445-gaming-vn.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1918.69999980554,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_88"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_92"
+      },
+      {
+         "a2" : "comp_92",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_88"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1004.32799989358,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 1003.92400007695,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1003.49699985236,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 1003.09500005097,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1002.27099983022,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 1002.67500011251,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 1001.42400013283,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1005.07399998606,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 1006.36699981988,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 1005.93699980527,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 1001.86799978838,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 1005.52600016818,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 966.331999748947,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 974.601000081747,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 974.152999930087,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 897.570999804887,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 957.469000015407,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 894.840000197287,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 516.235999763017,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 535.449000075457,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 536.233999766407,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 535.844999831167,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 535.000999923797,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 39.1409997828309,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 173.123999964447,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 36.398000083864,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      }
+   ]
+}

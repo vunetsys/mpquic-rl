@@ -1,0 +1,30 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "baidu.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://baidu.com/",
+         "path" : "/pages/baidu.com/baidu.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 649.740000255406,
+               "time" : 0.25899987667799,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 649.999000132084
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : []
+}

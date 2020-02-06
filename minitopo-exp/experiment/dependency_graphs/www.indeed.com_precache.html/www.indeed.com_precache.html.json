@@ -1,0 +1,54 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.indeed.com_precache.html",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.indeed.com/precache.html",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 70.89600013569,
+               "time" : 2.30599986389279,
+               "id" : "r11_c1",
+               "type" : "evalhtml",
+               "e_time" : 73.2019999995828
+            }
+         ],
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.indeed.com/s/61d6f1b/jobsearch_all.css",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 101.73900006339,
+               "time" : 2.62799998745301,
+               "id" : "comp_3",
+               "type" : null,
+               "e_time" : 104.367000050843
+            }
+         ],
+         "download" : {
+            "s_time" : 73.2019999995828,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r11_c1"
+      }
+   ]
+}

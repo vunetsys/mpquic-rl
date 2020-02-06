@@ -1,0 +1,723 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "java.com_en_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://java.com/en/",
+         "path" : "/missing/java.com/en",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 102.750999853015,
+               "time" : 91.208999976516,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 193.959999829531
+            },
+            {
+               "s_time" : 366.117000114173,
+               "time" : 27.719999663531,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 393.836999777704
+            },
+            {
+               "s_time" : 395.132000092417,
+               "time" : 0.0729998573659714,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 395.204999949783
+            },
+            {
+               "s_time" : 398.006999865174,
+               "time" : 45.127999968827,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 443.134999834001
+            },
+            {
+               "s_time" : 473.474999889731,
+               "time" : 0.107999891042994,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 473.582999780774
+            },
+            {
+               "s_time" : 483.403000049293,
+               "time" : 12.538999784738,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 495.941999834031
+            },
+            {
+               "s_time" : 805.58199994266,
+               "time" : 195.10299991816,
+               "id" : "r1_c7",
+               "type" : "evalhtml",
+               "e_time" : 1000.68499986082
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/share/op/onlineopinionV5/oo_style.css",
+         "path" : "/missing/java.com/share/op/onlineopinionV5/oo_style.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 281.872999854386,
+               "time" : 1.61000015214097,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 283.483000006527
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 107.931999955326,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/js/popUp.js",
+         "path" : "/missing/java.com/js/popUp.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 343.884999863803,
+               "time" : 22.23200025037,
+               "id" : "comp_5",
+               "type" : 1,
+               "e_time" : 366.117000114173
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 108.330999966711,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/css/screen.css",
+         "path" : "/missing/java.com/css/screen.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 338.453999720514,
+               "time" : 59.67800039798,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 398.132000118494
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 107.504999730736,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/js/subtlePager.js",
+         "path" : "/missing/java.com/js/subtlePager.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 393.867000006139,
+               "time" : 1.26500008627801,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 395.132000092417
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 190.539999864995,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/js/global.js",
+         "path" : "/missing/java.com/js/global.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 395.260999910533,
+               "time" : 2.74599995464104,
+               "id" : "comp_7",
+               "type" : 1,
+               "e_time" : 398.006999865174
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 191.273999866098,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/share/op/onlineopinionV5/oo_conf_tab.js",
+         "path" : "/missing/java.com/share/op/onlineopinionV5/oo_conf_tab.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 473.635999951512,
+               "time" : 9.76700009778097,
+               "id" : "comp_20",
+               "type" : 1,
+               "e_time" : 483.403000049293
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 193.188999779522,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/share/op/onlineopinionV5/oo_engine.min.js",
+         "path" : "/missing/java.com/share/op/onlineopinionV5/oo_engine.min.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 447.439999785274,
+               "time" : 26.035000104457,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 473.474999889731
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 191.660999786109,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/js/s_code_remote.js",
+         "path" : "/missing/java.com/js/s_code_remote.js",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 193.959999829531,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h.jpg",
+         "path" : "/missing/java.com/images/jv0h.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 398.902999702841,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/im/a.gif",
+         "path" : "/missing/java.com/im/a.gif",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 401.57900005579,
+            "type" : "image/gif",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0ht.gif",
+         "path" : "/missing/java.com/images/jv0ht.gif",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 402.642000000924,
+            "type" : "image/gif",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0_search_btn.gif",
+         "path" : "/missing/java.com/images/jv0_search_btn.gif",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 401.964999735355,
+            "type" : "image/gif",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/photos/java_home_photo2.jpg",
+         "path" : "/missing/java.com/images/photos/java_home_photo2.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 402.303999755532,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0dl_a.png",
+         "path" : "/missing/java.com/images/jv0dl_a.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 402.981999795884,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_java.jpg",
+         "path" : "/missing/java.com/images/jv0h_java.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 403.303999919444,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_alice.jpg",
+         "path" : "/missing/java.com/images/jv0h_alice.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 403.619999997318,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/js/metrics_group1.js",
+         "path" : "/missing/java.com/js/metrics_group1.js",
+         "id" : "r26",
+         "comps" : [
+            {
+               "s_time" : 689.263999927789,
+               "time" : 116.318000014871,
+               "id" : "comp_25",
+               "type" : 1,
+               "e_time" : 805.58199994266
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 486.099999863654,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_greenfoot.jpg",
+         "path" : "/missing/java.com/images/jv0h_greenfoot.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 403.96700007841,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_bluej.jpg",
+         "path" : "/missing/java.com/images/jv0h_bluej.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 404.308000113815,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_academy.jpg",
+         "path" : "/missing/java.com/images/jv0h_academy.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 404.639999847859,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0h_javamag.jpg",
+         "path" : "/missing/java.com/images/jv0h_javamag.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 404.980999883264,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/jv0_oracle.gif",
+         "path" : "/missing/java.com/images/jv0_oracle.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 405.331999994814,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/images/photos/java_home_photo4.jpg",
+         "path" : "/missing/java.com/images/photos/java_home_photo4.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 443.134999834001,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/share/op/onlineopinionV5/oo_tab.png",
+         "path" : "/missing/java.com/share/op/onlineopinionV5/oo_tab.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 495.941999834031,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://java.com/css/print.css",
+         "path" : "/missing/java.com/css/print.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 901.657999958843,
+               "time" : 3.56499990448401,
+               "id" : "comp_35",
+               "type" : null,
+               "e_time" : 905.222999863327
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 841.602999716997,
+            "type" : "text/css",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://oracle.112.2o7.net/b/ss/sunjava/1/H.19.4/s19163751716259?AQB=1&pccr=true&vidn=2912097C85160452-400001A2400A9D92&&ndh=1&t=1/8/2013%2021%3A24%3A24%200%20420&ce=UTF-8&ns=oracle&pageName=javac%3AHomepage&g=http%3A//java.com/en/&ch=javac%3AHome&server=java.com&h1=javac%3Ajavac%3AHome&c2=javac%3A&c19=en_javac%3AHomepage&c20=Home_Pages&c21=180X150-728X90&c33=Version06032013&v35=http%3A//java.com/en/&c43=New&c44=04%3A24%3A24&v44=New&c50=javac%3A&s=2048x1152&c=24&j=1.6&v=Y&k=Y&bw=950&bh=1014&p=Remoting%20Viewer%3BNative%20Client%3BShockwave%20Flash%3BiPhotoPhotocast%3BJava%20Applet%20Plug-in%3BQuickTime%20Plug-in%207.6.6%3B&AQE=1",
+         "path" : "/missing/oracle.112.2o7.net/b/ss/sunjava/1/H.19.4/s19163751716259",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1000.68499986082,
+            "type" : "image/gif",
+            "id" : "download_26"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_5",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_7",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 36.020999774337,
+         "id" : "dep14",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_24",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_23",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 7.32500012963999,
+         "id" : "dep17",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 6.97400001809001,
+         "id" : "dep18",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 6.63299998268496,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 6.301000248641,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 5.96000021323601,
+         "id" : "dep21",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 2.69699981436099,
+         "id" : "dep22",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 2.69699981436099,
+         "id" : "dep23",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 5.61300013214401,
+         "id" : "dep24",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 5.29700005426997,
+         "id" : "dep25",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 4.97499993071,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 4.29699989035799,
+         "id" : "dep27",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 3.95799987018097,
+         "id" : "dep28",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 4.63500013574998,
+         "id" : "dep29",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.572000190616,
+         "id" : "dep30",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 0.895999837666977,
+         "id" : "dep31",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 88.909999933094,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 90.437999926507,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 88.523000013083,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 87.78900001198,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 87.78900001198,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 4.753999877721,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.580000113696,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 5.181000102311,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      }
+   ]
+}

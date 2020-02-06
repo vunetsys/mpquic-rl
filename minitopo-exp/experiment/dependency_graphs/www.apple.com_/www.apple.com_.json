@@ -1,0 +1,1419 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.apple.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.apple.com/",
+         "path" : "/pages/apple.com/www.apple.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 495.122000109404,
+               "time" : 22.233000025153,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 517.355000134557
+            },
+            {
+               "s_time" : 1371.69500021264,
+               "time" : 0.0620000064400301,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1371.75700021908
+            },
+            {
+               "s_time" : 1437.91300011799,
+               "time" : 0.0769998878201932,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1437.99000000581
+            },
+            {
+               "s_time" : 1468.35300000384,
+               "time" : 2.36300006509009,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1470.71600006893
+            },
+            {
+               "s_time" : 1474.41000025719,
+               "time" : 0.0640000216701537,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 1474.47400027886
+            },
+            {
+               "s_time" : 1486.74899991602,
+               "time" : 0.0610002316500413,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1486.81000014767
+            },
+            {
+               "s_time" : 1488.48400032148,
+               "time" : 0.0549997202999748,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 1488.53900004178
+            },
+            {
+               "s_time" : 1500.27700001374,
+               "time" : 0.0760001130399814,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 1500.35300012678
+            },
+            {
+               "s_time" : 1552.93600028381,
+               "time" : 0.0909999944199171,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 1553.02700027823
+            },
+            {
+               "s_time" : 1567.25799990818,
+               "time" : 0.0660000368900455,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 1567.32399994507
+            },
+            {
+               "s_time" : 1568.5990001075,
+               "time" : 14.2950001172701,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1582.89400022477
+            },
+            {
+               "s_time" : 1717.75500010699,
+               "time" : 359.73200015724,
+               "type" : "evalhtml",
+               "id" : "r1_c12",
+               "e_time" : 2077.48700026423
+            },
+            {
+               "s_time" : 2225.22500017658,
+               "time" : 0.0909999944296942,
+               "type" : "evalhtml",
+               "id" : "r1_c13",
+               "e_time" : 2225.31600017101
+            },
+            {
+               "s_time" : 2225.80899996683,
+               "time" : 0.0490001402799862,
+               "type" : "evalhtml",
+               "id" : "r1_c14",
+               "e_time" : 2225.85800010711
+            },
+            {
+               "s_time" : 2227.85799996927,
+               "time" : 761.01600006223,
+               "id" : "r1_c15",
+               "type" : "evalhtml",
+               "e_time" : 2988.8740000315
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.apple.com/metrics/scripts/touch_forcedlink.js",
+         "path" : "/pages/apple.com/www.apple.com/metrics/scripts/touch_forcedlink.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 2225.36700032651,
+               "time" : 0.441999640319864,
+               "id" : "comp_50",
+               "type" : 1,
+               "e_time" : 2225.80899996683
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 516.997000202537,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.apple.com/metrics/scripts/homepage.js",
+         "path" : "/pages/apple.com/www.apple.com/metrics/scripts/homepage.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 2225.88500007987,
+               "time" : 1.97299988939994,
+               "id" : "comp_53",
+               "type" : 1,
+               "e_time" : 2227.85799996927
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 517.355000134557,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/styles/navigation.css",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/styles/navigation.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1096.26200003549,
+               "time" : 1.79099990054988,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 1098.05299993604
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 496.346000116318,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/styles/base.css",
+         "path" : "/pages/apple.com/images.apple.com/global/styles/base.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1131.09800033271,
+               "time" : 7.68599985167998,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 1138.78400018439
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 507.997000124305,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/v/home/z/styles/home.css",
+         "path" : "/pages/apple.com/images.apple.com/v/home/z/styles/home.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1104.93799997494,
+               "time" : 0.753000378599836,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 1105.69100035354
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 508.561000227928,
+            "type" : "text/css",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/v/home/z/styles/billboard.css",
+         "path" : "/pages/apple.com/images.apple.com/v/home/z/styles/billboard.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1106.05600010604,
+               "time" : 1.31299998610984,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 1107.36900009215
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 509.229000192136,
+            "type" : "text/css",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/styles/billboard.css",
+         "path" : "/pages/apple.com/images.apple.com/home/styles/billboard.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1107.73200029507,
+               "time" : 0.0469996593899396,
+               "id" : "comp_7",
+               "type" : 4,
+               "e_time" : 1107.77899995446
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 509.651999920607,
+            "type" : "text/css",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/lib/prototype.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/lib/prototype.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1158.05800026283,
+               "time" : 213.63699994981,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 1371.69500021264
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 510.753000155091,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/lib/scriptaculous.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/lib/scriptaculous.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1396.14600036293,
+               "time" : 41.7669997550599,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 1437.91300011799
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 511.282000225037,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/lib/sizzle.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/lib/sizzle.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1438.04999999702,
+               "time" : 30.30300000682,
+               "id" : "comp_16",
+               "type" : 1,
+               "e_time" : 1468.35300000384
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 513.041000347584,
+            "type" : "application/x-javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/browserdetect.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/browserdetect.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 1470.8600002341,
+               "time" : 3.55000002308998,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 1474.41000025719
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 513.489000033587,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/apple_core.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/apple_core.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 1474.52099993825,
+               "time" : 12.22799997777,
+               "id" : "comp_20",
+               "type" : 1,
+               "e_time" : 1486.74899991602
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 513.904000166804,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/search_decorator.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/search_decorator.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 1487.33599996194,
+               "time" : 1.14800035953999,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 1488.48400032148
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 514.314000029117,
+            "type" : "application/x-javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/feedstatistics.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/feedstatistics.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 1489.48600003496,
+               "time" : 10.7909999787801,
+               "id" : "comp_24",
+               "type" : 1,
+               "e_time" : 1500.27700001374
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 514.725000131875,
+            "type" : "application/x-javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/ac_base/ac_base.js",
+         "path" : "/pages/apple.com/images.apple.com/global/ac_base/ac_base.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 1508.34000017494,
+               "time" : 44.5960001088699,
+               "id" : "comp_26",
+               "type" : 1,
+               "e_time" : 1552.93600028381
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 515.09500015527,
+            "type" : "application/x-javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/scripts/promomanager.js",
+         "path" : "/pages/apple.com/images.apple.com/global/scripts/promomanager.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 1567.37700011581,
+               "time" : 1.22199999168993,
+               "id" : "comp_30",
+               "type" : 1,
+               "e_time" : 1568.5990001075
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 515.835999976844,
+            "type" : "application/x-javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/ac_retina/ac_retina.js",
+         "path" : "/pages/apple.com/images.apple.com/global/ac_retina/ac_retina.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 1553.12000028789,
+               "time" : 14.13799962029,
+               "id" : "comp_28",
+               "type" : 1,
+               "e_time" : 1567.25799990818
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 515.473000239581,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/scripts/globalnav.js",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/scripts/globalnav.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1581.14500017837,
+               "time" : 136.60999992862,
+               "id" : "comp_33",
+               "type" : 1,
+               "e_time" : 1717.75500010699
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 516.216000076383,
+            "type" : "application/x-javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/metrics/scripts/s_code_h.js",
+         "path" : "/pages/apple.com/images.apple.com/metrics/scripts/s_code_h.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 2077.52400031313,
+               "time" : 147.70099986345,
+               "id" : "comp_47",
+               "type" : 1,
+               "e_time" : 2225.22500017658
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 516.627000179142,
+            "type" : "application/x-javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/ios_title_small.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/ios_title_small.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1575.55600022897,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/ios_title.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/ios_title.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1576.10200019553,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/watch_keynote_small_08c.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/watch_keynote_small_08c.png",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1576.5960002318,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/watch_keynote_08c.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/watch_keynote_08c.png",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1577.08000019193,
+            "type" : "image/png",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/learn_more_08c.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/learn_more_08c.png",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1577.96199992299,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/learn_more_small_08c.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/learn_more_small_08c.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1577.54500024021,
+            "type" : "image/png",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/ios_hero_smaller.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/ios_hero_smaller.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1578.38300010189,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_macpro.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_macpro.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1579.52000014484,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_macbookair.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_macbookair.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1580.26800025254,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_osx.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_osx.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1579.90000024438,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/ios_hero_small.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/ios_hero_small.png",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1578.76800000668,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/ios_hero.png",
+         "path" : "/pages/apple.com/images.apple.com/home/images/ios_hero.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1579.13600001484,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_facetime_ad.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_facetime_ad.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1581.0350002721,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_itunes_festival_2013.jpg",
+         "path" : "/missing/images.apple.com/home/images/promo_itunes_festival_2013.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1580.64300008118,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_narrow_designed.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_narrow_designed.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1581.40600007027,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_designed.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_designed.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1581.77000004798,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_narrow_bts_reminder.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_narrow_bts_reminder.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1582.15200016275,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/home/images/promo_bts_reminder.jpg",
+         "path" : "/pages/apple.com/images.apple.com/home/images/promo_bts_reminder.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1582.51899993047,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/elements/flags/22x22/usa.png",
+         "path" : "/pages/apple.com/images.apple.com/global/elements/flags/22x22/usa.png",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1582.89400022477,
+            "type" : "image/png",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/styles/enhanced.css",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/styles/enhanced.css",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 2056.95100035518,
+               "time" : 472.04799996689,
+               "id" : "comp_44",
+               "type" : 2,
+               "e_time" : 2528.99900032207
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1863.56600001454,
+            "type" : "text/css",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalheader.png",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalheader.png",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1866.95800023153,
+            "type" : "image/png",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalnav.png",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalnav.png",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1867.57200025022,
+            "type" : "image/png",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalnav_text.png",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalnav_text.png",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1867.9710002616,
+            "type" : "image/png",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalsearch_bg.png",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalsearch_bg.png",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1868.33900026977,
+            "type" : "image/png",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalsearch_field.png",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalsearch_field.png",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1868.72899997979,
+            "type" : "image/png",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalsearch_reset.gif",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalsearch_reset.gif",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1869.11000031978,
+            "type" : "image/gif",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalsearch_spinner.gif",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalsearch_spinner.gif",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1869.50100027025,
+            "type" : "image/gif",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/elements/blank.gif",
+         "path" : "/pages/apple.com/images.apple.com/global/elements/blank.gif",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2536.08800005168,
+            "type" : "image/gif",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/v/home/z/images/more.png",
+         "path" : "/pages/apple.com/images.apple.com/v/home/z/images/more.png",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2536.57100023702,
+            "type" : "image/png",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.apple.com/global/nav/images/globalnav_text.svg",
+         "path" : "/pages/apple.com/images.apple.com/global/nav/images/globalnav_text.svg",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2658.40700035915,
+            "type" : "image/svg+xml",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://metrics.apple.com/b/ss/appleglobal,applehome/1/H.25.5/s16798744262196?AQB=1&pccr=true&vidn=2912012B85161F02-600001A640026532&&ndh=1&t=1%2F8%2F2013%2020%3A13%3A26%200%20420&fid=3D635179A56557D2-32DAEEBA5CA4E57A&pageName=apple%20-%20index%2Ftab%20%28us%29&g=http%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=new%20approach&c4=D%3Dg&c5=macintel&c6=D%3D%22%3A%20%22%2BpageName&c9=10.6.x&c20=non-store%20kiosk&c25=other%20nav%20or%20none&v43=mac&v44=1014&c48=1&c49=D%3Ds_vi&c50=homepage%3D1&h1=www.us.homepage&s=2048x1152&c=24&j=1.6&v=Y&k=Y&bw=956&bh=1014&p=Remoting%20Viewer%3BNative%20Client%3BShockwave%20Flash%3BiPhotoPhotocast%3BJava%20Applet%20Plug-in%3BQuickTime%20Plug-in%207.6.6%3B&AQE=1",
+         "path" : "/missing/metrics.apple.com/b/ss/appleglobal_applehome/1/H.25.5/s16798744262196",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2988.8740000315,
+            "type" : "image/gif",
+            "id" : "download_59"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_30"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "r1_c13",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_47"
+      },
+      {
+         "a2" : "r1_c14",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "r1_c15",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_53"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_9",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_14",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_16",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "comp_20",
+         "time" : -1,
+         "id" : "dep23",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "comp_22",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "comp_20"
+      },
+      {
+         "a2" : "comp_24",
+         "time" : -1,
+         "id" : "dep25",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_26",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "comp_24"
+      },
+      {
+         "a2" : "comp_28",
+         "time" : -1,
+         "id" : "dep27",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "comp_30",
+         "time" : -1,
+         "id" : "dep28",
+         "a1" : "comp_28"
+      },
+      {
+         "a2" : "comp_50",
+         "time" : -1,
+         "id" : "dep29",
+         "a1" : "comp_47"
+      },
+      {
+         "a2" : "comp_53",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "download_59",
+         "time" : -1,
+         "id" : "dep31",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 430.54900038988,
+         "id" : "dep32",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 308.71300026775,
+         "id" : "dep33",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 308.23000008241,
+         "id" : "dep34",
+         "a1" : "r1_c15"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 151.74600016326,
+         "id" : "dep35",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 151.35500021279,
+         "id" : "dep36",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 150.9739998728,
+         "id" : "dep37",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 150.58400016278,
+         "id" : "dep38",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 150.21600015461,
+         "id" : "dep39",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 149.81700014323,
+         "id" : "dep40",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 149.20300012454,
+         "id" : "dep41",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 145.81099990755,
+         "id" : "dep42",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_38",
+         "time" : -1,
+         "id" : "dep43",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 13.9199998229701,
+         "id" : "dep44",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 13.5530000552501,
+         "id" : "dep45",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 13.17099994048,
+         "id" : "dep46",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 12.8069999627701,
+         "id" : "dep47",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 12.04399997368,
+         "id" : "dep48",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 12.4360001646,
+         "id" : "dep49",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 10.53699990734,
+         "id" : "dep50",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 10.1689998991801,
+         "id" : "dep51",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 11.30100013688,
+         "id" : "dep52",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 11.6690001450402,
+         "id" : "dep53",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 10.92100003734,
+         "id" : "dep54",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 9.78399999439011,
+         "id" : "dep55",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 8.94600013270997,
+         "id" : "dep56",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 9.36299981548996,
+         "id" : "dep57",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 8.48100008442998,
+         "id" : "dep58",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 7.99700012430003,
+         "id" : "dep59",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 7.50300008803015,
+         "id" : "dep60",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 6.95700012147017,
+         "id" : "dep61",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_19",
+         "time" : -1,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 21.093999966979,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 20.351000130177,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 20.7139998674401,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 19.973000045866,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 19.6030000224711,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 19.191999919713,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 18.7820000574001,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 18.366999924183,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 17.91900023818,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 16.160000115633,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 15.631000045687,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 14.529999811203,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 14.107000082732,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 13.439000118524,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 12.875000014901,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1.22400000691403,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 21.8750000931331,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      }
+   ]
+}

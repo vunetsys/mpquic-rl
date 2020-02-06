@@ -1,0 +1,919 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.tumblr.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.tumblr.com/",
+         "path" : "/pages/tumblr.com/www.tumblr.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1687.8039999865,
+               "time" : 681.20100023225,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 2369.00500021875
+            },
+            {
+               "s_time" : 2383.80100019276,
+               "time" : 0.0640000216699264,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2383.86500021443
+            },
+            {
+               "s_time" : 2503.6210003309,
+               "time" : 0.0689998268999261,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 2503.6900001578
+            },
+            {
+               "s_time" : 2641.75800001249,
+               "time" : 45.4230001196202,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 2687.18100013211
+            },
+            {
+               "s_time" : 2688.13800020143,
+               "time" : 0.0680000521301736,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 2688.20600025356
+            },
+            {
+               "s_time" : 2695.42200025171,
+               "time" : 0.0950000248899414,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 2695.5170002766
+            },
+            {
+               "s_time" : 2708.74000014737,
+               "time" : 0.116999726739778,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 2708.85699987411
+            },
+            {
+               "s_time" : 2734.91099989042,
+               "time" : 0.104000326240111,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 2735.01500021666
+            },
+            {
+               "s_time" : 2741.98100017384,
+               "time" : 0.101999845349837,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 2742.08300001919
+            },
+            {
+               "s_time" : 2747.23999993876,
+               "time" : 628.88600025326,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : 3376.12600019202
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/languages/strings/en_US.js?1094",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/languages/strings/en_US.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 2369.05000032857,
+               "time" : 14.7509998641899,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 2383.80100019276
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1732.92000032961,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/styles/onboarding.css?_v=11162178791cc004fecae494e6a23b39",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/styles/onboarding.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 2276.28199988976,
+               "time" : 1.36400014162018,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 2277.64600003138
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1732.10000013933,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/styles/global.css?_v=5fd13f45b883b3fd2709448b310a18e1",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/styles/global.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 2296.44700000063,
+               "time" : 50.5870003253199,
+               "id" : "comp_10",
+               "type" : 4,
+               "e_time" : 2347.03400032595
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1729.53699994832,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/styles/landing_pages/logged_out_dashboard.css?_v=1069c2de0e0008d7d23b55c3f09621b8",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/styles/landing_pages/logged_out_dashboard.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 2293.06800011545,
+               "time" : 2.46099987998969,
+               "id" : "comp_9",
+               "type" : 4,
+               "e_time" : 2295.52899999544
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1731.65400000289,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/jquery_with_plugins.js?_v=370f89f277e07cea8663f82b878fc157",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/jquery_with_plugins.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 2387.68000015989,
+               "time" : 115.94100017101,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 2503.6210003309
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1733.34000026807,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/styles/form_classic_onboarding.css?_v=edc3eb8759f2e7f814fb02c2dcf3dfb3",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/styles/form_classic_onboarding.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 2349.55100016668,
+               "time" : 34.3780000694101,
+               "id" : "comp_11",
+               "type" : 4,
+               "e_time" : 2383.92900023609
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1732.53200016916,
+            "type" : "text/css",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/landing_pages/logged_out_dashboard.js?_v=f7b35d473d032cb2cfc0ffc6417e0572",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/landing_pages/logged_out_dashboard.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 2687.21099989489,
+               "time" : 0.927000306539867,
+               "id" : "comp_27",
+               "type" : 1,
+               "e_time" : 2688.13800020143
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1737.24299995229,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/dashboard.js?_v=ba710a0725e597763af076a78d534b75",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/dashboard.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 2517.63099990785,
+               "time" : 124.12700010464,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 2641.75800001249
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1735.75500026345,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/posts.js?_v=4e66fdeaa09c419b372632be11362a9f",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/posts.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 2695.57300023735,
+               "time" : 13.1669999100204,
+               "id" : "comp_31",
+               "type" : 1,
+               "e_time" : 2708.74000014737
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1738.97999990731,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/application/keycommands.js?_v=9c8e5fe44a42a5ccbe7ebaf78e8775fa",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/application/keycommands.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 2688.24400007725,
+               "time" : 7.17800017446007,
+               "id" : "comp_29",
+               "type" : 1,
+               "e_time" : 2695.42200025171
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1738.57100028545,
+            "type" : "application/x-javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/audio_player.js?_v=adefca1c74702e4908fa83f345d4bfb7",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/audio_player.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 2708.91700033098,
+               "time" : 25.99399955944,
+               "id" : "comp_33",
+               "type" : 1,
+               "e_time" : 2734.91099989042
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1739.35300018638,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/onboarding.js?_v=1fe6a6886b55a97c9b0bec69f6b6aa0b",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/onboarding.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 2735.07799999788,
+               "time" : 6.90300017596019,
+               "id" : "comp_35",
+               "type" : 1,
+               "e_time" : 2741.98100017384
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1739.72100019455,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/assets/scripts/form_classic_onboarding.js?_v=d05f5fd762dcae4ef51e0e86942d1425",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/assets/scripts/form_classic_onboarding.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 2742.14000022039,
+               "time" : 5.09999971836987,
+               "id" : "comp_37",
+               "type" : 1,
+               "e_time" : 2747.23999993876
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1740.11000012979,
+            "type" : "application/x-javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/ga.js",
+         "path" : "/pages/twitter.com/ssl.google-analytics.com/ga.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 3138.4510002099,
+               "time" : 97.12999965995,
+               "id" : "comp_65",
+               "type" : null,
+               "e_time" : 3235.58099986985
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2643.78400007263,
+            "type" : "text/javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/background.png?94584f03adb19b08ee154849c0579721",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/background.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2835.24900022894,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/register/logo_bix.png?6b5ff1f448ec02eba01ac1e5214343f1",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/register/logo_bix.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2835.96600033343,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/register/vignetter.png?639f8a3912e049370ad4c18c6660b2d1",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/register/vignetter.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2835.61399998143,
+            "type" : "image/png",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.tumblr.com/impixu?T=1378091336&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJwb3N0cyI6W3sicG9zdGlkIjoiNTk2MTk5MjIzODQiLCJibG9naWQiOiI4MTQ0ODQxOSIsInNvdXJjZSI6MzJ9XX0=&U=BNAMMPIHNP&K=d01a3a3296cd513c6589204d401a97ac017f48e1ebaf0fd500c083140964da35&R=",
+         "path" : "/missing/www.tumblr.com/impixu",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2654.00099987164,
+            "type" : "image/png",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.tumblr.com/impixu?T=1378091336&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjB9&U=FFJHDMGKKA&K=eccdabf72b8b286ab9b9c8c3aa98e96f83242b00a53e200f9d7c50c4b5287429&R=",
+         "path" : "/missing/www.tumblr.com/impixu",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2834.82200000435,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/2d8674fb4cb5ade09dba02dbebd5e05f/tumblr_ms82wimFSG1rlz4gso1_1280.jpg",
+         "path" : "/missing/gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/2d8674fb4cb5ade09dba02dbebd5e05f/tumblr_ms82wimFSG1rlz4gso1_1280.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2644.59000015631,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/avatar_1a208864b71b_30.png",
+         "path" : "/missing/gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/avatar_1a208864b71b_30.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2834.12200026214,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.quantserve.com/quant.js",
+         "path" : "/pages/tumblr.com/secure.quantserve.com/quant.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 3352.79700020328,
+               "time" : 15.6439999118502,
+               "id" : "comp_72",
+               "type" : null,
+               "e_time" : 3368.44100011513
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2685.10399991646,
+            "type" : "application/x-javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://sb.scorecardresearch.com/beacon.js",
+         "path" : "/pages/tumblr.com/sb.scorecardresearch.com/beacon.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 3368.51500021294,
+               "time" : 3.70500003919005,
+               "id" : "comp_74",
+               "type" : null,
+               "e_time" : 3372.22000025213
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2687.0699999854,
+            "type" : "application/x-javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=1744841293&utmhn=www.tumblr.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=950x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Sign%20up%20%7C%20Tumblr&utmhid=662697668&utmr=-&utmp=%2F&utmht=1378091338948&utmac=UA-97144-8&utmcc=__utma%3D189990958.960682312.1378091339.1378091339.1378091339.1%3B%2B__utmz%3D189990958.1378091339.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qh~",
+         "path" : "/missing/ssl.google-analytics.com/__utm.gif",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3210.3790002875,
+            "type" : "image/gif",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=2&utmn=520511137&utmhn=www.tumblr.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=950x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Sign%20up%20%7C%20Tumblr&utmhid=662697668&utmr=-&utmp=%2Fsignup%2Freset_view&utmht=1378091338959&utmac=UA-97144-8&utmcc=__utma%3D189990958.960682312.1378091339.1378091339.1378091339.1%3B%2B__utmz%3D189990958.1378091339.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhC~",
+         "path" : "/missing/ssl.google-analytics.com/__utm.gif",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3238.08100027964,
+            "type" : "image/gif",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=3&utmn=1088714725&utmhn=www.tumblr.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=950x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Sign%20up%20%7C%20Tumblr&utmhid=662697668&utmr=-&utmp=%2Fsignup%2Fupdate_view&utmht=1378091338968&utmac=UA-97144-8&utmcc=__utma%3D189990958.960682312.1378091339.1378091339.1378091339.1%3B%2B__utmz%3D189990958.1378091339.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhC~",
+         "path" : "/missing/ssl.google-analytics.com/__utm.gif",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3238.6449999176,
+            "type" : "image/gif",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/loading_reblog.gif",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/loading_reblog.gif",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3356.4900001511,
+            "type" : "image/gif",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/inline_photo_loading.gif",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/inline_photo_loading.gif",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3376.12600019202,
+            "type" : "image/gif",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/white_80.png",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/white_80.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3375.24100020528,
+            "type" : "image/png",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://secure.assets.tumblr.com/images/black_75.png",
+         "path" : "/pages/tumblr.com/secure.assets.tumblr.com/images/black_75.png",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3375.64900005236,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://pixel.quantserve.com/pixel;r=304041104;a=p-19UtqE8ngoZbM;fpan=1;fpa=P0-948630667-1378091339106;ns=0;ce=1;cm=;je=1;sr=2048x1152x24;enc=n;dst=1;et=1378091339099;tzo=420;ref=;url=https%3A%2F%2Fwww.tumblr.com%2F;ogl=",
+         "path" : "/missing/pixel.quantserve.com/pixel_r_304041104_a_p-19UtqE8ngoZbM_fpan_1_fpa_P0-948630667-1378091339106_ns_0_ce_1_cm__je_1_sr_2048x1152x24_enc_n_dst_1_et_1378091339099_tzo_420_ref__url_https_3A_2F_2Fwww.tumblr.com_2F_ogl_",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3368.7800001353,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_27"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_29"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_37"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "comp_29",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_27"
+      },
+      {
+         "a2" : "comp_31",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_29"
+      },
+      {
+         "a2" : "comp_33",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "comp_35",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "comp_37",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_35"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 0.264999922359948,
+         "id" : "dep17",
+         "a1" : "comp_74"
+      },
+      {
+         "a2" : "download_30",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 628.00100026652,
+         "id" : "dep19",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 3.69299994782023,
+         "id" : "dep21",
+         "a1" : "comp_72"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 491.40499997884,
+         "id" : "dep22",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 490.84100034088,
+         "id" : "dep23",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 71.9280000775998,
+         "id" : "dep24",
+         "a1" : "comp_65"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 45.3119999729101,
+         "id" : "dep25",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 43.3459999039701,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 86.88200032338,
+         "id" : "dep27",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 2.8320001438201,
+         "id" : "dep28",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 87.5820000655899,
+         "id" : "dep29",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 12.2429998591501,
+         "id" : "dep30",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 88.3740000426701,
+         "id" : "dep31",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 88.7260003946703,
+         "id" : "dep32",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 88.0090002901802,
+         "id" : "dep33",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 2.02600006014018,
+         "id" : "dep34",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 52.30600014329,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 51.91700020805,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 51.5490001998801,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 50.7670002989501,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 51.17599992081,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 47.95100027695,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 49.4389999657899,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 44.72800018266,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 45.5360002815701,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 45.5360002815701,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 43.8500000163899,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 41.73299996182,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 44.2960001528299,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 45.11600034311,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 45.11600034311,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      }
+   ]
+}

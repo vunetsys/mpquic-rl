@@ -1,0 +1,248 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "twitter.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://twitter.com/",
+         "path" : "/pages/twitter.com/twitter.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1293.83599990979,
+               "time" : 611.13900039345,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 1904.97500030324
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/a/1377795275/t1/css/t1_core_logged_out.bundle.css",
+         "path" : "/pages/twitter.com/abs.twimg.com/a/1377795275/t1/css/t1_core_logged_out.bundle.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1416.19700007141,
+               "time" : 33.65000011399,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 1449.8470001854
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1298.39400015771,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/a/1377795275/t1/css/t1_more.bundle.css",
+         "path" : "/pages/twitter.com/abs.twimg.com/a/1377795275/t1/css/t1_more.bundle.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1450.3570003435,
+               "time" : 120.03399990499,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 1570.39100024849
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1298.87100029737,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/c/swift/en/init.6c785ebf216ab65474e6b4e4d29098bc41d99589.js",
+         "path" : "/pages/twitter.com/abs.twimg.com/c/swift/en/init.6c785ebf216ab65474e6b4e4d29098bc41d99589.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1615.94599997625,
+               "time" : 117.0360003598,
+               "id" : "comp_25",
+               "type" : 3,
+               "e_time" : 1732.98200033605
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1301.7860003747,
+            "type" : "application/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/a/1377795275/t1/img/twitter_web_sprite_bgs.png",
+         "path" : "/pages/twitter.com/abs.twimg.com/a/1377795275/t1/img/twitter_web_sprite_bgs.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1572.48300034553,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/a/1377795275/t1/img/front_page/jp-mountain@2x.jpg",
+         "path" : "/pages/twitter.com/abs.twimg.com/a/1377795275/t1/img/front_page/jp-mountain_2x.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1573.69300024584,
+            "type" : "image/jpeg",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/a/1377795275/t1/img/twitter_web_sprite_icons.png",
+         "path" : "/pages/twitter.com/abs.twimg.com/a/1377795275/t1/img/twitter_web_sprite_icons.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1573.11800029129,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://abs.twimg.com/c/swift/en/bundle/frontpage.4fadf7a73f7269b9c27c826f2ebf9bed67255e74.js",
+         "path" : "/pages/twitter.com/abs.twimg.com/c/swift/en/bundle/frontpage.4fadf7a73f7269b9c27c826f2ebf9bed67255e74.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1775.28900001198,
+               "time" : 0.907000154260004,
+               "id" : "comp_29",
+               "type" : 2,
+               "e_time" : 1776.19600016624
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1733.61600004137,
+            "type" : "application/javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/ga.js",
+         "path" : "/pages/twitter.com/ssl.google-analytics.com/ga.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 2718.81500026211,
+               "time" : 53.8319996558098,
+               "id" : "comp_36",
+               "type" : null,
+               "e_time" : 2772.64699991792
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1901.80200012401,
+            "type" : "text/javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=142959377&utmhn=twitter.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=935x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Twitter&utmhid=640211039&utmr=-&utmp=%2F&utmht=1378091228628&utmac=UA-30775-6&utmcc=__utma%3D43838368.1289696923.1378091229.1378091229.1378091229.1%3B%2B__utmz%3D43838368.1378091229.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qAC~",
+         "path" : "/missing/ssl.google-analytics.com/__utm.gif",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2769.36900010332,
+            "type" : "image/gif",
+            "id" : "download_9"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_9",
+         "time" : 50.55399984121,
+         "id" : "dep1",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 607.96600021422,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 439.78000013158,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 279.2820003815,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 279.85700033605,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 278.64700043574,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 7.95000046491009,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 7.95000046491009,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.03500038758011,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.55800024792006,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      }
+   ]
+}

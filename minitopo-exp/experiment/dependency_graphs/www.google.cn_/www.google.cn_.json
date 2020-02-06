@@ -1,0 +1,69 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.google.cn_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.google.cn/",
+         "path" : "/pages/google.cn/www.google.cn/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 144.150000065565,
+               "time" : 31.179000157863,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 175.329000223428
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google.cn/landing/cnexp/google-search.png",
+         "path" : "/pages/google.cn/www.google.cn/landing/cnexp/google-search.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 174.752000253648,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.google.cn/intl/zh-CN_cn/images/cn_icp.gif",
+         "path" : "/pages/google.cn/www.google.cn/intl/zh-CN_cn/images/cn_icp.gif/index.html",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 175.329000223428,
+            "type" : "text/html",
+            "id" : "download_2"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 30.602000188083,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      }
+   ]
+}

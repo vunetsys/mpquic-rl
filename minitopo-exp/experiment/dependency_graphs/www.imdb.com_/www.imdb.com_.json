@@ -1,0 +1,791 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.imdb.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.imdb.com/",
+         "path" : "/pages/imdb.com/www.imdb.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 230.227999854833,
+               "time" : 395.696999970823,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 625.924999825656
+            },
+            {
+               "s_time" : 674.978999886662,
+               "time" : 377.493000123648,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1052.47200001031
+            },
+            {
+               "s_time" : 1078.49599979818,
+               "time" : 192.73500004783,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1271.23099984601
+            },
+            {
+               "s_time" : 1370.98099989817,
+               "time" : 0.649000052359952,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1371.62999995053
+            },
+            {
+               "s_time" : 1398.04299967363,
+               "time" : 226.55700007454,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 1624.59999974817
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://z-ecx.images-amazon.com/images/G/01/imdbads/js/collections/ads-759926853._V359288245_.js",
+         "path" : "/pages/imdb.com/z-ecx.images-amazon.com/images/G/01/imdbads/js/collections/ads-759926853._V359288245_.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 644.390000030398,
+               "time" : 30.588999856264,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 674.978999886662
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 625.924999825656,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/navbar/navbar_sprite.png",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/navbar/navbar_sprite.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 679.200999904424,
+            "type" : "image/png",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.doubleclick.net/N4215/adj/imdb2.consumer.homepage/;tile=1;sz=1008x150,1008x200,1008x30,970x250,9x1;p=top;p=t;fv=1;oe=utf-8;;u=1114746937528252.6;ord=1114746937528252.6?",
+         "path" : "/missing/ad.doubleclick.net/N4215/adj/imdb2.consumer.homepage/_tile_1_sz_1008x150_1008x200_1008x30_970x250_9x1_p_top_p_t_fv_1_oe_utf-8__u_1114746937528252.6_ord_1114746937528252.6",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1073.17199977115,
+               "time" : 5.32400002703002,
+               "id" : "comp_77",
+               "type" : 1,
+               "e_time" : 1078.49599979818
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 696.006999816746,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SF52b9914125681fe5497355ccd7a305f3/nopicture/small/film.png",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SF52b9914125681fe5497355ccd7a305f3/nopicture/small/film.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1047.34400007874,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SF9bb191c6827273aa978cab39a3587950/b.gif",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SF9bb191c6827273aa978cab39a3587950/b.gif",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1047.80199984089,
+            "type" : "image/gif",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.doubleclick.net/N4215/adj/imdb2.consumer.homepage/;tile=2;sz=300x250,11x1;p=tr;fv=1;oe=utf-8;;u=1114746937528252.6;ord=1114746937528252.6?",
+         "path" : "/missing/ad.doubleclick.net/N4215/adj/imdb2.consumer.homepage/_tile_2_sz_300x250_11x1_p_tr_fv_1_oe_utf-8__u_1114746937528252.6_ord_1114746937528252.6",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 1368.56999993324,
+               "time" : 2.41099996492994,
+               "id" : "comp_103",
+               "type" : 1,
+               "e_time" : 1370.98099989817
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1052.47200001031,
+            "type" : "text/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.imdb.com/images/showtimesgrey.png",
+         "path" : "/pages/imdb.com/www.imdb.com/images/showtimesgrey.png",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1048.15799975768,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjMzMjA3MzM0OF5BMl5BanBnXkFtZTgwMzEwNzMxMDE@._V1._SX214_CR0,0,214,317_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMjMzMjA3MzM0OF5BMl5BanBnXkFtZTgwMzEwNzMxMDE_._V1._SX214_CR0_0_214_317_.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 776.660999748856,
+            "type" : "image/jpeg",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjExNjUyMzI2OF5BMl5BanBnXkFtZTgwMTg1NTIxMDE@._V1._SX214_CR0,0,214,317_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMjExNjUyMzI2OF5BMl5BanBnXkFtZTgwMTg1NTIxMDE_._V1._SX214_CR0_0_214_317_.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1049.05000003055,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjI3NjI3NjAyN15BMl5BanBnXkFtZTgwODE3NzMxMDE@._V1._SY317_CR0,0,214,317_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMjI3NjI3NjAyN15BMl5BanBnXkFtZTgwODE3NzMxMDE_._V1._SY317_CR0_0_214_317_.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1049.41800003871,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjc3MTU2MzI2Ml5BMl5BanBnXkFtZTcwMzI3ODI2OQ@@._V1_SX120_CR0,0,120,120_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMjc3MTU2MzI2Ml5BMl5BanBnXkFtZTcwMzI3ODI2OQ__._V1_SX120_CR0_0_120_120_.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1049.79699989781,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTM5NTkzNzk0NF5BMl5BanBnXkFtZTcwMTQwNjE5OQ@@._V1_SX120_CR0,0,120,120_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMTM5NTkzNzk0NF5BMl5BanBnXkFtZTcwMTQwNjE5OQ__._V1_SX120_CR0_0_120_120_.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1050.17499998212,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTk5NTIxNzg3Nl5BMl5BanBnXkFtZTcwMzc5MDE0OQ@@._V1_SX120_CR0,0,120,120_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMTk5NTIxNzg3Nl5BMl5BanBnXkFtZTcwMzc5MDE0OQ__._V1_SX120_CR0_0_120_120_.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1050.54799979553,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.imdb.com/rd/?q=50703000000030a090f29616f226e276966600000010c6a0922303133303930313c29393338393c2131313639373c2131313031303c29393336313c21313136383530000001037a040379646370000001047&cb=13780915845107",
+         "path" : "/missing/www.imdb.com/rd",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1048.6329998821,
+            "type" : "image/gif",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjM2NDY3MjkyMF5BMl5BanBnXkFtZTcwMDM5Nzg5OQ@@._V1._SY90_.jpg",
+         "path" : "/missing/ia.media-imdb.com/images/M/MV5BMjM2NDY3MjkyMF5BMl5BanBnXkFtZTcwMDM5Nzg5OQ__._V1._SY90_.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1051.30499973893,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTk5NTIxNzg3Nl5BMl5BanBnXkFtZTcwMzc5MDE0OQ@@._V1._SY90_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMTk5NTIxNzg3Nl5BMl5BanBnXkFtZTcwMzc5MDE0OQ__._V1._SY90_.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1050.94499979168,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMjAyNzE2MTY3NF5BMl5BanBnXkFtZTcwMzMwMDE3OQ@@._V1._SY90_.jpg",
+         "path" : "/missing/ia.media-imdb.com/images/M/MV5BMjAyNzE2MTY3NF5BMl5BanBnXkFtZTcwMzMwMDE3OQ__._V1._SY90_.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1052.03599995002,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTUzNjAxMTI4OF5BMl5BanBnXkFtZTcwNDk5NzY4Mw@@._V1._SY90_.jpg",
+         "path" : "/missing/ia.media-imdb.com/images/M/MV5BMTUzNjAxMTI4OF5BMl5BanBnXkFtZTcwNDk5NzY4Mw__._V1._SY90_.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1051.66899971664,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://z-ecx.images-amazon.com/images/G/01/imdbads/js/beacon-58460835._V379390778_.js",
+         "path" : "/pages/imdb.com/z-ecx.images-amazon.com/images/G/01/imdbads/js/beacon-58460835._V379390778_.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 1397.20499981195,
+               "time" : 0.837999861679918,
+               "id" : "comp_107",
+               "type" : 1,
+               "e_time" : 1398.04299967363
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1265.02899965271,
+            "type" : "application/x-javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTQ4OTQxNzc0N15BMl5BanBnXkFtZTcwOTQxOTU5OQ@@._V1._SY83_CR0,0,57,83_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMTQ4OTQxNzc0N15BMl5BanBnXkFtZTcwOTQxOTU5OQ__._V1._SY83_CR0_0_57_83_.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1371.62999995053,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ia.media-imdb.com/images/M/MV5BMTc5NzAyOTQyNF5BMl5BanBnXkFtZTcwNzQ1MDc4OQ@@._V1._SX57_CR0,0,57,83_.jpg",
+         "path" : "/pages/imdb.com/ia.media-imdb.com/images/M/MV5BMTc5NzAyOTQyNF5BMl5BanBnXkFtZTcwNzQ1MDc4OQ__._V1._SX57_CR0_0_57_83_.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1371.20399996638,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://z-ecx.images-amazon.com/images/G/01/imdbads/foresee/foresee-trigger-4277353327._V379388232_.js",
+         "path" : "/pages/imdb.com/z-ecx.images-amazon.com/images/G/01/imdbads/foresee/foresee-trigger-4277353327._V379388232_.js",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 1624.90199971944,
+               "time" : 56.5929999575001,
+               "id" : "comp_211",
+               "type" : null,
+               "e_time" : 1681.49499967694
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1404.14599981159,
+            "type" : "application/x-javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 1681.57099978998,
+               "time" : 98.6780002713199,
+               "id" : "comp_213",
+               "type" : null,
+               "e_time" : 1780.2490000613
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1416.11899994314,
+            "type" : "text/javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/imgad/2070824/1x1_pixel.JPG",
+         "path" : "/missing/pagead2.googlesyndication.com/pagead/imgad/2070824/1x1_pixel.JPG",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1078.7509996444,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SFed46ecad0112cd278150543fa28c23d3/lb/overlay.png",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SFed46ecad0112cd278150543fa28c23d3/lb/overlay.png",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1433.45899973065,
+            "type" : "image/png",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SF5a4bd05d15e2556068ca9a7331f7f492/lb/border.png",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SF5a4bd05d15e2556068ca9a7331f7f492/lb/border.png",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1488.60899964347,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SF14c56c5a40e61aea738e46b66d4d8c90/spinning-progress-large.gif",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SF14c56c5a40e61aea738e46b66d4d8c90/spinning-progress-large.gif",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1487.94599995017,
+            "type" : "image/gif",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.media-imdb.com/images/SF638e6ba7419b934545d71790350ec2de/lb/controls.png",
+         "path" : "/pages/imdb.com/i.media-imdb.com/images/SF638e6ba7419b934545d71790350ec2de/lb/controls.png",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1489.3789999187,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.amazon.com/aan/2009-05-01/imdb/default?slot=sitewide-iframe&u=1114746937528252.6&ord=1114746937528252.6",
+         "path" : "/missing/www.amazon.com/aan/2009-05-01/imdb/default",
+         "id" : "r32",
+         "comps" : [
+            {
+               "s_time" : 1830.1069997251,
+               "time" : 0.415000133220019,
+               "id" : "comp_217",
+               "type" : null,
+               "e_time" : 1830.52199985832
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1407.74399973452,
+            "type" : "text/plain",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.media-imdb.com/twilight/?PageType=homepage&Geo=US&tw_ord=18fe83758e49132073d591e938ca702203c04b8a&timestamp=2013-09-02T03%3A13%3A04GMT&Client=chrome&Operation.1=ads_js_request_to_done&OperationTiming.1=52&Operation.2=master_companion_delay&OperationTiming.2=20&Operation.3=page_load&OperationTiming.3=734&ord=1114746937528252.6",
+         "path" : "/missing/s.media-imdb.com/twilight",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1414.36599986628,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.media-imdb.com/twilight/?PageType=homepage&Geo=US&tw_ord=18fe83758e49132073d591e938ca702203c04b8a&timestamp=2013-09-02T03%3A13%3A04GMT&Client=chrome&Operation.1=ads_js_response&OperationTiming.1=40&Operation.2=server.control&OperationTiming.2=409&Operation.3=ready.control&OperationTiming.3=1621&Operation.4=top_rhs.blank&OperationTiming.4=445&ord=1114746937528252.6",
+         "path" : "/missing/s.media-imdb.com/twilight",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1493.66599973291,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.media-imdb.com/twilight/?PageType=homepage&Geo=US&tw_ord=18fe83758e49132073d591e938ca702203c04b8a&timestamp=2013-09-02T03%3A13%3A04GMT&Client=chrome&Operation.1=content.control&OperationTiming.1=1749&Operation.2=top_ad.blank&OperationTiming.2=907&ord=1114746937528252.6",
+         "path" : "/missing/s.media-imdb.com/twilight",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1624.16899995878,
+            "type" : "image/gif",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.media-imdb.com/twilight/?PageType=homepage&Geo=US&tw_ord=18fe83758e49132073d591e938ca702203c04b8a&timestamp=2013-09-02T03%3A13%3A04GMT&Client=chrome&Operation.1=injected_navstrip.blank&OperationTiming.1=856&ord=1114746937528252.6",
+         "path" : "/missing/s.media-imdb.com/twilight",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1624.59999974817,
+            "type" : "image/gif",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.media-imdb.com/twilight/?PageType=homepage&Geo=US&tw_ord=18fe83758e49132073d591e938ca702203c04b8a&timestamp=2013-09-02T03%3A13%3A04GMT&Client=chrome&Operation.1=injected_billboard.blank&OperationTiming.1=859&ord=1114746937528252.6",
+         "path" : "/missing/s.media-imdb.com/twilight",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1624.98499965295,
+            "type" : "image/gif",
+            "id" : "download_34"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_77"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_103"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_107"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 0.0829999335098819,
+         "id" : "dep5",
+         "a1" : "comp_211"
+      },
+      {
+         "a2" : "download_33",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 226.12600028515,
+         "id" : "dep7",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 95.62300005928,
+         "id" : "dep8",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 16.3230001926499,
+         "id" : "dep9",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 9.70100006089001,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 91.33600024507,
+         "id" : "dep11",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 89.9030002765401,
+         "id" : "dep12",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 90.56599996984,
+         "id" : "dep13",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 35.41600005702,
+         "id" : "dep14",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 0.254999846220016,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 18.0760002695099,
+         "id" : "dep16",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 6.10300013795995,
+         "id" : "dep17",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_21",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 186.53299985453,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 375.965999905018,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 376.325999852268,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 373.653999995438,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 375.568999908868,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 375.196000095458,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 374.818000011148,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 374.439000152048,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 374.071000143888,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 101.681999862194,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 373.178999871018,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 372.822999954228,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 372.365000192078,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 21.027999930084,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 21.027999930084,
+         "id" : "dep37",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 4.22200001776196,
+         "id" : "dep38",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      }
+   ]
+}

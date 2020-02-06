@@ -1,0 +1,679 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "wordpress.org_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://wordpress.org/",
+         "path" : "/pages/wordpress.org/wordpress.org/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 225.600000005215,
+               "time" : 496.416000183672,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 722.016000188887
+            },
+            {
+               "s_time" : 819.828000385314,
+               "time" : 57.236999738962,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 877.065000124276
+            },
+            {
+               "s_time" : 889.824000187218,
+               "time" : 0.345999840646982,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 890.170000027865
+            },
+            {
+               "s_time" : 894.723000004888,
+               "time" : 404.456000309442,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 1299.17900031433
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://edge.quantserve.com/quant.js",
+         "path" : "/pages/linkedin.com/edge.quantserve.com/quant.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 877.105000428855,
+               "time" : 12.718999758363,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 889.824000187218
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 242.429000325501,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://gravatar.com/js/gprofiles.js",
+         "path" : "/pages/wordpress.org/gravatar.com/js/gprofiles.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 889.988000039011,
+               "time" : 4.73499996587702,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 894.723000004888
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 242.839000187814,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic",
+         "path" : "/pages/wordpress.org/fonts.googleapis.com/css.add.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 597.776000387967,
+               "time" : 0.287999864666972,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 598.064000252634
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 230.904000345618,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/style/wp4.css?40",
+         "path" : "/pages/wordpress.org/s.wordpress.org/style/wp4.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 677.711000200361,
+               "time" : 44.5409999229009,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 722.252000123262
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 237.886000424623,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/wp-includes/js/jquery/jquery.js",
+         "path" : "/pages/wordpress.org/s.wordpress.org/wp-includes/js/jquery/jquery.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 726.358000189066,
+               "time" : 93.470000196248,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 819.828000385314
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 240.942000411451,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1164.36400031671,
+               "time" : 70.40999969467,
+               "id" : "comp_52",
+               "type" : null,
+               "e_time" : 1234.77400001138
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 721.943000331521,
+            "type" : "text/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://platform.twitter.com/widgets/follow_button.html?screen_name=WordPress&show_count=false",
+         "path" : "/pages/wordpress.org/platform.twitter.com/widgets/follow_button.html/index.html",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1041.82100016624,
+               "time" : 75.31300000846,
+               "id" : "r17_c1",
+               "type" : "evalhtml",
+               "e_time" : 1117.1340001747
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 861.277000047266,
+            "type" : "text/html",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.facebook.com/plugins/like.php?app_id=121415197926116&href=http%3A%2F%2Fwww.facebook.com%2Fwordpress&send=false&layout=button_count&width=135&show_faces=false&action=like&colorscheme=light&font=lucida+grande&height=21",
+         "path" : "/pages/wordpress.org/www.facebook.com/plugins/like.php/index.html",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 1128.53000033647,
+               "time" : 13.34099983796,
+               "id" : "r18_c1",
+               "type" : "evalhtml",
+               "e_time" : 1141.87100017443
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 869.178000371903,
+            "type" : "text/html",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/style/images/wp-header-logo.png?1",
+         "path" : "/pages/wordpress.org/s.wordpress.org/style/images/wp-header-logo.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 970.535000320524,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/wp-includes/images/admin-bar-sprite.png?d=20120831",
+         "path" : "/pages/wordpress.org/s.wordpress.org/wp-includes/images/admin-bar-sprite.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 971.496000420302,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/screenshots/3.5/ss4-postbox.png?1",
+         "path" : "/missing/s.wordpress.org/screenshots/3.5/ss4-postbox.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 974.291000049561,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/images/thememarkets/creative-market.jpg",
+         "path" : "/missing/s.wordpress.org/images/thememarkets/creative-market.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 974.699000362307,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/style/images/steps.png",
+         "path" : "/pages/wordpress.org/s.wordpress.org/style/images/steps.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 975.087000057101,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/images/notableusers/rollingstones-2x.png",
+         "path" : "/pages/wordpress.org/s.wordpress.org/images/notableusers/rollingstones-2x.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 975.564000196755,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/images/notableusers/motleycrue-2x.png",
+         "path" : "/pages/wordpress.org/s.wordpress.org/images/notableusers/motleycrue-2x.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 976.346000097692,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/images/notableusers/people-2x.png",
+         "path" : "/missing/s.wordpress.org/images/notableusers/people-2x.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 975.946000311524,
+            "type" : "image/png",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/style/images/codeispoetry.png?2",
+         "path" : "/pages/wordpress.org/s.wordpress.org/style/images/codeispoetry.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 976.747000124305,
+            "type" : "image/png",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.twitter.com/f.gif?screen_name=WordPress&show_count=false&twttr_variant=2.0&twttr_referrer=http%3A%2F%2Fwordpress.org%2F&twttr_widget=0&twttr_hask=0&twttr_li=0&twttr_pid=",
+         "path" : "/",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1094.27700005472,
+            "type" : "image/gif",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://twitter.com/i/jot?l=%7B%22_category_%22%3A%22tfw_client_event%22%2C%22client_version%22%3A%222.0%3Aundefined%22%2C%22widget_origin%22%3A%22http%3A%2F%2Fwordpress.org%2F%22%2C%22format_version%22%3A1%2C%22dnt%22%3Afalse%2C%22triggered_on%22%3A1378094066975%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D",
+         "path" : "/missing/twitter.com/i/jot",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1097.88900008425,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=713379323&utmhn=wordpress.org&utmcs=UTF-8&utmsr=2048x1152&utmvp=937x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=WordPress%20%E2%80%BA%20Blog%20Tool%2C%20Publishing%20Platform%2C%20and%20CMS&utmhid=1094926087&utmr=-&utmp=%2F&utmht=1378094067105&utmac=UA-52447-1&utmcc=__utma%3D213718802.2137710882.1378094067.1378094067.1378094067.1%3B%2B__utmz%3D213718802.1378094067.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qB~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1228.66300027817,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.quantserve.com/pixel;r=1904641034;a=p-18-mFEk4J448M;fpan=1;fpa=P0-1309131379-1378094066766;ns=0;ce=1;cm=;je=1;sr=2048x1152x24;enc=n;dst=1;et=1378094066763;tzo=420;ref=;url=http%3A%2F%2Fwordpress.org%2F;ogl=",
+         "path" : "/missing/pixel.quantserve.com/pixel_r_1904641034_a_p-18-mFEk4J448M_fpan_1_fpa_P0-1309131379-1378094066766_ns_0_ce_1_cm__je_1_sr_2048x1152x24_enc_n_dst_1_et_1378094066763_tzo_420_ref__url_http_3A_2F_2Fwordpress.org_2F_ogl_",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 890.170000027865,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.wordpress.org/style/iphone.css?1",
+         "path" : "/pages/wordpress.org/s.wordpress.org/style/iphone.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1308.38200030848,
+               "time" : 11.9920000434001,
+               "id" : "comp_69",
+               "type" : null,
+               "e_time" : 1320.37400035188
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1299.17900031433,
+            "type" : "text/css",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/opensans/v6/wMws1cEtxWZc6AZZIpiqWALUuEpTyoUstqEm5AMlJo4.woff",
+         "path" : "/pages/wordpress.org/themes.googleusercontent.com/static/fonts/opensans/v6/wMws1cEtxWZc6AZZIpiqWALUuEpTyoUstqEm5AMlJo4.woff",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1034.73100019619,
+            "type" : "font/woff",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTb3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "path" : "/pages/wordpress.org/themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTb3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1035.21100012586,
+            "type" : "font/woff",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSr3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "path" : "/pages/wordpress.org/themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSr3hpw3pgy2gAi-Ip7WPMi0.woff",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1035.63500009477,
+            "type" : "font/woff",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.ak.fbcdn.net/rsrc.php/v2/yb/r/X3sPtsHRA2Z.js",
+         "path" : "/pages/bing.com/static.ak.fbcdn.net/rsrc.php/v2/yb/r/X3sPtsHRA2Z.js",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1136.93800009787,
+            "type" : "application/x-javascript",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.ak.fbcdn.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png",
+         "path" : "/pages/bing.com/static.ak.fbcdn.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1147.7850000374,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 8.40799976139988,
+         "id" : "dep6",
+         "a1" : "r18_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 140.912000089882,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 140.488000120972,
+         "id" : "dep8",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 140.008000191302,
+         "id" : "dep9",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_23",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 64.2989999614601,
+         "id" : "dep12",
+         "a1" : "comp_52"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 56.0679999180099,
+         "id" : "dep13",
+         "a1" : "r17_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 52.4559998884799,
+         "id" : "dep14",
+         "a1" : "r17_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 82.024000119417,
+         "id" : "dep15",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 81.223000306636,
+         "id" : "dep16",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 81.623000092804,
+         "id" : "dep17",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 80.841000191867,
+         "id" : "dep18",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 80.364000052213,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 79.9760003574189,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 79.568000044673,
+         "id" : "dep21",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 76.773000415414,
+         "id" : "dep22",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 75.8120003156359,
+         "id" : "dep23",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 49.349999986589,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 41.448999661952,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 496.343000326306,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 15.342000406236,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 15.342000406236,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 12.286000419408,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 5.30400034040298,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 17.239000182599,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 17.239000182599,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 16.829000320286,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 16.829000320286,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      }
+   ]
+}

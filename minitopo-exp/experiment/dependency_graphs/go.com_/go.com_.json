@@ -1,0 +1,1489 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "go.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://go.com/",
+         "path" : "/pages/go.com/go.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 344.976000022143,
+               "time" : 31.722999643535,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 376.698999665678
+            },
+            {
+               "s_time" : 714.538999833167,
+               "time" : 0.0670002773399574,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 714.606000110507
+            },
+            {
+               "s_time" : 715.181000065058,
+               "time" : 0.0359998084609288,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 715.216999873519
+            },
+            {
+               "s_time" : 793.004999868572,
+               "time" : 0.0829999335110188,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 793.087999802083
+            },
+            {
+               "s_time" : 797.429000027478,
+               "time" : 12.011999730021,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 809.440999757499
+            },
+            {
+               "s_time" : 884.389000013471,
+               "time" : 23.302999790758,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 907.691999804229
+            },
+            {
+               "s_time" : 996.423999778926,
+               "time" : 215.579000301664,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 1212.00300008059
+            },
+            {
+               "s_time" : 1222.55499986932,
+               "time" : 19.3190001882599,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 1241.87400005758
+            },
+            {
+               "s_time" : 1372.52500001341,
+               "time" : 0.0950000248901688,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 1372.6200000383
+            },
+            {
+               "s_time" : 1404.6589997597,
+               "time" : 375.32800016925,
+               "type" : "evalhtml",
+               "id" : "r1_c10",
+               "e_time" : 1779.98699992895
+            },
+            {
+               "s_time" : 1786.38499975204,
+               "time" : 13.2490000687601,
+               "type" : "evalhtml",
+               "id" : "r1_c11",
+               "e_time" : 1799.6339998208
+            },
+            {
+               "s_time" : 1835.71700006723,
+               "time" : 1075.61499997974,
+               "id" : "r1_c12",
+               "type" : "evalhtml",
+               "e_time" : 2911.33200004697
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css",
+         "path" : "/pages/go.com/go.com/sites/default/files/css/css_pbm0lsQQJ7A7WCCIMgxLho6mI_kBNgznNUWmTWcnfoE.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 440.715999808162,
+               "time" : 1.45599991083202,
+               "id" : "comp_2",
+               "type" : 4,
+               "e_time" : 442.171999718994
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 356.549999676645,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/css/css_I1czyKE8omE0sKMWyEvG09Hupq8ESIfxXYNCx6vMDA8.css",
+         "path" : "/pages/go.com/go.com/sites/default/files/css/css_I1czyKE8omE0sKMWyEvG09Hupq8ESIfxXYNCx6vMDA8.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 502.768999896944,
+               "time" : 4.34800004586498,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 507.116999942809
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 357.086000032723,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/css/css_Wu8npAzy16WmnnnWKxpexfgsAryolGGaX6yO3GWA5bU.css",
+         "path" : "/pages/go.com/go.com/sites/default/files/css/css_Wu8npAzy16WmnnnWKxpexfgsAryolGGaX6yO3GWA5bU.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 493.559999857098,
+               "time" : 0.173000153154021,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 493.733000010252
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 360.1039997302,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/css/css_i1JVoLuNTcH9cN2eywYdFavHZ65fEur10nYzZpdtQp4.css",
+         "path" : "/pages/go.com/go.com/sites/default/files/css/css_i1JVoLuNTcH9cN2eywYdFavHZ65fEur10nYzZpdtQp4.css",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 508.210000116378,
+               "time" : 10.992999654263,
+               "id" : "comp_9",
+               "type" : 4,
+               "e_time" : 519.202999770641
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 360.836999956518,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/css/css_HhTpF_NoAQO-RKrDUOq-skhVmSzaCsswLBMrtqb14v0.css",
+         "path" : "/pages/go.com/go.com/sites/default/files/css/css_HhTpF_NoAQO-RKrDUOq-skhVmSzaCsswLBMrtqb14v0.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 494.320000056177,
+               "time" : 6.11399998888402,
+               "id" : "comp_7",
+               "type" : 4,
+               "e_time" : 500.434000045061
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 361.461999826133,
+            "type" : "text/css",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js",
+         "path" : "/pages/go.com/go.com/sites/default/files/js/js_xAPl0qIk9eowy_iS9tNkCWXLUVoat94SQT48UBCFkyQ.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 600.912000052631,
+               "time" : 113.626999780536,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 714.538999833167
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 362.051999662071,
+            "type" : "text/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/js/js_enH0d4Aw5YKYJp6q8loPDxMdJyqAMdVKVW1bMcX4itY.js",
+         "path" : "/pages/go.com/go.com/sites/default/files/js/js_enH0d4Aw5YKYJp6q8loPDxMdJyqAMdVKVW1bMcX4itY.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 714.654000010341,
+               "time" : 0.527000054717064,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 715.181000065058
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 362.466999795288,
+            "type" : "text/javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/js/js_go466f5pxBTJOD6brXg42PZjRdNUWcAlHzNobReC6cs.js",
+         "path" : "/pages/go.com/go.com/sites/default/files/js/js_go466f5pxBTJOD6brXg42PZjRdNUWcAlHzNobReC6cs.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 715.245999861509,
+               "time" : 77.759000007063,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 793.004999868572
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 362.815000116825,
+            "type" : "text/javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js",
+         "path" : "/pages/go.com/go.com/sites/default/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 793.166999705136,
+               "time" : 4.26200032234192,
+               "id" : "comp_25",
+               "type" : 1,
+               "e_time" : 797.429000027478
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 363.184999674559,
+            "type" : "text/javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js",
+         "path" : "/pages/go.com/ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 1241.91300012171,
+               "time" : 130.6119998917,
+               "id" : "comp_51",
+               "type" : 1,
+               "e_time" : 1372.52500001341
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 370.949999894947,
+            "type" : "text/javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://aglobal.go.com/stat/dolWebAnalytics.js",
+         "path" : "/pages/go.com/aglobal.go.com/stat/dolWebAnalytics.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 1798.45199966803,
+               "time" : 37.2650003991998,
+               "id" : "comp_107",
+               "type" : 1,
+               "e_time" : 1835.71700006723
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 376.698999665678,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "path" : "/pages/bbc.co.uk/www.googletagservices.com/tag/js/gpt.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 908.001000061631,
+               "time" : 42.293000034988,
+               "id" : "comp_34",
+               "type" : 2,
+               "e_time" : 950.294000096619
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 805.580999702215,
+            "type" : "text/javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt_mobile.js",
+         "path" : "/pages/go.com/www.googletagservices.com/tag/js/gpt_mobile.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 850.014999974519,
+               "time" : 34.374000038952,
+               "id" : "comp_31",
+               "type" : 1,
+               "e_time" : 884.389000013471
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 809.440999757499,
+            "type" : "text/javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://vp.disney.go.com/js",
+         "path" : "/pages/go.com/vp.disney.go.com/js.add.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 1372.67699977383,
+               "time" : 31.9819999858701,
+               "id" : "comp_76",
+               "type" : 1,
+               "e_time" : 1404.6589997597
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 371.411999687552,
+            "type" : "application/x-javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/show_companion_ad.js",
+         "path" : "/pages/go.com/pagead2.googlesyndication.com/pagead/show_companion_ad.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1039.08200003207,
+               "time" : 57.9109997488499,
+               "id" : "comp_40",
+               "type" : 2,
+               "e_time" : 1096.99299978092
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 907.691999804229,
+            "type" : "text/javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gpt/pubads_impl_25.js",
+         "path" : "/pages/imgur.com/partner.googleadservices.com/gpt/pubads_impl_25.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 958.877000026405,
+               "time" : 37.5469997525211,
+               "id" : "comp_36",
+               "type" : 1,
+               "e_time" : 996.423999778926
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 898.350999690592,
+            "type" : "text/javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/header.jpg",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/header.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1007.46200000867,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/ad-slug-vertical.gif",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/ad-slug-vertical.gif",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1042.23999986425,
+            "type" : "image/gif",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/logo.png",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/logo.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1042.74499975145,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/disney_online.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/disney_online.png",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1045.29599985108,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/di_entertainment.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/di_entertainment.png",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1045.64299993217,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/di_family.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/di_family.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1044.92300003767,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2587684725850112&output=json_html&callback=googletag.impl.pubads.setAdContentsBySlotForSync&impl=s&m_ast=js&markup=html&js=afmc&iu=%2F7046%2Fgoc%2Fhomepage&sz=728x90&scp=position%3Datf&cust_params=contentType%3Dhomepage%26pageName%3Dhome%26siteSection%3Dhomepage%26unit%3Dgoc&cookie_enabled=1&lmt=1378114663&dt=1378091716713&cc=47&biw=956&bih=688&oid=3&adx=118&ady=0&adk=3872311335&gut=v2&u_tz=-420&u_his=10&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1980&u_cd=24&u_nplug=6&u_nmime=93&u_sd=1&flash=11.8.800&url=http%3A%2F%2Fgo.com%2F&vrg=25&vrp=25",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 1167.30699967593,
+               "time" : 55.24800019339,
+               "id" : "comp_43",
+               "type" : 1,
+               "e_time" : 1222.55499986932
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1035.64299969003,
+            "type" : "text/javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/abc_news.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/abc_news.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1046.00499989465,
+            "type" : "image/png",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/imgad?id=CICAgIDQm6vgogEQARgBMghSOZFhJ0XHsQ",
+         "path" : "/missing/pagead2.googlesyndication.com/pagead/imgad",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1174.0719997324,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/di_games.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/di_games.png",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1046.33799986914,
+            "type" : "image/png",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/espn.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/espn.png",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1046.66699981317,
+            "type" : "image/png",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/abc.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/abc.png",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1046.99499998242,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/disney_park.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/disney_park.png",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1047.32199991122,
+            "type" : "image/png",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/files/disney_shopping.png",
+         "path" : "/pages/go.com/go.com/sites/default/files/disney_shopping.png",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1047.6520000957,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/footer_logo.png",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/footer_logo.png",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1047.9879998602,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://vp.disney.go.com/player/latest/html5/plugins/css/player.css",
+         "path" : "/pages/go.com/vp.disney.go.com/player/latest/html5/plugins/css/player.css",
+         "id" : "r36",
+         "comps" : [
+            {
+               "s_time" : 1564.87599993125,
+               "time" : 5.69099979475004,
+               "id" : "comp_82",
+               "type" : 2,
+               "e_time" : 1570.566999726
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1411.25799994916,
+            "type" : "text/css",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/pixie_dust.jpg",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/pixie_dust.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1425.26299972087,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/pagead/osd.js",
+         "path" : "/pages/youtube.com/pagead2.googlesyndication.com/pagead/osd.js",
+         "id" : "r37",
+         "comps" : [
+            {
+               "s_time" : 1635.08399995044,
+               "time" : 46.7920000664899,
+               "id" : "comp_98",
+               "type" : 2,
+               "e_time" : 1681.87600001693
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1469.81799975038,
+            "type" : "text/javascript",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?gdfp_req=1&correlator=2587684725850112&output=json_html&callback=googletag.impl.pubads.setAdContentsBySlotForSync&impl=s&m_ast=js&markup=html&js=afmc&iu=%2F7046%2Fgoc%2Fhomepage&sz=160x600&scp=position%3Datf&cust_params=contentType%3Dhomepage%26pageName%3Dhome%26siteSection%3Dhomepage%26unit%3Dgoc&cookie=ID%3D39254de9e536731b%3AT%3D1378091716%3AS%3DALNI_Mab4HefSlJxRnI9D1VbaEafJ83p7w&cookie_enabled=1&lmt=1378114663&dt=1378091717256&cc=100&biw=941&bih=688&oid=3&adx=661&ady=456&adk=1032395573&gut=v2&u_tz=-420&u_his=10&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1980&u_cd=24&u_nplug=6&u_nmime=93&u_sd=1&flash=11.8.800&url=http%3A%2F%2Fgo.com%2F&vrg=25&vrp=25",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1574.17299970984,
+            "type" : "text/javascript",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/ad-slug-horizontal.gif",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/ad-slug-horizontal.gif",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1574.63899999857,
+            "type" : "image/gif",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://globalregsession.go.com/globalregsession/session?as=DisneyPlayerUtil.globalCallbacks.disneyPlayer&_=1378091717269",
+         "path" : "/missing/globalregsession.go.com/globalregsession/session",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 1916.25599982217,
+               "time" : 0.584000255910041,
+               "id" : "comp_123",
+               "type" : 2,
+               "e_time" : 1916.84000007808
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1582.82899996266,
+            "type" : "text/javascript",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.doubleclick.net/N7046/adj/goc/houseads;sz=160x604;click=http://adclick.g.doubleclick.net/aclk?sa=L&ai=BmgdxxQIkUvGVEeuYkgKLqIGYB9zPwqACAAAAEAEg_O2gGTgAWMTP-Z4yYMmOxo30pNAZsgEGZ28uY29tugEJZ2ZwX2ltYWdlyAEJ2gEOaHR0cDovL2dvLmNvbS_AAgLgAgDqAhIvNzA0Ni9nb2MvaG9tZXBhZ2X4AoHSHpADrAKYA-ADqAMB0ASQTuAEAaAGFg&num=0&sig=AOD64_0BpySs91PSXu22MR1VThE4vHf-yQ&client=ca-pub-4869568808448456&adurl=;ord=1983409528?",
+         "path" : "/missing/ad.doubleclick.net/N7046/adj/goc/houseads_sz_160x604_click_http_",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 1776.19699994102,
+               "time" : 10.1879998110198,
+               "id" : "comp_102",
+               "type" : 1,
+               "e_time" : 1786.38499975204
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1691.9100000523,
+            "type" : "text/javascript",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ohlone.vizu.com/a.gif?vzcid=7046&vzadid=disneycustom&vzsid=disney&ord=124483119",
+         "path" : "/missing/ohlone.vizu.com/a.gif",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1212.00300008059,
+            "type" : "image/gif",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/simgad/2665363266969817265",
+         "path" : "/missing/pagead2.googlesyndication.com/simgad/2665363266969817265",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.11100002006,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r44",
+         "comps" : [
+            {
+               "s_time" : 2082.92099973187,
+               "time" : 104.97099999338,
+               "id" : "comp_151",
+               "type" : null,
+               "e_time" : 2187.89199972525
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1799.6339998208,
+            "type" : "text/javascript",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://speed.pointroll.com/PointRoll/Media/Banners/tran1x1.gif?PRAd=1787088&PRCID=1787088&PRplcmt=2085562&PRPID=2085562",
+         "path" : "/missing/speed.pointroll.com/PointRoll/Media/Banners/tran1x1.gif",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1779.98699992895,
+            "type" : "image/gif",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://go.com/sites/default/themes/go_com/images/footer.png",
+         "path" : "/pages/go.com/go.com/sites/default/themes/go_com/images/footer.png",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.90900004283,
+            "type" : "image/png",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://aglobal.go.com/stat/s_code.js",
+         "path" : "/pages/go.com/aglobal.go.com/stat/s_code.js",
+         "id" : "r45",
+         "comps" : [
+            {
+               "s_time" : 2187.95699998736,
+               "time" : 207.70199969411,
+               "id" : "comp_153",
+               "type" : null,
+               "e_time" : 2395.65899968147
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1848.88199996203,
+            "type" : "application/x-javascript",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://vp.disney.go.com/player/latest/flash/kdp3.swf?/cache_st/0/wid/_628012/uiconf_id/6607922",
+         "path" : "/pages/go.com/vp.disney.go.com/player/latest/flash/kdp3.swf",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2040.66299973056,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=1392124993&utmhn=go.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=941x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Go.com%20%7C%20The%20Walt%20Disney%20Company&utmhid=968037641&utmr=-&utmp=%2F&utmht=1378091717858&utmac=UA-39146272-1&utmcc=__utma%3D133755288.641494921.1378091718.1378091718.1378091718.1%3B%2B__utmz%3D133755288.1378091718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2173.9509999752,
+            "type" : "image/gif",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://cdn.adimages.go.com/ad/sponsors/utilities/disney/dol-audience-science_v1.html",
+         "path" : "/pages/go.com/cdn.adimages.go.com/ad/sponsors/utilities/disney/dol-audience-science_v1.html/index.html",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 2446.98200002313,
+               "time" : 418.91099978238,
+               "type" : "evalhtml",
+               "id" : "r46_c1",
+               "e_time" : 2865.89299980551
+            },
+            {
+               "s_time" : 2867.46799992397,
+               "time" : 3.29700019210986,
+               "id" : "r46_c2",
+               "type" : "evalhtml",
+               "e_time" : 2870.76500011608
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1860.0809997879,
+            "type" : "text/html",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-us.imrworldwide.com/novms/js/2/ggcmb390.js",
+         "path" : "/pages/go.com/secure-us.imrworldwide.com/novms/js/2/ggcmb390.js",
+         "id" : "r51",
+         "comps" : [
+            {
+               "s_time" : 2544.03299978003,
+               "time" : 13.25999991968,
+               "id" : "comp_160",
+               "type" : 2,
+               "e_time" : 2557.29299969971
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2234.66799966991,
+            "type" : "application/x-javascript",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-505916h&cg=0&cc=1&si=http%3A//go.com/&rp=&ts=compact&rnd=1378091717921",
+         "path" : "/missing/secure-us.imrworldwide.com/cgi-bin/m",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2233.7389998138,
+            "type" : "image/gif",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ctologger01.analytics.go.com/cto/?app=w88_dolwa_prod03&trckTp=trackpage&vendorLst=o%2Cn&lSwid=no_SWID_cookie&pgVwId=CTO-1378091717908-1986884407233&pgId=view_disney&fullPgNm=dfam%3Agoc%3Ahome&arPgNm=dfam%3Agoc%3Ahome&plgId=07637c133a73ba663f5433b206fd4669cb434e58&ua=Mozilla/5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_6_8%29%20AppleWebKit/537.1%20%28KHTML%2C%20like%20Gecko%29%20Chrome/22.0.1195.0%20Safari/537.1&res=2048x1152&cod=24&categoryCd=dfam&siteCd=goc&contentTp=homepage&adPgNm=/7046/goc/homepage&adSzLst=728x90%2C160x600&url=http%3A//go.com/&urlDom=go.com&urlFDom=go.com&urlFDom1=go.com&refUrl=na&sessionData=1378091717908-4389548387844%3C%7C%3Ena%3C%7C%3Ehttp%3A//go.com/%3C%7C%3Edfam%3Agoc%3Ahome%3C%7C%3E1&visitorData=1378091717908-4389548387844%3C%7C%3Ena%3C%7C%3Ehttp%3A//go.com/%3C%7C%3Edfam%3Agoc%3Ahome%3C%7C%3E1&logStatus=lo%7Cnr&accnt=gocom&pgNm=home&omniId=no_s_vi_cookie&swid=no_SWID_cookie&visitorId=1378091717908-4389548387844&sessionId=1378091717908-4389548387844&dolWAVer=3.7.8.7&fsv=flash_version%3A11.8.800&pgTtl=Go.com%20%7C%20The%20Walt%20Disney%20Company&bro=Chrome%2022&bw=956&bh=688&os=Mac&lan=en-US&dom=go.com&jsv=1.8.1&cf=true&jf=true&t=2013/8/2%203%3A15%3A17&plg=Remoting%20Viewer%3BNative%20Client%3BShockwave%20Flash%3BiPhotoPhotocast%3BJava%20Applet%20Plug-in%3BQuickTime%20Plug-in%207.6.6%3B",
+         "path" : "/missing/ctologger01.analytics.go.com/cto",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2237.82099969685,
+            "type" : "image/png",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://weblogger01.data.disney.com/?app=w88_dolwa_prod02&trckTp=trackpage&vendorLst=o%2Cn&lSwid=no_SWID_cookie&pgVwId=CTO-1378091717908-1986884407233&pgId=view_disney&fullPgNm=dfam%3Agoc%3Ahome&arPgNm=dfam%3Agoc%3Ahome&plgId=07637c133a73ba663f5433b206fd4669cb434e58&ua=Mozilla/5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_6_8%29%20AppleWebKit/537.1%20%28KHTML%2C%20like%20Gecko%29%20Chrome/22.0.1195.0%20Safari/537.1&res=2048x1152&cod=24&categoryCd=dfam&siteCd=goc&contentTp=homepage&adPgNm=/7046/goc/homepage&adSzLst=728x90%2C160x600&url=http%3A//go.com/&urlDom=go.com&urlFDom=go.com&urlFDom1=go.com&refUrl=na&sessionData=1378091717908-4389548387844%3C%7C%3Ena%3C%7C%3Ehttp%3A//go.com/%3C%7C%3Edfam%3Agoc%3Ahome%3C%7C%3E1&visitorData=1378091717908-4389548387844%3C%7C%3Ena%3C%7C%3Ehttp%3A//go.com/%3C%7C%3Edfam%3Agoc%3Ahome%3C%7C%3E1&logStatus=lo%7Cnr&accnt=gocom&pgNm=home&omniId=no_s_vi_cookie&swid=no_SWID_cookie&visitorId=1378091717908-4389548387844&sessionId=1378091717908-4389548387844&dolWAVer=3.7.8.7&fsv=flash_version%3A11.8.800&pgTtl=Go.com%20%7C%20The%20Walt%20Disney%20Company&bro=Chrome%2022&bw=956&bh=688&os=Mac&lan=en-US&dom=go.com&jsv=1.8.1&cf=true&jf=true&t=2013/8/2%203%3A15%3A17&plg=Remoting%20Viewer%3BNative%20Client%3BShockwave%20Flash%3BiPhotoPhotocast%3BJava%20Applet%20Plug-in%3BQuickTime%20Plug-in%207.6.6%3B",
+         "path" : "/missing/weblogger01.data.disney.com",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2238.70200011879,
+            "type" : "image/png",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://js.revsci.net/gateway/gw.js?csid=A08723&auto=t",
+         "path" : "/pages/go.com/js.revsci.net/gateway/gw.js",
+         "id" : "r55",
+         "comps" : [
+            {
+               "s_time" : 2851.96799971163,
+               "time" : 15.5000002123402,
+               "id" : "comp_163",
+               "type" : 1,
+               "e_time" : 2867.46799992397
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2448.86499969289,
+            "type" : "application/javascript",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pix04.revsci.net/A08723/b3/0/3/120814/73689855.js?D=DM_LOC%3Dhttp%253A%252F%252Fgo.com%252F%253F_rsiL%253D1%26DM_REF%3Dhttp%253A%252F%252Fgo.com%252F%26DM_EOM%3D1&C=A08723",
+         "path" : "/missing/pix04.revsci.net/A08723/b3/0/3/120814/73689855.js",
+         "id" : "r56",
+         "comps" : [
+            {
+               "s_time" : 2887.91400007904,
+               "time" : 1.38599984347002,
+               "id" : "comp_167",
+               "type" : null,
+               "e_time" : 2889.29999992251
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2865.89299980551,
+            "type" : "application/javascript",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/r?c2=6035140&d.c=gif&d.o=wdgdolfamsec&d.x=161553241&d.t=page&d.u=http%3A%2F%2Fgo.com%2F",
+         "path" : "/missing/b.scorecardresearch.com/r",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2911.33200004697,
+            "type" : "image/gif",
+            "id" : "download_54"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_31"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_36"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_43"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_51"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_76"
+      },
+      {
+         "a2" : "r1_c11",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_102"
+      },
+      {
+         "a2" : "r1_c12",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_107"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "comp_12",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep17",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "comp_25",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "comp_76",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "comp_51"
+      },
+      {
+         "a2" : "r46_c2",
+         "time" : -1,
+         "id" : "dep21",
+         "a1" : "comp_163"
+      },
+      {
+         "a2" : "download_54",
+         "time" : -1,
+         "id" : "dep22",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_53",
+         "time" : -1,
+         "id" : "dep23",
+         "a1" : "r46_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 1.88299966976001,
+         "id" : "dep24",
+         "a1" : "r46_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 50.7450001314296,
+         "id" : "dep25",
+         "a1" : "comp_153"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 49.8639997094897,
+         "id" : "dep26",
+         "a1" : "comp_153"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 45.7819998264399,
+         "id" : "dep27",
+         "a1" : "comp_153"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 46.7109996825498,
+         "id" : "dep28",
+         "a1" : "comp_153"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 24.3639997206701,
+         "id" : "dep29",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 91.0300002433301,
+         "id" : "dep30",
+         "a1" : "comp_151"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 204.94599966333,
+         "id" : "dep31",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 13.1649998948001,
+         "id" : "dep32",
+         "a1" : "r1_c12"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 3.52400029079013,
+         "id" : "dep33",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_42",
+         "time" : -1,
+         "id" : "dep34",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_41",
+         "time" : -1,
+         "id" : "dep35",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 2.72600026802002,
+         "id" : "dep36",
+         "a1" : "r1_c11"
+      },
+      {
+         "a2" : "download_39",
+         "time" : -1,
+         "id" : "dep37",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 287.2510002926,
+         "id" : "dep38",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 178.17000020296,
+         "id" : "dep39",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 169.98000023887,
+         "id" : "dep40",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 169.51399995014,
+         "id" : "dep41",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 65.1589999906801,
+         "id" : "dep42",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 20.6039999611701,
+         "id" : "dep43",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 6.59900018945996,
+         "id" : "dep44",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 51.564000081274,
+         "id" : "dep45",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 51.228000316774,
+         "id" : "dep46",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 50.898000132294,
+         "id" : "dep47",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 50.571000203494,
+         "id" : "dep48",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 50.2430000342439,
+         "id" : "dep49",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 49.914000090214,
+         "id" : "dep50",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 177.647999953474,
+         "id" : "dep51",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 49.5810001157239,
+         "id" : "dep52",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 39.2189999111039,
+         "id" : "dep53",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 39.2189999111039,
+         "id" : "dep54",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 48.4990002587439,
+         "id" : "dep55",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 49.2190001532439,
+         "id" : "dep56",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 48.872000072154,
+         "id" : "dep57",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 46.320999972524,
+         "id" : "dep58",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 45.8160000853239,
+         "id" : "dep59",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 11.0380002297439,
+         "id" : "dep60",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep61",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_15",
+         "time" : -1,
+         "id" : "dep62",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_14",
+         "time" : -1,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep64",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 8.151999674737,
+         "id" : "dep65",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_11",
+         "time" : -1,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 25.973999872804,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 18.208999652416,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 17.839000094682,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 17.490999773145,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 17.075999639928,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 16.48599980399,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 15.860999934375,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 15.127999708057,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 12.11000001058,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 11.573999654502,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      }
+   ]
+}

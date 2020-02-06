@@ -1,0 +1,1249 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.douban.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.douban.com/",
+         "path" : "/pages/douban.com/www.douban.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 819.662000052631,
+               "time" : 1214.29000003263,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 2033.95200008526
+            },
+            {
+               "s_time" : 2046.45700007677,
+               "time" : 0.0930000096598178,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2046.55000008643
+            },
+            {
+               "s_time" : 2048.92100021243,
+               "time" : 1565.76699996367,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 3614.6880001761
+            },
+            {
+               "s_time" : 3754.86099999398,
+               "time" : 2516.05800027028,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 6270.91900026426
+            },
+            {
+               "s_time" : 6346.46600019187,
+               "time" : 148.78899976611,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 6495.25499995798
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/css/core/packed__init_500824067.css",
+         "path" : "/pages/douban.com/img3.douban.com/css/core/packed__init_500824067.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1871.60200020298,
+               "time" : 223.77800010145,
+               "id" : "comp_12",
+               "type" : 4,
+               "e_time" : 2095.38000030443
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 853.523999918252,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/css/packed_anonymous_home8808418033.css",
+         "path" : "/pages/douban.com/img3.douban.com/css/packed_anonymous_home8808418033.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1867.07899998873,
+               "time" : 2.5030001998,
+               "id" : "comp_11",
+               "type" : 4,
+               "e_time" : 1869.58200018853
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 854.071000125259,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/new_menu.gif",
+         "path" : "/pages/douban.com/img3.douban.com/pics/new_menu.gif",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 911.627999972552,
+            "type" : "image/gif",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/misc/mixed_static/707579b646a2bdc6.js",
+         "path" : "/pages/douban.com/img3.douban.com/misc/mixed_static/707579b646a2bdc6.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 2046.60500027239,
+               "time" : 2.31599994004,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 2048.92100021243
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 910.60100030154,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/blank.gif",
+         "path" : "/pages/douban.com/img3.douban.com/pics/blank.gif",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 911.186000332236,
+            "type" : "image/gif",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/core/do/packed__init_5832834905.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/core/do/packed__init_5832834905.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1980.13100028038,
+               "time" : 66.3259997963901,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 2046.45700007677
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 909.903000108898,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/biaoshi.gif",
+         "path" : "/pages/douban.com/img3.douban.com/pics/biaoshi.gif",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 912.106000352651,
+            "type" : "image/gif",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/packed_jquery.min6301986802.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/packed_jquery.min6301986802.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 2745.59300020337,
+               "time" : 176.17999995127,
+               "id" : "comp_80",
+               "type" : 2,
+               "e_time" : 2921.77300015464
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2033.95200008526,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/packed_ad2682256202.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/packed_ad2682256202.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 2733.21200022474,
+               "time" : 12.3529997654296,
+               "id" : "comp_78",
+               "type" : 2,
+               "e_time" : 2745.56499999017
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2055.20100006834,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/nav/anony_nav_logo4.png",
+         "path" : "/pages/douban.com/img3.douban.com/pics/nav/anony_nav_logo4.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2097.07800019532,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/icon/bn_srh_1.png",
+         "path" : "/pages/douban.com/img3.douban.com/pics/icon/bn_srh_1.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2101.03200003505,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/app/app_icons_50_6.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/pics/app/app_icons_50_6.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2101.89900035039,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/nav/logo_db.png",
+         "path" : "/pages/douban.com/img3.douban.com/pics/nav/logo_db.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2098.0250001885,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/pics/movie/midstars.gif",
+         "path" : "/pages/douban.com/img3.douban.com/pics/movie/midstars.gif",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2103.07099996135,
+            "type" : "image/gif",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.douban.com/pics/blank.gif",
+         "path" : "/pages/douban.com/www.douban.com/pics/blank.gif.dup",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2732.51000000164,
+            "type" : "image/gif",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/sns/fp/packed_base6505908882.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/sns/fp/packed_base6505908882.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 3199.85400000587,
+               "time" : 90.5840001069,
+               "id" : "comp_88",
+               "type" : 2,
+               "e_time" : 3290.43800011277
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2953.62700009719,
+            "type" : "application/x-javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/css/ui/packed_dialog7156407994.css",
+         "path" : "/pages/douban.com/img3.douban.com/css/ui/packed_dialog7156407994.css",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 3137.69800029695,
+               "time" : 23.1359996832903,
+               "id" : "comp_85",
+               "type" : 2,
+               "e_time" : 3160.83399998024
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2956.64500026032,
+            "type" : "text/css",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_anonymous_home_page_top&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_4C75FEFAB0244B868454C9BDEB02DCC8",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 3383.70600016788,
+               "time" : 24.25799984485,
+               "id" : "comp_95",
+               "type" : 2,
+               "e_time" : 3407.96400001273
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2758.2320002839,
+            "type" : "application/javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/ui/packed_dialog2436052253.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/ui/packed_dialog2436052253.js",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 3407.99700003117,
+               "time" : 34.5700001344098,
+               "id" : "comp_108",
+               "type" : 2,
+               "e_time" : 3442.56700016558
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3203.82599998266,
+            "type" : "application/x-javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_homepage_online_activity_promo_1&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_BA0270ED908A489E9290433E791A27FE",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 3443.58299998567,
+               "time" : 15.7690001651599,
+               "id" : "comp_112",
+               "type" : 2,
+               "e_time" : 3459.35200015083
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2758.69100028649,
+            "type" : "application/javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_anonymous_home_page_bottom&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_EB1CA28D42FA4A77897155B9BADD977E",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 3466.86700033024,
+               "time" : 63.7619998306,
+               "id" : "comp_130",
+               "type" : 2,
+               "e_time" : 3530.62900016084
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2762.85500032827,
+            "type" : "application/javascript",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/dale-online/dale_ad/public/cd7c57e89c5bf3f.jpg",
+         "path" : "/missing/img3.douban.com/view/dale-online/dale_ad/public/cd7c57e89c5bf3f.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3404.66800006106,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/packed_jquery.min4.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/packed_jquery.min4.js",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 3602.02899994329,
+               "time" : 152.83200005069,
+               "id" : "comp_159",
+               "type" : 1,
+               "e_time" : 3754.86099999398
+            },
+            {
+               "s_time" : 6271.47500030696,
+               "time" : 74.9909998849098,
+               "id" : "comp_232",
+               "type" : 1,
+               "e_time" : 6346.46600019187
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3459.14799999446,
+            "type" : "application/x-javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/dale-online/dale_ad/public/60fdf2d8ff7b72d.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/dale-online/dale_ad/public/60fdf2d8ff7b72d.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3539.61599990726,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.douban.com/%3CIMG%20SRC=",
+         "path" : "/missing/www.douban.com/_3CIMG_20SRC_",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3405.14199994504,
+            "type" : "text/html",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/separation/packed__all295341955.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/separation/packed__all295341955.js",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3587.36000023782,
+            "type" : "application/x-javascript",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/js/packed_douban5051788117.js",
+         "path" : "/pages/douban.com/img3.douban.com/js/packed_douban5051788117.js",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3614.6880001761,
+            "type" : "application/x-javascript",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/count/?ad=57624&uid=&bid=oxVksi3NhDw&unit=dale_anonymous_home_page_top&ip=128.208.4.212&crtr=3%3A%2F&cfg=d01e8fadbaf3719518280321dfe92dd64f8759ca&ns=1378092505087668000&type=impression",
+         "path" : "/missing/erebor.douban.com/count",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3472.91000001132,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/photo/albumcover/public/p2065753992.jpg",
+         "path" : "/missing/img3.douban.com/view/photo/albumcover/public/p2065753992.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3815.42500015348,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2089491965.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2089491965.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3816.97900034487,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/photo/albumcover/public/p2108993597.jpg",
+         "path" : "/missing/img3.douban.com/view/photo/albumcover/public/p2108993597.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3815.0579999201,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2033476722.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2033476722.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3816.58399989828,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/photo/albumcover/public/p2112172874.jpg",
+         "path" : "/missing/img3.douban.com/view/photo/albumcover/public/p2112172874.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3814.69100015238,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2076443176.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2076443176.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3817.3970002681,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/count/?ad=57128&uid=&bid=oxVksi3NhDw&unit=dale_anonymous_home_page_bottom&ip=128.208.4.212&crtr=3%3A%2F&cfg=d01e8fadbaf3719518280321dfe92dd64f8759ca&ns=1378092505198470000&type=impression",
+         "path" : "/missing/erebor.douban.com/count",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3539.14200002328,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/count/?ad=51659&uid=&bid=oxVksi3NhDw&unit=dale_homepage_online_activity_promo_1&ip=128.208.4.212&crtr=3%3A%2F&cfg=d01e8fadbaf3719518280321dfe92dd64f8759ca&ns=1378092505120612000&type=impression",
+         "path" : "/missing/erebor.douban.com/count",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3473.39300019667,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2098048916.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2098048916.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3817.89500033483,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.douban.com/j/biz/get_participants_num?event_type=site&event_id=station",
+         "path" : "/pages/douban.com/www.douban.com/j/biz/get_participants_num.add.json",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3769.36300005764,
+            "type" : "application/json",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2106351421.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2106351421.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3820.70900034159,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2052557343.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2052557343.jpg",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3821.10400032252,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/movie_poster_cover/spst/public/p2091618013.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/movie_poster_cover/spst/public/p2091618013.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3820.16000011936,
+            "type" : "image/jpeg",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_anonymous_homepage_top_for_crazy_ad&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_47555E19F0AD4C48816C3DCA1093C574",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 6253.50600015372,
+               "time" : 0.686000101269201,
+               "id" : "comp_222",
+               "type" : 2,
+               "e_time" : 6254.19200025499
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2740.38400035352,
+            "type" : "application/javascript",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_anonymous_homepage_doublemint&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_E4936B39C1984869918E92F0AB2FDDD6",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 6262.34500017017,
+               "time" : 144.29999981076,
+               "id" : "comp_224",
+               "type" : 2,
+               "e_time" : 6406.64499998093
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2759.14300000295,
+            "type" : "application/javascript",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/?unit=dale_anonymous_home_page_middle&uid=&bid=oxVksi3NhDw&ip=128.208.4.212&crtr=3%3A%2F&ts=1378092504685&prv=&debug=false&callback=erebor_3D5D0A3CEF24436E9C6FCAE7EF112229",
+         "path" : "/missing/erebor.douban.com",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 6481.58599995077,
+               "time" : 9.89000033586944,
+               "id" : "comp_251",
+               "type" : 2,
+               "e_time" : 6491.47600028664
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2759.57600027323,
+            "type" : "application/javascript",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img3.douban.com/view/dale-online/dale_ad/public/7f6768534dcfde0.jpg",
+         "path" : "/pages/douban.com/img3.douban.com/view/dale-online/dale_ad/public/7f6768534dcfde0.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6494.73100015894,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img4.douban.com/view/photo/albumcover/public/p1720604748.jpg",
+         "path" : "/pages/douban.com/img4.douban.com/view/photo/albumcover/public/p1720604748.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3802.8530003503,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img4.douban.com/view/movie_poster_cover/spst/public/p2091221628.jpg",
+         "path" : "/pages/douban.com/img4.douban.com/view/movie_poster_cover/spst/public/p2091221628.jpg",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3814.19799989089,
+            "type" : "image/jpeg",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/count/?ad=57456&uid=&bid=oxVksi3NhDw&unit=dale_anonymous_homepage_doublemint&ip=128.208.4.212&crtr=3%3A%2F&cfg=d01e8fadbaf3719518280321dfe92dd64f8759ca&ns=1378092508099963000&type=impression",
+         "path" : "/missing/erebor.douban.com/count",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6409.82900001109,
+            "type" : "image/jpeg",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.douban.com/j/biz/get_participants_num?event_type=online&event_id=11557962",
+         "path" : "/pages/douban.com/www.douban.com/j/biz/get_participants_num.add.json",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6405.78899998218,
+            "type" : "application/json",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://erebor.douban.com/count/?ad=57182&uid=&bid=oxVksi3NhDw&unit=dale_anonymous_home_page_middle&ip=128.208.4.212&crtr=3%3A%2F&cfg=d01e8fadbaf3719518280321dfe92dd64f8759ca&ns=1378092508107384000&type=impression",
+         "path" : "/missing/erebor.douban.com/count",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6495.25499995798,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g.cn.miaozhen.com/x.gif?k=1006553&p=3yaKJ0&rt=2&ns=[M_ADIP]&ni=[M_IESID]&na=[M_MAC]&v=[M_LOC]&o=",
+         "path" : "/pages/douban.com/g.cn.miaozhen.com/x.gif",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6350.73100030422,
+            "type" : "image/gif",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://t.douban.com/img/files/file-1372304096.jpg",
+         "path" : "/pages/douban.com/t.douban.com/img/files/file-1372304096.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6349.42599991336,
+            "type" : "image/jpeg",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://t.douban.com/img/files/file-1377493502.jpg",
+         "path" : "/missing/t.douban.com/img/files/file-1377493502.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6425.65000010654,
+            "type" : "image/jpeg",
+            "id" : "download_53"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_159"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_232"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 79.1839999146696,
+         "id" : "dep8",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 2.95999972149002,
+         "id" : "dep9",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 4.26500011235021,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_50",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 59.32299979031,
+         "id" : "dep12",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 63.36299981922,
+         "id" : "dep13",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 59.3369998969101,
+         "id" : "dep14",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 47.9920003563202,
+         "id" : "dep15",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 148.26499996707,
+         "id" : "dep16",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 710.6550000608,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 710.22199979052,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 691.46300014109,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 65.2990001253802,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 66.2430003285399,
+         "id" : "dep21",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 65.8480003476102,
+         "id" : "dep22",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 14.50200006366,
+         "id" : "dep23",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 63.0340003408501,
+         "id" : "dep24",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1424.47199998424,
+         "id" : "dep25",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_35",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 62.5360002741199,
+         "id" : "dep27",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 59.8300001584003,
+         "id" : "dep28",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 61.7229999043002,
+         "id" : "dep29",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 60.19699992612,
+         "id" : "dep30",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 62.1180003508903,
+         "id" : "dep31",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 60.5640001595002,
+         "id" : "dep32",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 1423.98899979889,
+         "id" : "dep33",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep34",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 1538.43900002539,
+         "id" : "dep35",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1356.22099973261,
+         "id" : "dep36",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 1490.69499969483,
+         "id" : "dep37",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1410.22699978203,
+         "id" : "dep38",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1410.22699978203,
+         "id" : "dep39",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1355.74699984863,
+         "id" : "dep40",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 713.93400011584,
+         "id" : "dep41",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 709.77000007406,
+         "id" : "dep42",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1154.90499977023,
+         "id" : "dep43",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 709.31100007147,
+         "id" : "dep44",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 907.72400004789,
+         "id" : "dep45",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 904.70599988476,
+         "id" : "dep46",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 683.58899978921,
+         "id" : "dep47",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 54.14999974892,
+         "id" : "dep48",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 49.1039999760701,
+         "id" : "dep49",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 52.97800013796,
+         "id" : "dep50",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 52.1109998226198,
+         "id" : "dep51",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 48.1569999828898,
+         "id" : "dep52",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 6.27999985590986,
+         "id" : "dep53",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 92.44400030002,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 90.241000056267,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 91.5240002796049,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 90.939000248909,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 91.9659999199209,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 34.409000072628,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 33.861999865621,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      }
+   ]
+}

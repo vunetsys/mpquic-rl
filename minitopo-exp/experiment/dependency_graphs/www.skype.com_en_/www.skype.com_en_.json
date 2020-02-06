@@ -1,0 +1,1048 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.skype.com_en_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.skype.com/en/",
+         "path" : "/pages/skype.com/www.skype.com/en/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 102.839999832213,
+               "time" : 44.666999951005,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 147.506999783218
+            },
+            {
+               "s_time" : 163.883999921381,
+               "time" : 0.500000081957012,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 164.384000003338
+            },
+            {
+               "s_time" : 833.982000127435,
+               "time" : 112.076999619603,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 946.058999747038
+            },
+            {
+               "s_time" : 950.941999908537,
+               "time" : 11.2720001488919,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 962.214000057429
+            },
+            {
+               "s_time" : 1049.60800008848,
+               "time" : 68.48999997601,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 1118.09800006449
+            },
+            {
+               "s_time" : 1150.29199980199,
+               "time" : 4.38300007955013,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1154.67499988154
+            },
+            {
+               "s_time" : 1190.33199967816,
+               "time" : 80.4650001227901,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 1270.79699980095
+            },
+            {
+               "s_time" : 1320.61199983582,
+               "time" : 22.0610001124401,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 1342.67299994826
+            },
+            {
+               "s_time" : 1365.95699982718,
+               "time" : 162.28500008583,
+               "type" : "evalhtml",
+               "id" : "r1_c9",
+               "e_time" : 1528.24199991301
+            },
+            {
+               "s_time" : 1528.38400006294,
+               "time" : 639.47999989614,
+               "id" : "r1_c10",
+               "type" : "evalhtml",
+               "e_time" : 2167.86399995908
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.clicktale.net/XHRWrapper.js",
+         "path" : "/pages/skype.com/s.clicktale.net/XHRWrapper.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 152.446999680251,
+               "time" : 11.43700024113,
+               "id" : "comp_3",
+               "type" : 1,
+               "e_time" : 163.883999921381
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 130.735000129789,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js",
+         "path" : "/pages/skype.com/ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 765.724000055343,
+               "time" : 68.2580000720919,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 833.982000127435
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 134.563999716192,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/combined/css/common.min.css",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/combined/css/common.min.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 715.034999884665,
+               "time" : 119.070999789983,
+               "id" : "comp_7",
+               "type" : 4,
+               "e_time" : 834.105999674648
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 131.601999979466,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/combined/css/scom.min.css",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/combined/css/scom.min.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 690.477999858558,
+               "time" : 22.940999828279,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 713.418999686837
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 134.048999752849,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/combined/js/skype.min.js",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/combined/js/skype.min.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 835.21299995482,
+               "time" : 115.728999953717,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 950.941999908537
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 135.018999688327,
+            "type" : "application/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/js/mbox.js",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/js/mbox.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1043.43499988317,
+               "time" : 6.17300020531002,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 1049.60800008848
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 135.444999672472,
+            "type" : "application/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/tracking/js/s_code_20121127.js",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/tracking/js/s_code_20121127.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1342.71099977195,
+               "time" : 23.2460000552301,
+               "id" : "comp_90",
+               "type" : 1,
+               "e_time" : 1365.95699982718
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 147.506999783218,
+            "type" : "application/javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/misc/dummy.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/misc/dummy.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 958.294999785721,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/icons/skype-credit-icon-mobile.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/images/icons/skype-credit-icon-mobile.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 959.404999855906,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/carousel/desktop/fswl-468.jpg",
+         "path" : "/missing/www.skypeassets.com/content/dam/scom/images/carousel/desktop/fswl-468.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 959.787999745458,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/headers/mobile/hero-mobile-homepage.jpg",
+         "path" : "/pages/skype.com/www.skypeassets.com/content/dam/scom/images/headers/mobile/hero-mobile-homepage.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 959.005999844521,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/carousel/desktop/cool-my-couch-white.jpg",
+         "path" : "/missing/www.skypeassets.com/content/dam/scom/images/carousel/desktop/cool-my-couch-white.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 960.208999924362,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/carousel/desktop/skype_outlook_carousel_468x360.jpg",
+         "path" : "/missing/www.skypeassets.com/content/dam/scom/images/carousel/desktop/skype_outlook_carousel_468x360.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 960.601999890059,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/carousel/desktop/gift-cards-promo.png",
+         "path" : "/missing/www.skypeassets.com/content/dam/scom/images/carousel/desktop/gift-cards-promo.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 960.986999794841,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/carousel/mobile/fswl-mobile.jpg",
+         "path" : "/pages/skype.com/www.skypeassets.com/content/dam/scom/images/carousel/mobile/fswl-mobile.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 961.449000053108,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.video.s-msn.com/res/1.0.6307.00/css/HubStyles.css",
+         "path" : "/pages/skype.com/img1.video.s-msn.com/res/1.0.6307.00/css/HubStyles.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1018.07199977338,
+               "time" : 40.14699999243,
+               "id" : "comp_17",
+               "type" : 2,
+               "e_time" : 1058.21899976581
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 946.058999747038,
+            "type" : "text/css",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/icons/facebook.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/images/icons/facebook.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 961.833999957889,
+            "type" : "image/png",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/icons/twitter.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/images/icons/twitter.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 962.214000057429,
+            "type" : "image/png",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/icons/navigation-sprite.svg",
+         "path" : "/missing/www.skypeassets.com/i/common/images/icons/navigation-sprite.svg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1051.35799990967,
+            "type" : "image/svg+xml",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/fonts/latin/segoe-ui-regular-latin.woff",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/fonts/latin/segoe-ui-regular-latin.woff",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1118.09800006449,
+            "type" : "font/woff",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://skype.tt.omtrdc.net/m2/skype/mbox/standard?mboxHost=www.skype.com&mboxSession=1378094146944-225541&mboxPage=1378094146944-225541&screenHeight=1152&screenWidth=2048&browserWidth=953&browserHeight=1014&browserTimeOffset=-420&colorDepth=24&mboxCount=3&profile.lang=en&mbox=global_navigation&mboxId=0&mboxTime=1378068947092&mboxURL=http%3A%2F%2Fwww.skype.com%2Fen%2F&mboxReferrer=&mboxVersion=41",
+         "path" : "/missing/skype.tt.omtrdc.net/m2/skype/mbox/standard",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 1148.12299981713,
+               "time" : 2.16899998485997,
+               "id" : "comp_33",
+               "type" : 1,
+               "e_time" : 1150.29199980199
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1058.88499971479,
+            "type" : "text/plain",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://skype.tt.omtrdc.net/m2/skype/mbox/standard?mboxHost=www.skype.com&mboxSession=1378094146944-225541&mboxPage=1378094146944-225541&screenHeight=1152&screenWidth=2048&browserWidth=953&browserHeight=1014&browserTimeOffset=-420&colorDepth=24&mboxCount=4&profile.lang=en&mbox=Homepage_general&mboxId=0&mboxTime=1378068947188&mboxURL=http%3A%2F%2Fwww.skype.com%2Fen%2F&mboxReferrer=&mboxVersion=41",
+         "path" : "/missing/skype.tt.omtrdc.net/m2/skype/mbox/standard",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 1188.5099997744,
+               "time" : 1.82199990375989,
+               "id" : "comp_38",
+               "type" : 1,
+               "e_time" : 1190.33199967816
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1154.67499988154,
+            "type" : "text/javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/content/dam/scom/images/headers/desktop/hero-livingroom-friends-laptop-videocall.jpg",
+         "path" : "/missing/www.skypeassets.com/content/dam/scom/images/headers/desktop/hero-livingroom-friends-laptop-videocall.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1191.45799987018,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/icons/hero-bubble-arrow-right.svg",
+         "path" : "/missing/www.skypeassets.com/i/scom/images/icons/hero-bubble-arrow-right.svg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1258.34299996495,
+            "type" : "image/svg+xml",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/backgrounds/hero-bubble-small.svg",
+         "path" : "/missing/www.skypeassets.com/i/scom/images/backgrounds/hero-bubble-small.svg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.95400002971,
+            "type" : "image/svg+xml",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/backgrounds/hero-bubble-large.svg",
+         "path" : "/missing/www.skypeassets.com/i/scom/images/backgrounds/hero-bubble-large.svg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.58699979633,
+            "type" : "image/svg+xml",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/fonts/latin/segoe-ui-light-latin.woff",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/fonts/latin/segoe-ui-light-latin.woff",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1270.79699980095,
+            "type" : "font/woff",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://skype.tt.omtrdc.net/m2/skype/mbox/standard?mboxHost=www.skype.com&mboxSession=1378094146944-225541&mboxPage=1378094146944-225541&screenHeight=1152&screenWidth=2048&browserWidth=953&browserHeight=1014&browserTimeOffset=-420&colorDepth=24&mboxCount=5&profile.lang=en&mbox=Home_page_Carousel_US&mboxId=0&mboxTime=1378068947291&mboxURL=http%3A%2F%2Fwww.skype.com%2Fen%2F&mboxReferrer=&mboxVersion=41",
+         "path" : "/missing/skype.tt.omtrdc.net/m2/skype/mbox/standard",
+         "id" : "r28",
+         "comps" : [
+            {
+               "s_time" : 1318.61499976367,
+               "time" : 1.99700007214983,
+               "id" : "comp_78",
+               "type" : 1,
+               "e_time" : 1320.61199983582
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.10099982098,
+            "type" : "text/javascript",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/icons/languages-world.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/icons/languages-world.png",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1328.33599997684,
+            "type" : "image/png",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/icons/footer-no-calls.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/icons/footer-no-calls.png",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1479.95000006631,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/icons/languages-pick-down.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/icons/languages-pick-down.png",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1479.3940000236,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/backgrounds/footer-clouds-with-rainbow.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/backgrounds/footer-clouds-with-rainbow.png",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1481.23000003397,
+            "type" : "image/png",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/common/images/icons/ms-logo-24bit.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/common/images/icons/ms-logo-24bit.png",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1481.98599973693,
+            "type" : "image/png",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.clicktale.net/www11/ptc/7128d29f-cc1f-4e43-8c9b-2ece44ccb497.js",
+         "path" : "/pages/skype.com/cdn.clicktale.net/www11/ptc/7128d29f-cc1f-4e43-8c9b-2ece44ccb497.js",
+         "id" : "r36",
+         "comps" : [
+            {
+               "s_time" : 1523.34999991581,
+               "time" : 5.03400014712997,
+               "id" : "comp_106",
+               "type" : 1,
+               "e_time" : 1528.38400006294
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1478.41699980199,
+            "type" : "text/javascript",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.clicktale.net/www11/pcc/7128d29f-cc1f-4e43-8c9b-2ece44ccb497.js?DeploymentConfigName=Release_20130811&Version=4",
+         "path" : "/missing/cdn.clicktale.net/www11/pcc/7128d29f-cc1f-4e43-8c9b-2ece44ccb497.js",
+         "id" : "r37",
+         "comps" : [
+            {
+               "s_time" : 1785.5110000819,
+               "time" : 7.65899987890998,
+               "id" : "comp_154",
+               "type" : null,
+               "e_time" : 1793.16999996081
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1528.24199991301,
+            "type" : "text/javascript",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.clicktale.net/www/tc/WRe2.js",
+         "path" : "/pages/skype.com/cdn.clicktale.net/www/tc/WRe2.js",
+         "id" : "r38",
+         "comps" : [
+            {
+               "s_time" : 1793.21199981496,
+               "time" : 16.7379998601898,
+               "id" : "comp_157",
+               "type" : null,
+               "e_time" : 1809.94999967515
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1528.95999979228,
+            "type" : "application/x-javascript",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.skypeassets.com/i/scom/images/ui-elements/media-gallery-sprite.png",
+         "path" : "/pages/skype.com/www.skypeassets.com/i/scom/images/ui-elements/media-gallery-sprite.png",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1623.74199973419,
+            "type" : "image/png",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://metrics.skype.com/b/ss/skypeglobalprod/1/H.25/s17243216263595?AQB=1&pccr=true&vidn=29120622050109A8-40000117001A0496&&ndh=1&t=1%2F8%2F2013%2020%3A55%3A47%200%20420&ce=UTF-8&ns=skype&cl=63072000&pageName=static%2Fhome&g=http%3A%2F%2Fwww.skype.com%2Fen%2F&cc=EUR&ch=home&server=www.skype.com&events=event5&products=%3B%3B%3B%3B%3Bevar22%3Dhome-_-header-_-join%2C%3B%3B%3B%3B%3Bevar22%3Dhome-_-position1-_-SkypeLove%2C%3B%3B%3B%3B%3Bevar22%3Dhome-_-position2-_-skypeontv_aug_comp%2C%3B%3B%3B%3B%3Bevar22%3Dhome-_-position3-_-Outlook_Intergration%2C%3B%3B%3B%3B%3Bevar22%3Dhome-_-carousel_4-_-Gift_card_hub_launch&c5=en&v5=D%3Dc5&v6=non-user&v7=D%3DpageName&v15=D%3Dch&v18=new&c21=D%3Dv18&c22=New&c24=D%3Dv6&v26=New&c27=20121127%7CH.25.&c38=20%3A55&c39=2013-09-01&c40=D%3Dv40&v40=flash%2011&c54=tablet&v54=D%3Dc54&h1=static%2Chome&s=2048x1152&c=24&j=1.6&v=Y&k=Y&bw=953&bh=1014&p=Remoting%20Viewer%3BNative%20Client%3BShockwave%20Flash%3BiPhotoPhotocast%3BJava%20Applet%20Plug-in%3BQuickTime%20Plug-in%207.6.6%3B&AQE=1",
+         "path" : "/missing/metrics.skype.com/b/ss/skypeglobalprod/1/H.25/s17243216263595",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2167.86399995908,
+            "type" : "image/gif",
+            "id" : "download_38"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_33"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_38"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_78"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_90"
+      },
+      {
+         "a2" : "r1_c10",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_106"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep12",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_10",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep14",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "download_38",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 95.3579996712499,
+         "id" : "dep16",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 0.575999729340083,
+         "id" : "dep17",
+         "a1" : "r1_c10"
+      },
+      {
+         "a2" : "download_35",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 112.45999997481,
+         "id" : "dep19",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 112.45999997481,
+         "id" : "dep20",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 116.02899990975,
+         "id" : "dep21",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 115.27300020679,
+         "id" : "dep22",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 113.43700019642,
+         "id" : "dep23",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 113.99300023913,
+         "id" : "dep24",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 7.72400014102004,
+         "id" : "dep25",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep26",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 66.76900014282,
+         "id" : "dep27",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep28",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 67.2550001181701,
+         "id" : "dep29",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 67.62200035155,
+         "id" : "dep30",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 68.01100028679,
+         "id" : "dep31",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1.12600019202,
+         "id" : "dep32",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_22",
+         "time" : -1,
+         "id" : "dep33",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 4.38300007955013,
+         "id" : "dep34",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_21",
+         "time" : -1,
+         "id" : "dep35",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 9.27699962631004,
+         "id" : "dep36",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_20",
+         "time" : -1,
+         "id" : "dep37",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1.74999982119016,
+         "id" : "dep38",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_18",
+         "time" : -1,
+         "id" : "dep39",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 10.892000049352,
+         "id" : "dep40",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep41",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 10.507000144571,
+         "id" : "dep42",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 10.044999886304,
+         "id" : "dep43",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 9.65999998152199,
+         "id" : "dep44",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 9.26700001582503,
+         "id" : "dep45",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 8.06399993598404,
+         "id" : "dep46",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 8.84599983692101,
+         "id" : "dep47",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 8.46299994736898,
+         "id" : "dep48",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 7.35299987718395,
+         "id" : "dep49",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_7",
+         "time" : -1,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 32.604999840259,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 32.178999856114,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 31.208999920636,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 28.762000147253,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 28.762000147253,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 31.723999883979,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 27.895000297576,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 27.895000297576,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      }
+   ]
+}

@@ -1,0 +1,700 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "kickass.to_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://kickass.to/",
+         "path" : "/pages/kickass.to/kickass.to/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 604.190000332892,
+               "time" : 495.701000094418,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1099.89100042731
+            },
+            {
+               "s_time" : 1580.20200021565,
+               "time" : 1778.70499994606,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 3358.90700016171
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/all-c6e4545.css",
+         "path" : "/pages/kickass.to/kastatic.com/all-c6e4545.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1060.05600001663,
+               "time" : 39.9020002223501,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 1099.95800023898
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 608.538000378758,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/js/all-c6e4545.js",
+         "path" : "/pages/kickass.to/kastatic.com/js/all-c6e4545.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1313.10200039297,
+               "time" : 267.09999982268,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 1580.20200021565
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 609.136000275612,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/analytics.js",
+         "path" : "/pages/weibo.com/www.google-analytics.com/analytics.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1854.60600024089,
+               "time" : 35.9789999201901,
+               "id" : "comp_24",
+               "type" : 2,
+               "e_time" : 1890.58500016108
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1662.37000003457,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/headmenuborder.jpg",
+         "path" : "/pages/kickass.to/kastatic.com/images/headmenuborder.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1785.97500035539,
+            "type" : "image/jpeg",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/toplogoBg.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/toplogoBg.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1785.25800025091,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://a.kickass.to/sc-c6e4545.js",
+         "path" : "/pages/kickass.to/a.kickass.to/sc-c6e4545.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 1895.17300017178,
+               "time" : 40.2560001239201,
+               "id" : "comp_26",
+               "type" : 2,
+               "e_time" : 1935.4290002957
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1659.19000003487,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/collect?v=1&_v=j11&a=1943985002&t=pageview&_s=1&dl=http%3A%2F%2Fkickass.to%2F&dr=&ul=en-us&de=UTF-8&dt=Download%20Torrents.%20Fast%20and%20Free%20Torrent%20Downloads%20-%20KickassTorrents&sd=24-bit&sr=2048x1152&vp=938x999&je=1&fl=11.8%20r800&_u=ME~&cid=1521949304.1378094237&tid=UA-41854124-1&z=2081953243",
+         "path" : "/missing/www.google-analytics.com/collect",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1890.76100010425,
+            "type" : "image/gif",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/kickasslogosmall.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/kickasslogosmall.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1787.1940000914,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/header_bg.jpg",
+         "path" : "/pages/kickass.to/kastatic.com/images/header_bg.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1786.61400033161,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/buttonRefl.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/buttonRefl.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1787.77100006118,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/tagcloudbg.jpg",
+         "path" : "/pages/kickass.to/kastatic.com/images/tagcloudbg.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1788.36700040847,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/requesttorrent_side.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/requesttorrent_side.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.66800030321,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/spriteContent-c6e4545.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/spriteContent-c6e4545.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1789.05000025406,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/spriteThirdPart.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/spriteThirdPart.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1790.33200023696,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/sidebarVis.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/sidebarVis.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1790.96500016749,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/dataTableBorderVert.gif",
+         "path" : "/pages/kickass.to/kastatic.com/images/dataTableBorderVert.gif",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1791.55700001866,
+            "type" : "image/gif",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/indicator.gif",
+         "path" : "/pages/kickass.to/kastatic.com/images/indicator.gif",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1792.18300012872,
+            "type" : "image/gif",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://kastatic.com/images/fancybox/pagedarkbg.png",
+         "path" : "/pages/kickass.to/kastatic.com/images/fancybox/pagedarkbg.png",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1792.67200035974,
+            "type" : "image/png",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://a.kickass.to/engine/backdoor.php?js=103689679",
+         "path" : "/missing/a.kickass.to/engine/backdoor.php",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 2162.96900017187,
+               "time" : 0.32400013878987,
+               "id" : "comp_32",
+               "type" : 2,
+               "e_time" : 2163.29300031066
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1760.75000036508,
+            "type" : "application/x-javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://a.kickass.to/adx.php?version=13&callback=Spareclick1378094237468&url=http%3A%2F%2Fkickass.to%2F&source=&uuid=bd4863a2-7f7b-7040-f644-d8a111504947&account=_b894d6cb1e370fb9ad89f8d6d99eeb33&globalvars%5Btitle%5D=Download+Torrents.+Fast+and+Free+Torrent+Downloads+-+KickassTorrents&globalvars%5Bplatform%5D=MacIntel&globalvars%5Blanguage%5D=en-US&globalvars%5Bscreen_size%5D=2048x1152&globalvars%5Bcolor_depth%5D=24-bit&slots%5B_60318cd4e8d28f6fb76fe34e9bd9c498%5D=&slots%5B_39ecb76dd457e5ac33776fdf11500d56%5D=&slots%5B_7063408f1c01d50e0dc2d833186ce962%5D%5Bad_section%5D=1939944&slots%5B_673e31f53f8166159b8e996c4124765b%5D=",
+         "path" : "/missing/a.kickass.to/adx.php",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 2335.49399999902,
+               "time" : 15.1030002161797,
+               "id" : "comp_34",
+               "type" : 2,
+               "e_time" : 2350.5970002152
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1934.97400032356,
+            "type" : "application/x-javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://counter.yadro.ru/hit?q;t45.6;r;s2048*1152*24;uhttp%3A//kickass.to/;hDownload%20Torrents.%20Fast%20and%20Free%20Torrent%20Downloads%20-%20KickassTorrents;0.9451697426848114",
+         "path" : "/missing/counter.yadro.ru/hit",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2116.47400027141,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://jsc.dt07.net/k/a/kat.ph.2268.js?t=1138020",
+         "path" : "/missing/jsc.dt07.net/k/a/kat.ph.2268.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 2999.24200028181,
+               "time" : 22.3889998160303,
+               "id" : "comp_39",
+               "type" : 2,
+               "e_time" : 3021.63100009784
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2350.20700003952,
+            "type" : "application/x-javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ab.goodsblock.mgid.com/p/j/1872/1",
+         "path" : "/pages/kickass.to/ab.goodsblock.mgid.com/p/j/1872/1.add.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 3167.46700042859,
+               "time" : 2.82499985769027,
+               "id" : "comp_42",
+               "type" : 2,
+               "e_time" : 3170.29200028628
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3022.53200020641,
+            "type" : "application/x-javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ac.newsblock.mgid.com/p/j/14173/1",
+         "path" : "/pages/kickass.to/ac.newsblock.mgid.com/p/j/14173/1.add.js",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 3316.78200000897,
+               "time" : 71.2090004235502,
+               "id" : "comp_44",
+               "type" : 2,
+               "e_time" : 3387.99100043252
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3171.64900014177,
+            "type" : "application/x-javascript",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "path" : "/pages/linkedin.com/b.scorecardresearch.com/beacon.js",
+         "id" : "r31",
+         "comps" : [
+            {
+               "s_time" : 3405.94199998304,
+               "time" : 5.53700001910966,
+               "id" : "comp_50",
+               "type" : null,
+               "e_time" : 3411.47900000215
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3358.90700016171,
+            "type" : "application/x-javascript",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgn.dt07.net/1610/1610315_vb.jpg",
+         "path" : "/pages/kickass.to/imgn.dt07.net/1610/1610315_vb.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3322.26200029254,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://mgid.com/images/favicon_us.ico",
+         "path" : "/pages/kickass.to/mgid.com/images/favicon_us.ico",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3350.60900030658,
+            "type" : "image/x-icon",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgn.dt07.net/1607/1607875_vb.jpg",
+         "path" : "/pages/kickass.to/imgn.dt07.net/1607/1607875_vb.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3409.16100004688,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgn.dt07.net/1607/1607867_vb.jpg",
+         "path" : "/missing/imgn.dt07.net/1607/1607867_vb.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3409.57200014964,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgn.dt07.net/1607/1607947_vb.jpg",
+         "path" : "/pages/kickass.to/imgn.dt07.net/1607/1607947_vb.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3409.93700036779,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 3.9950003847498,
+         "id" : "dep2",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 3.63000016659998,
+         "id" : "dep3",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 3.21900006383976,
+         "id" : "dep4",
+         "a1" : "comp_50"
+      },
+      {
+         "a2" : "download_27",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 1742.06000007689,
+         "id" : "dep6",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 1591.44699992612,
+         "id" : "dep8",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1442.32999999076,
+         "id" : "dep9",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 770.00499982387,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 536.27200005576,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 354.77200010791,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 180.54800014943,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 212.47000014409,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 211.98099991307,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 211.35499980301,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 210.76299995184,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 210.13000002131,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 208.84800003841,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 209.46600008756,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 208.16500019282,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 207.56899984553,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 206.41200011596,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 206.99199987575,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 310.5589998886,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 78.98799981922,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 205.05600003526,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 205.77300013974,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 82.16799981892,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 4.94599994271994,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 4.94599994271994,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.348000045866,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      }
+   ]
+}

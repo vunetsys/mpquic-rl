@@ -1,0 +1,983 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.rediff.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.rediff.com/",
+         "path" : "/pages/rediff.com/www.rediff.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1118.07900015265,
+               "time" : 716.53299964964,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1834.61199980229
+            },
+            {
+               "s_time" : 1880.91500010341,
+               "time" : 1454.8510001041,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 3335.76600020751
+            },
+            {
+               "s_time" : 3952.26200018078,
+               "time" : 2.98199988902024,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 3955.2440000698
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/worldrediff/style_3_16/home_tile_us_7.css",
+         "path" : "/pages/rediff.com/imworld.rediff.com/worldrediff/style_3_16/home_tile_us_7.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1649.20599991456,
+               "time" : 87.80399989336,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 1737.00999980792
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1124.16099989787,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "path" : "/pages/linkedin.com/b.scorecardresearch.com/beacon.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1843.48399983719,
+               "time" : 9.30900033563012,
+               "id" : "comp_37",
+               "type" : 2,
+               "e_time" : 1852.79300017282
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1691.75000023097,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/worldrediff/pix/blank.gif",
+         "path" : "/pages/rediff.com/imworld.rediff.com/worldrediff/pix/blank.gif",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1739.20700000599,
+            "type" : "image/gif",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/worldrediff/pix/new_ushomesprite15.png",
+         "path" : "/pages/rediff.com/imworld.rediff.com/worldrediff/pix/new_ushomesprite15.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1740.18299998716,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/worldrediff/js_2_5/ws-global_hm_1.js",
+         "path" : "/pages/rediff.com/imworld.rediff.com/worldrediff/js_2_5/ws-global_hm_1.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 1878.66300018504,
+               "time" : 2.25199991837007,
+               "id" : "comp_126",
+               "type" : 1,
+               "e_time" : 1880.91500010341
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1834.61199980229,
+            "type" : "application/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://money.rediff.com/widget/markets6",
+         "path" : "/pages/rediff.com/money.rediff.com/widget/markets6/index.html",
+         "id" : "r33",
+         "comps" : [
+            {
+               "s_time" : 2248.01900004968,
+               "time" : 60.1019999012401,
+               "type" : "evalhtml",
+               "id" : "r33_c1",
+               "e_time" : 2308.12099995092
+            },
+            {
+               "s_time" : 2312.41300003603,
+               "time" : 0.380000099539757,
+               "type" : "evalhtml",
+               "id" : "r33_c2",
+               "e_time" : 2312.79300013557
+            },
+            {
+               "s_time" : 2395.68400010467,
+               "time" : 0.0959997996601487,
+               "type" : "evalhtml",
+               "id" : "r33_c3",
+               "e_time" : 2395.77999990433
+            },
+            {
+               "s_time" : 2411.80100012571,
+               "time" : 0.0950000248803917,
+               "type" : "evalhtml",
+               "id" : "r33_c4",
+               "e_time" : 2411.89600015059
+            },
+            {
+               "s_time" : 2412.62299986556,
+               "time" : 3.72399995104024,
+               "id" : "r33_c5",
+               "type" : "evalhtml",
+               "e_time" : 2416.3469998166
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2076.90200023353,
+            "type" : "text/html",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/moneyrediff/style_2/markets2common.css",
+         "path" : "/pages/rediff.com/imworld.rediff.com/moneyrediff/style_2/markets2common.css",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 2300.34200008959,
+               "time" : 7.83099979162034,
+               "id" : "comp_163",
+               "type" : 4,
+               "e_time" : 2308.17299988121
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2248.86099994183,
+            "type" : "text/css",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/moneyrediff/js_7/markets5common_1.min.js",
+         "path" : "/pages/rediff.com/imworld.rediff.com/moneyrediff/js_7/markets5common_1.min.js",
+         "id" : "r35",
+         "comps" : [
+            {
+               "s_time" : 2309.79700013995,
+               "time" : 2.61599989608021,
+               "id" : "comp_166",
+               "type" : 1,
+               "e_time" : 2312.41300003603
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2250.17700018361,
+            "type" : "application/javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/moneyrediff/js_7/jquery.min.js",
+         "path" : "/pages/rediff.com/imworld.rediff.com/moneyrediff/js_7/jquery.min.js",
+         "id" : "r36",
+         "comps" : [
+            {
+               "s_time" : 2317.42999982089,
+               "time" : 78.25400028378,
+               "id" : "comp_167",
+               "type" : 1,
+               "e_time" : 2395.68400010467
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2250.77900011092,
+            "type" : "application/javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/moneyrediff/js_7/statfadeeffect_min.js",
+         "path" : "/pages/rediff.com/imworld.rediff.com/moneyrediff/js_7/statfadeeffect_min.js",
+         "id" : "r38",
+         "comps" : [
+            {
+               "s_time" : 2411.95000009611,
+               "time" : 0.672999769449689,
+               "id" : "comp_177",
+               "type" : 1,
+               "e_time" : 2412.62299986556
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2251.74500001594,
+            "type" : "application/javascript",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imworld.rediff.com/moneyrediff/js_7/jquery.sparkline_1.min.js",
+         "path" : "/pages/rediff.com/imworld.rediff.com/moneyrediff/js_7/jquery.sparkline_1.min.js",
+         "id" : "r37",
+         "comps" : [
+            {
+               "s_time" : 2396.9160001725,
+               "time" : 14.8849999532099,
+               "id" : "comp_175",
+               "type" : 1,
+               "e_time" : 2411.80100012571
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2251.34800001979,
+            "type" : "application/javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://metric.us.rediff.com/www.rediff.com/?rkey=30942&deal=ushome_i5&w=2048x1152",
+         "path" : "/missing/metric.us.rediff.com/www.rediff.com",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1756.46100006998,
+            "type" : "text/html",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://loc.rediff.com/cgi-bin/loc/setup/blank.gif",
+         "path" : "/missing/loc.rediff.com/cgi-bin/loc/setup/blank.gif",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1833.3350000903,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://money.rediff.com/money1/chart_bse_widget.php",
+         "path" : "/pages/rediff.com/money.rediff.com/money1/chart_bse_widget.php/index.html",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2415.71300011128,
+            "type" : "text/html",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://money.rediff.com/money1/chart_nse_widget.php",
+         "path" : "/pages/rediff.com/money.rediff.com/money1/chart_nse_widget.php/index.html",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2417.38400002941,
+            "type" : "text/html",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://money.rediff.com/money1/current_status_new.php?companylist=17023928|17023929",
+         "path" : "/pages/rediff.com/money.rediff.com/money1/current_status_new.php/index.html",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2417.81100025401,
+            "type" : "text/html",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://money.rediff.com/money1/images/moneywizSprites.gif",
+         "path" : "/pages/rediff.com/money.rediff.com/money1/images/moneywizSprites.gif",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2510.38900017738,
+            "type" : "image/gif",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://metric.us.rediff.com/www.rediff.com/impression?rkey=69698&shop=11066079,11577329,11575739,11634469,11656012,11653477,11280199,11443396,11611631,11280197,11080001,11515025,11507624,11277099,11290805,11321363,11361599,10669223,11127206,10450274,",
+         "path" : "/missing/metric.us.rediff.com/www.rediff.com/impression",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2075.59800008312,
+            "type" : "text/html",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://datastore02.rediff.com/h116-w174/thumb/6265556B5B5C66665B69612F3133/b1i4o4ksn5opbumh.D.0.Eagle-Vs-Snake-Fight-1.jpg",
+         "path" : "/pages/rediff.com/datastore02.rediff.com/h116-w174/thumb/6265556B5B5C66665B69612F3133/b1i4o4ksn5opbumh.D.0.Eagle-Vs-Snake-Fight-1.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2058.91000013798,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://datastore04.rediff.com/h116-w174/thumb/6265556B5B5C66665B69612F3133/12q37edi7a1xr917.D.0.Veena-dating-Norwegian-billionaire--1.jpg",
+         "path" : "/missing/datastore04.rediff.com/h116-w174/thumb/6265556B5B5C66665B69612F3133/12q37edi7a1xr917.D.0.Veena-dating-Norwegian-billionaire--1.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2055.95399998128,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://datastore.rediff.com/h116-w174/thumb/605E6C5C6F626C606A627572/7aoqx4tker8gphsx.D.0.sachin.jpg",
+         "path" : "/missing/datastore.rediff.com/h116-w174/thumb/605E6C5C6F626C606A627572/7aoqx4tker8gphsx.D.0.sachin.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2063.32600023597,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/uim/common/realmedia_banner_1_4.js",
+         "path" : "/pages/rediff.com/im.rediff.com/uim/common/realmedia_banner_1_4.js",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2068.65100003779,
+            "type" : "application/x-javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/getahead/2013/aug/21vanessa-able1.jpg",
+         "path" : "/missing/im.rediff.com/200-300/getahead/2013/aug/21vanessa-able1.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2073.290000204,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/news/2013/sep/02ss1.jpg",
+         "path" : "/missing/im.rediff.com/200-300/news/2013/sep/02ss1.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2050.25999993086,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/news/2013/aug/31ss5.jpg",
+         "path" : "/missing/im.rediff.com/200-300/news/2013/aug/31ss5.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2074.55499982461,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/movies/2013/aug/30aditi-hydari1.jpg",
+         "path" : "/missing/im.rediff.com/200-300/movies/2013/aug/30aditi-hydari1.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2073.71400017291,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/money/2013/sep/02tcs1.jpg",
+         "path" : "/missing/im.rediff.com/200-300/money/2013/sep/02tcs1.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2074.12000000477,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://simg03.rcdn.in/image.php?pageid=1914388&type=pages",
+         "path" : "/pages/rediff.com/simg03.rcdn.in/image.php",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2060.84900023416,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://im.rediff.com/200-300/sports/2013/sep/02bale1.jpg",
+         "path" : "/missing/im.rediff.com/200-300/sports/2013/sep/02bale1.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2074.91399999708,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/s/So_11577329._sony-prs-600bc-touch-edition-e-book-reader.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/s/So_11577329._sony-prs-600bc-touch-edition-e-book-reader.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2070.60400024056,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/a/Ac_11575739._acer-iconia-tab-a200-10g32u-tablet-android.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/a/Ac_11575739._acer-iconia-tab-a200-10g32u-tablet-android.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2071.9800000079,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/11545/a/aa.jpeg._sony-digital-camera-dsc-h200.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/11545/a/aa.jpeg._sony-digital-camera-dsc-h200.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2071.1889998056,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/16237/n/NP077._perfume-carolina-herrera-ch-feminine-women-100ml.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/16237/n/NP077._perfume-carolina-herrera-ch-feminine-women-100ml.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2071.58799981698,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/14628/m/mjib188._yellow-bouqute.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/14628/m/mjib188._yellow-bouqute.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2072.36899994314,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ads.rediff.com/RealMedia/ads/adstream_mjx.ads/us.rediff.com/mainhome.htm/1915216127@Right?null&RLOC=__2ePShGWFwp6__OLtBMWQJb7w__DMVBffqeJpo__usa__&PURL=http%3A%2F%2Fwww.rediff.com%2F&OAS_cat=NS",
+         "path" : "/missing/ads.rediff.com/RealMedia/ads/adstream_mjx.ads/us.rediff.com/mainhome.htm/1915216127_Right",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 3951.78000023589,
+               "time" : 0.481999944890049,
+               "id" : "comp_221",
+               "type" : 1,
+               "e_time" : 3952.26200018078
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3335.76600020751,
+            "type" : "application/x-javascript",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/w/Watch._timex-ladies-watch-elegant-crystal-t2n071.jpg",
+         "path" : "/pages/rediff.com/imshopping.rediff.com/imgshop/200-200/shopping/pixs/12564/w/Watch._timex-ladies-watch-elegant-crystal-t2n071.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2072.85099988803,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imshopping.rediff.com/imgshop/200-200/shopping/pixs/5725/i/Intex-58851-30112011-023937._intex-pool-side-water-slider-for-kids.jpg",
+         "path" : "/missing/imshopping.rediff.com/imgshop/200-200/shopping/pixs/5725/i/Intex-58851-30112011-023937._intex-pool-side-water-slider-for-kids.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2063.90700023621,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imads.rediff.com/0/OasDefault/US_HP_Shopping_Rakhi_01/sony2_Zultra_210813.JPG",
+         "path" : "/missing/imads.rediff.com/0/OasDefault/US_HP_Shopping_Rakhi_01/sony2_Zultra_210813.JPG",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3953.55099998415,
+            "type" : "image/jpeg",
+            "id" : "download_38"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_126"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_221"
+      },
+      {
+         "a2" : "r33_c2",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_166"
+      },
+      {
+         "a2" : "r33_c3",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_167"
+      },
+      {
+         "a2" : "r33_c4",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_175"
+      },
+      {
+         "a2" : "r33_c5",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_177"
+      },
+      {
+         "a2" : "comp_167",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_166"
+      },
+      {
+         "a2" : "comp_175",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_167"
+      },
+      {
+         "a2" : "comp_177",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_175"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 1.28899980337019,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 182.9920001328,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 191.93599978462,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_35",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 1454.8510001041,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 191.45399983973,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 190.67299971357,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 190.27399970219,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 191.06499990449,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 189.68900013715,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 193.99899989367,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 179.93400013075,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 193.20499990136,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 192.7990000695,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 193.6399997212,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 169.34499982745,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 192.37500010059,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 187.73599993438,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 182.41100013256,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 175.03899987787,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 177.99500003457,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 194.68299997971,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 629.47400007397,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 536.8960001506,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 536.468999926,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 3.09000024572015,
+         "id" : "dep35",
+         "a1" : "r33_c5"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 534.79800000787,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 638.38199991733,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 3.32899997011009,
+         "id" : "dep39",
+         "a1" : "r33_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 370.43299991638,
+         "id" : "dep40",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.72599996626013,
+         "id" : "dep41",
+         "a1" : "r33_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 370.82999991253,
+         "id" : "dep42",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 369.86400000751,
+         "id" : "dep43",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 2.76000006124013,
+         "id" : "dep44",
+         "a1" : "r33_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 369.86400000751,
+         "id" : "dep45",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 369.2620000802,
+         "id" : "dep46",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 2.15800013392982,
+         "id" : "dep47",
+         "a1" : "r33_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 369.2620000802,
+         "id" : "dep48",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 0.841999892149943,
+         "id" : "dep49",
+         "a1" : "r33_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 367.94599983842,
+         "id" : "dep50",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 195.98700013012,
+         "id" : "dep51",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 622.10399983451,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 621.12799985334,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 573.67100007832,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 6.08199974521995,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      }
+   ]
+}

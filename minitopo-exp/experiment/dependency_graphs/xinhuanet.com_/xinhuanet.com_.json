@@ -1,0 +1,2343 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "xinhuanet.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://xinhuanet.com/",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 730.913999956101,
+               "time" : 1977.63599967584,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 2708.54999963194
+            },
+            {
+               "s_time" : 3247.12699977681,
+               "time" : 378.16700013354,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 3625.29399991035
+            },
+            {
+               "s_time" : 3633.15499993041,
+               "time" : 1895.12800006196,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 5528.28299999237
+            },
+            {
+               "s_time" : 5531.5859997645,
+               "time" : 1863.42700012028,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 7395.01299988478
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/css/index_130717_v1.css",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/css/index_130717_v1.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 3070.33000001684,
+               "time" : 12.34499970451,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 3082.67499972135
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 916.236999910325,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/static/jq.js",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/static/jq.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 3169.32199988514,
+               "time" : 77.8049998916699,
+               "id" : "comp_7",
+               "type" : 1,
+               "e_time" : 3247.12699977681
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 916.637999936938,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/js/index_130704_v3.js?v=4",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/js/index_130704_v3.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 3625.32899994403,
+               "time" : 7.82599998638034,
+               "id" : "comp_117",
+               "type" : 1,
+               "e_time" : 3633.15499993041
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2708.08900007978,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://webd.home.news.cn/webdig.js?z=1",
+         "path" : "/pages/xinhuanet.com/webd.home.news.cn/webdig.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 5528.30499969423,
+               "time" : 3.28100007027024,
+               "id" : "comp_153",
+               "type" : 1,
+               "e_time" : 5531.5859997645
+            },
+            {
+               "s_time" : 6779.67399964109,
+               "time" : 2.31500016525024,
+               "id" : "comp_619",
+               "type" : null,
+               "e_time" : 6781.98899980634
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2708.54999963194,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://xinhuanet.com/iframe_dz_fc.htm",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/iframe_dz_fc.htm/index.html",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 5477.94199967757,
+               "time" : 1312.61799996719,
+               "id" : "r39_c1",
+               "type" : "evalhtml",
+               "e_time" : 6790.55999964476
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3352.70399972796,
+            "type" : "text/html",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/common_v1.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/common_v1.gif",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3637.93700002134,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/phq/img/130830phq0901.jpg",
+         "path" : "/missing/www.xinhuanet.com/phq/img/130830phq0901.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3638.30700004473,
+            "type" : "image/jpeg",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/common2_v3.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/common2_v3.gif",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3637.54200004041,
+            "type" : "image/gif",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/115124380_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/115124380_title0h.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3281.40500001609,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/20130619_ddqzlx.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/20130619_ddqzlx.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3638.66199972108,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/sports_m_02_1.png",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/sports_m_02_1.png",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3640.23099979386,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/icon_20130805home2.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/icon_20130805home2.gif",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3641.18999987841,
+            "type" : "image/gif",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/images/syicon/space.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/images/syicon/space.gif",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3641.57499978319,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/sports_m_03_1.png",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/sports_m_03_1.png",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3640.78400004655,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/loading.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/loading.gif",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3641.93799998611,
+            "type" : "image/gif",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/static/imgs/bg_ddqzlx_tit.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/static/imgs/bg_ddqzlx_tit.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3642.31099979952,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/static/imgs/tit_jccj.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/static/imgs/tit_jccj.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3642.6959997043,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/static/imgs/tit_aljx.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/static/imgs/tit_aljx.jpg",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3643.04499980062,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/static/imgs/tit_wycytl2.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/static/imgs/tit_wycytl2.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3643.40399997309,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/common_20130410_v2.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/common_20130410_v2.gif",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3643.79699993879,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://embed.xinhuanet.com/main/s?user=AllyesNetwork|Hp13|HpMd01_01&db=xinhuanet&border=0&local=yes",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/main/s/index.html",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 5523.75900000334,
+               "time" : 1085.0559999235,
+               "id" : "r8_c1",
+               "type" : "evalhtml",
+               "e_time" : 6608.81499992684
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3271.29000006244,
+            "type" : "text/html",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/xuanshangchang0410.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/xuanshangchang0410.gif",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3644.16599972174,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://embed.xinhuanet.com/main/s?user=AllyesNetwork|Hp|HHpBn_duilian&db=xinhuanet&border=0&local=yes&js=ie",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/main/s/index.html",
+         "id" : "r92",
+         "comps" : [
+            {
+               "s_time" : 5527.26799994707,
+               "time" : 0.812000129370062,
+               "id" : "comp_150",
+               "type" : 2,
+               "e_time" : 5528.08000007644
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3636.02799968794,
+            "type" : "text/html",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/english2010/huidian2.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/english2010/huidian2.jpg",
+         "id" : "r86",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3644.5249998942,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117153463_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/117153463_title0h.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3644.87499976531,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117154726_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/117154726_title0h.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3645.20599972457,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183571_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183571_title0h.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3645.52199980244,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181779_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181779_title0h.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3646.17200009525,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183519_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183519_title0h.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3645.85199998692,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181764_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181764_title0h.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3646.54899993911,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181762_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181762_title0h.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3646.89299976453,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117182283_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117182283_title0h.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3647.24199986085,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117182240_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117182240_title0h.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3647.5789998658,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181015_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181015_title0h.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3647.92499970645,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181369_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181369_title0h.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3648.25699990615,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117186769_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117186769_title0h.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3648.58599985018,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/115068384_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/115068384_title0h.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3648.92200008035,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/ad/ad_home20130802.gif",
+         "path" : "/pages/xinhuanet.com/imgs.xinhuanet.com/ad/ad_home20130802.gif",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3310.20799977705,
+            "type" : "image/gif",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/icon/home/2007/tu_biao.jpg",
+         "path" : "/pages/xinhuanet.com/imgs.xinhuanet.com/icon/home/2007/tu_biao.jpg",
+         "id" : "r91",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3661.81299975142,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117189138_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117189138_title0h.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3649.26699968055,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183635_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183635_title0h.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3649.62500007823,
+            "type" : "image/jpeg",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117186744_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117186744_title0h.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3649.96999967843,
+            "type" : "image/jpeg",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117186149_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117186149_title0h.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3650.35100001842,
+            "type" : "image/jpeg",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117184444_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117184444_title0h.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3650.69000003859,
+            "type" : "image/jpeg",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117186738_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117186738_title0h.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3651.0259998031,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/20120226_xhyd_4.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/20120226_xhyd_4.jpg",
+         "id" : "r93",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5527.26699970663,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://embed.xinhuanet.com/bnnr/alysxc_v01.js",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/bnnr/alysxc_v01.js",
+         "id" : "r95",
+         "comps" : [
+            {
+               "s_time" : 6605.564000085,
+               "time" : 0.686999876050322,
+               "id" : "comp_547",
+               "type" : 2,
+               "e_time" : 6606.25099996105
+            },
+            {
+               "s_time" : 6700.22699981928,
+               "time" : 0.376999843860176,
+               "id" : "comp_569",
+               "type" : 1,
+               "e_time" : 6700.60399966314
+            },
+            {
+               "s_time" : 6737.23799968138,
+               "time" : 0.365000218160276,
+               "id" : "comp_600",
+               "type" : 1,
+               "e_time" : 6737.60299989954
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5526.59999998286,
+            "type" : "application/javascript",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/css/color1.css",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/css/color1.css",
+         "id" : "r104",
+         "comps" : [
+            {
+               "s_time" : 6613.57799964026,
+               "time" : 43.0950000882103,
+               "id" : "comp_567",
+               "type" : null,
+               "e_time" : 6656.67299972847
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5730.64700001851,
+            "type" : "text/css",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116740725_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116740725_title0h.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3651.37799968943,
+            "type" : "image/jpeg",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116741005_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116741005_title0h.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3651.71399991959,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.news.cn/static/img/2013lh/space.gif",
+         "path" : "/pages/xinhuanet.com/www.news.cn/static/img/2013lh/space.gif",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3311.71099981293,
+            "type" : "image/gif",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://webd.home.news.cn/1.gif?z=1&a=140dccb6e78&b=%u65B0%u534E%u7F51_%u4F20%u64AD%u4E2D%u56FD%20%u62A5%u9053%u4E16%u754C&B=UTF-8&c=http%3A//xinhuanet.com/%3F_wdxid%3D010020010010000000000000011200000000000000&d=&e=0&f=0&H=xinhuanet.com&E=0&r=2901f7f2a3499a1d&s=0&t=0&u=1&i=en-US&j=1&k=2048x1152&l=24&m=11.8%20r800&n=&o=-7",
+         "path" : "/missing/webd.home.news.cn/1.gif",
+         "id" : "r96",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5548.54799993336,
+            "type" : "image/gif",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183178_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183178_title0h.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3652.0409998484,
+            "type" : "image/jpeg",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183150_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183150_title0h.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3652.36599976197,
+            "type" : "image/jpeg",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181594_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181594_title0h.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3652.71000005305,
+            "type" : "image/jpeg",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117181851_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117181851_title0h.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3653.05399987847,
+            "type" : "image/jpeg",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117169964_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/titlepic/117169964_title0h.jpg",
+         "id" : "r97",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6235.95899995416,
+            "type" : "image/jpeg",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117155708_title0h.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/titlepic/117155708_title0h.gif",
+         "id" : "r99",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6238.14099980518,
+            "type" : "image/gif",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117183048_title0h.jpg",
+         "path" : "/missing/www.xinhuanet.com/titlepic/117183048_title0h.jpg",
+         "id" : "r98",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6237.72000009194,
+            "type" : "image/jpeg",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117184944_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117184944_title0h.jpg",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3653.39799970388,
+            "type" : "image/jpeg",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117185744_title0h.jpg",
+         "path" : "/missing/www.xinhuanet.com/titlepic/117185744_title0h.jpg",
+         "id" : "r100",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6240.01199984923,
+            "type" : "image/jpeg",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117184988_title0h.jpg",
+         "path" : "/missing/www.xinhuanet.com/titlepic/117184988_title0h.jpg",
+         "id" : "r102",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6246.94800004363,
+            "type" : "image/jpeg",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117187816_title0h.jpg",
+         "path" : "/missing/www.xinhuanet.com/titlepic/117187816_title0h.jpg",
+         "id" : "r101",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6246.47799972445,
+            "type" : "image/jpeg",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://embed.xinhuanet.com/main/s?user=AllyesNetwork|Hp13|HpLf01_01&db=xinhuanet&border=0&local=yes",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/main/s/index.html",
+         "id" : "r106",
+         "comps" : [
+            {
+               "s_time" : 6698.2279997319,
+               "time" : 1.27000035717992,
+               "type" : "evalhtml",
+               "id" : "r106_c1",
+               "e_time" : 6699.49800008908
+            },
+            {
+               "s_time" : 6700.60399966314,
+               "time" : 3.95500008017007,
+               "id" : "r106_c2",
+               "type" : "evalhtml",
+               "e_time" : 6704.55899974331
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5920.47500004992,
+            "type" : "text/html",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://embed.xinhuanet.com/main/s?user=AllyesNetwork|Hp13|HpMd02_01&db=xinhuanet&border=0&local=yes",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/main/s/index.html",
+         "id" : "r107",
+         "comps" : [
+            {
+               "s_time" : 6735.6459996663,
+               "time" : 0.937000382699807,
+               "type" : "evalhtml",
+               "id" : "r107_c1",
+               "e_time" : 6736.583000049
+            },
+            {
+               "s_time" : 6737.60299989954,
+               "time" : 6.03700010105968,
+               "id" : "r107_c2",
+               "type" : "evalhtml",
+               "e_time" : 6743.6400000006
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5921.8929996714,
+            "type" : "text/html",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://embed.xinhuanet.com/main/s?user=AllyesNetwork|Hp13|HpRg01_01&db=xinhuanet&border=0&local=yes",
+         "path" : "/pages/xinhuanet.com/embed.xinhuanet.com/main/s/index.html",
+         "id" : "r108",
+         "comps" : [
+            {
+               "s_time" : 6760.70199999958,
+               "time" : 1.15899974480999,
+               "id" : "r108_c1",
+               "type" : "evalhtml",
+               "e_time" : 6761.86099974439
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5924.48000004515,
+            "type" : "text/html",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/zdy_icon.png",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/zdy_icon.png",
+         "id" : "r105",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6247.74200003594,
+            "type" : "image/png",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/titlepic/117186975_title0h.jpg",
+         "path" : "/missing/www.xinhuanet.com/titlepic/117186975_title0h.jpg",
+         "id" : "r103",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6247.3339997232,
+            "type" : "image/jpeg",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/bg_datudian.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/bg_datudian.gif",
+         "id" : "r109",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6248.12499992549,
+            "type" : "image/gif",
+            "id" : "download_69"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/bginfo.png",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/bginfo.png",
+         "id" : "r110",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6248.50900005549,
+            "type" : "image/png",
+            "id" : "download_70"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/bginfo2.png",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/bginfo2.png",
+         "id" : "r111",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6248.91799967736,
+            "type" : "image/png",
+            "id" : "download_71"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/qz_dian.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/qz_dian.gif",
+         "id" : "r112",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6271.73499995843,
+            "type" : "image/gif",
+            "id" : "download_72"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183357_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183357_title0h.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3653.75000005588,
+            "type" : "image/jpeg",
+            "id" : "download_73"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183235_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183235_title0h.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3654.22499971464,
+            "type" : "image/jpeg",
+            "id" : "download_74"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.news.cn/2013dqlpd/20130812sy_dpd.swf",
+         "path" : "/pages/xinhuanet.com/www.news.cn/2013dqlpd/20130812sy_dpd.swf",
+         "id" : "r115",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6601.99299966916,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_75"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117185938_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117185938_title0h.jpg",
+         "id" : "r64",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3655.034000054,
+            "type" : "image/jpeg",
+            "id" : "download_76"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117092158_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/117092158_title0h.jpg",
+         "id" : "r68",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3655.50299966708,
+            "type" : "image/jpeg",
+            "id" : "download_77"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117051118_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/117051118_title0h.jpg",
+         "id" : "r69",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3655.87899973616,
+            "type" : "image/jpeg",
+            "id" : "download_78"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/116750605_title0h.JPG",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/116750605_title0h.JPG",
+         "id" : "r70",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3656.23299963772,
+            "type" : "image/jpeg",
+            "id" : "download_79"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.xinhuanet.com/home/new/images/common.gif",
+         "path" : "/pages/xinhuanet.com/www.xinhuanet.com/home/new/images/common.gif",
+         "id" : "r116",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6657.45699964464,
+            "type" : "image/gif",
+            "id" : "download_80"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/ad/icon20130506.gif",
+         "path" : "/pages/xinhuanet.com/imgs.xinhuanet.com/ad/icon20130506.gif",
+         "id" : "r119",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6768.98499997333,
+            "type" : "image/gif",
+            "id" : "download_81"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116651359_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116651359_title0h.jpg",
+         "id" : "r71",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3656.56600007787,
+            "type" : "image/jpeg",
+            "id" : "download_82"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116353898_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116353898_title0h.jpg",
+         "id" : "r73",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3657.22899977118,
+            "type" : "image/jpeg",
+            "id" : "download_83"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116463216_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116463216_title0h.jpg",
+         "id" : "r72",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3656.89300000668,
+            "type" : "image/jpeg",
+            "id" : "download_84"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116365948_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116365948_title0h.jpg",
+         "id" : "r74",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3657.55599969998,
+            "type" : "image/jpeg",
+            "id" : "download_85"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/ad/ad_jh_50070.swf",
+         "path" : "/pages/xinhuanet.com/imgs.xinhuanet.com/ad/ad_jh_50070.swf",
+         "id" : "r123",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7044.94899976999,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_86"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/115884349_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/115884349_title0h.jpg",
+         "id" : "r75",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3657.88599988446,
+            "type" : "image/jpeg",
+            "id" : "download_87"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://webd.home.news.cn/1.gif?z=1&a=140dccb735a&b=%u65B0%u534E%u623F%u4EA7_%u65B0%u534E%u7F51&B=UTF-8&c=http%3A//xinhuanet.com/iframe_dz_fc.htm%3F_wdxid%3D010020010010000000000000011200000000000000&d=http%3A//xinhuanet.com/&e=0&f=0&H=xinhuanet.com&E=0&r=2901f7f2a3499a1d&s=1&t=1378093854&u=0&i=en-US&j=1&k=2048x1152&l=24&m=11.8%20r800&n=&o=-7",
+         "path" : "/missing/webd.home.news.cn/1.gif",
+         "id" : "r121",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6789.59599975497,
+            "type" : "image/gif",
+            "id" : "download_88"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/ad/ad_qingdaopijiu_16570.swf",
+         "path" : "/missing/imgs.xinhuanet.com/ad/ad_qingdaopijiu_16570.swf",
+         "id" : "r125",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7183.50899964571,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_89"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117186095_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117186095_title0h.jpg",
+         "id" : "r76",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3658.22899993509,
+            "type" : "image/jpeg",
+            "id" : "download_90"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183641_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183641_title0h.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3658.58899988234,
+            "type" : "image/jpeg",
+            "id" : "download_91"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183456_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183456_title0h.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3658.97099999711,
+            "type" : "image/jpeg",
+            "id" : "download_92"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.xinhuanet.com/ad/ad_qiye500qian_63070.swf",
+         "path" : "/pages/xinhuanet.com/imgs.xinhuanet.com/ad/ad_qiye500qian_63070.swf",
+         "id" : "r127",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7395.01299988478,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_93"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117182701_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117182701_title0h.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3659.67699978501,
+            "type" : "image/jpeg",
+            "id" : "download_94"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117183206_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117183206_title0h.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3659.32399965823,
+            "type" : "image/jpeg",
+            "id" : "download_95"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117175046_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117175046_title0h.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3660.02799989656,
+            "type" : "image/jpeg",
+            "id" : "download_96"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117184417_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117184417_title0h.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3660.37799976766,
+            "type" : "image/jpeg",
+            "id" : "download_97"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117182081_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117182081_title0h.jpg",
+         "id" : "r84",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3660.7260000892,
+            "type" : "image/jpeg",
+            "id" : "download_98"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117175495_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117175495_title0h.jpg",
+         "id" : "r85",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3661.07899975032,
+            "type" : "image/jpeg",
+            "id" : "download_99"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117180174_title0h.jpg",
+         "path" : "/missing/xinhuanet.com/titlepic/117180174_title0h.jpg",
+         "id" : "r87",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3661.42999986187,
+            "type" : "image/jpeg",
+            "id" : "download_100"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/117098651_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/117098651_title0h.jpg",
+         "id" : "r94",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5528.28299999237,
+            "type" : "image/jpeg",
+            "id" : "download_101"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://xinhuanet.com/titlepic/116647667_title0h.jpg",
+         "path" : "/pages/xinhuanet.com/xinhuanet.com/titlepic/116647667_title0h.jpg",
+         "id" : "r113",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6272.25399995223,
+            "type" : "image/jpeg",
+            "id" : "download_102"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_117"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_153"
+      },
+      {
+         "a2" : "comp_7",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_5"
+      },
+      {
+         "a2" : "r106_c2",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_569"
+      },
+      {
+         "a2" : "r107_c2",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_600"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 748.49499994889,
+         "id" : "dep7",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 794.31200027466,
+         "id" : "dep8",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 4.52399998903002,
+         "id" : "dep9",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 50.3410003148001,
+         "id" : "dep10",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 28.2749999314597,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 27.9239998199096,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 27.57100015879,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 27.22299983725,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 26.8729999661496,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 26.1689997278199,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 26.5219998545999,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_93",
+         "time" : -1,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 25.8160000666999,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 25.4339999519298,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 25.0740000046799,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 1651.92299988121,
+         "id" : "dep23",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 1311.6540000774,
+         "id" : "dep24",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 24.7309999540498,
+         "id" : "dep25",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 1513.36300000549,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 24.4009997695698,
+         "id" : "dep27",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 23.7380000762696,
+         "id" : "dep28",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 24.0739998407698,
+         "id" : "dep29",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 23.4110001474596,
+         "id" : "dep30",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 1291.04300029576,
+         "id" : "dep31",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 1179.51499996707,
+         "id" : "dep32",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 23.0779997073096,
+         "id" : "dep33",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 22.7239998057498,
+         "id" : "dep34",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 22.3479997366699,
+         "id" : "dep35",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 21.8790001235898,
+         "id" : "dep36",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 1078.23399966582,
+         "id" : "dep37",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 1124.05099999159,
+         "id" : "dep38",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 21.0699997842298,
+         "id" : "dep39",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 20.5950001254696,
+         "id" : "dep40",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 747.975999955091,
+         "id" : "dep41",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 793.793000280861,
+         "id" : "dep42",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 725.15899967402,
+         "id" : "dep43",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 770.97599999979,
+         "id" : "dep44",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 724.75000005215,
+         "id" : "dep45",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 770.567000377921,
+         "id" : "dep46",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 724.36599992215,
+         "id" : "dep47",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 770.18300024792,
+         "id" : "dep48",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 723.57499971986,
+         "id" : "dep49",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 769.39200004563,
+         "id" : "dep50",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 723.9830000326,
+         "id" : "dep51",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 769.80000035837,
+         "id" : "dep52",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 400.72100004181,
+         "id" : "dep53",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 446.53800036758,
+         "id" : "dep54",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 392.894000280649,
+         "id" : "dep55",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 398.13399966806,
+         "id" : "dep56",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 443.95099999383,
+         "id" : "dep57",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 390.306999906899,
+         "id" : "dep58",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 396.71600004658,
+         "id" : "dep59",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 442.53300037235,
+         "id" : "dep60",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 388.88900028542,
+         "id" : "dep61",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 722.71899972111,
+         "id" : "dep62",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 768.53600004688,
+         "id" : "dep63",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 723.18900004029,
+         "id" : "dep64",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 769.00600036606,
+         "id" : "dep65",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 716.25299984589,
+         "id" : "dep66",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 762.07000017166,
+         "id" : "dep67",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 20.2429997734698,
+         "id" : "dep68",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 713.9610000886,
+         "id" : "dep69",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 759.778000414371,
+         "id" : "dep70",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 714.381999801841,
+         "id" : "dep71",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 760.199000127611,
+         "id" : "dep72",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 712.199999950821,
+         "id" : "dep73",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 758.017000276591,
+         "id" : "dep74",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 19.89899994806,
+         "id" : "dep75",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 19.5550001226397,
+         "id" : "dep76",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 19.21099983156,
+         "id" : "dep77",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 18.8859999179899,
+         "id" : "dep78",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 24.7889999300205,
+         "id" : "dep79",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 70.6060002557906,
+         "id" : "dep80",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 16.96200016886,
+         "id" : "dep81",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 64.58400003612,
+         "id" : "dep82",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 18.5589999891799,
+         "id" : "dep83",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 18.2229997590198,
+         "id" : "dep84",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 206.88800001517,
+         "id" : "dep85",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 252.70500034094,
+         "id" : "dep86",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 199.06100025401,
+         "id" : "dep87",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 2.84099997952035,
+         "id" : "dep88",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 48.6580003052904,
+         "id" : "dep89",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 1893.44500005245,
+         "id" : "dep90",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 3.5079997032899,
+         "id" : "dep91",
+         "a1" : "r8_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 49.32500002906,
+         "id" : "dep92",
+         "a1" : "r39_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 1894.11199977622,
+         "id" : "dep93",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 17.8709998726899,
+         "id" : "dep94",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 17.5350001081797,
+         "id" : "dep95",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 17.1960000880099,
+         "id" : "dep96",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 16.81499974802,
+         "id" : "dep97",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 16.47000014782,
+         "id" : "dep98",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 16.1119997501396,
+         "id" : "dep99",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 28.65799982101,
+         "id" : "dep100",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 63.0810000002402,
+         "id" : "dep101",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 15.7670001499396,
+         "id" : "dep102",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 15.4309999197699,
+         "id" : "dep103",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 15.10199997574,
+         "id" : "dep104",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 14.7699997760396,
+         "id" : "dep105",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 14.4239999353899,
+         "id" : "dep106",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 14.0869999304396,
+         "id" : "dep107",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 13.7379998341198,
+         "id" : "dep108",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 13.3940000087,
+         "id" : "dep109",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 12.6970000565098,
+         "id" : "dep110",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 13.0170001648398,
+         "id" : "dep111",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 12.3669998720297,
+         "id" : "dep112",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 12.0509997941599,
+         "id" : "dep113",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 11.7199998348997,
+         "id" : "dep114",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 11.3699999637897,
+         "id" : "dep115",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 2.87299975752967,
+         "id" : "dep116",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 2.87299975752967,
+         "id" : "dep117",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 11.0109997913296,
+         "id" : "dep118",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 24.16300028563,
+         "id" : "dep119",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 10.6420000083799,
+         "id" : "dep120",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 10.2490000426797,
+         "id" : "dep121",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 9.88999987020998,
+         "id" : "dep122",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 9.54099977388978,
+         "id" : "dep123",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 9.15599986910956,
+         "id" : "dep124",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 8.78300005569963,
+         "id" : "dep125",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 7.62900011613965,
+         "id" : "dep126",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 8.41999985277971,
+         "id" : "dep127",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 8.03499994799995,
+         "id" : "dep128",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 7.07599986344985,
+         "id" : "dep129",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 5.50699979066985,
+         "id" : "dep130",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 34.2780002392801,
+         "id" : "dep131",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 4.38700010999992,
+         "id" : "dep132",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 5.15200011431989,
+         "id" : "dep133",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 4.78200009092961,
+         "id" : "dep134",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 105.57699995115,
+         "id" : "dep135",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep136",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1977.17500012368,
+         "id" : "dep137",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 185.723999980837,
+         "id" : "dep138",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 185.322999954224,
+         "id" : "dep139",
+         "a1" : "r1_c1"
+      }
+   ]
+}

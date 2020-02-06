@@ -1,0 +1,210 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "odnoklassniki.ru_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://odnoklassniki.ru/",
+         "path" : "/pages/odnoklassniki.ru/odnoklassniki.ru/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 994.191000238061,
+               "time" : 2336.45100006834,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 3330.6420003064
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.mycdn.me/res/batch/css/35c8cd91/login.css",
+         "path" : "/pages/odnoklassniki.ru/st.mycdn.me/res/batch/css/35c8cd91/login.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 2067.06700008363,
+               "time" : 74.5720001868899,
+               "id" : "comp_9",
+               "type" : 4,
+               "e_time" : 2141.63900027052
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1054.87800016999,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.mycdn.me/res/i/p/toolbar/toolbar_x.png?v3",
+         "path" : "/pages/odnoklassniki.ru/st.mycdn.me/res/i/p/toolbar/toolbar_x.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2142.15099997818,
+            "type" : "image/png",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.mycdn.me/res/i/p/toolbar/logo_anonym.png",
+         "path" : "/pages/odnoklassniki.ru/st.mycdn.me/res/i/p/toolbar/logo_anonym.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2142.55800005049,
+            "type" : "image/png",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.mycdn.me/res/default/Images/anonym/ok-iphone_2.png",
+         "path" : "/pages/odnoklassniki.ru/st.mycdn.me/res/default/Images/anonym/ok-iphone_2.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2142.92400004342,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://st.mycdn.me/res/default/Images/anonym/ok-free_sprt.png",
+         "path" : "/pages/odnoklassniki.ru/st.mycdn.me/res/default/Images/anonym/ok-free_sprt.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2143.29300029203,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://counter.yadro.ru/hit?q;r;s2048*1152*24;uhttp%3A//odnoklassniki.ru/;0.11452019680291414",
+         "path" : "/missing/counter.yadro.ru/hit",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3131.72000041232,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.tns-counter.ru/V13b***R%3E*odnoklassniki_ru/ru/UTF-8/tmsec=odnoklassniki_site/924822113",
+         "path" : "/missing/www.tns-counter.ru/V13b***R_3E*odnoklassniki_ru/ru/UTF-8/tmsec_odnoklassniki_site/924822113",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3070.5490000546,
+            "type" : "image/gif",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imgs.mail.ru/r/portal/portal-headline/portal-headline__project__link_icon.png",
+         "path" : "/pages/odnoklassniki.ru/imgs.mail.ru/r/portal/portal-headline/portal-headline__project__link_icon.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2082.62300025672,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://top-fwz1.mail.ru/counter2?id=1963260;js=13;s=2048*1152;_=0.8550285645760596",
+         "path" : "/missing/top-fwz1.mail.ru/counter2",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3330.6420003064,
+            "type" : "image/gif",
+            "id" : "download_9"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 1088.43200001866,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 2076.35799981654,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 2137.52900017426,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1149.10200005397,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1148.73299980536,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1148.36699981243,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 1147.95999974012,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 60.686999931929,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      }
+   ]
+}

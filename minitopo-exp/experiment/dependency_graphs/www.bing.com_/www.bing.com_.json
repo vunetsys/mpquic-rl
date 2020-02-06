@@ -1,0 +1,50 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.bing.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.bing.com/",
+         "path" : "/pages/bing.com/www.bing.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 149.848000146449,
+               "time" : 150.615999940782,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 300.464000087231
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.bing.com/s/a/hpc8.png",
+         "path" : "/pages/bing.com/www.bing.com/s/a/hpc8.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 300.464000087231,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      }
+   ]
+}

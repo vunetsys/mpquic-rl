@@ -1,0 +1,201 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "home.mywebsearch.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://home.mywebsearch.com/",
+         "path" : "/pages/mywebsearch.com/home.mywebsearch.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1573.62999999896,
+               "time" : 10.2550000883598,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1583.88500008732
+            },
+            {
+               "s_time" : 2060.82799984142,
+               "time" : 4.20100009068983,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2065.02899993211
+            },
+            {
+               "s_time" : 2103.51599985734,
+               "time" : 53.65100037306,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 2157.1670002304
+            },
+            {
+               "s_time" : 2175.87900022045,
+               "time" : 138.23499996215,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 2314.1140001826
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak.imgfarm.com/js/common/jquery/1.8.2/jquery.min.js",
+         "path" : "/pages/mywebsearch.com/ak.imgfarm.com/js/common/jquery/1.8.2/jquery.min.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1736.72100016847,
+               "time" : 324.10699967295,
+               "id" : "comp_2",
+               "type" : 1,
+               "e_time" : 2060.82799984142
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1582.66199985519,
+            "type" : "application/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak.imgfarm.com/mws/hpv2-6-iconshp-compressed.js",
+         "path" : "/pages/mywebsearch.com/ak.imgfarm.com/mws/hpv2-6-iconshp-compressed.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 2157.20999985933,
+               "time" : 18.6690003611202,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 2175.87900022045
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1583.88500008732,
+            "type" : "application/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak2.home.mywebsearch.com/resources/js/utils/Analytics/anemone-1.2.7.js",
+         "path" : "/pages/mywebsearch.com/ak2.home.mywebsearch.com/resources/js/utils/Analytics/anemone-1.2.7.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 2080.76700009406,
+               "time" : 22.7489997632797,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 2103.51599985734
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1583.16700020805,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak.imgfarm.com/images/search/dtest/drytest_backrep.jpg",
+         "path" : "/pages/mywebsearch.com/ak.imgfarm.com/images/search/dtest/drytest_backrep.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2065.02899993211,
+            "type" : "image/jpeg",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ak.imgfarm.com/images/search/hpImages/IconHpSprite_05_png8_3.png",
+         "path" : "/pages/mywebsearch.com/ak.imgfarm.com/images/search/hpImages/IconHpSprite_05_png8_3.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2314.1140001826,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 9.53700020908991,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 10.2550000883598,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 9.03199985622996,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      }
+   ]
+}

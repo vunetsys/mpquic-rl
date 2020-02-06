@@ -1,0 +1,1730 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.ebay.co.uk_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.ebay.co.uk/",
+         "path" : "/pages/ebay.co.uk/www.ebay.co.uk/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 1061.18799978867,
+               "time" : 500.13100029901,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1561.31900008768
+            },
+            {
+               "s_time" : 2123.66299983114,
+               "time" : 0.0960002653300762,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 2123.75900009647
+            },
+            {
+               "s_time" : 2132.14300014079,
+               "time" : 1282.98999974504,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 3415.13299988583
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ir.ebaystatic.com/z/eu/oukl4ny1vi2a3funqgyd3f2tn.css?dataUri=true",
+         "path" : "/pages/ebay.de/ir.ebaystatic.com/z/eu/oukl4ny1vi2a3funqgyd3f2tn.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1218.57800008729,
+               "time" : 74.8689998872599,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 1293.44699997455
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1068.82400019094,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ir.ebaystatic.com/z/yw/duw3au4sle0u3cme2zze4xzc5.css?dataUri=true",
+         "path" : "/pages/ebay.co.uk/ir.ebaystatic.com/z/yw/duw3au4sle0u3cme2zze4xzc5.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1294.27299974486,
+               "time" : 31.19600005448,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 1325.46899979934
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1069.21300012618,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://gh.ebaystatic.com/header/css/all.min?combo=11&ds=3&siteid=3&rvr=99&h=23535",
+         "path" : "/pages/ebay.co.uk/gh.ebaystatic.com/header/css/all.min.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1327.19800015911,
+               "time" : 213.00200000406,
+               "id" : "comp_6",
+               "type" : 4,
+               "e_time" : 1540.20000016317
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1068.38499987498,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://gh.ebaystatic.com/header/js/rpt.min?combo=11&ds=3&rvr=136&siteid=3&h=23536",
+         "path" : "/pages/ebay.co.uk/gh.ebaystatic.com/header/js/rpt.min.js",
+         "id" : "r58",
+         "comps" : [
+            {
+               "s_time" : 2123.81700007245,
+               "time" : 8.32600006833991,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 2132.14300014079
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1222.65399992466,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ir.ebaystatic.com/z/ig/iw3xq41f2y4hnpyn2h1r4sqpu.js",
+         "path" : "/pages/ebay.co.uk/ir.ebaystatic.com/z/ig/iw3xq41f2y4hnpyn2h1r4sqpu.js",
+         "id" : "r57",
+         "comps" : [
+            {
+               "s_time" : 1753.42399999499,
+               "time" : 370.23899983615,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 2123.66299983114
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1210.55899979547,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://srx.uk.ebayrtm.com/rtm?RtmIt&ite=1&m=377662&pg=2050601&y=3FwEhNFIEKWBXAChpBVYsPQQDKwMGAy9VAVQvDlcEK1sAUC5WXVtcNG45XDhuOVw8&uf=0&ord=1378092404989&ts=1378092404989&aii=993981619209708465",
+         "path" : "/missing/srx.uk.ebayrtm.com/rtm",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1087.74199988693,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/globalheader/spr9.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/globalheader/spr9.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1069.61099989712,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/faw.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/faw.gif",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1076.41399977729,
+            "type" : "image/gif",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/mns.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/mns.gif",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1076.06700016186,
+            "type" : "image/gif",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/knb.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/knb.gif",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1077.11100019515,
+            "type" : "image/gif",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/uk2/ickids.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/uk2/ickids.gif",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1076.76299987361,
+            "type" : "image/gif",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/uk/holiday/Doodle_2013/Offtouni/2181_UK_Retail_BackToUniversity_Phase1_Doodle_150x30.png",
+         "path" : "/missing/p.ebaystatic.com/aw/pics/uk/holiday/Doodle_2013/Offtouni/2181_UK_Retail_BackToUniversity_Phase1_Doodle_150x30.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1075.67200018093,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs2.ebaystatic.com/d/l276/m/ml7RVITv1zPmXOR8QhZwWFQ.jpg",
+         "path" : "/missing/thumbs2.ebaystatic.com/d/l276/m/ml7RVITv1zPmXOR8QhZwWFQ.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1091.28900012001,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs1.ebaystatic.com/d/l276/m/m0Lchi4AHyU1eTT1cq6aAqw.jpg",
+         "path" : "/missing/thumbs1.ebaystatic.com/d/l276/m/m0Lchi4AHyU1eTT1cq6aAqw.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1091.69499995187,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/fd/hp/i2/furn.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/fd/hp/i2/furn.gif",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1077.45799981058,
+            "type" : "image/gif",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/gar.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/i2/gar.gif",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1077.83700013533,
+            "type" : "image/gif",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs3.ebaystatic.com/d/l276/m/myzBwt-_pseNDaw5js-7R0w.jpg",
+         "path" : "/missing/thumbs3.ebaystatic.com/d/l276/m/myzBwt-_pseNDaw5js-7R0w.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1092.4450000748,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mToaIZPQBv8dKaIRAprV2Pw.jpg",
+         "path" : "/pages/ebay.co.uk/thumbs.ebaystatic.com/d/w225/m/mToaIZPQBv8dKaIRAprV2Pw.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1096.76099987701,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/cnt.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/cnt.gif",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1223.58299978077,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/cpa.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/cpa.gif",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1223.95600005984,
+            "type" : "image/gif",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/uk2/icsv.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/uk2/icsv.gif",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1224.38699984923,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mMj7zjJMWNU9Zy_JH_tuxag.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mMj7zjJMWNU9Zy_JH_tuxag.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1243.85399976745,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mWpmzXVZbyMA3z1B9JoLbdg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mWpmzXVZbyMA3z1B9JoLbdg.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1243.49999986589,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/m3uGDlEWMPlzlU5LBOpHQ7g.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/m3uGDlEWMPlzlU5LBOpHQ7g.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1244.20899990946,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mGsXHAPNHeP7m8o5C1djNUg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mGsXHAPNHeP7m8o5C1djNUg.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1243.14300017431,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mjWW53ZS1OAIiFbTK6vveIQ.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mjWW53ZS1OAIiFbTK6vveIQ.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1244.5660000667,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/uk2/icmusc.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/uk2/icmusc.gif",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1224.79900019243,
+            "type" : "image/gif",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/uk2/icsprt.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/uk2/icsprt.gif",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1225.19299993291,
+            "type" : "image/gif",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/kft.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/kft.gif",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1225.59899976477,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/fd/hp/i2/antq.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/fd/hp/i2/antq.gif",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1225.94900010154,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/cls.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/cls.gif",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1226.29800019786,
+            "type" : "image/gif",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.ebayimg.com/00/s/MTAwMFgxMDAw/$T2eC16FHJG!FFmQgqwciBSIbJo!Bw!~~60_91.JPG",
+         "path" : "/missing/i.ebayimg.com/00/s/MTAwMFgxMDAw/_T2eC16FHJG_FFmQgqwciBSIbJo_Bw___60_91.JPG",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1274.30099993944,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/uk2/icptry.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/uk2/icptry.gif",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1226.64699982852,
+            "type" : "image/gif",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.ebayimg.com/00/s/ODAwWDgwMA==/$T2eC16hHJGsFFMtweP20BSILlmlByQ~~60_91.JPG",
+         "path" : "/missing/i.ebayimg.com/00/s/ODAwWDgwMA__/_T2eC16hHJGsFFMtweP20BSILlmlByQ__60_91.JPG",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1092.07399981096,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/skn.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/i2/skn.gif",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1227.29900013655,
+            "type" : "image/gif",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/mcy.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/mcy.gif",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1229.07100012526,
+            "type" : "image/gif",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/nct.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/nct.gif",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1228.60099980608,
+            "type" : "image/gif",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/muMHZZii0Pj5G4g1UBc0NfA.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/muMHZZii0Pj5G4g1UBc0NfA.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1252.2220001556,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/pna.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/fd/hp/i2/pna.gif",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1229.44199992344,
+            "type" : "image/gif",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/wch.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/i2/wch.gif",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1228.03599992767,
+            "type" : "image/gif",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/fd/hp/i2/fnj.gif",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/fd/hp/i2/fnj.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1227.68200002611,
+            "type" : "image/gif",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mKi1MrFDe2guQwZ4Hdjxf4w.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mKi1MrFDe2guQwZ4Hdjxf4w.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1244.92299975827,
+            "type" : "image/jpeg",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/m8oSmZRdghjOVnghxgoxhkw.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/m8oSmZRdghjOVnghxgoxhkw.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1252.96200020239,
+            "type" : "image/jpeg",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mWi7tinx8mnGbpDFv-RctCQ.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mWi7tinx8mnGbpDFv-RctCQ.jpg",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1252.60900007561,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/m-mv3mCIfEWHPjWqfwoFA4g.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/m-mv3mCIfEWHPjWqfwoFA4g.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1253.36600001901,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/uk/buy/trust/imgEBPFooter.png",
+         "path" : "/pages/ebay.co.uk/p.ebaystatic.com/aw/pics/uk/buy/trust/imgEBPFooter.png",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1242.349000182,
+            "type" : "image/png",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/m0bxRWtRc43ia9_j3WbIcoQ.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/m0bxRWtRc43ia9_j3WbIcoQ.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1245.27900014073,
+            "type" : "image/jpeg",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/home/feed/t.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/home/feed/t.png",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1242.77599994093,
+            "type" : "image/png",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/cmp/ds3/imgbg.jpg",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/cmp/ds3/imgbg.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1560.18499983475,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/homepage/hpspr2.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/homepage/hpspr2.png",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1560.55400008336,
+            "type" : "image/png",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/home/feed/sprite_201307291200.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/home/feed/sprite_201307291200.png",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1560.93799974769,
+            "type" : "image/png",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/cmp/ds3/sprds3_11.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/cmp/ds3/sprds3_11.png",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1561.31900008768,
+            "type" : "image/png",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mmPQhfA9BJOQFHBO8XMVQsg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mmPQhfA9BJOQFHBO8XMVQsg.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1253.71900014579,
+            "type" : "image/jpeg",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mjMxIz5q82rlE3VELuK-Ofg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mjMxIz5q82rlE3VELuK-Ofg.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1271.53800008819,
+            "type" : "image/jpeg",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mTHVnmuxHCawprRQ16jJh8Q.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mTHVnmuxHCawprRQ16jJh8Q.jpg",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1272.05500006676,
+            "type" : "image/jpeg",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/muryWfk2XZoSzkSqG57NWYg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/muryWfk2XZoSzkSqG57NWYg.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1272.41799980402,
+            "type" : "image/jpeg",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ad-emea.doubleclick.net/N3847/adi/ebay.uk.homepage.cchp/cchp;items=;sz=728x90;u=i_993981619209708465%7Cm_377662;;dcopt=ist;tile=1;eb_trk=377662;ord=1378092404802;",
+         "path" : "/missing/ad-emea.doubleclick.net/N3847/adi/ebay.uk.homepage.cchp/cchp_items__sz_728x90_u_i_993981619209708465_7Cm_377662__dcopt_ist_tile_1_eb_trk_377662_ord_1378092404802_",
+         "id" : "r28",
+         "comps" : [
+            {
+               "s_time" : 2656.12499974668,
+               "time" : 3.94700001925003,
+               "id" : "r28_c1",
+               "type" : "evalhtml",
+               "e_time" : 2660.07199976593
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1088.11399992555,
+            "type" : "text/html",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mekQmzpQ6_uvg14HnPYAdUg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mekQmzpQ6_uvg14HnPYAdUg.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1272.77899999171,
+            "type" : "image/jpeg",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mNFZn1p1nT3ewtyBqBZw1Iw.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mNFZn1p1nT3ewtyBqBZw1Iw.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1273.15300004557,
+            "type" : "image/jpeg",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/m4aZb3LVLDGZkqaMc-ZbQlg.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/m4aZb3LVLDGZkqaMc-ZbQlg.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1273.53399991989,
+            "type" : "image/jpeg",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs.ebaystatic.com/d/w225/m/mMLlfwPfYs0VP6Zf5r2aquQ.jpg",
+         "path" : "/missing/thumbs.ebaystatic.com/d/w225/m/mMLlfwPfYs0VP6Zf5r2aquQ.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1273.91099976376,
+            "type" : "image/jpeg",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/home/feed/spinner_lrg.gif",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/home/feed/spinner_lrg.gif",
+         "id" : "r69",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2347.80299989507,
+            "type" : "image/gif",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://p.ebaystatic.com/aw/pics/promo/deals/logo_eBayDeals_RGB.png",
+         "path" : "/pages/ebay.com/p.ebaystatic.com/aw/pics/promo/deals/logo_eBayDeals_RGB.png",
+         "id" : "r68",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2347.22799994051,
+            "type" : "image/png",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ir.ebaystatic.com/f/eq4cndmbei5n5nc3lfig2sx3pev.png",
+         "path" : "/pages/ebay.co.uk/ir.ebaystatic.com/f/eq4cndmbei5n5nc3lfig2sx3pev.png",
+         "id" : "r71",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2562.33800016344,
+            "type" : "image/png",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "path" : "/pages/youtube.com/googleads.g.doubleclick.net/pagead/drt/s/index.html",
+         "id" : "r73",
+         "comps" : [
+            {
+               "s_time" : 2913.10699982569,
+               "time" : 121.88300024718,
+               "id" : "r73_c1",
+               "type" : "evalhtml",
+               "e_time" : 3034.99000007287
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2660.73400015011,
+            "type" : "text/html",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/simgad/6770813942332338983",
+         "path" : "/missing/pagead2.googlesyndication.com/simgad/6770813942332338983",
+         "id" : "r72",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2658.92799990252,
+            "type" : "image/jpeg",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/slide1_big.jpg",
+         "path" : "/missing/rtm.ebaystatic.com/3/RTMS/Image/slide1_big.jpg",
+         "id" : "r66",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2202.1189997904,
+            "type" : "image/jpeg",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ad-emea.doubleclick.net/N3847/adi/ebay.uk.homepage.cchp/cchp;items=;sz=160x600;u=i_993981619209708467%7Cm_349172;;tile=2;eb_trk=349172;ord=1378092404802;",
+         "path" : "/missing/ad-emea.doubleclick.net/N3847/adi/ebay.uk.homepage.cchp/cchp_items__sz_160x600_u_i_993981619209708467_7Cm_349172__tile_2_eb_trk_349172_ord_1378092404802_",
+         "id" : "r70",
+         "comps" : [
+            {
+               "s_time" : 2932.52500006929,
+               "time" : 3.79099976271027,
+               "id" : "r70_c1",
+               "type" : "evalhtml",
+               "e_time" : 2936.315999832
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2541.80700005963,
+            "type" : "text/html",
+            "id" : "download_69"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://srx.uk.ebayrtm.com/rtm?RtmCmd&a=json&l=@@__@@__@@&g=dcb54ff41400a5e7c7e31023ffb77162&c=1H4sIAAAAAAAAACWOzU7DMBCE73mKlbi0iNq7dn6cIB8ihAoqEYcUwaFSlQajWAmJVRxV8PQ4cFrNjGa%2FuarnEWrjAAkEFiIt4gS21X6DWYEYLJKRkxJ1Nf3YYWh4whBWVdPa0U9f3S08jt4MEAx4ruENCI%2FpUa2hdG4wr%2Ba0s54nMmMEq93Dvnq6gcH2Bram7ac13HXn6dNwIRgyonz5XTcfzdn%2BdwJZpRojR0LLqLXvWqrDjIghETLWm3BJSS0wwRT%2FBOlc4bJY6M57dyg4v1wuzJyab9ZObO6XjDQhCzTKYyZitWAy7V84leX9dfQLqynnTBMBAAA%3D&p=11527:11528:11529:11530&di=11527:11528:11529:11530&v=4&enc=UTF-8&bm=395545&ord=1378092406354&cg=1378092406354&cb=$.billboard.callback&callback=jQuery1709172885466832668_1378092406220&_=1378092406358&r=yes",
+         "path" : "/missing/srx.uk.ebayrtm.com/rtm",
+         "id" : "r65",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2714.38900008798,
+            "type" : "application/x-javascript",
+            "id" : "download_70"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://srx.uk.ebayrtm.com/rtm?RtmCmd&a=json&l=@@__@@__@@&g=dcb54ff41400a5e7c7e31023ffb77162&c=1H4sIAAAAAAAAACWOzU7DMBCE73mKlbi0iNq7dn6cIB8ihAoqEYcUwaFSlQajWAmJVRxV8PQ4cFrNjGa%2FuarnEWrjAAkEFiIt4gS21X6DWYEYLJKRkxJ1Nf3YYWh4whBWVdPa0U9f3S08jt4MEAx4ruENCI%2FpUa2hdG4wr%2Ba0s54nMmMEq93Dvnq6gcH2Bram7ac13HXn6dNwIRgyonz5XTcfzdn%2BdwJZpRojR0LLqLXvWqrDjIghETLWm3BJSS0wwRT%2FBOlc4bJY6M57dyg4v1wuzJyab9ZObO6XjDQhCzTKYyZitWAy7V84leX9dfQLqynnTBMBAAA%3D&p=11527:11528:11529:11530&di=11527:11528:11529:11530&v=4&enc=UTF-8&bm=395545&ord=1378092406374&cg=1378092406374&cb=$.mfbb.callback&callback=jQuery1709172885466832668_1378092406221&_=1378092406375&r=yes",
+         "path" : "/missing/srx.uk.ebayrtm.com/rtm",
+         "id" : "r67",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2714.9620000273,
+            "type" : "application/x-javascript",
+            "id" : "download_71"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211",
+         "path" : "/pages/youtube.com/googleads.g.doubleclick.net/pagead/drt/s/index.html",
+         "id" : "r75",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2938.00099985674,
+            "type" : "text/html",
+            "id" : "download_72"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/simgad/8327110970406631078",
+         "path" : "/missing/pagead2.googlesyndication.com/simgad/8327110970406631078",
+         "id" : "r74",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2937.23799986765,
+            "type" : "image/jpeg",
+            "id" : "download_73"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.ebayimg.com/00/s/ODAwWDgwMA==/$T2eC16hHJGsFFMtweP20BSILlmlByQ~~60_26.JPG",
+         "path" : "/missing/i.ebayimg.com/00/s/ODAwWDgwMA__/_T2eC16hHJGsFFMtweP20BSILlmlByQ__60_26.JPG",
+         "id" : "r79",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3098.3699997887,
+            "type" : "image/jpeg",
+            "id" : "download_74"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/1000/RTMS/Image/empty.gif",
+         "path" : "/pages/ebay.de/rtm.ebaystatic.com/1000/RTMS/Image/empty.gif",
+         "id" : "r77",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3096.83900000528,
+            "type" : "image/gif",
+            "id" : "download_75"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs2.ebaystatic.com/d/l140/m/ml7RVITv1zPmXOR8QhZwWFQ.jpg",
+         "path" : "/missing/thumbs2.ebaystatic.com/d/l140/m/ml7RVITv1zPmXOR8QhZwWFQ.jpg",
+         "id" : "r76",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3096.32099978626,
+            "type" : "image/jpeg",
+            "id" : "download_76"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://thumbs1.ebaystatic.com/d/l140/m/m0Lchi4AHyU1eTT1cq6aAqw.jpg",
+         "path" : "/missing/thumbs1.ebaystatic.com/d/l140/m/m0Lchi4AHyU1eTT1cq6aAqw.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3097.39999985322,
+            "type" : "image/jpeg",
+            "id" : "download_77"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/1000/Rtm/Css/OM_HP_MFBB_DAILYDEALS_760x270_PCS.css",
+         "path" : "/pages/ebay.co.uk/rtm.ebaystatic.com/1000/Rtm/Css/OM_HP_MFBB_DAILYDEALS_760x270_PCS.css",
+         "id" : "r83",
+         "comps" : [
+            {
+               "s_time" : 3404.86800018698,
+               "time" : 1.11999968066993,
+               "id" : "comp_325",
+               "type" : 2,
+               "e_time" : 3405.98799986765
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3142.18800002709,
+            "type" : "text/css",
+            "id" : "download_78"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/2201_UK_C2C_99p_760x270_130807_7_25_2013_2_14_24_622.jpg",
+         "path" : "/missing/rtm.ebaystatic.com/3/RTMS/Image/2201_UK_C2C_99p_760x270_130807_7_25_2013_2_14_24_622.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3180.72600010782,
+            "type" : "image/jpeg",
+            "id" : "download_79"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/2181_UK_Retail_BackToUniversity_Phase1_MFBB_760x270.jpg",
+         "path" : "/pages/ebay.co.uk/rtm.ebaystatic.com/3/RTMS/Image/2181_UK_Retail_BackToUniversity_Phase1_MFBB_760x270.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3181.23900005594,
+            "type" : "image/jpeg",
+            "id" : "download_80"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/slide5_small.jpg",
+         "path" : "/missing/rtm.ebaystatic.com/3/RTMS/Image/slide5_small.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3181.65400018916,
+            "type" : "image/jpeg",
+            "id" : "download_81"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/2181_UK_Retail_BackToUniverse_Phase1_MFBB_760x270_8_21_2013_1_41_39_695.jpg",
+         "path" : "/pages/ebay.co.uk/rtm.ebaystatic.com/3/RTMS/Image/2181_UK_Retail_BackToUniverse_Phase1_MFBB_760x270_8_21_2013_1_41_39_695.jpg",
+         "id" : "r85",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3182.54800001159,
+            "type" : "image/jpeg",
+            "id" : "download_82"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rover.ebay.co.uk/roversync/?site=3&stg=1&cguid=dcb555c81400a5f162635393ff3c2ab6&mpt=1378092406216",
+         "path" : "/missing/rover.ebay.co.uk/roversync",
+         "id" : "r64",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2706.01300010458,
+            "type" : "image/gif",
+            "id" : "download_83"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://rtm.ebaystatic.com/3/RTMS/Image/2068_UK_C2C_FreePhotos_MFBB_760x270_1_7_25_2013_7_43_09_564.jpg",
+         "path" : "/missing/rtm.ebaystatic.com/3/RTMS/Image/2068_UK_C2C_FreePhotos_MFBB_760x270_1_7_25_2013_7_43_09_564.jpg",
+         "id" : "r84",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3182.12000001222,
+            "type" : "image/jpeg",
+            "id" : "download_84"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "comp_22",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 1049.97699987143,
+         "id" : "dep4",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 573.86999996379,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 1050.4049998708,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 1049.51100004837,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 1049.09599991515,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 1048.58299996703,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 1010.0449998863,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 965.25699971243,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 964.17799964547,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 964.69599986449,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 966.22699964791,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 24.1310000419603,
+         "id" : "dep15",
+         "a1" : "r73_c1"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 805.09499972686,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 24.8940000310499,
+         "id" : "dep17",
+         "a1" : "r73_c1"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 805.85799971595,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 582.81899988651,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 582.24599994719,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 409.66399991884,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 69.97599964961,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 2.80300015583998,
+         "id" : "dep23",
+         "a1" : "r28_c1"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 526.78499976173,
+         "id" : "dep24",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 528.59100000932,
+         "id" : "dep25",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 430.19500002265,
+         "id" : "dep26",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 215.08499979972,
+         "id" : "dep27",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 215.65999975428,
+         "id" : "dep28",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_62",
+         "time" : -1,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 212.34600013122,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 211.9650002569,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 211.59100020304,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 26.92600013688,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 211.23000001535,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 210.86700027809,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 210.35000029952,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 192.53100035712,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_53",
+         "time" : -1,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 499.74999995902,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 499.36600029469,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 498.99700004608,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 181.58800015226,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 184.09100035206,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 181.16100039333,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 192.17800023034,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 191.42100028694,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 191.77400041372,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 183.7349999696,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 166.49400023744,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 166.848000139,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 168.25400013477,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 191.03400036693,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 167.41300001741,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 167.88300033659,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 166.11100034788,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 30.8860000222901,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 165.45900003985,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 213.11300015077,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 165.11000040919,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 164.76100031287,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 164.4109999761,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 164.00500014424,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 163.61100040376,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 183.37800027803,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 181.95500038564,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 183.02100012079,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 182.31200007722,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 182.66599997878,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 163.19900006056,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 162.76800027117,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 162.3949999921,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 35.57300008834,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 31.2570002861301,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 16.6490003466602,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 16.2700000219102,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 30.5070001632,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 30.1010003313402,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 14.48400039226,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 15.57500008494,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 15.92300040648,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 14.8790003731901,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 15.2259999886201,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 8.4230001084502,
+         "id" : "dep83",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 26.5540000982601,
+         "id" : "dep84",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 149.3710000068,
+         "id" : "dep85",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 161.46600013599,
+         "id" : "dep86",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 7.19700008631003,
+         "id" : "dep87",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 8.02500033751016,
+         "id" : "dep88",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 7.63600040227016,
+         "id" : "dep89",
+         "a1" : "r1_c1"
+      }
+   ]
+}

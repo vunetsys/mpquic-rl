@@ -1,0 +1,268 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.baidu.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.baidu.com/",
+         "path" : "/pages/www.baidu.com/www.baidu.com/index.html",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 948.030000086874,
+               "time" : 233.267999719826,
+               "type" : "evalhtml",
+               "id" : "r2_c1",
+               "e_time" : 1181.2979998067
+            },
+            {
+               "s_time" : 2256.3599999994,
+               "time" : 115.73000019417,
+               "type" : "evalhtml",
+               "id" : "r2_c2",
+               "e_time" : 2372.09000019357
+            },
+            {
+               "s_time" : 2389.55499976873,
+               "time" : 2.55400035531011,
+               "type" : "evalhtml",
+               "id" : "r2_c3",
+               "e_time" : 2392.10900012404
+            },
+            {
+               "s_time" : 2394.35799978673,
+               "time" : 0.654000323269884,
+               "id" : "r2_c4",
+               "type" : "evalhtml",
+               "e_time" : 2395.01200011
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.baidu.com/img/bdlogo.gif",
+         "path" : "/pages/www.baidu.com/www.baidu.com/img/bdlogo.gif",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1180.47400005162,
+            "type" : "image/gif",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.baidu.com/cache/global/img/gs.gif",
+         "path" : "/pages/www.baidu.com/www.baidu.com/cache/global/img/gs.gif",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1181.2979998067,
+            "type" : "image/gif",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.baidu.com/img/i-1.0.0.png",
+         "path" : "/pages/www.baidu.com/www.baidu.com/img/i-1.0.0.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1180.88100012392,
+            "type" : "image/png",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.bdstatic.com/r/www/cache/static/global/js/home_299f7566.js",
+         "path" : "/pages/www.baidu.com/s1.bdstatic.com/r/www/cache/static/global/js/home_299f7566.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 2216.97199996561,
+               "time" : 39.3880000337899,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 2256.3599999994
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1179.24699978903,
+            "type" : "application/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.bdstatic.com/r/www/cache/static/global/js/tangram-1.3.4c1.0_07038476.js",
+         "path" : "/pages/www.baidu.com/s1.bdstatic.com/r/www/cache/static/global/js/tangram-1.3.4c1.0_07038476.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 2379.85299993306,
+               "time" : 9.70199983566999,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 2389.55499976873
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1179.69899997115,
+            "type" : "application/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.bdstatic.com/r/www/cache/static/user/js/u_5990d9fd.js",
+         "path" : "/pages/www.baidu.com/s1.bdstatic.com/r/www/cache/static/user/js/u_5990d9fd.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 2389.6900000982,
+               "time" : 4.66799968853002,
+               "id" : "comp_16",
+               "type" : 1,
+               "e_time" : 2394.35799978673
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1180.09500019252,
+            "type" : "application/javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://suggestion.baidu.com/su?wd=&cb=window.bdsug.sugPreRequest&sid=&t=1378091161376",
+         "path" : "/missing/suggestion.baidu.com/su",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 3177.48899990693,
+               "time" : 0.490000005810089,
+               "id" : "comp_22",
+               "type" : null,
+               "e_time" : 3177.97899991274
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2369.15699997917,
+            "type" : "baiduapp/json",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://passport.baidu.com/passApi/js/uni_login_wrapper.js?cdnversion=1378091161496",
+         "path" : "/missing/passport.baidu.com/passApi/js/uni_login_wrapper.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 3559.52200014144,
+               "time" : 0.754999928180041,
+               "id" : "comp_24",
+               "type" : null,
+               "e_time" : 3560.27700006962
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2392.10900012404,
+            "type" : "text/javascript",
+            "id" : "download_8"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r2_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r2_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r2_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "comp_16",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r2_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 112.79699997977,
+         "id" : "dep6",
+         "a1" : "r2_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r2_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 231.668999884276,
+         "id" : "dep8",
+         "a1" : "r2_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 231.216999702156,
+         "id" : "dep9",
+         "a1" : "r2_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r2_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "r2_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 232.443999964746,
+         "id" : "dep12",
+         "a1" : "r2_c1"
+      }
+   ]
+}

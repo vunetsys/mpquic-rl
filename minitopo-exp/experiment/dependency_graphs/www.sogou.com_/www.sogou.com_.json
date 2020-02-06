@@ -1,0 +1,318 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.sogou.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.sogou.com/",
+         "path" : "/pages/sogou.com/www.sogou.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 577.601000200957,
+               "time" : 936.935999896373,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1514.53700009733
+            },
+            {
+               "s_time" : 1519.33000003919,
+               "time" : 0.0609997659898909,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1519.39099980518
+            },
+            {
+               "s_time" : 1990.69399992004,
+               "time" : 0.134000089019992,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1990.82800000906
+            },
+            {
+               "s_time" : 1992.19400016591,
+               "time" : 57.4129996821298,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 2049.60699984804
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/logo/doraemon/css/newstyle.css",
+         "path" : "/missing/www.sogou.com/logo/doraemon/css/newstyle.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 975.632000248879,
+               "time" : 33.270999789241,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 1008.90300003812
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 588.496999815106,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/images/logo/doraemon/logo.jpg",
+         "path" : "/missing/www.sogou.com/images/logo/doraemon/logo.jpg",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 590.327000245452,
+            "type" : "image/jpeg",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/images/logo/doraemon/i.gif",
+         "path" : "/missing/www.sogou.com/images/logo/doraemon/i.gif",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 970.286999829113,
+            "type" : "image/gif",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/images/i.png",
+         "path" : "/pages/sogou.com/www.sogou.com/images/i.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 969.85699981451,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/js/sugg_go.v.2.25.js",
+         "path" : "/missing/www.sogou.com/js/sugg_go.v.2.25.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1499.05900005251,
+               "time" : 20.27099998668,
+               "id" : "comp_10",
+               "type" : 1,
+               "e_time" : 1519.33000003919
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 973.282999824733,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/logo/doraemon/js/doraemon_index.js",
+         "path" : "/missing/www.sogou.com/logo/doraemon/js/doraemon_index.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 1990.89600006118,
+               "time" : 1.29800010472991,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 1992.19400016591
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 975.351999979466,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/logo/js/jquery-1.7.2.min.js",
+         "path" : "/missing/www.sogou.com/logo/js/jquery-1.7.2.min.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1882.042999845,
+               "time" : 108.65100007504,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 1990.69399992004
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 974.626000039279,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/sug/css/m.v.19.css",
+         "path" : "/pages/sogou.com/www.sogou.com/sug/css/m.v.19.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1710.01400006935,
+               "time" : 8.35199980064999,
+               "id" : "comp_12",
+               "type" : 2,
+               "e_time" : 1718.36599987
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1514.53700009733,
+            "type" : "text/css",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/images/logo/doraemon/icon.jpg",
+         "path" : "/missing/www.sogou.com/images/logo/doraemon/icon.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2048.86100022122,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.sogou.com/images/logo/doraemon/bd_index.png",
+         "path" : "/missing/www.sogou.com/images/logo/doraemon/bd_index.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2049.60699984804,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "comp_15",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_10"
+      },
+      {
+         "a2" : "comp_17",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "download_10",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 56.6670000553099,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 397.024999838322,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 397.024999838322,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 397.750999778509,
+         "id" : "dep11",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 395.681999623776,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 392.255999613553,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 392.685999628156,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 12.7260000444951,
+         "id" : "dep15",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 10.8959996141491,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      }
+   ]
+}

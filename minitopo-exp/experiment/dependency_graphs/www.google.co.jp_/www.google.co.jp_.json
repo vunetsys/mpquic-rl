@@ -1,0 +1,50 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.google.co.jp_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.google.co.jp/",
+         "path" : "/missing/www.google.co.jp",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 581.896000076085,
+               "time" : 431.148999836295,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 1013.04499991238
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.co.jp/images/srpr/logo4w.png",
+         "path" : "/missing/www.google.co.jp/images/srpr/logo4w.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 922.371000051498,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_1",
+         "time" : 340.474999975413,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      }
+   ]
+}

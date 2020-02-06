@@ -1,0 +1,207 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "torrentz.eu_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://torrentz.eu/",
+         "path" : "/pages/torrentz.eu/torrentz.eu/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 637.626000214368,
+               "time" : 18.956999760121,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 656.582999974489
+            },
+            {
+               "s_time" : 858.851000200957,
+               "time" : 0.069999601692075,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 858.920999802649
+            },
+            {
+               "s_time" : 873.856999911368,
+               "time" : 61.000999994576,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 934.857999905944
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+         "path" : "/missing/ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 756.173000205308,
+               "time" : 102.677999995649,
+               "id" : "comp_4",
+               "type" : 1,
+               "e_time" : 858.851000200957
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 656.25,
+            "type" : "text/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://torrentz.eu/style.23.css",
+         "path" : "/missing/torrentz.eu/style.23.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 751.184000167996,
+               "time" : 107.793000061065,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 858.977000229061
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 655.753000173718,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://torrentz.eu/tzs.2.js",
+         "path" : "/missing/torrentz.eu/tzs.2.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 865.708999801427,
+               "time" : 8.14800010994099,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 873.856999911368
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 656.582999974489,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://torrentz.eu/ping?q=1378095860283",
+         "path" : "/missing/torrentz.eu/ping",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 875.297999940813,
+            "type" : "text/html",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://torrentz.eu/img/zoom.png",
+         "path" : "/pages/torrentz.eu/torrentz.eu/img/zoom.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 934.491999913007,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://torrentz.eu/img/cutehamster.gif",
+         "path" : "/pages/torrentz.eu/torrentz.eu/img/cutehamster.gif",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 934.857999905944,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_4"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 60.635000001639,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 1.44100002944504,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 18.12699995935,
+         "id" : "dep9",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 18.623999785632,
+         "id" : "dep10",
+         "a1" : "r1_c1"
+      }
+   ]
+}

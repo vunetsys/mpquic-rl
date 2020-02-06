@@ -1,0 +1,174 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.soso.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.soso.com/",
+         "path" : "/pages/soso.com/www.soso.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 3092.1129998751,
+               "time" : 337.1319998987,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 3429.2449997738
+            },
+            {
+               "s_time" : 3689.13099961355,
+               "time" : 0.108000356709908,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 3689.23899997026
+            },
+            {
+               "s_time" : 4083.76699965447,
+               "time" : 0.689000356940142,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 4084.45600001141
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.soso.com/js/st_get.js",
+         "path" : "/pages/soso.com/www.soso.com/js/st_get.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 3687.28999979794,
+               "time" : 1.8409998156103,
+               "id" : "comp_7",
+               "type" : 1,
+               "e_time" : 3689.13099961355
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3428.73399984092,
+            "type" : "application/x-javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.soso.com/js/sosoweb_index.js?1262",
+         "path" : "/pages/soso.com/www.soso.com/js/sosoweb_index.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 4059.60599984974,
+               "time" : 24.1609998047302,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 4083.76699965447
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3429.2449997738,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dr.soso.com/p1.gif?ref=&ver=3.2&searchId=0&tagId=xin81^0&sspos=0&div=xin81&rand=0.1579911655280739",
+         "path" : "/missing/dr.soso.com/p1.gif",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4084.45600001141,
+            "type" : "image/gif",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://soso.qstatic.com/30d/img/web/logo_index_130304.png",
+         "path" : "/pages/soso.com/soso.qstatic.com/30d/img/web/logo_index_130304.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3122.78899969533,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://soso.qstatic.com/30d/img/web/soso_sp10.png",
+         "path" : "/pages/soso.com/soso.qstatic.com/30d/img/web/soso_sp10.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3352.43699979037,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_7"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 260.32399991527,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 30.6759998202301,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 336.62099996582,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      }
+   ]
+}

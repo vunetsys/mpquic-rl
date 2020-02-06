@@ -1,0 +1,918 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.etsy.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.etsy.com/",
+         "path" : "/pages/etsy.com/www.etsy.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 594.889000058174,
+               "time" : 694.343000184746,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1289.23200024292
+            },
+            {
+               "s_time" : 1354.1470002383,
+               "time" : 11.0880001448099,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1365.23500038311
+            },
+            {
+               "s_time" : 1422.14399995282,
+               "time" : 0.799000263220023,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1422.94300021604
+            },
+            {
+               "s_time" : 1426.35000031441,
+               "time" : 5.39499986917008,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1431.74500018358
+            },
+            {
+               "s_time" : 1556.27200007439,
+               "time" : 204.54999990761,
+               "id" : "r1_c5",
+               "type" : "evalhtml",
+               "e_time" : 1760.821999982
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/js/require-jquery-1.8.2.20130816141227.js",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/js/require-jquery-1.8.2.20130816141227.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1289.26100023091,
+               "time" : 64.8860000073901,
+               "id" : "comp_9",
+               "type" : 1,
+               "e_time" : 1354.1470002383
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 617.231000214815,
+            "type" : "text/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/css/base.20130829222409.css",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/css/base.20130829222409.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1158.64600008354,
+               "time" : 21.5500001795499,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 1180.19600026309
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 600.378000177443,
+            "type" : "text/css",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/css/homepage.20130816141228.css",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/css/homepage.20130816141228.css",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1182.67700029537,
+               "time" : 173.71799983084,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 1356.39500012621
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 600.965999998152,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/js/bootstrap/homepage.20130822154339.js",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/js/bootstrap/homepage.20130822154339.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1422.99100011587,
+               "time" : 3.35900019853989,
+               "id" : "comp_15",
+               "type" : 1,
+               "e_time" : 1426.35000031441
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 619.226000271738,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/js/base.20130821155230.js",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/js/base.20130821155230.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1358.26000012457,
+               "time" : 63.8839998282499,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 1422.14399995282
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 618.589000310749,
+            "type" : "text/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/site-assets/promos/homepage/etsy-backtoschool-dorm-5.1375381963.jpg",
+         "path" : "/missing/img0.etsystatic.com/site-assets/promos/homepage/etsy-backtoschool-dorm-5.1375381963.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.85600021482,
+            "type" : "image/jpeg",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/002/0/6289079/il_170x135.355687963_8fc3.jpg",
+         "path" : "/missing/img1.etsystatic.com/002/0/6289079/il_170x135.355687963_8fc3.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1263.77400010824,
+            "type" : "image/jpeg",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.etsy.com/blog/en/files/2013/08/etsy-featured-shop-go-pet-design-small.jpg",
+         "path" : "/pages/etsy.com/www.etsy.com/blog/en/files/2013/08/etsy-featured-shop-go-pet-design-small.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1283.69100019336,
+            "type" : "image/jpeg",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/017/0/7287088/il_170x135.494993424_b1b5.jpg",
+         "path" : "/missing/img0.etsystatic.com/017/0/7287088/il_170x135.494993424_b1b5.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1359.74800027907,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/022/1/6473974/il_170x135.476908587_mggp.jpg",
+         "path" : "/missing/img1.etsystatic.com/022/1/6473974/il_170x135.476908587_mggp.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1357.65899997205,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/sprites/icons-master.20130816141228.png",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/sprites/icons-master.20130816141228.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1363.44100022689,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/sprites/buttons-master.20130816141228.png",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/sprites/buttons-master.20130816141228.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1364.15300006047,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/sprites/header-master-new.20130816141228.png",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/sprites/header-master-new.20130816141228.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1363.80000039935,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/sprites/connected-accounts-sprite.20130816141228.png",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/sprites/connected-accounts-sprite.20130816141228.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1364.50699996203,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/spinners/spinners-sprite.20130816141228.gif",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/spinners/spinners-sprite.20130816141228.gif",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1364.87800022587,
+            "type" : "image/gif",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/024/1/6214468/il_170x135.493568511_4ds5.jpg",
+         "path" : "/missing/img1.etsystatic.com/024/1/6214468/il_170x135.493568511_4ds5.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1358.01900038496,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/023/0/5568326/il_170x135.491999245_ij96.jpg",
+         "path" : "/missing/img1.etsystatic.com/023/0/5568326/il_170x135.491999245_ij96.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1359.07200025395,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/015/0/6234023/il_170x135.460451325_2gu8.jpg",
+         "path" : "/missing/img1.etsystatic.com/015/0/6234023/il_170x135.460451325_2gu8.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1358.71700011194,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/008/0/6415985/il_170x135.407855939_e7a0.jpg",
+         "path" : "/missing/img1.etsystatic.com/008/0/6415985/il_170x135.407855939_e7a0.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1358.36700024083,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img1.etsystatic.com/000/0/6000302/il_170x135.299180449.jpg",
+         "path" : "/missing/img1.etsystatic.com/000/0/6000302/il_170x135.299180449.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1359.40900025889,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/019/0/5964406/il_170x135.491035572_6y1g.jpg",
+         "path" : "/missing/img0.etsystatic.com/019/0/5964406/il_170x135.491035572_6y1g.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1361.65300011635,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/024/0/5808951/il_170x135.486956158_owid.jpg",
+         "path" : "/missing/img0.etsystatic.com/024/0/5808951/il_170x135.486956158_owid.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1361.99800018221,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/012/1/5758730/il_170x135.461490918_36tq.jpg",
+         "path" : "/missing/img0.etsystatic.com/012/1/5758730/il_170x135.461490918_36tq.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1361.27500003204,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.etsy.com/images/spinners/spinner16-trans.gif",
+         "path" : "/pages/etsy.com/www.etsy.com/images/spinners/spinner16-trans.gif",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1357.20900027081,
+            "type" : "image/gif",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/022/0/6000302/il_170x135.485526282_6exd.jpg",
+         "path" : "/missing/img0.etsystatic.com/022/0/6000302/il_170x135.485526282_6exd.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1363.08700032532,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r30",
+         "comps" : [
+            {
+               "s_time" : 1525.0730002299,
+               "time" : 31.1989998444901,
+               "id" : "comp_26",
+               "type" : 1,
+               "e_time" : 1556.27200007439
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1431.74500018358,
+            "type" : "text/javascript",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/000/0/5463767/il_170x135.169862214.jpg",
+         "path" : "/missing/img0.etsystatic.com/000/0/5463767/il_170x135.169862214.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1362.34200000763,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/images/collections/sprites-v2.20130816141227.png",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/images/collections/sprites-v2.20130816141227.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1365.23500038311,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://img0.etsystatic.com/000/1/5458739/il_170x135.330066024.jpg",
+         "path" : "/missing/img0.etsystatic.com/000/1/5458739/il_170x135.330066024.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1362.74000024423,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=1524073166&utmhn=www.etsy.com&utme=8(2!AB*Language*Region*Currency)9(2!refactor_getAllowedSiteLangs.off..security_checks_new.off*en-US*US*USD)&utmcs=UTF-8&utmsr=2048x1152&utmvp=939x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Etsy%20-%20Your%20place%20to%20buy%20and%20sell%20all%20things%20handmade%2C%20vintage%2C%20and%20supplies&utmhid=923663734&utmr=-&utmp=%2F&utmht=1378096218197&utmac=UA-2409779-1&utmcc=__utma%3D111461200.759302587.1378096218.1378096218.1378096218.1%3B%2B__utmz%3D111461200.1378096218.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmmt=1&utmu=nR~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1698.72300000861,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/js/homepage/etsy_finds_signup.20130816141227.js",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/js/homepage/etsy_finds_signup.20130816141227.js",
+         "id" : "r36",
+         "comps" : [
+            {
+               "s_time" : 1781.76600020379,
+               "time" : 0.684999860819971,
+               "id" : "comp_83",
+               "type" : null,
+               "e_time" : 1782.45100006461
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1699.86600009724,
+            "type" : "text/javascript",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/type/Guardian-EgypTT-Medium.woff",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/type/Guardian-EgypTT-Medium.woff",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1701.10400021076,
+            "type" : "application/x-font-woff",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/type/Guardian-EgypTT-Regular.woff",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/type/Guardian-EgypTT-Regular.woff",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1700.72100032121,
+            "type" : "application/x-font-woff",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/type/Guardian-EgypTT-Light.woff",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/type/Guardian-EgypTT-Light.woff",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1700.34199999645,
+            "type" : "application/x-font-woff",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/type/Guardian-EgypTT-Semibold.woff",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/type/Guardian-EgypTT-Semibold.woff",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1703.60200013965,
+            "type" : "application/x-font-woff",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://site.etsystatic.com/assets/dist/js/jquery.appear.20130816141227.js",
+         "path" : "/pages/etsy.com/site.etsystatic.com/assets/dist/js/jquery.appear.20130816141227.js",
+         "id" : "r41",
+         "comps" : [
+            {
+               "s_time" : 1835.90600034222,
+               "time" : 1.42599968239983,
+               "id" : "comp_87",
+               "type" : null,
+               "e_time" : 1837.33200002462
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1760.821999982,
+            "type" : "text/javascript",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.btstatic.com/tag.js",
+         "path" : "/pages/etsy.com/s.btstatic.com/tag.js",
+         "id" : "r34",
+         "comps" : [
+            {
+               "s_time" : 2017.06800004467,
+               "time" : 47.7680000476598,
+               "id" : "comp_91",
+               "type" : null,
+               "e_time" : 2064.83600009233
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1629.59000002593,
+            "type" : "application/javascript",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.thebrighttag.com/tag?site=790xr8J&H=-w3b9ov",
+         "path" : "/pages/etsy.com/s.thebrighttag.com/tag.add.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 2505.45300031081,
+               "time" : 16.4409996941704,
+               "id" : "comp_93",
+               "type" : null,
+               "e_time" : 2521.89400000498
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2059.1560001485,
+            "type" : "text/javascript",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s.thebrighttag.com/tag?site=790xr8J&H=-w3b9ov&cf=20054%2C20823&_cb_bt_data(capped%20session)=",
+         "path" : "/missing/s.thebrighttag.com/tag",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 2573.79800034687,
+               "time" : 0.93699991702988,
+               "id" : "comp_96",
+               "type" : null,
+               "e_time" : 2574.7350002639
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2521.5090001002,
+            "type" : "text/javascript",
+            "id" : "download_39"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_9"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_15"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_26"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 16.0559997893902,
+         "id" : "dep5",
+         "a1" : "comp_93"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 42.0880001038299,
+         "id" : "dep6",
+         "a1" : "comp_91"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 73.3179999515401,
+         "id" : "dep7",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_36",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 147.33000006526,
+         "id" : "dep9",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 144.06999992206,
+         "id" : "dep10",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 144.44900024682,
+         "id" : "dep11",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 144.83200013637,
+         "id" : "dep12",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 143.59400002285,
+         "id" : "dep13",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 142.45099993422,
+         "id" : "dep14",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_29",
+         "time" : -1,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 8.19499976933002,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep18",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 8.94000008702005,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 3.06200003251001,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 7.12799979373995,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 7.85099994390998,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 7.50599987805003,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 5.26200002058999,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 4.22000000253001,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 4.56999987363997,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 4.92500001564986,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 3.87200014665996,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 10.7309999875699,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 10.35999972373,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 9.65300016104993,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 10.00599982217,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 9.29399998859003,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 3.51199973374992,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 5.60100004077003,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 688.802000135186,
+         "id" : "dep36",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 668.885000050066,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 662.967000156646,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 23.700000252575,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 24.337000213564,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 6.07699993997801,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.48900011926901,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 22.342000156641,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 22.342000156641,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      }
+   ]
+}

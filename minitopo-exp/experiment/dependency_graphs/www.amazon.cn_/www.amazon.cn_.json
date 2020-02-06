@@ -1,0 +1,1837 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.amazon.cn_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.amazon.cn/",
+         "path" : "/pages/amazon.cn/www.amazon.cn/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 579.301999881864,
+               "time" : 3437.56800005213,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 4016.86999993399
+            },
+            {
+               "s_time" : 4089.54000007361,
+               "time" : 295.44600006193,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 4384.98600013554
+            },
+            {
+               "s_time" : 4386.29900012165,
+               "time" : 1286.6469998844,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 5672.94600000605
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/browser-scripts/cn-site-wide-css-beacon/site-wide-6239280595._V1_.css",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/01/browser-scripts/cn-site-wide-css-beacon/site-wide-6239280595._V1_.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 2776.50299994275,
+               "time" : 205.73400007561,
+               "id" : "comp_20",
+               "type" : 4,
+               "e_time" : 2982.23700001836
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 649.275000207126,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.6.4-beacon/site-wide-17213958252._V1_.js",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/01/browser-scripts/site-wide-js-1.6.4-beacon/site-wide-17213958252._V1_.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 3787.11100015789,
+               "time" : 302.42899991572,
+               "id" : "comp_57",
+               "type" : 1,
+               "e_time" : 4089.54000007361
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1180.31500000507,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/nav2/gamma/websiteGridCSS/websiteGridCSS-websiteGridCSS-14209._V1_.css",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/nav2/gamma/websiteGridCSS/websiteGridCSS-websiteGridCSS-14209._V1_.css",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 2304.1010000743,
+               "time" : 4.31999983265996,
+               "id" : "comp_16",
+               "type" : 4,
+               "e_time" : 2308.42099990696
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 650.196000002325,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/zeitgeist/static/css/zeitgeist-chart.2._V164515843_.css",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/zeitgeist/static/css/zeitgeist-chart.2._V164515843_.css",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 2071.91599998623,
+               "time" : 0.0379998236899155,
+               "id" : "comp_15",
+               "type" : 4,
+               "e_time" : 2071.95399980992
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1188.34100011736,
+            "type" : "text/css",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/s9-campaigns/s9-widget._V378178418_.css",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/s9-campaigns/s9-widget._V378178418_.css",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 2347.99299994484,
+               "time" : 0.291999895120171,
+               "id" : "comp_18",
+               "type" : 4,
+               "e_time" : 2348.28499983996
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1192.04099988565,
+            "type" : "text/css",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/msa/vowels/vowels._V149092784_.js",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/msa/vowels/vowels._V149092784_.js",
+         "id" : "r11",
+         "comps" : [
+            {
+               "s_time" : 4385.021999944,
+               "time" : 1.27700017765073,
+               "id" : "comp_85",
+               "type" : 1,
+               "e_time" : 4386.29900012165
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1192.83400010318,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gno/beacon/BeaconSprite-CN-02._V393500346_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gno/beacon/BeaconSprite-CN-02._V393500346_.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 620.812000241131,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/zcnlandling/lll_2013816_z1._V359483354_.png",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/img13/traffic/zcnlandling/lll_2013816_z1._V359483354_.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 653.25600001961,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/kindle/merch/2013/campaign/BackToSchool/KFHD_BTS_gw-bunkbed-cn-660x180-v2._V360407295_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/kindle/merch/2013/campaign/BackToSchool/KFHD_BTS_gw-bunkbed-cn-660x180-v2._V360407295_.jpg",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 653.878999873996,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/300/lqj_130830_mobile300-75_sweepstakes._V357704268_.gif",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/img13/traffic/300/lqj_130830_mobile300-75_sweepstakes._V357704268_.gif",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 654.385000001639,
+            "type" : "image/gif",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/x-locale/common/transparent-pixel._V386947693_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/x-locale/common/transparent-pixel._V386947693_.gif",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3002.68799997866,
+            "type" : "image/gif",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/left_over._V380458106_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/left_over._V380458106_.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3003.97199997678,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/Backtoschool/2phase/gateway/ln_bts_2phase_swms._V357717572_.gif",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/img13/traffic/Backtoschool/2phase/gateway/ln_bts_2phase_swms._V357717572_.gif",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3003.21200024337,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/a_wc_2012/shawn_130808_660180_longines_beacon._V359754074_.png",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/a_wc_2012/shawn_130808_660180_longines_beacon._V359754074_.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3003.59500013292,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/tri-down._V401960282_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/tri-down._V401960282_.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3004.34500025585,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/412LjS0KhpL._AC_SS135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/412LjS0KhpL._AC_SS135_.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2983.9019998908,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41eIAC1wg6L._AC_SS135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41eIAC1wg6L._AC_SS135_.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3024.21500021592,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41FHwjhZ-ML._AC_SS135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41FHwjhZ-ML._AC_SS135_.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3024.57300014794,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/right_def._V380458106_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/right_def._V380458106_.png",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3004.73899999633,
+            "type" : "image/png",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/notch._V401960277_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/notch._V401960277_.png",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3005.11399982497,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/right_over._V380458106_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/right_over._V380458106_.png",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3005.48700010404,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ui/loadIndicators/loading-large._V201045688_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ui/loadIndicators/loading-large._V201045688_.gif",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3005.86199993268,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/51bFll27pdL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/51bFll27pdL._SL135_.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3024.96600011364,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/516oVrTTh1L._SL135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/516oVrTTh1L._SL135_.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3025.71099996567,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/515h9H70YBL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/515h9H70YBL._SL135_.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3025.33800015226,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41mHWWPbh2L._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41mHWWPbh2L._SL135_.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3026.07499994338,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41y3lkL71eL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_SL135_OU28_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41y3lkL71eL._SL500_PIsitb-sticker-arrow-big_TopRight_35_-73_SL135_OU28_.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3026.45000023767,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41IC1etsEGL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41IC1etsEGL._SL135_.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3026.82000026107,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gateway/csw/left_def._V380458106_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gateway/csw/left_def._V380458106_.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3006.2390002422,
+            "type" : "image/png",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-nb._V383413529_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-nb._V383413529_.gif",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3006.61400007084,
+            "type" : "image/gif",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-desktop._V383411074_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-desktop._V383411074_.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3006.99000013992,
+            "type" : "image/gif",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-tablet._V383411101_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-tablet._V383411101_.gif",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3007.38199986517,
+            "type" : "image/gif",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/412-BI0KFBL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/412-BI0KFBL._SL135_.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3027.91000017896,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/51RwotPoetL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/51RwotPoetL._SL135_.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3027.18299999833,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41Tmfip4hfL._SL135_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41Tmfip4hfL._SL135_.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3027.54800021648,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/x-locale/common/transparent-pixel._V192234675_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/x-locale/common/transparent-pixel._V192234675_.gif",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3008.1380000338,
+            "type" : "image/gif",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-acc._V383412709_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/6-pack-summer-style-acc._V383412709_.gif",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3007.75999994949,
+            "type" : "image/gif",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41KQL5PjKJL._SL75_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41KQL5PjKJL._SL75_.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3028.68200000376,
+            "type" : "image/jpeg",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/411T4xaNMnL._SL75_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/411T4xaNMnL._SL75_.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3029.06499989331,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/lx120907appleiphone._V389751913_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/lx120907appleiphone._V389751913_.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3008.54199985042,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41NkRmGotVL._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41NkRmGotVL._SL75_.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3028.27000012621,
+            "type" : "image/jpeg",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/lx130116appleMBair34._V394543609_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/lx130116appleMBair34._V394543609_.gif",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3008.91999993473,
+            "type" : "image/gif",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/lx130116appleMBair2._V394544192_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/pc/lx130116appleMBair2._V394544192_.gif",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3009.29800001904,
+            "type" : "image/gif",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/2012ME_LW/130403MEipod._V371834004_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/2012ME_LW/130403MEipod._V371834004_.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3009.67299984768,
+            "type" : "image/jpeg",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41pwQz4fn8L._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41pwQz4fn8L._SL75_.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3029.43299990147,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41XF0LbJp-L._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41XF0LbJp-L._SL75_.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3034.41399987787,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41pjlD-dnXL._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41pjlD-dnXL._SL75_.jpg",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3035.12000013143,
+            "type" : "image/jpeg",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-hometheatre._V397561417_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-hometheatre._V397561417_.png",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3010.07199985906,
+            "type" : "image/png",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-2463796088._V1_.js",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/browser-scripts/csm-base/csm-base-min-2463796088._V1_.js",
+         "id" : "r67",
+         "comps" : [
+            {
+               "s_time" : 5241.74199998379,
+               "time" : 6.0209999792296,
+               "id" : "comp_244",
+               "type" : 2,
+               "e_time" : 5247.76299996302
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3996.17099994794,
+            "type" : "application/x-javascript",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41pVvpTw%2ByL._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41pVvpTw_2ByL._SL75_.jpg",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3035.48400010914,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41OdVV9y7iL._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41OdVV9y7iL._SL75_.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3035.83100019023,
+            "type" : "image/jpeg",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-Amplifiers._V397561422_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-Amplifiers._V397561422_.png",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3010.84699993953,
+            "type" : "image/png",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41ke5R2Hh4L._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/41ke5R2Hh4L._SL75_.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3036.16800019518,
+            "type" : "image/jpeg",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.amazon.cn/gp/gateway-center-stage/ajax/get-content.html/480-2593828-2360864?rId=1CT17AFP2FJFMRWK14VV&_=1378092363924",
+         "path" : "/missing/www.amazon.cn/gp/gateway-center-stage/ajax/get-content.html/480-2593828-2360864",
+         "id" : "r68",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4016.86999993399,
+            "type" : "text/html",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-minitheatre._V397561417_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-minitheatre._V397561417_.png",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3010.46600006521,
+            "type" : "image/png",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-Videoplayer._V397561419_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ba/TV-121119-180-130-Videoplayer._V397561419_.png",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3011.22400024906,
+            "type" : "image/png",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/s9-campaigns/s9-multipack-min._V380044579_.js",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/s9-campaigns/s9-multipack-min._V380044579_.js",
+         "id" : "r69",
+         "comps" : [
+            {
+               "s_time" : 5248.10800002888,
+               "time" : 38.26999990269,
+               "id" : "comp_247",
+               "type" : 2,
+               "e_time" : 5286.37799993157
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4098.36200019345,
+            "type" : "application/x-javascript",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/415G%2BWZNC6L._SL75_.jpg",
+         "path" : "/missing/ec4.images-amazon.com/images/I/415G_2BWZNC6L._SL75_.jpg",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3036.50799999014,
+            "type" : "image/jpeg",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/a_toy/channel/toy_right_hasbro_1308._V360640497_.gif",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/a_toy/channel/toy_right_hasbro_1308._V360640497_.gif",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3011.60999992862,
+            "type" : "image/gif",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/wentingx/dzf20130815_xwt300120_baoshi2._V360707401_.gif",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/wentingx/dzf20130815_xwt300120_baoshi2._V360707401_.gif",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3011.98800001293,
+            "type" : "image/gif",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/camera/300_120_5dmark3_miao._V391668890_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/camera/300_120_5dmark3_miao._V391668890_.gif",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3019.18100006878,
+            "type" : "image/gif",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/wireless/iPhone5-300-120._V398187339_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/wireless/iPhone5-300-120._V398187339_.gif",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3020.68899990991,
+            "type" : "image/gif",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_bookmark_60._V383870282_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_bookmark_60._V383870282_.png",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3021.32999990135,
+            "type" : "image/png",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/123/qrcode60x60._V380846278_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/123/qrcode60x60._V380846278_.png",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3021.87799988315,
+            "type" : "image/png",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_sina_60._V383870282_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_sina_60._V383870282_.png",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3022.71099993959,
+            "type" : "image/png",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_csld_60._V383870283_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/traffic/other/logo_csld_60._V383870283_.png",
+         "id" : "r64",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3023.10199989006,
+            "type" : "image/png",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/ui/loadIndicators/loadIndicator-large._V212715069_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/ui/loadIndicators/loadIndicator-large._V212715069_.gif",
+         "id" : "r65",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3023.47999997437,
+            "type" : "image/gif",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gno/images/general/navAmazonLogoFooter._V169459411_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gno/images/general/navAmazonLogoFooter._V169459411_.gif",
+         "id" : "r66",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3023.85300025344,
+            "type" : "image/gif",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/x-locale/personalization/yourstore/bluebox/bluebox-corners._V209737768_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/x-locale/personalization/yourstore/bluebox/bluebox-corners._V209737768_.gif",
+         "id" : "r70",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4769.25500016659,
+            "type" : "image/gif",
+            "id" : "download_69"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/x-locale/personalization/yourstore/bluebox/bluebox-sides._V209728957_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/x-locale/personalization/yourstore/bluebox/bluebox-sides._V209728957_.gif",
+         "id" : "r71",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4769.70899989828,
+            "type" : "image/gif",
+            "id" : "download_70"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/01/s9-campaigns/star-ratings._V143220116_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/01/s9-campaigns/star-ratings._V143220116_.png",
+         "id" : "r72",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4770.10300010443,
+            "type" : "image/png",
+            "id" : "download_71"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/kindle/GW-iPad-KCP-Tag2._V378176086_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/kindle/GW-iPad-KCP-Tag2._V378176086_.png",
+         "id" : "r78",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5185.67699985579,
+            "type" : "image/png",
+            "id" : "download_72"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/beacon/Q2/lqj_130608_mobile660-180_freedownload-2._V381781217_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/beacon/Q2/lqj_130608_mobile660-180_freedownload-2._V381781217_.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5186.04000005871,
+            "type" : "image/jpeg",
+            "id" : "download_73"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/kindle/2013/yw_130826_kcd660_history180._V359183896_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/kindle/2013/yw_130826_kcd660_history180._V359183896_.png",
+         "id" : "r77",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5185.30899984762,
+            "type" : "image/png",
+            "id" : "download_74"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/lll_20130823_gc_beacon._V358909061_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/lll_20130823_gc_beacon._V358909061_.png",
+         "id" : "r81",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5187.8269999288,
+            "type" : "image/png",
+            "id" : "download_75"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/AmazonMobileApps/CN_BunkBed_660x180_1._V382420554_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/AmazonMobileApps/CN_BunkBed_660x180_1._V382420554_.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5187.44699982926,
+            "type" : "image/jpeg",
+            "id" : "download_76"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/digital/adrive/images/bunkbed/ios_BB2_CN_FINAL._V382229010_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/digital/adrive/images/bunkbed/ios_BB2_CN_FINAL._V382229010_.gif",
+         "id" : "r76",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5184.88200008869,
+            "type" : "image/gif",
+            "id" : "download_77"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41bhOmyEN4L._AC_SS135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41bhOmyEN4L._AC_SS135_.jpg",
+         "id" : "r89",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5332.78999989852,
+            "type" : "image/jpeg",
+            "id" : "download_78"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41xOYyfH%2BML._SL135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41xOYyfH_2BML._SL135_.jpg",
+         "id" : "r91",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5349.28900003433,
+            "type" : "image/jpeg",
+            "id" : "download_79"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41-7KpJxOqL._SL135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41-7KpJxOqL._SL135_.jpg",
+         "id" : "r92",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5349.66100007296,
+            "type" : "image/jpeg",
+            "id" : "download_80"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ec4.images-amazon.com/images/I/41DJH8QSoFL._SL135_.jpg",
+         "path" : "/pages/amazon.cn/ec4.images-amazon.com/images/I/41DJH8QSoFL._SL135_.jpg",
+         "id" : "r90",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5348.76700025052,
+            "type" : "image/jpeg",
+            "id" : "download_81"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/pc/lqj_130801_pc660-180_manjianji._V357675967_.jpg",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/pc/lqj_130801_pc660-180_manjianji._V357675967_.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5188.19200014696,
+            "type" : "image/jpeg",
+            "id" : "download_82"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/hl_130805_home660_summer._V359829052_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/hl_130805_home660_summer._V359829052_.png",
+         "id" : "r83",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5188.55800013989,
+            "type" : "image/png",
+            "id" : "download_83"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/shoes/GW_shoes_beacon_660_180_skateboard_99yuan_qh0829._V359448158_.png",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/shoes/GW_shoes_beacon_660_180_skateboard_99yuan_qh0829._V359448158_.png",
+         "id" : "r84",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5188.92699992284,
+            "type" : "image/png",
+            "id" : "download_84"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/foodbin/song-mid-beacon130823c._V358948747_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/foodbin/song-mid-beacon130823c._V358948747_.jpg",
+         "id" : "r85",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5189.29299991578,
+            "type" : "image/jpeg",
+            "id" : "download_85"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/wentingx/dzf20130820_xwt660180_baoshi_model._V358734557_.jpg",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/wentingx/dzf20130820_xwt660180_baoshi_model._V358734557_.jpg",
+         "id" : "r86",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5190.28400024399,
+            "type" : "image/jpeg",
+            "id" : "download_86"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/lll_20130814_toy_disney_660_180._V360251794_.gif",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/img13/beacon/Q3/lll_20130814_toy_disney_660_180._V360251794_.gif",
+         "id" : "r87",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5190.71300001815,
+            "type" : "image/gif",
+            "id" : "download_87"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/sophieli/penguin/Importbooks_B60Gbag_660180._V357711377_.jpg",
+         "path" : "/missing/g-ec4.images-amazon.com/images/G/28/sophieli/penguin/Importbooks_B60Gbag_660180._V357711377_.jpg",
+         "id" : "r88",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5191.41800003126,
+            "type" : "image/jpeg",
+            "id" : "download_88"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gno/beacon/nav-pop-h-v2._V147907493_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gno/beacon/nav-pop-h-v2._V147907493_.png",
+         "id" : "r93",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5569.50300000608,
+            "type" : "image/png",
+            "id" : "download_89"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://g-ec4.images-amazon.com/images/G/28/gno/beacon/nav-pop-v-v2._V147907492_.png",
+         "path" : "/pages/amazon.cn/g-ec4.images-amazon.com/images/G/28/gno/beacon/nav-pop-v-v2._V147907492_.png",
+         "id" : "r94",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5570.48000022769,
+            "type" : "image/png",
+            "id" : "download_90"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_57"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_85"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 1184.18100010604,
+         "id" : "dep3",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 1183.20399988443,
+         "id" : "dep4",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 805.11899990961,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 804.413999896499,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_86",
+         "time" : 803.985000122339,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_85",
+         "time" : 802.993999794129,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_84",
+         "time" : 802.62799980119,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_83",
+         "time" : 802.25900001824,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_82",
+         "time" : 801.893000025309,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 962.46800012887,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 963.361999951309,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 962.989999912679,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 946.49099977687,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 798.58299996704,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 801.147999707609,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 801.52799980715,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 799.009999725969,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 799.740999937059,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 799.37799973414,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 383.80399998278,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 383.40999977663,
+         "id" : "dep23",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 382.95600004494,
+         "id" : "dep24",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_68",
+         "time" : -1,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 2444.17800009251,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 2443.8000000082,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 2443.40900005773,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 2442.57600000129,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 2442.02800001949,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 2441.38700002805,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 2439.87900018692,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 2432.68600013107,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 2432.30800004676,
+         "id" : "dep34",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_58",
+         "time" : -1,
+         "id" : "dep35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 8.82200011983969,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 2431.9220003672,
+         "id" : "dep37",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 2431.16400018335,
+         "id" : "dep38",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_54",
+         "time" : -1,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 2456.86600031332,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 2431.54500005767,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 2456.52900030837,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 2456.18200022728,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 3416.86900006608,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 2430.7699999772,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 2455.81800024957,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 2455.11199999601,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 2450.13100001961,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 2430.37099996582,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 2429.99600013718,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 2429.61800005287,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 2448.96800024435,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 2429.23999996856,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 2449.76300001145,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 2449.3800001219,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 2428.45800006763,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 2428.83600015194,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 2448.24600033462,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 2447.88100011647,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 2448.6080002971,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 2428.07999998331,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 2427.68800025806,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 2427.31200018898,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 2426.93700036034,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 2447.51800037921,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 2447.14800035581,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 2446.77300006152,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 2446.0360002704,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 2446.40900008381,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 2445.66400023178,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 2426.56000005082,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 2426.18500022218,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 2425.81199994311,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 2425.43700011447,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 2445.27100026608,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 2444.91300033406,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 2404.60000000894,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 2425.04300037399,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 2424.29300025106,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 2423.91000036151,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 2424.67000009492,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 2423.3860000968,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 75.083000119775,
+         "id" : "dep83",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 74.576999992132,
+         "id" : "dep84",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 73.954000137746,
+         "id" : "dep85",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 41.510000359267,
+         "id" : "dep86",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 613.532000221316,
+         "id" : "dep87",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 612.739000003786,
+         "id" : "dep88",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 612.739000003786,
+         "id" : "dep89",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 609.039000235496,
+         "id" : "dep90",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 70.894000120461,
+         "id" : "dep91",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 601.013000123206,
+         "id" : "dep92",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 69.973000325262,
+         "id" : "dep93",
+         "a1" : "r1_c1"
+      }
+   ]
+}

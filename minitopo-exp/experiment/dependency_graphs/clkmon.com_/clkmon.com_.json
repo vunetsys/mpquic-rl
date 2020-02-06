@@ -1,0 +1,50 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "clkmon.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://clkmon.com/",
+         "path" : "/pages/clkmon.com/clkmon.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 494.552000425756,
+               "time" : 228.481999598443,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 723.034000024199
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://clkmon.com/img/logo.png",
+         "path" : "/pages/clkmon.com/clkmon.com/img/logo.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 723.034000024199,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_1",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      }
+   ]
+}

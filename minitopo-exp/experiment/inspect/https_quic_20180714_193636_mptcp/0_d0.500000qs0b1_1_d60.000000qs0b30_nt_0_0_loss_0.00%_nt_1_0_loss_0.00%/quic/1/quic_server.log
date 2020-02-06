@@ -1,0 +1,29 @@
+Serving new connection: 451eee20b9ffe030, version 512 from 10.0.0.1:34452
+GET 10.1.0.1:6121/ugfiugizuegiugzeffg
+Responding with 404
+Info for stream 5 of 451eee20b9ffe030
+Path 0: sent 7 retrans 0 lost 0; rcv 6 rtt 3.438ms
+Path 1: sent 5 retrans 0 lost 0; rcv 2 rtt 0s
+Info for stream 5 of 451eee20b9ffe030
+Path 1: sent 6 retrans 1 lost 0; rcv 4 rtt 2.78ms
+Path 0: sent 7 retrans 0 lost 0; rcv 6 rtt 3.438ms
+Serving new connection: 3d1007349c4c4eca, version 512 from 10.0.0.1:46833
+Info for stream 5 of 451eee20b9ffe030
+Path 0: sent 7 retrans 0 lost 0; rcv 6 rtt 3.438ms
+Path 1: sent 7 retrans 2 lost 0; rcv 4 rtt 2.78ms
+GET 10.1.0.1:6121/random2
+Responding with 200
+GET 10.1.0.1:6121/random1
+Responding with 200
+Info for stream 7 of 3d1007349c4c4eca
+Path 0: sent 5 retrans 0 lost 0; rcv 5 rtt 21.537678ms
+Path 1: sent 65 retrans 0 lost 0; rcv 13 rtt 19.725ms
+Path 3: sent 17 retrans 0 lost 0; rcv 2 rtt 0s
+Info for stream 5 of 451eee20b9ffe030
+Path 3: sent 3 retrans 0 lost 0; rcv 2 rtt 0s
+Path 0: sent 7 retrans 0 lost 0; rcv 6 rtt 3.438ms
+Path 1: sent 7 retrans 3 lost 1; rcv 4 rtt 2.78ms
+Info for stream 5 of 3d1007349c4c4eca
+Path 0: sent 5 retrans 0 lost 0; rcv 5 rtt 685.21ms
+Path 1: sent 1075 retrans 0 lost 0; rcv 530 rtt 685.21ms
+Path 3: sent 15038 retrans 211 lost 211; rcv 7650 rtt 125.825ms

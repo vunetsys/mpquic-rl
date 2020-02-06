@@ -1,0 +1,107 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.liveinternet.ru_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.liveinternet.ru/",
+         "path" : "/pages/liveinternet.ru/www.liveinternet.ru/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 699.076000135392,
+               "time" : 1060.736999847,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 1759.81299998239
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://counter.yadro.ru/logo;groups/li/?52.1",
+         "path" : "/pages/liveinternet.ru/counter.yadro.ru/logo_groups/li.add",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 933.810000307858,
+            "type" : "image/gif",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.li.ru/4Ek/i/top/gl_srch/logo/bg.png",
+         "path" : "/pages/liveinternet.ru/i.li.ru/4Ek/i/top/gl_srch/logo/bg.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 897.245000116527,
+            "type" : "image/png",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.li.ru/i/blogs.jpg",
+         "path" : "/pages/liveinternet.ru/i.li.ru/i/blogs.jpg",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 934.239000082016,
+            "type" : "image/jpeg",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://counter.yadro.ru/hit;li_face?q;r;s2048*1152*24;uhttp%3A//www.liveinternet.ru/;hen;0.6160523942671716",
+         "path" : "/missing/counter.yadro.ru/hit_li_face",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1759.81299998239,
+            "type" : "image/gif",
+            "id" : "download_4"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 235.162999946624,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 198.168999981135,
+         "id" : "dep3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 234.734000172466,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      }
+   ]
+}

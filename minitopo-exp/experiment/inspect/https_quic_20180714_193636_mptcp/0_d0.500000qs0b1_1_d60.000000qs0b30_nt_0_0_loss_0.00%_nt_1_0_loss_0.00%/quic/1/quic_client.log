@@ -1,0 +1,14 @@
+2018/07/13 23:24:47 GET https://10.1.0.1:6121/random1
+2018/07/13 23:24:47 GET https://10.1.0.1:6121/random2
+2018/07/13 23:24:47 Starting new connection to 10.1.0.1 (0.0.0.0:46833 -> 10.1.0.1:6121), connectionID 3d1007349c4c4eca, version 512
+2018/07/13 23:24:47 Queueing packet 0x4 for later decryption
+2018/07/13 23:24:47 Info for stream 7 of 3d1007349c4c4eca
+2018/07/13 23:24:47 Path 0: sent 5 retrans 0 lost 0; rcv 6
+2018/07/13 23:24:47 Path 1: sent 17 retrans 1 lost 0; rcv 24
+2018/07/13 23:24:47 Path 3: sent 11 retrans 0 lost 0; rcv 17
+2018/07/13 23:24:48 574.72634ms
+2018/07/13 23:24:58 Info for stream 5 of 3d1007349c4c4eca
+2018/07/13 23:24:58 Path 0: sent 5 retrans 0 lost 0; rcv 6
+2018/07/13 23:24:58 Path 1: sent 533 retrans 1 lost 0; rcv 1018
+2018/07/13 23:24:58 Path 3: sent 7749 retrans 0 lost 0; rcv 14826
+2018/07/13 23:24:59 11.646377842s

@@ -1,0 +1,682 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.adcash.com_en_index.php",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.adcash.com/en/index.php",
+         "path" : "/pages/adcash.com/www.adcash.com/en/index.php/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 202.4050001055,
+               "time" : 13.12500005588,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 215.53000016138
+            },
+            {
+               "s_time" : 648.918000049889,
+               "time" : 2.04999977722798,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 650.967999827117
+            },
+            {
+               "s_time" : 827.343000099063,
+               "time" : 45.679999981075,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 873.023000080138
+            },
+            {
+               "s_time" : 885.933000128716,
+               "time" : 2151.12800011411,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 3037.06100024283
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/cssv3/index.css",
+         "path" : "/pages/adcash.com/www.adcash.com/en/cssv3/index.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 355.299999937415,
+               "time" : 5.95299992710397,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 361.252999864519
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 213.954000268131,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+         "path" : "/pages/adcash.com/ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 466.77799988538,
+               "time" : 182.140000164509,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 648.918000049889
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 214.794999919832,
+            "type" : "text/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/js/slides.jquery-adcash.v1.js",
+         "path" : "/pages/adcash.com/www.adcash.com/en/js/slides.jquery-adcash.v1.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 873.289000242949,
+               "time" : 12.643999885767,
+               "id" : "comp_12",
+               "type" : 1,
+               "e_time" : 885.933000128716
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 215.53000016138,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js",
+         "path" : "/pages/adcash.com/ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 659.91900023073,
+               "time" : 167.423999868333,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 827.343000099063
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 215.187000110745,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/background.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/background.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 828.792999964207,
+            "type" : "image/jpeg",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/background_header.png",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/background_header.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1184.46299992502,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/adcash_logo.png",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/adcash_logo.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1184.87500026822,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/map.png",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/map.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1185.19800016657,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/arrow.png",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/arrow.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1185.52399985492,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/carrusel_1_en.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/carrusel_1_en.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1185.85600005463,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/carrusel_2_en.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/carrusel_2_en.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1186.18900002912,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/carrusel_4_en.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/carrusel_4_en.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1186.54400017112,
+            "type" : "image/jpeg",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/carrusel_5_en.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/carrusel_5_en.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1186.91099993885,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/ga.js",
+         "path" : "/pages/twitter.com/ssl.google-analytics.com/ga.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 1481.18899995461,
+               "time" : 822.37700000405,
+               "id" : "comp_42",
+               "type" : null,
+               "e_time" : 2303.56599995866
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 937.671999912709,
+            "type" : "text/javascript",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.youtube.com/player_api",
+         "path" : "/pages/adcash.com/www.youtube.com/player_api.add.js",
+         "id" : "r12",
+         "comps" : [
+            {
+               "s_time" : 2464.78600008413,
+               "time" : 1.08599988743981,
+               "id" : "comp_45",
+               "type" : null,
+               "e_time" : 2465.87199997157
+            },
+            {
+               "s_time" : 2465.89200012386,
+               "time" : 0.525999814270108,
+               "id" : "comp_47",
+               "type" : null,
+               "e_time" : 2466.41799993813
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 916.637999936938,
+            "type" : "application/javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/carrusel_6_en.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/carrusel_6_en.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1187.24999995902,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/cpm_block.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/cpm_block.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1187.59000021964,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/world_block.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/world_block.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1187.92900023982,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/signup_block.jpg",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/signup_block.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1188.26900003478,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=36717821&utmhn=www.adcash.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=960x1014&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Adcash%C2%AE%20Advertising%20Network%20%7C%20International%20Advertising%20Platform&utmhid=43759017&utmr=-&utmp=%2Fen%2Findex.php&utmht=1378092220939&utmac=UA-26904811-1&utmcc=__utma%3D54583931.1895680879.1378092220.1378092220.1378092220.1%3B%2B__utmz%3D54583931.1378092220.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qB~",
+         "path" : "/missing/ssl.google-analytics.com/__utm.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2265.12200012803,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/imgv3/grey_bot_base.png",
+         "path" : "/pages/adcash.com/www.adcash.com/imgv3/grey_bot_base.png",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1188.60500026494,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.adcash.com/en/imgv3/footer_city.png",
+         "path" : "/pages/adcash.com/www.adcash.com/en/imgv3/footer_city.png",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1188.95100010559,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://s.ytimg.com/yts/jsbin/www-widgetapi-vflvAju_2.js",
+         "path" : "/pages/adcash.com/s.ytimg.com/yts/jsbin/www-widgetapi-vflvAju_2.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 2953.05299991742,
+               "time" : 23.5220002941801,
+               "id" : "comp_51",
+               "type" : null,
+               "e_time" : 2976.5750002116
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2487.29299986735,
+            "type" : "text/javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.youtube.com/embed/r6H2_7Bv8vc?modestbranding=1&rel=0&controls=1&fs=1&egm=1&theme=dark&color=white&version=3&autohide=1&showinfo=0&hd=1&enablejsapi=1&origin=https%3A%2F%2Fwww.adcash.com",
+         "path" : "/pages/adcash.com/www.youtube.com/embed/r6H2_7Bv8vc/index.html",
+         "id" : "r25",
+         "comps" : [
+            {
+               "s_time" : 3034.96199985966,
+               "time" : 101.31300007925,
+               "type" : "evalhtml",
+               "id" : "r25_c1",
+               "e_time" : 3136.27499993891
+            },
+            {
+               "s_time" : 3314.85000019893,
+               "time" : 18.2839999906701,
+               "id" : "r25_c2",
+               "type" : "evalhtml",
+               "e_time" : 3333.1340001896
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2972.97899983823,
+            "type" : "text/html",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://s.ytimg.com/yts/cssbin/www-embed-player-vflR-G2fy.css",
+         "path" : "/pages/adcash.com/s.ytimg.com/yts/cssbin/www-embed-player-vflR-G2fy.css",
+         "id" : "r26",
+         "comps" : [
+            {
+               "s_time" : 3074.22599988058,
+               "time" : 62.13400000707,
+               "id" : "comp_60",
+               "type" : 4,
+               "e_time" : 3136.35999988765
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3036.65899997577,
+            "type" : "text/css",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://s.ytimg.com/yts/jsbin/www-embed-player-vflOyYKyg.js",
+         "path" : "/pages/adcash.com/s.ytimg.com/yts/jsbin/www-embed-player-vflOyYKyg.js",
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 3137.48699985445,
+               "time" : 177.36300034448,
+               "id" : "comp_62",
+               "type" : 1,
+               "e_time" : 3314.85000019893
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3037.06100024283,
+            "type" : "text/javascript",
+            "id" : "download_26"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_12"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_3"
+      },
+      {
+         "a2" : "comp_8",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "r25_c2",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_62"
+      },
+      {
+         "a2" : "download_26",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 2.09900038316982,
+         "id" : "dep8",
+         "a1" : "r25_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1.69700011610985,
+         "id" : "dep9",
+         "a1" : "r25_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 19.9259999208098,
+         "id" : "dep10",
+         "a1" : "comp_51"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1601.35999973863,
+         "id" : "dep11",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 303.017999976874,
+         "id" : "dep12",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 302.672000136224,
+         "id" : "dep13",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 783.93300017342,
+         "id" : "dep14",
+         "a1" : "comp_42"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 302.335999906064,
+         "id" : "dep15",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 301.996000111104,
+         "id" : "dep16",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 301.657000090924,
+         "id" : "dep17",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 301.316999830304,
+         "id" : "dep18",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 30.7049998082219,
+         "id" : "dep19",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 51.738999783993,
+         "id" : "dep20",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 300.977999810134,
+         "id" : "dep21",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 300.611000042404,
+         "id" : "dep22",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 300.255999900404,
+         "id" : "dep23",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 299.922999925914,
+         "id" : "dep24",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 299.590999726204,
+         "id" : "dep25",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 299.265000037854,
+         "id" : "dep26",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 298.942000139504,
+         "id" : "dep27",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 298.529999796304,
+         "id" : "dep28",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 1.44999986514392,
+         "id" : "dep29",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep31",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 12.389999814332,
+         "id" : "dep32",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 11.549000162631,
+         "id" : "dep33",
+         "a1" : "r1_c1"
+      }
+   ]
+}

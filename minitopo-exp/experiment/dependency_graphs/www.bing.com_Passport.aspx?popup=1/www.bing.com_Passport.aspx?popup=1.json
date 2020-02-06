@@ -1,0 +1,28 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.bing.com_Passport.aspx?popup=1",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.bing.com/Passport.aspx?popup=1",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 725.84499977529,
+               "time" : 0.93600014224694,
+               "id" : "r50_c1",
+               "type" : "evalhtml",
+               "e_time" : 726.780999917537
+            }
+         ],
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : []
+}

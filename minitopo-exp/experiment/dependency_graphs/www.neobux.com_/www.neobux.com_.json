@@ -1,0 +1,518 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.neobux.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.neobux.com/",
+         "path" : "/pages/neobux.com/www.neobux.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 547.672000247985,
+               "time" : 198.22399970144,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 745.895999949425
+            },
+            {
+               "s_time" : 1303.37799992412,
+               "time" : 0.487000215799981,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1303.86500013992
+            },
+            {
+               "s_time" : 1348.11499994248,
+               "time" : 220.30899999663,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 1568.42399993911
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/css/principal_118.css",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/css/principal_118.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 620.57500006631,
+               "time" : 112.637999933213,
+               "id" : "comp_2",
+               "type" : 4,
+               "e_time" : 733.212999999523
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 570.482000242919,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/js/principal22.js",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/js/principal22.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1303.90200018883,
+               "time" : 44.2129997536499,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 1348.11499994248
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 581.646999809891,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js",
+         "path" : "/pages/neobux.com/ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1046.05400003493,
+               "time" : 257.32399988919,
+               "id" : "comp_8",
+               "type" : 1,
+               "e_time" : 1303.37799992412
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 581.03400003165,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/js/plusone.js",
+         "path" : "/pages/xnxx.com/apis.google.com/js/plusone.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1798.48300013691,
+               "time" : 102.34399978072,
+               "id" : "comp_38",
+               "type" : null,
+               "e_time" : 1900.82699991763
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 745.895999949425,
+            "type" : "application/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/bg2.jpg",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/bg2.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1357.96499997377,
+            "type" : "image/jpeg",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://images.scanalert.com/meter/www.neobux.com/55.gif",
+         "path" : "/pages/neobux.com/images.scanalert.com/meter/www.neobux.com/55.gif",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1404.09700013697,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/fade.png",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/fade.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1566.52300013229,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/pb/8.jpg",
+         "path" : "/missing/fullcache-neodevlda.netdna-ssl.com/imagens/n/pb/8.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1566.97299983352,
+            "type" : "image/jpeg",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/250f.jpg",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/250f.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1567.35299993306,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/900.jpg",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/900.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1566.1440002732,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/grad0.png",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/grad0.png",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1567.71299988031,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 1900.87100025266,
+               "time" : 198.39899986983,
+               "id" : "comp_40",
+               "type" : null,
+               "e_time" : 2099.27000012249
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1357.4160002172,
+            "type" : "text/javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/grad.jpg",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/n/gr/grad.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1568.07699985802,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/logos_f.png",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/logos_f.png",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1568.42399993911,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/n/logo_crop2.gif",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/n/logo_crop2.gif",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1565.3300001286,
+            "type" : "image/gif",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://fullcache-neodevlda.netdna-ssl.com/imagens/band.gif",
+         "path" : "/pages/neobux.com/fullcache-neodevlda.netdna-ssl.com/imagens/band.gif",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1565.76299993321,
+            "type" : "image/gif",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://d31qbv1cthcecs.cloudfront.net/atrk.js",
+         "path" : "/pages/neobux.com/d31qbv1cthcecs.cloudfront.net/atrk.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 2254.08500013873,
+               "time" : 11.3769997842601,
+               "id" : "comp_42",
+               "type" : null,
+               "e_time" : 2265.46199992299
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1423.85100014508,
+            "type" : "text/javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.7cPSuHVtCCI.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNQi5OAAUsIVPV-bjZtHfNGWCzynw/cb=gapi.loaded_0",
+         "path" : "/pages/cnet.com/apis.google.com/_/scs/apps-static/_/js/k_oz.gapi.en_US.7cPSuHVtCCI.O/m_plusone/rt_j/sv_1/d_1/ed_1/am_IQ/rs_AItRSTNQi5OAAUsIVPV-bjZtHfNGWCzynw/cb_gapi.loaded_0.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 2265.48499986529,
+               "time" : 200.78600011766,
+               "id" : "comp_44",
+               "type" : null,
+               "e_time" : 2466.27099998295
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1882.80900008976,
+            "type" : "text/javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=69705684&utmhn=www.neobux.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=941x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=NeoBux%3A%20The%20Innovation%20in%20Paid-to-Click%20Services&utmhid=747983302&utmr=-&utmp=%2F&utmht=1378091645755&utmac=UA-7515473-1&utmcc=__utma%3D90161412.409752779.1378091646.1378091646.1378091646.1%3B%2B__utmz%3D90161412.1378091646.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qB~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2089.57500010729,
+            "type" : "image/gif",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://d5nxst8fruw4z.cloudfront.net/atrk.gif?frame_height=688&frame_width=956&iframe=0&title=NeoBux%3A%20The%20Innovation%20in%20Paid-to-Click%20Services&time=1378091645942&time_zone_offset=420&screen_params=2048x1152x24&java_enabled=1&cookie_enabled=1&ref_url=&host_url=http%3A%2F%2Fwww.neobux.com%2F&random_number=1253761046&sess_cookie=1c2166c1140dca9bbf5d2e9337e&sess_cookie_flag=1&user_cookie=1c2166c1140dca9bbf5d2e9337e&user_cookie_flag=1&dynamic=true&domain=neobux.com&account=0wsUe1aUYe00yO&jsv=20121002",
+         "path" : "/missing/d5nxst8fruw4z.cloudfront.net/atrk.gif",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2277.25700009614,
+            "type" : "image/gif",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://ssl.gstatic.com/s2/oz/images/stars/po/Publisher/sprite4-a67f741843ffc4220554c34bd01bb0bb.png",
+         "path" : "/pages/xnxx.com/ssl.gstatic.com/s2/oz/images/stars/po/Publisher/sprite4-a67f741843ffc4220554c34bd01bb0bb.png",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2462.52899989486,
+            "type" : "image/png",
+            "id" : "download_21"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_8"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 197.04400002957,
+         "id" : "dep3",
+         "a1" : "comp_44"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 11.7720002308502,
+         "id" : "dep4",
+         "a1" : "comp_44"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 188.70399985463,
+         "id" : "dep5",
+         "a1" : "comp_40"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 84.32599995285,
+         "id" : "dep6",
+         "a1" : "comp_38"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 75.7360002026001,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 217.21500018612,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_14",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 219.96199991554,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 9.30100027472008,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 219.59799993783,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 218.02900033072,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 219.23799999058,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 218.85799989104,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 218.40800018981,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 55.9820001944902,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 9.85000003129016,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_4",
+         "time" : -1,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 33.3619997836649,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 33.3619997836649,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 33.974999561906,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 22.8099999949339,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      }
+   ]
+}

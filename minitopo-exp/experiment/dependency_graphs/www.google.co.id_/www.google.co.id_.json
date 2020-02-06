@@ -1,0 +1,150 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.google.co.id_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "https://www.google.co.id/",
+         "path" : "/missing/www.google.co.id",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 634.839000180364,
+               "time" : 508.411999791856,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "e_time" : 1143.25099997222
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.co.id/images/srpr/logo4w.png",
+         "path" : "/missing/www.google.co.id/images/srpr/logo4w.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1002.29900004342,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.co.id/xjs/_/js/k=xjs.s.en_US.M4-36_38X9A.O/m=c,sb,cr,jp,r,hsm,j,p,pcc,csi/am=AACK/rt=j/d=1/sv=1/rs=AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "path" : "/missing/www.google.co.id/xjs/_/js/k_xjs.s.en_US.M4-36_38X9A.O/m_c_sb_cr_jp_r_hsm_j_p_pcc_csi/am_AACK/rt_j/d_1/sv_1/rs_AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1277.02899975702,
+               "time" : 805.26800034568,
+               "id" : "comp_22",
+               "type" : null,
+               "e_time" : 2082.2970001027
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1143.25099997222,
+            "type" : "text/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.co.id/xjs/_/js/k=xjs.s.en_US.M4-36_38X9A.O/m=sy5,cdos,sy25,gf,vm,sy63,sy104,sy105,sy157,tbui,mb,sy43,sy44,sy46,sy47,sy45,sy48,sy132,sy140,sy50,sy133,sy141,wobnm,sy55,sy24,cfm,abd,sy69,sy67,sy70,sy15,sy72,sy66,sy68,sy76,sy73,sy77,sy74,sy75,sy78,sy79,sy54,sy58,sy49,sy81,sy82,sy101,sy103,sy71,sy94,sy51,sy64,sy80,sy87,sy102,sy106,sy107,sy109,sy108,llc,sy27,bihu,sy41,sy138,kp,sy142,sy144,lu,m,sy130,sy155,tnv,sy96,sy95,ttbcdr,sy83,adp,sy110,async,erh,hv,sy28,jsaleg,lc,ob,sf,sy121,sfa,tbpr,sy98,tr/am=AACK/rt=j/d=0/sv=1/rs=AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "path" : "/missing/www.google.co.id/xjs/_/js/k_xjs.s.en_US.M4-36_38X9A.O/am_AACK/rt_j/d_0/sv_1/rs_AItRSTOrvSqgO1Nm6D80V55SQWvgB8PwDw",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 2201.86500018463,
+               "time" : 336.17499982938,
+               "id" : "comp_32",
+               "type" : null,
+               "e_time" : 2538.04000001401
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1838.19299982861,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.co.id/extern_chrome/f06c651c2538361b.js?bav=on.2,or.r_qf.",
+         "path" : "/missing/www.google.co.id/extern_chrome/f06c651c2538361b.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 2538.08500012383,
+               "time" : 15.1349999941899,
+               "id" : "comp_37",
+               "type" : null,
+               "e_time" : 2553.22000011802
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1822.32399983332,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "https://www.google.com/textinputassistant/tia.png",
+         "path" : "/pages/google.co.in/www.google.com/textinputassistant/tia.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2021.91499993205,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "download_5",
+         "time" : 744.88600017503,
+         "id" : "dep1",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 545.2950000763,
+         "id" : "dep2",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 561.16400007159,
+         "id" : "dep3",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 367.459999863056,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      }
+   ]
+}

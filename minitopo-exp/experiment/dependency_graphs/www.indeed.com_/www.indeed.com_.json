@@ -1,0 +1,217 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.indeed.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.indeed.com/",
+         "path" : "/pages/indeed.com/www.indeed.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 558.809999842197,
+               "time" : 103.399000130593,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 662.20899997279
+            },
+            {
+               "s_time" : 749.801999889314,
+               "time" : 92.7210003137591,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 842.523000203073
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 752.435999922454,
+               "time" : 80.504999961704,
+               "id" : "comp_22",
+               "type" : null,
+               "e_time" : 832.940999884158
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 654.473999980837,
+            "type" : "text/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.googleadservices.com/pagead/conversion.js",
+         "path" : "/pages/conduit.com/www.googleadservices.com/pagead/conversion.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 727.965000085533,
+               "time" : 21.8369998037809,
+               "id" : "comp_17",
+               "type" : 1,
+               "e_time" : 749.801999889314
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 661.801000125706,
+            "type" : "text/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.indeed.com/s/d8695ca/jobsearch-all-compiled.js",
+         "path" : "/pages/indeed.com/www.indeed.com/s/d8695ca/jobsearch-all-compiled.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 845.205000136048,
+               "time" : 67.2399997711179,
+               "id" : "comp_31",
+               "type" : null,
+               "e_time" : 912.444999907166
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 646.447000093758,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "path" : "/pages/linkedin.com/b.scorecardresearch.com/beacon.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 832.988000009209,
+               "time" : 4.45900019258295,
+               "id" : "comp_27",
+               "type" : null,
+               "e_time" : 837.447000201792
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 661.230000201613,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.indeed.com/images/job_search_indeed.png",
+         "path" : "/pages/indeed.com/www.indeed.com/images/job_search_indeed.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 662.20899997279,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=945070708&utmhn=www.indeed.com&utme=8(4!semRevTest*loggedIn)9(4!-1*false)11(4!1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=956x688&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Job%20Search%20%7C%20one%20search.%20all%20jobs.%20Indeed.com&utmhid=2124700978&utmr=-&utmp=%2F&utmht=1378094351558&utmac=UA-90780-1&utmcc=__utma%3D130742359.1625631873.1378094352.1378094352.1378094352.1%3B%2B__utmz%3D130742359.1378094352.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qQ~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 809.288000222296,
+            "type" : "image/gif",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.google.com/ads/user-lists/1049100955/?label=GXkhCM2YtwMQm4Wg9AM&fmt=1&num=1&cv=7&frm=0&url=http%3A%2F%2Fwww.indeed.com%2F&random=2433569879",
+         "path" : "/missing/www.google.com/ads/user-lists/1049100955",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 934.212000109255,
+               "time" : 0.57299993932304,
+               "id" : "r8_c1",
+               "type" : "evalhtml",
+               "e_time" : 934.785000048578
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 842.523000203073,
+            "type" : "text/html",
+            "id" : "download_7"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_17"
+      },
+      {
+         "a2" : "download_7",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 56.852000299842,
+         "id" : "dep3",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "download_5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 102.420000359416,
+         "id" : "dep5",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 87.6370002515609,
+         "id" : "dep6",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 102.991000283509,
+         "id" : "dep7",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 95.6640001386399,
+         "id" : "dep8",
+         "a1" : "r1_c1"
+      }
+   ]
+}

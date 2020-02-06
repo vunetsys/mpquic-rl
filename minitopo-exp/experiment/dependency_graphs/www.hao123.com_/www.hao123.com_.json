@@ -1,0 +1,928 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.hao123.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.hao123.com/",
+         "path" : "/pages/hao123.com/www.hao123.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 2192.92399985716,
+               "time" : 2368.53200010955,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 4561.45599996671
+            },
+            {
+               "s_time" : 4624.61799988523,
+               "time" : 3083.42000003904,
+               "id" : "r1_c2",
+               "type" : "evalhtml",
+               "e_time" : 7708.03799992427
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/img/defaultIcon0708.png",
+         "path" : "/pages/hao123.com/s0.hao123img.com/res/img/defaultIcon0708.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2274.4169998914,
+            "type" : "image/png",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/index/images/search_logo/web.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/index/images/search_logo/web.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2230.22999987006,
+            "type" : "image/png",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/Uo/FA/kA/UE/EH/UoFAkAUEEH.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/Uo/FA/kA/UE/EH/UoFAkAUEEH.js",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 4588.02200015634,
+               "time" : 36.5959997288901,
+               "id" : "comp_157",
+               "type" : 1,
+               "e_time" : 4624.61799988523
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2581.26399992034,
+            "type" : "text/javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/index/images/newlogo-186X68.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/index/images/newlogo-186X68.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2229.81399996206,
+            "type" : "image/png",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/gW/zX/bS/lJ/TZ/gWzXbSlJTZ.css",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/gW/zX/bS/lJ/TZ/gWzXbSlJTZ.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 4519.76400008425,
+               "time" : 612.42099991068,
+               "id" : "comp_156",
+               "type" : 4,
+               "e_time" : 5132.18499999493
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2222.59799996391,
+            "type" : "text/css",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/v4/R2/wa/-a/3c/vF/3/index_icon.png",
+         "path" : "/pages/hao123.com/s0.hao123img.com/v4/R2/wa/-a/3c/vF/3/index_icon.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4561.45599996671,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/00/27/7X/CU/Rs/hf_body_bg.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/00/27/7X/CU/Rs/hf_body_bg.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5133.0630001612,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/0W/m8/xk/V4/_g/2/baidu-form.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/0W/m8/xk/V4/_g/2/baidu-form.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5133.97599989548,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/v4/0W/84/sE/gQ/_1/2/sethome.png",
+         "path" : "/pages/hao123.com/s0.hao123img.com/v4/0W/84/sE/gQ/_1/2/sethome.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5134.7179999575,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/ecom/jd-0730.jpg",
+         "path" : "/missing/s0.hao123img.com/res/ecom/jd-0730.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5141.44700020552,
+            "type" : "image/jpeg",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-02/0b3160512e6ba00d26ecf0ba01869358.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-02/0b3160512e6ba00d26ecf0ba01869358.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5142.62200007215,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/img/index/nav/icon-0716.png",
+         "path" : "/pages/hao123.com/s0.hao123img.com/res/img/index/nav/icon-0716.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5141.86199987307,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/img/2013/lazy-loading.gif",
+         "path" : "/pages/hao123.com/s0.hao123img.com/res/img/2013/lazy-loading.gif",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5142.24500022829,
+            "type" : "image/gif",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/img/1L/Aw/2F/mk/ch/o/blank.gif",
+         "path" : "/pages/hao123.com/s0.hao123img.com/img/1L/Aw/2F/mk/ch/o/blank.gif",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5142.97700021416,
+            "type" : "image/gif",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/v4/dG/Fw/Bp/kU/cw/dGFwBpkUcw.js",
+         "path" : "/pages/hao123.com/s0.hao123img.com/v4/dG/Fw/Bp/kU/cw/dGFwBpkUcw.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 5877.45899986476,
+               "time" : 38.8360000215398,
+               "id" : "comp_212",
+               "type" : 2,
+               "e_time" : 5916.2949998863
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5663.31299999729,
+            "type" : "text/javascript",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/wH/Fh/xV/DO/gf/wHFhxVDOgf.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/wH/Fh/xV/DO/gf/wHFhxVDOgf.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 6865.15899980441,
+               "time" : 501.78900035098,
+               "id" : "comp_244",
+               "type" : 2,
+               "e_time" : 7366.94800015539
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5658.69899978861,
+            "type" : "text/javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/v4/UJ/ZO/Kp/rs/tu/UJZOKprstu.js",
+         "path" : "/pages/hao123.com/s0.hao123img.com/v4/UJ/ZO/Kp/rs/tu/UJZOKprstu.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 6277.43500005454,
+               "time" : 17.4969998188299,
+               "id" : "comp_219",
+               "type" : 2,
+               "e_time" : 6294.93199987337
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5677.09999997169,
+            "type" : "text/javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/dP/yW/We/Yh/WB/dPyWWeYhWB.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/dP/yW/We/Yh/WB/dPyWWeYhWB.js",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 6294.97400019318,
+               "time" : 4.14399988949026,
+               "id" : "comp_223",
+               "type" : 2,
+               "e_time" : 6299.11800008267
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5677.61499993503,
+            "type" : "text/javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/yc/Tb/to/FM/jS/ycTbtoFMjS.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/yc/Tb/to/FM/jS/ycTbtoFMjS.js",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 6345.96899989992,
+               "time" : 11.6329998709298,
+               "id" : "comp_234",
+               "type" : 2,
+               "e_time" : 6357.60199977085
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5678.58000006527,
+            "type" : "text/javascript",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/Ui/fD/Wp/Pm/YE/UifDWpPmYE.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/Ui/fD/Wp/Pm/YE/UifDWpPmYE.js",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 6357.64200007543,
+               "time" : 26.39599982649,
+               "id" : "comp_238",
+               "type" : 2,
+               "e_time" : 6384.03799990192
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5678.11700003222,
+            "type" : "text/javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/ed/XV/ey/Pe/Ym/edXVeyPeYm.js",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/ed/XV/ey/Pe/Ym/edXVeyPeYm.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 6299.16100017726,
+               "time" : 3.16099962220051,
+               "id" : "comp_227",
+               "type" : 2,
+               "e_time" : 6302.32199979946
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5680.89199997485,
+            "type" : "text/javascript",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.hao123.com/images/track.gif?level=1&page=index&v=rpidmapping&hao123_baiduid=4651B589857D370F24669E31B0B67C7C&hao123_flashid=undefined&url=http%3A%2F%2Fnsclick.baidu.com%2Fh.gif&pid=113&r=1378091381828",
+         "path" : "/missing/www.hao123.com/images/track.gif",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5903.05300010368,
+            "type" : "image/gif",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/js/track.js?382803",
+         "path" : "/missing/s0.hao123img.com/res/js/track.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 6302.36299987882,
+               "time" : 37.5290000811301,
+               "id" : "comp_231",
+               "type" : 2,
+               "e_time" : 6339.89199995995
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5913.82300015539,
+            "type" : "text/javascript",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/index/swf/LocalStorage.swf",
+         "path" : "/pages/hao123.com/s1.hao123img.com/index/swf/LocalStorage.swf",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6283.72400021181,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.hao123.com/images/track.gif?tm=1378091382&embed=0&ho=0&type=access&r=1378091382262&v=1.1.3&level=1&page=index&pageId=hao123-indexnu&pf_fms=0&pf_bd=0000&pf_gw=0&pf_nav=0&rp=0&skin=skin-color-green&isSiteUser=000&ostype=0",
+         "path" : "/missing/www.hao123.com/images/track.gif",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6336.07499999925,
+            "type" : "image/gif",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.hao123.com/images/track.gif?level=1&page=index&pageId=hao123-indexnu&pf_fms=0&pf_nav=0&pf_bd=0000&pf_gw=0&pf_mf=&pf_tf=&skin=skin-color-green&isSiteUser=000&ostype=0&rp=0&type=flash&r=1378091382606",
+         "path" : "/missing/www.hao123.com/images/track.gif",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6678.28400013968,
+            "type" : "image/gif",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-02/7a592549789975df927b7e0e4ff3d9c3.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-02/7a592549789975df927b7e0e4ff3d9c3.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7014.13400005549,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/K8/6t/Jt/ui/we/7/toppicture2.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/K8/6t/Jt/ui/we/7/toppicture2.png",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7031.02400014177,
+            "type" : "image/png",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.hao123.com/sugdata.js?r=-765607",
+         "path" : "/missing/www.hao123.com/sugdata.js",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7135.62500011176,
+            "type" : "text/javascript",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/aG/K8/5C/IH/KH/3/lifetip.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/aG/K8/5C/IH/KH/3/lifetip.png",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7373.24699992314,
+            "type" : "image/png",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-08-26/a8fd54c7a31b726c0c49f11826a731a6.jpg",
+         "path" : "/pages/hao123.com/s0.hao123img.com/res/r/image/2013-08-26/a8fd54c7a31b726c0c49f11826a731a6.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7375.99699990824,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-01/b82e6c0a047923cd775d8911942982c2.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-01/b82e6c0a047923cd775d8911942982c2.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7375.09099999443,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/T_/no/oj/fs/r-/7/lifetip1.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/T_/no/oj/fs/r-/7/lifetip1.png",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7373.7380001694,
+            "type" : "image/png",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s1.hao123img.com/v4/ep/3L/Lh/sN/Op/2/i_left.png",
+         "path" : "/pages/hao123.com/s1.hao123img.com/v4/ep/3L/Lh/sN/Op/2/i_left.png",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7374.14400000125,
+            "type" : "image/png",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-08-18/66048e5301f905dbe5ec10d26189fccc.jpg",
+         "path" : "/pages/hao123.com/s0.hao123img.com/res/r/image/2013-08-18/66048e5301f905dbe5ec10d26189fccc.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7376.41299981624,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-01/c8b1186151416c2e1829a6e46a4de4c4.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-01/c8b1186151416c2e1829a6e46a4de4c4.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7375.55600004271,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-02/ca62323ec6fcf28ab213e23222d448f7.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-02/ca62323ec6fcf28ab213e23222d448f7.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7374.65699994937,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/res/r/image/2013-09-01/cebb5d84fe2eb06af0d433a80432eef2.jpg",
+         "path" : "/missing/s0.hao123img.com/res/r/image/2013-09-01/cebb5d84fe2eb06af0d433a80432eef2.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7376.8380000256,
+            "type" : "image/jpeg",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.hao123.com/api/newforecast?callback=jQuery17201299087475053966_1378091382893&t=1&_=1378091383228",
+         "path" : "/missing/www.hao123.com/api/newforecast",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7304.3619999662,
+            "type" : "text/javascript",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.hao123.com/api/gettvhist?&c=54DB30F71314A4546A7C62CD9737BC3D",
+         "path" : "/pages/hao123.com/www.hao123.com/api/gettvhist/index.html",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7367.23499977961,
+            "type" : "text/html",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/index/images/weather/icon/a2.png",
+         "path" : "/missing/s0.hao123img.com/index/images/weather/icon/a2.png",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7707.4980000034,
+            "type" : "image/png",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://s0.hao123img.com/index/images/weather/icon/a1.png",
+         "path" : "/pages/hao123.com/s0.hao123img.com/index/images/weather/icon/a1.png",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7708.03799992427,
+            "type" : "image/png",
+            "id" : "download_42"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_157"
+      },
+      {
+         "a2" : "comp_157",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_156"
+      },
+      {
+         "a2" : "download_42",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 3082.88000011817,
+         "id" : "dep4",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 2742.61699989438,
+         "id" : "dep5",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 2679.74400008097,
+         "id" : "dep6",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 2752.22000014037,
+         "id" : "dep7",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 2750.03900006414,
+         "id" : "dep8",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 2750.93800015748,
+         "id" : "dep9",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 2751.79499993101,
+         "id" : "dep10",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 2749.52600011602,
+         "id" : "dep11",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 2749.12000028417,
+         "id" : "dep12",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 2750.4730001092,
+         "id" : "dep13",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 2751.37900002301,
+         "id" : "dep14",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 2748.62900003791,
+         "id" : "dep15",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 2511.00700022653,
+         "id" : "dep16",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 2406.40600025654,
+         "id" : "dep17",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 2389.51600017026,
+         "id" : "dep18",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 2053.66600025445,
+         "id" : "dep19",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1711.45700011402,
+         "id" : "dep20",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 1659.10600032658,
+         "id" : "dep21",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1289.20500027016,
+         "id" : "dep22",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1278.43500021845,
+         "id" : "dep23",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 1056.27400008962,
+         "id" : "dep24",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 1053.49900014699,
+         "id" : "dep25",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1053.96200018004,
+         "id" : "dep26",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 1052.9970000498,
+         "id" : "dep27",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 1052.48200008646,
+         "id" : "dep28",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 1034.08099990338,
+         "id" : "dep29",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 1038.69500011206,
+         "id" : "dep30",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 518.35900032893,
+         "id" : "dep31",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 517.62700034306,
+         "id" : "dep32",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 517.24399998784,
+         "id" : "dep33",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 518.004000186919,
+         "id" : "dep34",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 516.82900032029,
+         "id" : "dep35",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 510.10000007227,
+         "id" : "dep36",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 509.358000010249,
+         "id" : "dep37",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 508.44500027597,
+         "id" : "dep38",
+         "a1" : "r1_c2"
+      },
+      {
+         "a2" : "download_6",
+         "time" : -1,
+         "id" : "dep39",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 29.6740001067496,
+         "id" : "dep40",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 36.8900001048996,
+         "id" : "dep41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 388.34000006318,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 37.3060000128999,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 81.4930000342397,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      }
+   ]
+}

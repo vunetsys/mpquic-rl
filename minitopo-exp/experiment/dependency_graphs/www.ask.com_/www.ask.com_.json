@@ -1,0 +1,610 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.ask.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.ask.com/",
+         "path" : "/pages/ask.com/www.ask.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 661.669999826699,
+               "time" : 228.350999765099,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 890.020999591798
+            },
+            {
+               "s_time" : 1120.69999985397,
+               "time" : 0.0809999182799856,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1120.78099977225
+            },
+            {
+               "s_time" : 1183.73299995437,
+               "time" : 171.12599965185,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1354.85899960622
+            },
+            {
+               "s_time" : 1459.75299971178,
+               "time" : 964.32900009677,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "e_time" : 2424.08199980855
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/ui-assets/inc/css/lib/yui/reset-fonts-grids_r2.8.r56171-02.css",
+         "path" : "/pages/ask.com/sp.ask.com/sh/ui-assets/inc/css/lib/yui/reset-fonts-grids_r2.8.r56171-02.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 743.648999836296,
+               "time" : 46.548999845981,
+               "id" : "comp_5",
+               "type" : 4,
+               "e_time" : 790.197999682277
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 672.368999570608,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a16/themes/bluelinen.jpg",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a16/themes/bluelinen.jpg",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 790.699000004679,
+            "type" : "image/jpeg",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/ui-assets/inc/js/lib/jquery/jquery-1.6.2-1.8.14.r86826-02.js",
+         "path" : "/pages/ask.com/sp.ask.com/sh/ui-assets/inc/js/lib/jquery/jquery-1.6.2-1.8.14.r86826-02.js",
+         "id" : "r16",
+         "comps" : [
+            {
+               "s_time" : 974.609999917448,
+               "time" : 146.089999936522,
+               "id" : "comp_14",
+               "type" : 1,
+               "e_time" : 1120.69999985397
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 876.833999995142,
+            "type" : "application/x-javascript",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/ui-assets/inc/js/jask/a16hp_c.r106559-02.js",
+         "path" : "/pages/ask.com/sp.ask.com/sh/ui-assets/inc/js/jask/a16hp_c.r106559-02.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 1121.87199993059,
+               "time" : 61.86100002378,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 1183.73299995437
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 878.23999999091,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a16/hp/homepage_sprite_11.png",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a16/hp/homepage_sprite_11.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 880.510999821126,
+            "type" : "image/png",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a14/c/generic.png",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a14/c/generic.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 881.021999754012,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a16/themes/weather/peel_weather.png",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a16/themes/weather/peel_weather.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 881.444999948144,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a16/hp/transluc_bg_pixel.png",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a16/hp/transluc_bg_pixel.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 881.84899976477,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/qotdxdict/i/20130901.jpg",
+         "path" : "/missing/sp.ask.com/qotdxdict/i/20130901.jpg",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 887.506999541074,
+            "type" : "image/jpeg",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a14/ja/avatars/seagull.png",
+         "path" : "/missing/sp.ask.com/sh/i/a14/ja/avatars/seagull.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 887.964999768883,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a14/ja/avatars/eightball.png",
+         "path" : "/missing/sp.ask.com/sh/i/a14/ja/avatars/eightball.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 888.372999615967,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a14/ja/avatars/starburst.png",
+         "path" : "/missing/sp.ask.com/sh/i/a14/ja/avatars/starburst.png",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 888.773999642581,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/i/a16/hp/homepage_sprite_10.png",
+         "path" : "/pages/ask.com/sp.ask.com/sh/i/a16/hp/homepage_sprite_10.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 889.177999924868,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.ask.com/avatar/readfile?f=f7f30cb2-24d2-44a4-a442-93cf9ce79a59.png",
+         "path" : "/missing/www.ask.com/avatar/readfile",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 889.608999714255,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.ask.com/avatar/readfile?f=8ad29b93-7979-4d8c-8f3b-a5eac671a0fe.png&ja_mob_engine_id=readavatar",
+         "path" : "/missing/www.ask.com/avatar/readfile",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 890.020999591798,
+            "type" : "image/png",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://sp.ask.com/sh/ui-assets/dcss/a14/dialog_c.r78976-02.css",
+         "path" : "/pages/ask.com/sp.ask.com/sh/ui-assets/dcss/a14/dialog_c.r78976-02.css",
+         "id" : "r19",
+         "comps" : [
+            {
+               "s_time" : 1352.79799997807,
+               "time" : 2.09999969228988,
+               "id" : "comp_36",
+               "type" : 2,
+               "e_time" : 1354.89799967036
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1192.82099977136,
+            "type" : "text/css",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://api.recaptcha.net/js/recaptcha_ajax.js",
+         "path" : "/pages/ask.com/api.recaptcha.net/js/recaptcha_ajax.js",
+         "id" : "r18",
+         "comps" : [
+            {
+               "s_time" : 1361.21899960563,
+               "time" : 98.53400010615,
+               "id" : "comp_40",
+               "type" : 1,
+               "e_time" : 1459.75299971178
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 879.697999916971,
+            "type" : "application/x-javascript",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://static.pollroll.in/images/poll-20130801003838843-3085-small.jpg",
+         "path" : "/missing/static.pollroll.in/images/poll-20130801003838843-3085-small.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 869.941999670118,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.ask.com/display.html?cl=ca-aj-cat&ch=&ty=image%2Cflash&size=300x250&kw=&hints=&target=/5480.iac.usa.ask.hp.x.x.dir/;sz=300x250;log=0;s=as;hhi=159;test=0;ord=1378091322083?",
+         "path" : "/missing/www.ask.com/display.html",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 1578.98099999875,
+               "time" : 620.17699982971,
+               "type" : "evalhtml",
+               "id" : "r20_c1",
+               "e_time" : 2199.15799982846
+            },
+            {
+               "s_time" : 2368.16099984571,
+               "time" : 0.0490001402799862,
+               "id" : "r20_c2",
+               "type" : "evalhtml",
+               "e_time" : 2368.20999998599
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1514.30399995297,
+            "type" : "text/html",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ad.doubleclick.net/adj/5480.iac.usa.ask.hp.x.x.dir/;sz=300x250;log=0;s=as;hhi=159;test=0;ord=1378091322083?",
+         "path" : "/missing/ad.doubleclick.net/adj/5480.iac.usa.ask.hp.x.x.dir/_sz_300x250_log_0_s_as_hhi_159_test_0_ord_1378091322083",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1589.96899984777,
+            "type" : "text/javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.beanstock.com/pub/ask.com/tags/300x250.js",
+         "path" : "/pages/ask.com/cdn.beanstock.com/pub/ask.com/tags/300x250.js",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 2364.401999861,
+               "time" : 3.75899998471004,
+               "id" : "comp_62",
+               "type" : 1,
+               "e_time" : 2368.16099984571
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2199.15799982846,
+            "type" : "application/javascript",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.beanstock.com/pub/uber.js?v=2013.9.0",
+         "path" : "/missing/cdn.beanstock.com/pub/uber.js",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 2379.24299994484,
+               "time" : 33.3209997043,
+               "id" : "comp_66",
+               "type" : null,
+               "e_time" : 2412.56399964914
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2368.81399992853,
+            "type" : "application/javascript",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.beanstock.com/pub/ask.com/zm.js?d0ad8ce475743c999477cb71f77ef06b?13.9.1.20",
+         "path" : "/missing/cdn.beanstock.com/pub/ask.com/zm.js",
+         "id" : "r24",
+         "comps" : [
+            {
+               "s_time" : 2431.39999965206,
+               "time" : 1.07800029217969,
+               "id" : "comp_69",
+               "type" : null,
+               "e_time" : 2432.47799994424
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2424.08199980855,
+            "type" : "application/javascript",
+            "id" : "download_23"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_40"
+      },
+      {
+         "a2" : "comp_22",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_14"
+      },
+      {
+         "a2" : "r20_c2",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_62"
+      },
+      {
+         "a2" : "download_23",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 909.06100021675,
+         "id" : "dep7",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 739.40500011668,
+         "id" : "dep8",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_21",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "r20_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 10.9879998490201,
+         "id" : "dep10",
+         "a1" : "r20_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 54.55100024119,
+         "id" : "dep11",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 208.271999843419,
+         "id" : "dep12",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : -1,
+         "id" : "dep13",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 218.028000090272,
+         "id" : "dep14",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 9.08799981699008,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : -1,
+         "id" : "dep16",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 227.938999887556,
+         "id" : "dep17",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 227.508000098169,
+         "id" : "dep18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 227.103999815882,
+         "id" : "dep19",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 226.702999789268,
+         "id" : "dep20",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 226.294999942184,
+         "id" : "dep21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 225.836999714375,
+         "id" : "dep22",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 220.178999938071,
+         "id" : "dep23",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 219.775000121445,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 219.351999927313,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 218.840999994427,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 216.570000164211,
+         "id" : "dep27",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 215.164000168443,
+         "id" : "dep28",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 129.02900017798,
+         "id" : "dep29",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 10.698999743909,
+         "id" : "dep30",
+         "a1" : "r1_c1"
+      }
+   ]
+}

@@ -1,0 +1,46 @@
+Ip:
+    Forwarding: 1
+    8356 total packets received
+    0 forwarded
+    0 incoming packets discarded
+    8356 incoming packets delivered
+    16178 requests sent out
+Icmp:
+    19 ICMP messages received
+    0 input ICMP message failed
+    ICMP input histogram:
+        destination unreachable: 9
+        echo requests: 10
+    10 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        echo replies: 10
+IcmpMsg:
+        InType3: 9
+        InType8: 10
+        OutType0: 10
+Tcp:
+    0 active connection openings
+    0 passive connection openings
+    0 failed connection attempts
+    0 connection resets received
+    0 connections established
+    0 segments received
+    0 segments sent out
+    0 segments retransmitted
+    0 bad segments received
+    0 resets sent
+Udp:
+    8337 packets received
+    0 packets to unknown port received
+    0 packet receive errors
+    16168 packets sent
+    0 receive buffer errors
+    0 send buffer errors
+UdpLite:
+TcpExt:
+    0 packet headers predicted
+IpExt:
+    InOctets: 512319
+    OutOctets: 21426438
+    InNoECTPkts: 8356

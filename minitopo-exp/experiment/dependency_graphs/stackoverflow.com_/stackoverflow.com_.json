@@ -1,0 +1,588 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "stackoverflow.com_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://stackoverflow.com/",
+         "path" : "/pages/stackoverflow.com/stackoverflow.com/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 696.305999998003,
+               "time" : 6.23099971562601,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 702.536999713629
+            },
+            {
+               "s_time" : 1016.18100004271,
+               "time" : 0.0839997082899799,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1016.264999751
+            },
+            {
+               "s_time" : 1653.10100000352,
+               "time" : 2173.91699971631,
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "e_time" : 3827.01799971983
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+         "path" : "/pages/pornhub.com/ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 746.423999778926,
+               "time" : 269.757000263784,
+               "id" : "comp_2",
+               "type" : 1,
+               "e_time" : 1016.18100004271
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 701.413999777287,
+            "type" : "text/javascript",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/js/stub.js?v=95a78b02de98",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/js/stub.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1636.9439996779,
+               "time" : 16.1570003256202,
+               "id" : "comp_6",
+               "type" : 1,
+               "e_time" : 1653.10100000352
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 701.967999804765,
+            "type" : "application/javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/stackoverflow/all.css?v=cff37b15495c",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/stackoverflow/all.css",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1665.65199987963,
+               "time" : 474.06599996611,
+               "id" : "comp_8",
+               "type" : 4,
+               "e_time" : 2139.71799984574
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 702.536999713629,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r13",
+         "comps" : [
+            {
+               "s_time" : 2294.29699992761,
+               "time" : 341.7429998517,
+               "id" : "comp_32",
+               "type" : 2,
+               "e_time" : 2636.03999977931
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1901.286999695,
+            "type" : "text/javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/js/full-anon.js?v=91e39f868c82",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/js/full-anon.js",
+         "id" : "r15",
+         "comps" : [
+            {
+               "s_time" : 2636.08399964869,
+               "time" : 74.5090004056697,
+               "id" : "comp_34",
+               "type" : 2,
+               "e_time" : 2710.59300005436
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2113.03799971938,
+            "type" : "application/javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/Img/sprite-herobox.png",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/Img/sprite-herobox.png",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2146.39999996871,
+            "type" : "image/png",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/Img/mini-hero-bg.png",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/Img/mini-hero-bg.png",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2146.04400005192,
+            "type" : "image/png",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.sstatic.net/stackoverflow/img/sprites.png?v=6",
+         "path" : "/pages/stackoverflow.com/cdn.sstatic.net/stackoverflow/img/sprites.png",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2145.68199962378,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://edge.quantserve.com/quant.js",
+         "path" : "/pages/linkedin.com/edge.quantserve.com/quant.js",
+         "id" : "r14",
+         "comps" : [
+            {
+               "s_time" : 2880.86699973792,
+               "time" : 40.8940003253497,
+               "id" : "comp_37",
+               "type" : 2,
+               "e_time" : 2921.76100006327
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1901.72499977052,
+            "type" : "application/x-javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.stack.imgur.com/tKsDb.png",
+         "path" : "/pages/stackoverflow.com/i.stack.imgur.com/tKsDb.png",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1768.20499962196,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.stack.imgur.com/fEHUs.png",
+         "path" : "/pages/stackoverflow.com/i.stack.imgur.com/fEHUs.png",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2144.15599964559,
+            "type" : "image/png",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.stack.imgur.com/3ecBT.png",
+         "path" : "/missing/i.stack.imgur.com/3ecBT.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2144.95399966836,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.stack.imgur.com/dmHl0.png",
+         "path" : "/missing/i.stack.imgur.com/dmHl0.png",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2144.56399995834,
+            "type" : "image/png",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://i.stack.imgur.com/uE37r.png",
+         "path" : "/pages/stackoverflow.com/i.stack.imgur.com/uE37r.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2145.31699987128,
+            "type" : "image/png",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=687334472&utmhn=stackoverflow.com&utmcs=UTF-8&utmsr=2048x1152&utmvp=947x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Stack%20Overflow&utmhid=1351971977&utmr=-&utmp=%2F&utmht=1378092581701&utmac=UA-5620270-1&utmcc=__utma%3D140029553.522433537.1378092582.1378092582.1378092582.1%3B%2B__utmz%3D140029553.1378092582.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2552.82399989665,
+            "type" : "image/gif",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn-careers.sstatic.net/careers/gethired/company-loader.min.js?v=e1da9303f450&_=1378092581893",
+         "path" : "/missing/cdn-careers.sstatic.net/careers/gethired/company-loader.min.js",
+         "id" : "r17",
+         "comps" : [
+            {
+               "s_time" : 3478.69799984619,
+               "time" : 10.1899998262497,
+               "id" : "comp_74",
+               "type" : 3,
+               "e_time" : 3488.88799967244
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2724.23699963838,
+            "type" : "application/javascript",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://stackoverflow.com/users/login/global/request",
+         "path" : "/pages/stackoverflow.com/stackoverflow.com/users/login/global/request.add.json",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2759.20099997893,
+            "type" : "application/json",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pixel.quantserve.com/pixel;r=100364600;a=p-c1rF4kxgLUzNc;fpan=1;fpa=P0-1671117462-1378092582078;ns=0;ce=1;cm=;je=1;sr=2048x1152x24;enc=n;dst=1;et=1378092582066;tzo=420;ref=;url=http%3A%2F%2Fstackoverflow.com%2F;ogl=",
+         "path" : "/missing/pixel.quantserve.com/pixel_r_100364600_a_p-c1rF4kxgLUzNc_fpan_1_fpa_P0-1671117462-1378092582078_ns_0_ce_1_cm__je_1_sr_2048x1152x24_enc_n_dst_1_et_1378092582066_tzo_420_ref__url_http_3A_2F_2Fstackoverflow.com_2F_ogl_",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2936.36099994183,
+            "type" : "image/gif",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn-careers.sstatic.net/careers/gethired/company.min.css?v=4d46b94c8e37",
+         "path" : "/missing/cdn-careers.sstatic.net/careers/gethired/company.min.css",
+         "id" : "r21",
+         "comps" : [
+            {
+               "s_time" : 3538.07500004768,
+               "time" : 5.73099963366985,
+               "id" : "comp_78",
+               "type" : 2,
+               "e_time" : 3543.80599968135
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3490.0670000352,
+            "type" : "text/css",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://careers.stackoverflow.com/ad/companyjs?divs=careers2,hireme&_=1378092582666",
+         "path" : "/missing/careers.stackoverflow.com/ad/companyjs",
+         "id" : "r22",
+         "comps" : [
+            {
+               "s_time" : 3697.99399981275,
+               "time" : 10.6819998472897,
+               "id" : "comp_81",
+               "type" : 2,
+               "e_time" : 3708.67599966004
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3490.54499994963,
+            "type" : "text/javascript",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn-careers.sstatic.net/careers/gethired/sidebar.min.css?v=17be6ca0db4b",
+         "path" : "/pages/stackoverflow.com/cdn-careers.sstatic.net/careers/gethired/sidebar.min.css",
+         "id" : "r23",
+         "comps" : [
+            {
+               "s_time" : 3740.43399980292,
+               "time" : 85.9480001963602,
+               "id" : "comp_85",
+               "type" : null,
+               "e_time" : 3826.38199999928
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3721.26499982551,
+            "type" : "text/css",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn-careers.sstatic.net/careers/gethired/img/careers2-ad-header-so-crop.png",
+         "path" : "/pages/stackoverflow.com/cdn-careers.sstatic.net/careers/gethired/img/careers2-ad-header-so-crop.png",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3827.01799971983,
+            "type" : "image/png",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "https://stackauth.com/auth/global/read?request=gbpJe%2FjliDEiNCuRQ9O2gsexTn%2Bc2jf%2FkIC1DREsxpZleQN9o5DR7GlrwLlStsWMVjmb4SFuimxXw3VCjMgmTw%3D%3D&nonce=JQYkUgAAAADzbYo%2BQD7QCQ%3D%3D",
+         "path" : "/missing/stackauth.com/auth/global/read",
+         "id" : "r20",
+         "comps" : [
+            {
+               "s_time" : 4398.58999988064,
+               "time" : 14.0660000033704,
+               "id" : "r20_c1",
+               "type" : "evalhtml",
+               "e_time" : 4412.65599988401
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3464.19299999252,
+            "type" : "text/html",
+            "id" : "download_23"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_6"
+      },
+      {
+         "a2" : "comp_6",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_2"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1811.091999989,
+         "id" : "dep4",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_22",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 2068.16399982199,
+         "id" : "dep6",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 1837.44399994611,
+         "id" : "dep7",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1836.96600003168,
+         "id" : "dep8",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 1283.25999993831,
+         "id" : "dep9",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 1106.09999997541,
+         "id" : "dep10",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 1071.13599963486,
+         "id" : "dep11",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 899.72299989313,
+         "id" : "dep12",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 492.21599986776,
+         "id" : "dep13",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 491.46299995482,
+         "id" : "dep14",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 491.85299966484,
+         "id" : "dep15",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 491.05499964207,
+         "id" : "dep16",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 115.10399961844,
+         "id" : "dep17",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 248.623999767,
+         "id" : "dep18",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 492.58099962026,
+         "id" : "dep19",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 492.9430000484,
+         "id" : "dep20",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 493.29899996519,
+         "id" : "dep21",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 459.93699971586,
+         "id" : "dep22",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 248.18599969148,
+         "id" : "dep23",
+         "a1" : "r1_c3"
+      },
+      {
+         "a2" : "download_3",
+         "time" : -1,
+         "id" : "dep24",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 5.66199980676197,
+         "id" : "dep25",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 5.107999779284,
+         "id" : "dep26",
+         "a1" : "r1_c1"
+      }
+   ]
+}

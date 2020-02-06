@@ -1,0 +1,2678 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.slideshare.net_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.slideshare.net/",
+         "path" : "/pages/slideshare.net/www.slideshare.net/index.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 578.229999635369,
+               "time" : 218.003000132739,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 796.232999768108
+            },
+            {
+               "s_time" : 1006.62099989131,
+               "time" : 0.0689998269099306,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 1006.68999971822
+            },
+            {
+               "s_time" : 1211.191999726,
+               "time" : 0.68600010127011,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 1211.87799982727
+            },
+            {
+               "s_time" : 1222.64199983329,
+               "time" : 0.0709998421300497,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 1222.71299967542
+            },
+            {
+               "s_time" : 1223.44399988651,
+               "time" : 44.2169997841099,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 1267.66099967062
+            },
+            {
+               "s_time" : 1273.33899959922,
+               "time" : 24.34800006449,
+               "type" : "evalhtml",
+               "id" : "r1_c6",
+               "e_time" : 1297.68699966371
+            },
+            {
+               "s_time" : 1440.8809999004,
+               "time" : 149.03899980709,
+               "type" : "evalhtml",
+               "id" : "r1_c7",
+               "e_time" : 1589.91999970749
+            },
+            {
+               "s_time" : 1765.47199999914,
+               "time" : 108.97599998861,
+               "type" : "evalhtml",
+               "id" : "r1_c8",
+               "e_time" : 1874.44799998775
+            },
+            {
+               "s_time" : 1884.69299999997,
+               "time" : 1357.48699959368,
+               "id" : "r1_c9",
+               "type" : "evalhtml",
+               "e_time" : 3242.17999959365
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/bigboot/css/ss-core.css?eea39b51be",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/bigboot/css/ss-core.css",
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 699.062000028789,
+               "time" : 88.129999581724,
+               "id" : "comp_4",
+               "type" : 4,
+               "e_time" : 787.191999610513
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 582.811999600381,
+            "type" : "text/css",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/bigboot/js/bootstrap_combined.js?a03591d10d",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/bigboot/js/bootstrap_combined.js",
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 1874.49199985713,
+               "time" : 10.20100014284,
+               "id" : "comp_57",
+               "type" : 1,
+               "e_time" : 1884.69299999997
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 594.169999938458,
+            "type" : "application/x-javascript",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/stylesheets/homepage.css?ae5dac6828",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/stylesheets/homepage.css",
+         "id" : "r6",
+         "comps" : [
+            {
+               "s_time" : 683.251000009477,
+               "time" : 0.177999958395958,
+               "id" : "comp_3",
+               "type" : 4,
+               "e_time" : 683.428999967873
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 590.151999611408,
+            "type" : "text/css",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/homepage.js?690fb7ffc6",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/javascripts/homepage.js",
+         "id" : "r5",
+         "comps" : [
+            {
+               "s_time" : 1222.7709996514,
+               "time" : 0.673000235110067,
+               "id" : "comp_18",
+               "type" : 1,
+               "e_time" : 1223.44399988651
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 589.493999723345,
+            "type" : "application/x-javascript",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/bigboot/combined_bigboot_layout.js?0861add75a",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/javascripts/bigboot/combined_bigboot_layout.js",
+         "id" : "r3",
+         "comps" : [
+            {
+               "s_time" : 1006.7389998585,
+               "time" : 204.4529998675,
+               "id" : "comp_13",
+               "type" : 1,
+               "e_time" : 1211.191999726
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 585.25799959898,
+            "type" : "application/x-javascript",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/jquery.jcarousel.min.js?f7b6868211",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/javascripts/jquery.jcarousel.min.js",
+         "id" : "r4",
+         "comps" : [
+            {
+               "s_time" : 1211.91599965096,
+               "time" : 10.7260001823299,
+               "id" : "comp_16",
+               "type" : 1,
+               "e_time" : 1222.64199983329
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 588.432000018656,
+            "type" : "application/x-javascript",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/instrumentation_wrapper.js",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/javascripts/instrumentation_wrapper.js",
+         "id" : "r8",
+         "comps" : [
+            {
+               "s_time" : 815.500999800861,
+               "time" : 1.27399992197695,
+               "id" : "comp_10",
+               "type" : 2,
+               "e_time" : 816.774999722838
+            },
+            {
+               "s_time" : 3135.42499998584,
+               "time" : 1.17499986664006,
+               "id" : "comp_515",
+               "type" : null,
+               "e_time" : 3136.59999985248
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 793.378999922425,
+            "type" : "application/x-javascript",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn01.smartling.com/ls/ab5bb963d.js",
+         "path" : "/pages/slideshare.net/cdn01.smartling.com/ls/ab5bb963d.js",
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 990.063999779522,
+               "time" : 16.5570001117881,
+               "id" : "comp_11",
+               "type" : 1,
+               "e_time" : 1006.62099989131
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 796.232999768108,
+            "type" : "application/x-javascript",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gampad/google_service.js",
+         "path" : "/pages/slideshare.net/partner.googleadservices.com/gampad/google_service.js",
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 1270.50099987537,
+               "time" : 2.83799972384986,
+               "id" : "comp_22",
+               "type" : 1,
+               "e_time" : 1273.33899959922
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1225.50199972466,
+            "type" : "text/javascript",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/logo.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/logo.png",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1225.93199973926,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/design-at-the-edges-ux-design-for-developing-countries-130830013820-phpapp01-thumbnail-2.jpg?1378001097",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/design-at-the-edges-ux-design-for-developing-countries-130830013820-phpapp01-thumbnail-2.jpg",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1226.32499970496,
+            "type" : "image/jpeg",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/business/homepage-pro-ad.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/business/homepage-pro-ad.png",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1257.86999985576,
+            "type" : "image/png",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://partner.googleadservices.com/gampad/google_ads.js",
+         "path" : "/pages/slideshare.net/partner.googleadservices.com/gampad/google_ads.js",
+         "id" : "r85",
+         "comps" : [
+            {
+               "s_time" : 1365.69499969482,
+               "time" : 75.1860002055801,
+               "id" : "comp_25",
+               "type" : 1,
+               "e_time" : 1440.8809999004
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1297.68699966371,
+            "type" : "text/javascript",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/quotes-130828081035-phpapp02-thumbnail-2.jpg?1378050698",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/quotes-130828081035-phpapp02-thumbnail-2.jpg",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1259.68599971384,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/toptencelebritycarwraps-130831234657-phpapp01-thumbnail-2.jpg?1378036292",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/toptencelebritycarwraps-130831234657-phpapp01-thumbnail-2.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1260.43999986723,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/python-an-introv2-130718042003-phpapp01-thumbnail-2.jpg?1378015937",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/python-an-introv2-130718042003-phpapp01-thumbnail-2.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1260.05499996245,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/canonstoconcepts-1377835960-130829231237-phpapp02-thumbnail-2.jpg?1377969031",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/canonstoconcepts-1377835960-130829231237-phpapp02-thumbnail-2.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1259.30499983951,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/facesoflifepedroluisraota-1-130830222305-phpapp01-thumbnail-2.jpg?1377971547",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/facesoflifepedroluisraota-1-130830222305-phpapp01-thumbnail-2.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1258.89999978244,
+            "type" : "image/jpeg",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/cassandra-at-instagram-aug2013-130830171757-phpapp01-thumbnail-2.jpg?1377971570",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/cassandra-at-instagram-aug2013-130830171757-phpapp01-thumbnail-2.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1260.83499984816,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/removeads.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/removeads.png",
+         "id" : "r84",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1258.47300002351,
+            "type" : "image/png",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/back-to-school-retail-trends-from-sap-130829171006-phpapp02-thumbnail-2.jpg?1377891592",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/back-to-school-retail-trends-from-sap-130829171006-phpapp02-thumbnail-2.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1261.59999985248,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/studentloanpresentation-130830101805-phpapp02-thumbnail-2.jpg?1377891538",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/studentloanpresentation-130830101805-phpapp02-thumbnail-2.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1261.97399990633,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/will-egypt-survive-civil-war-infographic-pdf-130830082523-phpapp02-thumbnail-2.jpg?1377891520",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/will-egypt-survive-civil-war-infographic-pdf-130830082523-phpapp02-thumbnail-2.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1262.35800003633,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/10moreyearsofskype-august2013copy-130829183959-phpapp01-thumbnail-2.jpg?1377890174",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/10moreyearsofskype-august2013copy-130829183959-phpapp01-thumbnail-2.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1262.73899991065,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/bainrepeatability2012-130830030100-phpapp01-thumbnail-2.jpg?1377890040",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/bainrepeatability2012-130830030100-phpapp01-thumbnail-2.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1263.18599982187,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/fasterpython-130831043745-phpapp01-thumbnail-2.jpg?1378060735",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/fasterpython-130831043745-phpapp01-thumbnail-2.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1261.21999975294,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/ipsosmoriconsumerconfidenceindex-august2013-130830044701-phpapp02-thumbnail-2.jpg?1377880926",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/ipsosmoriconsumerconfidenceindex-august2013-130830044701-phpapp02-thumbnail-2.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1263.95299984142,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/functionaltestingthegoodthebadandtheugly-130829190024-phpapp01-thumbnail-2.jpg?1377880468",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/functionaltestingthegoodthebadandtheugly-130829190024-phpapp01-thumbnail-2.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1265.14999987558,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/frontendconf2013-130830035212-phpapp01-thumbnail-2.jpg?1377880429",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/frontendconf2013-130830035212-phpapp01-thumbnail-2.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1265.5360000208,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/winning-design-130830011001-phpapp01-thumbnail-2.jpg?1377881023",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/winning-design-130830011001-phpapp01-thumbnail-2.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1263.5669996962,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/it-20trends-2014-130901043357-phpapp01-thumbnail-2.jpg?1378028617",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/it-20trends-2014-130901043357-phpapp01-thumbnail-2.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1265.92799974605,
+            "type" : "image/jpeg",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/9tipsforinternetprivacy-130830000603-phpapp02-thumbnail-2.jpg?1377880816",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/9tipsforinternetprivacy-130830000603-phpapp02-thumbnail-2.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1264.7539996542,
+            "type" : "image/jpeg",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/chronowatch-top10listofgamblingluxurywatches-130831204331-phpapp01-thumbnail-2.jpg?1378001395",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/chronowatch-top10listofgamblingluxurywatches-130831204331-phpapp01-thumbnail-2.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1266.77699992433,
+            "type" : "image/jpeg",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/adopt-a-street-130901075825-phpapp01-thumbnail-2.jpg?1378040345",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/adopt-a-street-130901075825-phpapp01-thumbnail-2.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1266.34399965405,
+            "type" : "image/jpeg",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/drstoutnewtechandnewhumanitarianscmsa2013-130830100017-phpapp01-thumbnail-2.jpg?1377880895",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/drstoutnewtechandnewhumanitarianscmsa2013-130830100017-phpapp01-thumbnail-2.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1264.35699965805,
+            "type" : "image/jpeg",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/social-seo-babelguide-2013-08-25-130901074559-phpapp01-thumbnail-2.jpg?1378065267",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/social-seo-babelguide-2013-08-25-130901074559-phpapp01-thumbnail-2.jpg",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1267.21299998462,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/strategy-130901080918-phpapp02-thumbnail-2.jpg?1378041237",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/strategy-130901080918-phpapp02-thumbnail-2.jpg",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1267.66099967062,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/10tipsforyourfacebookbusinesspage-130901151357-phpapp02-thumbnail-2.jpg?1378066778",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/10tipsforyourfacebookbusinesspage-130901151357-phpapp02-thumbnail-2.jpg",
+         "id" : "r38",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1277.52400003374,
+            "type" : "image/jpeg",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/tips-and-trick-for-your-soa-130831205714-phpapp01-thumbnail-2.jpg?1378000839",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/tips-and-trick-for-your-soa-130831205714-phpapp01-thumbnail-2.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1276.94599982351,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/ultimatecycler2013brochure-130901021230-phpapp01-thumbnail-2.jpg?1378019831",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/ultimatecycler2013brochure-130901021230-phpapp01-thumbnail-2.jpg",
+         "id" : "r40",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1278.34199974313,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/itriskassessmentplan-130901165241-phpapp01-thumbnail-2.jpg?1378072405",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/itriskassessmentplan-130901165241-phpapp01-thumbnail-2.jpg",
+         "id" : "r39",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1277.93699968606,
+            "type" : "image/jpeg",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/sunrider-fortune-delight-calli-productslides2-130901151858-phpapp01-thumbnail-2.jpg?1378066928",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/sunrider-fortune-delight-calli-productslides2-130901151858-phpapp01-thumbnail-2.jpg",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1278.75699987635,
+            "type" : "image/jpeg",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/fmsreliability-1-130831234755-phpapp02-thumbnail-2.jpg?1378010955",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/fmsreliability-1-130831234755-phpapp02-thumbnail-2.jpg",
+         "id" : "r42",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1279.21599987894,
+            "type" : "image/jpeg",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/job1proofreading-130901044935-phpapp01-thumbnail-2.jpg?1378030761",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/job1proofreading-130901044935-phpapp01-thumbnail-2.jpg",
+         "id" : "r43",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1279.78099975735,
+            "type" : "image/jpeg",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/globalinternetusagestatistics2013-130828001520-phpapp02-thumbnail-2.jpg?1377816036",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/globalinternetusagestatistics2013-130828001520-phpapp02-thumbnail-2.jpg",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1280.72899999097,
+            "type" : "image/jpeg",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/aligningcustomerobjectionstothebuyingprocessmap-130826083844-phpapp02-thumbnail-2.jpg?1377524525",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/aligningcustomerobjectionstothebuyingprocessmap-130826083844-phpapp02-thumbnail-2.jpg",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1281.68200002983,
+            "type" : "image/jpeg",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/signsofadisengagedemployeebyachieversslideshare-130822103427-phpapp01-thumbnail-2.jpg?1377275624",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/signsofadisengagedemployeebyachieversslideshare-130822103427-phpapp01-thumbnail-2.jpg",
+         "id" : "r46",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1281.19899984449,
+            "type" : "image/jpeg",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/dbp-130826175035-phpapp02-thumbnail-2.jpg?1377701743",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/dbp-130826175035-phpapp02-thumbnail-2.jpg",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1280.19899968058,
+            "type" : "image/jpeg",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/impalameetup8202013-130830120622-phpapp01-thumbnail-2.jpg?1377882490",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/impalameetup8202013-130830120622-phpapp01-thumbnail-2.jpg",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1282.09699969739,
+            "type" : "image/jpeg",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/yousuckatpowerpoint-byjessedee-120919102217-phpapp01-thumbnail-2.jpg?1351302547",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/yousuckatpowerpoint-byjessedee-120919102217-phpapp01-thumbnail-2.jpg",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1282.53899980336,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/distance-from-perfect-130829115414-phpapp02-thumbnail-2.jpg?1377816111",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/distance-from-perfect-130829115414-phpapp02-thumbnail-2.jpg",
+         "id" : "r50",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1282.94899966568,
+            "type" : "image/jpeg",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/takeoff-130828072601-phpapp01-thumbnail-2.jpg?1377713309",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/takeoff-130828072601-phpapp01-thumbnail-2.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1283.35599973798,
+            "type" : "image/jpeg",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/imaginethecommongoodconf2013-130830100249-phpapp01-thumbnail-2.jpg?1378069332",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/imaginethecommongoodconf2013-130830100249-phpapp01-thumbnail-2.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1284.30099971592,
+            "type" : "image/jpeg",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/19growthhackerquotes-130828093517-phpapp02-thumbnail-2.jpg?1377833123",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/19growthhackerquotes-130828093517-phpapp02-thumbnail-2.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1283.88799959794,
+            "type" : "image/jpeg",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/you-suck-at-power-point-jesse-dee-101103032057-phpapp02-thumbnail-2.jpg?1348230523",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/you-suck-at-power-point-jesse-dee-101103032057-phpapp02-thumbnail-2.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1284.71599984914,
+            "type" : "image/jpeg",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/applefinally1-130114121143-phpapp02-thumbnail-2.jpg?1358232074",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/applefinally1-130114121143-phpapp02-thumbnail-2.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1285.12899996713,
+            "type" : "image/jpeg",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/bigboot/img/glyphicons-halflings.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/bigboot/img/glyphicons-halflings.png",
+         "id" : "r86",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1472.621999681,
+            "type" : "image/png",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/cheaptextbooksforsale-130831193827-phpapp02-thumbnail-2.jpg?1377996203",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/cheaptextbooksforsale-130831193827-phpapp02-thumbnail-2.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1286.5720000118,
+            "type" : "image/jpeg",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/labordayweekendincolorado2013-130901205111-phpapp02-thumbnail-2.jpg?1378086779",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/labordayweekendincolorado2013-130901205111-phpapp02-thumbnail-2.jpg",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1285.54999968037,
+            "type" : "image/jpeg",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/sept22013fioh-130831170335-phpapp01-thumbnail-2.jpg?1377987035",
+         "path" : "/missing/cdn.slidesharecdn.com/ss_thumbnails/sept22013fioh-130831170335-phpapp01-thumbnail-2.jpg",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1286.13799996674,
+            "type" : "image/jpeg",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/web-apicloudv032-130829020901-phpapp01-thumbnail-2.jpg?1377788216",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/web-apicloudv032-130829020901-phpapp01-thumbnail-2.jpg",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1287.47699968517,
+            "type" : "image/jpeg",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/internetmarketingcompanyindia-130829054446-phpapp01-thumbnail-2.jpg?1377775184",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/internetmarketingcompanyindia-130829054446-phpapp01-thumbnail-2.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1287.04799991101,
+            "type" : "image/jpeg",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/moneyballatlanta08-130807082209-phpapp01-thumbnail-2.jpg?1375881871",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/moneyballatlanta08-130807082209-phpapp01-thumbnail-2.jpg",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1287.94399974868,
+            "type" : "image/jpeg",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/microconsoles-130805130924-phpapp02-thumbnail-2.jpg?1375744057",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/microconsoles-130805130924-phpapp02-thumbnail-2.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1288.49499998614,
+            "type" : "image/jpeg",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/mindtreeims-tweets-130805220432-phpapp02-thumbnail-2.jpg?1375758405",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/mindtreeims-tweets-130805220432-phpapp02-thumbnail-2.jpg",
+         "id" : "r64",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1289.41700002179,
+            "type" : "image/jpeg",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/mezzaninefinancingforsmartguys-130805130741-phpapp01-thumbnail-2.jpg?1375822243",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/mezzaninefinancingforsmartguys-130805130741-phpapp01-thumbnail-2.jpg",
+         "id" : "r66",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1290.41899973527,
+            "type" : "image/jpeg",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/hcipresentationontalentdevelopment7-13-130805132129-phpapp02-thumbnail-2.jpg?1375727075",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/hcipresentationontalentdevelopment7-13-130805132129-phpapp02-thumbnail-2.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1288.9469997026,
+            "type" : "image/jpeg",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/hysynthpresentation-130805062506-phpapp02-thumbnail-2.jpg?1375702580",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/hysynthpresentation-130805062506-phpapp02-thumbnail-2.jpg",
+         "id" : "r65",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1289.92599993944,
+            "type" : "image/jpeg",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/preziversionforslideshare-120813083004-phpapp01-thumbnail-2.jpg?1344865393",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/preziversionforslideshare-120813083004-phpapp01-thumbnail-2.jpg",
+         "id" : "r67",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1290.80799967051,
+            "type" : "image/jpeg",
+            "id" : "download_69"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/nivikovrubyopenairnosql-120620070724-phpapp01-thumbnail-2.jpg?1361883878",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/nivikovrubyopenairnosql-120620070724-phpapp01-thumbnail-2.jpg",
+         "id" : "r69",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1291.57199990004,
+            "type" : "image/jpeg",
+            "id" : "download_70"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/scalelinuxperformance-130224171331-phpapp01-thumbnail-2.jpg?1362166290",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/scalelinuxperformance-130224171331-phpapp01-thumbnail-2.jpg",
+         "id" : "r70",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1291.9459999539,
+            "type" : "image/jpeg",
+            "id" : "download_71"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/jquery-europe23-02-2013-130223040855-phpapp02-thumbnail-2.jpg?1361890039",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/jquery-europe23-02-2013-130223040855-phpapp02-thumbnail-2.jpg",
+         "id" : "r71",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1292.45399963111,
+            "type" : "image/jpeg",
+            "id" : "download_72"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/r2r1final1302-130215084350-phpapp01-thumbnail-2.jpg?1361218722",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/r2r1final1302-130215084350-phpapp01-thumbnail-2.jpg",
+         "id" : "r73",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1293.30499982461,
+            "type" : "image/jpeg",
+            "id" : "download_73"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/js-robotics-130216015750-phpapp02-thumbnail-2.jpg?1361001580",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/js-robotics-130216015750-phpapp02-thumbnail-2.jpg",
+         "id" : "r74",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1293.67899987847,
+            "type" : "image/jpeg",
+            "id" : "download_74"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/inbound2013-fitmarketing-130826124802-phpapp02-thumbnail-2.jpg?1377583813",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/inbound2013-fitmarketing-130826124802-phpapp02-thumbnail-2.jpg",
+         "id" : "r75",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1294.13899965584,
+            "type" : "image/jpeg",
+            "id" : "download_75"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/socialmediabestpractices2013bengrossman-130821080552-phpapp01-thumbnail-2.jpg?1377566280",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/socialmediabestpractices2013bengrossman-130821080552-phpapp01-thumbnail-2.jpg",
+         "id" : "r76",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1294.65000005439,
+            "type" : "image/jpeg",
+            "id" : "download_76"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/inbound2013rickburnes2final-130820153659-phpapp01-thumbnail-2.jpg?1377285077",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/inbound2013rickburnes2final-130820153659-phpapp01-thumbnail-2.jpg",
+         "id" : "r77",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1295.04700005054,
+            "type" : "image/jpeg",
+            "id" : "download_77"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/aaron-20ross-20-20hubspot-20inbound-20aug-202013-20-20create-20predictable-20revenue-130820181111-phpapp01-thumbnail-2.jpg?1377284968",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/aaron-20ross-20-20hubspot-20inbound-20aug-202013-20-20create-20predictable-20revenue-130820181111-phpapp01-thumbnail-2.jpg",
+         "id" : "r78",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1295.45199964195,
+            "type" : "image/jpeg",
+            "id" : "download_78"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/puppetconfkeynote2013v6-130823163741-phpapp02-thumbnail-2.jpg?1377566430",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/puppetconfkeynote2013v6-130823163741-phpapp02-thumbnail-2.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1295.83900002763,
+            "type" : "image/jpeg",
+            "id" : "download_79"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/thur945gordonrowell12slides-130823182731-phpapp01-thumbnail-2.jpg?1377566393",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/thur945gordonrowell12slides-130823182731-phpapp01-thumbnail-2.jpg",
+         "id" : "r80",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1296.32999980822,
+            "type" : "image/jpeg",
+            "id" : "download_80"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/fri900reinhardtquelle36slides-130823180839-phpapp02-thumbnail-2.jpg?1377566359",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/fri900reinhardtquelle36slides-130823180839-phpapp02-thumbnail-2.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1296.70999990776,
+            "type" : "image/jpeg",
+            "id" : "download_81"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/fri1000stanhsu17slides-130823181622-phpapp01-thumbnail-2.jpg?1377566337",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/fri1000stanhsu17slides-130823181622-phpapp01-thumbnail-2.jpg",
+         "id" : "r82",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1297.10499988869,
+            "type" : "image/jpeg",
+            "id" : "download_82"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/rubyslava2102-130223110955-phpapp01-thumbnail-2.jpg?1361639431",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/rubyslava2102-130223110955-phpapp01-thumbnail-2.jpg",
+         "id" : "r72",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1292.91699966416,
+            "type" : "image/jpeg",
+            "id" : "download_83"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.slidesharecdn.com/ss_thumbnails/2013febconfoohtml5gaming-130226140221-phpapp01-thumbnail-2.jpg?1364340502",
+         "path" : "/pages/slideshare.net/cdn.slidesharecdn.com/ss_thumbnails/2013febconfoohtml5gaming-130226140221-phpapp01-thumbnail-2.jpg",
+         "id" : "r68",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1291.19699960575,
+            "type" : "image/jpeg",
+            "id" : "download_84"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pubads.g.doubleclick.net/gampad/ads?correlator=2969942958800896&output=json_html&callback=GA_googleSetAdContentsBySlotForSync&impl=ss&client=ca-pub-5203428669823392&page_slots=homepage_top_120x60%2Chomepage_top_sponsoredby%2Cfooter&cookie_enabled=1&url=http%3A%2F%2Fwww.slideshare.net%2F&lmt=1378119002&dt=1378093938632&cc=100&biw=950&bih=999&ifi=1&oid=3&u_tz=-420&u_his=13&u_java=true&u_h=1152&u_w=2048&u_ah=1130&u_aw=1973&u_cd=24&u_nplug=6&u_nmime=93&flash=11.8.800&gads=v2&ga_vid=1458507932.1378093939&ga_sid=1378093939&ga_hid=1122756331",
+         "path" : "/missing/pubads.g.doubleclick.net/gampad/ads",
+         "id" : "r87",
+         "comps" : [
+            {
+               "s_time" : 1763.47099989653,
+               "time" : 2.00100010261008,
+               "id" : "comp_42",
+               "type" : 1,
+               "e_time" : 1765.47199999914
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1589.91999970749,
+            "type" : "text/javascript",
+            "id" : "download_85"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.linkedin.com/analytics/noauthtracker?pageType=full_page&type=leo.pageTracking&pageKey=sld_main_jsbeacon",
+         "path" : "/pages/slideshare.net/www.linkedin.com/analytics/noauthtracker.add",
+         "id" : "r83",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1256.96499971673,
+            "type" : "image/gif",
+            "id" : "download_86"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/sprite-bigboot.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/sprite-bigboot.png",
+         "id" : "r89",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1771.23599965125,
+            "type" : "image/png",
+            "id" : "download_87"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.linkedin.com/csp/dtag?sz=300x250&dc_ref=http%3A%2F%2Fwww.slideshare.net%2F&ti=1&z=home&p=5&_rx=%3Badsense%3Dt%3Bdc_ref%3Dhttp%3A//www.slideshare.net/%3B%24DCOPT%3Bord%3D%24ORD",
+         "path" : "/pages/slideshare.net/www.linkedin.com/csp/dtag/index.html",
+         "id" : "r91",
+         "comps" : [
+            {
+               "s_time" : 2298.01799962297,
+               "time" : 1.9180001691002,
+               "id" : "r91_c1",
+               "type" : "evalhtml",
+               "e_time" : 2299.93599979207
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1833.4189997986,
+            "type" : "text/html",
+            "id" : "download_88"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r96",
+         "comps" : [
+            {
+               "s_time" : 2394.63600004092,
+               "time" : 92.6789999939501,
+               "id" : "comp_462",
+               "type" : 2,
+               "e_time" : 2487.31500003487
+            },
+            {
+               "s_time" : 3001.95099972188,
+               "time" : 133.44900030643,
+               "id" : "comp_511",
+               "type" : null,
+               "e_time" : 3135.40000002831
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1891.48999983445,
+            "type" : "text/javascript",
+            "id" : "download_89"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.linkedin.com/csp/dtag?sz=300x250&dc_ref=http%3A%2F%2Fwww.slideshare.net%2F&ti=2&z=home&p=5&_rx=%3Badsense%3Dt%3Bdc_ref%3Dhttp%3A//www.slideshare.net/%3B%24DCOPT%3Bord%3D%24ORD",
+         "path" : "/pages/slideshare.net/www.linkedin.com/csp/dtag/index.html",
+         "id" : "r92",
+         "comps" : [
+            {
+               "s_time" : 2336.65499975905,
+               "time" : 0.336000230160153,
+               "id" : "r92_c1",
+               "type" : "evalhtml",
+               "e_time" : 2336.99099998921
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1856.3019996509,
+            "type" : "text/html",
+            "id" : "download_90"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://api.mixpanel.com/site_media/js/api/mixpanel.js",
+         "path" : "/pages/slideshare.net/api.mixpanel.com/site_media/js/api/mixpanel.js",
+         "id" : "r95",
+         "comps" : [
+            {
+               "s_time" : 2487.35499987379,
+               "time" : 23.2279999181601,
+               "id" : "comp_465",
+               "type" : 2,
+               "e_time" : 2510.58299979195
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1887.41299975663,
+            "type" : "application/x-javascript",
+            "id" : "download_91"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.slideshare.net/slideshow/embed_code/25741667?hostedIn=slideshare&page=homepage",
+         "path" : "/missing/www.slideshare.net/slideshow/embed_code/25741667",
+         "id" : "r88",
+         "comps" : [
+            {
+               "s_time" : 2344.56599969417,
+               "time" : 306.77400017157,
+               "type" : "evalhtml",
+               "id" : "r88_c1",
+               "e_time" : 2651.33999986574
+            },
+            {
+               "s_time" : 2684.83199970797,
+               "time" : 48.0710002593696,
+               "id" : "r88_c2",
+               "type" : "evalhtml",
+               "e_time" : 2732.90299996734
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1769.51599959284,
+            "type" : "text/html",
+            "id" : "download_92"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.slideshare.net/account/get_form_authenticity_token",
+         "path" : "/pages/slideshare.net/www.slideshare.net/account/get_form_authenticity_token.add.json",
+         "id" : "r98",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1964.80099996552,
+            "type" : "application/json",
+            "id" : "download_93"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/layout-09/footer_icons_sprite.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/layout-09/footer_icons_sprite.png",
+         "id" : "r94",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2191.10399996862,
+            "type" : "image/png",
+            "id" : "download_94"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/layout-09/footer_gradient.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/layout-09/footer_gradient.png",
+         "id" : "r93",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2190.70199970156,
+            "type" : "image/png",
+            "id" : "download_95"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/ssplayer/loading_white.gif",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/ssplayer/loading_white.gif",
+         "id" : "r99",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2191.49699993432,
+            "type" : "image/gif",
+            "id" : "download_96"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/hot_nav.png?a51de7a2d70b0aa7c03cc588b47112c8c814f1b6",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/hot_nav.png",
+         "id" : "r90",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2190.21999975666,
+            "type" : "image/png",
+            "id" : "download_97"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/smartling-arrow-down.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/smartling-arrow-down.png",
+         "id" : "r101",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2222.73599961773,
+            "type" : "image/png",
+            "id" : "download_98"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.slideshare.net/top_nav",
+         "path" : "/pages/slideshare.net/www.slideshare.net/top_nav/index.html",
+         "id" : "r100",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2173.55399997905,
+            "type" : "text/html",
+            "id" : "download_99"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js",
+         "path" : "/pages/slideshare.net/cdn.mxpnl.com/libs/mixpanel-2.2.min.js",
+         "id" : "r97",
+         "comps" : [
+            {
+               "s_time" : 2835.81599965692,
+               "time" : 45.8740000612997,
+               "id" : "comp_501",
+               "type" : null,
+               "e_time" : 2881.68999971822
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1891.92399987951,
+            "type" : "application/x-javascript",
+            "id" : "download_100"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js",
+         "path" : "/pages/xvideos.com/ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js",
+         "id" : "r102",
+         "comps" : [
+            {
+               "s_time" : 2556.59599974751,
+               "time" : 71.4950002729897,
+               "id" : "comp_473",
+               "type" : 2,
+               "e_time" : 2628.0910000205
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2349.18199991807,
+            "type" : "text/javascript",
+            "id" : "download_101"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/stylesheets/ssplayer/combined_presentation.css?71ab0d5ddd",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/stylesheets/ssplayer/combined_presentation.css",
+         "id" : "r103",
+         "comps" : [
+            {
+               "s_time" : 2640.73899993673,
+               "time" : 10.64499979839,
+               "id" : "comp_476",
+               "type" : 4,
+               "e_time" : 2651.38399973512
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2349.72199983895,
+            "type" : "text/css",
+            "id" : "download_102"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/ssplayer/combined_presentation.js?4ad810e74f",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/javascripts/ssplayer/combined_presentation.js",
+         "id" : "r104",
+         "comps" : [
+            {
+               "s_time" : 2652.86199981347,
+               "time" : 31.9699998945002,
+               "id" : "comp_479",
+               "type" : 1,
+               "e_time" : 2684.83199970797
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2350.13999976218,
+            "type" : "application/x-javascript",
+            "id" : "download_103"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=752146797&utmhn=www.slideshare.net&utme=8(member_type)9(LOGGEDOUT)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=935x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Upload%20%26%20Share%20PowerPoint%20presentations%2C%20documents%2C%20infographics&utmhid=1122756331&utmr=-&utmp=%2F&utmht=1378093939534&utmac=UA-2330466-1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qRAAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r105",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2454.54499963671,
+            "type" : "image/gif",
+            "id" : "download_104"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=2&utmn=969091995&utmhn=www.slideshare.net&utmt=event&utme=5(Pageload%20time*pageload*Chrome%2022%20on%20Mac)(1094)8(member_type)9(LOGGEDOUT)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=935x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Upload%20%26%20Share%20PowerPoint%20presentations%2C%20documents%2C%20infographics&utmhid=1122756331&utmr=-&utmp=%2F&utmht=1378093939559&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6RAAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r106",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2514.6189997904,
+            "type" : "image/gif",
+            "id" : "download_105"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=3&utmn=636459820&utmhn=www.slideshare.net&utmt=event&utme=5(homepage*pageload)8(member_type)9(LOGGEDOUT)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=935x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Upload%20%26%20Share%20PowerPoint%20presentations%2C%20documents%2C%20infographics&utmhid=1122756331&utmr=-&utmp=%2F&utmht=1378093939567&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6RAAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r107",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2515.3069999069,
+            "type" : "image/gif",
+            "id" : "download_106"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiIsIm1wX2Jyb3dzZXIiOiAiQ2hyb21lIiwibXBfcGxhdGZvcm0iOiAiTWFjIE9TIFgiLCJtcF9wYWdlIjogImh0dHA6Ly93d3cuc2xpZGVzaGFyZS5uZXQvIiwidG9rZW4iOiAiZGQ5ZjM5MzViOTliOGRiYjliNWU4NWE2YWY1NmI0NjMiLCJ0aW1lIjogMTM3ODA5MzkzOX19&ip=1&callback=mpq.metrics.jsonp_callback&_=1378093939592",
+         "path" : "/missing/api.mixpanel.com/track",
+         "id" : "r108",
+         "comps" : [
+            {
+               "s_time" : 3230.14199966565,
+               "time" : 0.490000005810089,
+               "id" : "comp_519",
+               "type" : null,
+               "e_time" : 3230.63199967146
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2511.02699991316,
+            "type" : "text/javascript",
+            "id" : "download_107"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://b.scorecardresearch.com/beacon.js",
+         "path" : "/pages/linkedin.com/b.scorecardresearch.com/beacon.js",
+         "id" : "r111",
+         "comps" : [
+            {
+               "s_time" : 3136.62299979478,
+               "time" : 6.89999992028015,
+               "id" : "comp_517",
+               "type" : null,
+               "e_time" : 3143.52299971506
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2632.23199965432,
+            "type" : "application/x-javascript",
+            "id" : "download_108"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/javascripts/ajax_signup.js?b5eca12f95&_=1378093939605",
+         "path" : "/missing/public.slidesharecdn.com/javascripts/ajax_signup.js",
+         "id" : "r109",
+         "comps" : [
+            {
+               "s_time" : 3230.66599993035,
+               "time" : 12.0139997452497,
+               "id" : "comp_522",
+               "type" : null,
+               "e_time" : 3242.6799996756
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2524.14799993858,
+            "type" : "application/x-javascript",
+            "id" : "download_109"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://image.slidesharecdn.com/design-at-the-edges-ux-design-for-developing-countries-130830013820-phpapp01/95/slide-1-638.jpg?1378001097",
+         "path" : "/missing/image.slidesharecdn.com/design-at-the-edges-ux-design-for-developing-countries-130830013820-phpapp01/95/slide-1-638.jpg",
+         "id" : "r114",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2690.4879999347,
+            "type" : "image/jpeg",
+            "id" : "download_110"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/ssplayer/loading_bigfoot.gif",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/ssplayer/loading_bigfoot.gif",
+         "id" : "r113",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2827.78099970892,
+            "type" : "image/gif",
+            "id" : "download_111"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/sprite-player.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/sprite-player.png",
+         "id" : "r115",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2828.96699989215,
+            "type" : "image/png",
+            "id" : "download_112"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://public.slidesharecdn.com/images/emailicon.png",
+         "path" : "/pages/slideshare.net/public.slidesharecdn.com/images/emailicon.png",
+         "id" : "r116",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2829.33499990031,
+            "type" : "image/png",
+            "id" : "download_113"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.slideshare.net/pingback/embed_or_homepageplayerhits/25741667?ref=http%3A%2F%2Fwww.slideshare.net%2F&_=1378093939804",
+         "path" : "/missing/www.slideshare.net/pingback/embed_or_homepageplayerhits/25741667",
+         "id" : "r117",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2727.53199981526,
+            "type" : "text/html",
+            "id" : "download_114"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=4&utmn=1175421267&utmhn=www.slideshare.net&utme=8(member_type*document_referrer)9(LOGGEDOUT*http%3A%2F%2Fwww.slideshare.net%2F)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=368x307&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Design%20at%20the%20Edges%20-%20UX%20Design%20for%20Developing%20Countries&utmhid=2097182694&utmr=0&utmp=%2FembedPlayerView&utmht=1378093940184&utmac=UA-2330466-1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qRCAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r120",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3103.79699990153,
+            "type" : "image/gif",
+            "id" : "download_115"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=5&utmn=544685322&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*slideshare*player_initialized)8(member_type*document_referrer)9(LOGGEDOUT*http%3A%2F%2Fwww.slideshare.net%2F)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=368x307&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Design%20at%20the%20Edges%20-%20UX%20Design%20for%20Developing%20Countries&utmhid=2097182694&utmr=0&utmp=%2Fslideshow%2Fembed_code%2F25741667%3FhostedIn%3Dslideshare%26page%3Dhomepage&utmht=1378093940202&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6RCAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r121",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3226.62899969146,
+            "type" : "image/gif",
+            "id" : "download_116"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=6&utmn=853461465&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*slideshare*presentation)8(member_type*document_referrer)9(LOGGEDOUT*http%3A%2F%2Fwww.slideshare.net%2F)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=368x307&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Design%20at%20the%20Edges%20-%20UX%20Design%20for%20Developing%20Countries&utmhid=2097182694&utmr=0&utmp=%2Fslideshow%2Fembed_code%2F25741667%3FhostedIn%3Dslideshare%26page%3Dhomepage&utmht=1378093940207&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6RCAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r122",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3227.28099999949,
+            "type" : "image/gif",
+            "id" : "download_117"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=7&utmn=793938110&utmhn=www.slideshare.net&utmt=event&utme=5(jsplayer*slideshare*image_mode)8(member_type*document_referrer)9(LOGGEDOUT*http%3A%2F%2Fwww.slideshare.net%2F)11(1)&utmcs=UTF-8&utmsr=2048x1152&utmvp=368x307&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Design%20at%20the%20Edges%20-%20UX%20Design%20for%20Developing%20Countries&utmhid=2097182694&utmr=0&utmp=%2Fslideshow%2Fembed_code%2F25741667%3FhostedIn%3Dslideshare%26page%3Dhomepage&utmht=1378093940214&utmac=UA-2330466-1&utmni=1&utmcc=__utma%3D186399478.873712446.1378093940.1378093940.1378093940.1%3B%2B__utmz%3D186399478.1378093940.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6RCAAC~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r123",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 3231.04999959469,
+            "type" : "image/gif",
+            "id" : "download_118"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_13"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_18"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_22"
+      },
+      {
+         "a2" : "r1_c7",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_25"
+      },
+      {
+         "a2" : "r1_c8",
+         "time" : -1,
+         "id" : "dep7",
+         "a1" : "comp_42"
+      },
+      {
+         "a2" : "r1_c9",
+         "time" : -1,
+         "id" : "dep8",
+         "a1" : "comp_57"
+      },
+      {
+         "a2" : "comp_13",
+         "time" : -1,
+         "id" : "dep9",
+         "a1" : "comp_11"
+      },
+      {
+         "a2" : "comp_18",
+         "time" : -1,
+         "id" : "dep10",
+         "a1" : "comp_16"
+      },
+      {
+         "a2" : "r88_c2",
+         "time" : -1,
+         "id" : "dep11",
+         "a1" : "comp_479"
+      },
+      {
+         "a2" : "download_118",
+         "time" : 0.383999664339626,
+         "id" : "dep12",
+         "a1" : "comp_522"
+      },
+      {
+         "a2" : "download_117",
+         "time" : 1342.58799999952,
+         "id" : "dep13",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_116",
+         "time" : 1341.93599969149,
+         "id" : "dep14",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_115",
+         "time" : 101.84600017965,
+         "id" : "dep15",
+         "a1" : "comp_511"
+      },
+      {
+         "a2" : "download_114",
+         "time" : 42.7000001072897,
+         "id" : "dep16",
+         "a1" : "r88_c2"
+      },
+      {
+         "a2" : "download_114",
+         "time" : 842.83899981529,
+         "id" : "dep17",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_113",
+         "time" : 944.64199990034,
+         "id" : "dep18",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_112",
+         "time" : 944.27399989218,
+         "id" : "dep19",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_111",
+         "time" : 943.08799970895,
+         "id" : "dep20",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 5.6560002267297,
+         "id" : "dep21",
+         "a1" : "r88_c2"
+      },
+      {
+         "a2" : "download_110",
+         "time" : 805.79499993473,
+         "id" : "dep22",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 179.58200024441,
+         "id" : "dep23",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_109",
+         "time" : 639.45499993861,
+         "id" : "dep24",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 287.66599996015,
+         "id" : "dep25",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_108",
+         "time" : 747.53899965435,
+         "id" : "dep26",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 166.46100021899,
+         "id" : "dep27",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_107",
+         "time" : 626.33399991319,
+         "id" : "dep28",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 170.74100021273,
+         "id" : "dep29",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_106",
+         "time" : 630.61399990693,
+         "id" : "dep30",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 170.05300009623,
+         "id" : "dep31",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_105",
+         "time" : 629.92599979043,
+         "id" : "dep32",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 109.97899994254,
+         "id" : "dep33",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_104",
+         "time" : 569.85199963674,
+         "id" : "dep34",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 5.57400006801026,
+         "id" : "dep35",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_103",
+         "time" : 465.44699976221,
+         "id" : "dep36",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 5.15600014478014,
+         "id" : "dep37",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_102",
+         "time" : 465.02899983898,
+         "id" : "dep38",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 4.61600022389985,
+         "id" : "dep39",
+         "a1" : "r88_c1"
+      },
+      {
+         "a2" : "download_101",
+         "time" : 464.4889999181,
+         "id" : "dep40",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_100",
+         "time" : 7.23099987953992,
+         "id" : "dep41",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_99",
+         "time" : 288.86099997908,
+         "id" : "dep42",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_98",
+         "time" : 338.04299961776,
+         "id" : "dep43",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_97",
+         "time" : 305.52699975669,
+         "id" : "dep44",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_96",
+         "time" : 306.80399993435,
+         "id" : "dep45",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_95",
+         "time" : 306.00899970159,
+         "id" : "dep46",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_94",
+         "time" : 306.41099996865,
+         "id" : "dep47",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_93",
+         "time" : 80.1079999655501,
+         "id" : "dep48",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_92",
+         "time" : 4.04399959369994,
+         "id" : "dep49",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_91",
+         "time" : 2.71999975665994,
+         "id" : "dep50",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_90",
+         "time" : 90.8299996517599,
+         "id" : "dep51",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_89",
+         "time" : 6.79699983447995,
+         "id" : "dep52",
+         "a1" : "r1_c9"
+      },
+      {
+         "a2" : "download_88",
+         "time" : 67.9469997994599,
+         "id" : "dep53",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_87",
+         "time" : 5.76399965210999,
+         "id" : "dep54",
+         "a1" : "r1_c8"
+      },
+      {
+         "a2" : "download_86",
+         "time" : -1,
+         "id" : "dep55",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_85",
+         "time" : -1,
+         "id" : "dep56",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_84",
+         "time" : -1,
+         "id" : "dep57",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_83",
+         "time" : -1,
+         "id" : "dep58",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_82",
+         "time" : -1,
+         "id" : "dep59",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_81",
+         "time" : 23.37100030854,
+         "id" : "dep60",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_80",
+         "time" : 22.991000209,
+         "id" : "dep61",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_79",
+         "time" : 22.50000042841,
+         "id" : "dep62",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_78",
+         "time" : 22.1130000427299,
+         "id" : "dep63",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_77",
+         "time" : 21.70800045132,
+         "id" : "dep64",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_76",
+         "time" : 21.31100045517,
+         "id" : "dep65",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 20.8000000566201,
+         "id" : "dep66",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 20.34000027925,
+         "id" : "dep67",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 19.96600022539,
+         "id" : "dep68",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 19.1150000318901,
+         "id" : "dep69",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 18.6070003546799,
+         "id" : "dep70",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 18.2330003008201,
+         "id" : "dep71",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 17.4690000712901,
+         "id" : "dep72",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 16.5870003402201,
+         "id" : "dep73",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 15.6080001033799,
+         "id" : "dep74",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 17.0800001360501,
+         "id" : "dep75",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 16.0780004225701,
+         "id" : "dep76",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 15.1560003869201,
+         "id" : "dep77",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 14.60500014946,
+         "id" : "dep78",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 13.7090003117901,
+         "id" : "dep79",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 14.1380000859501,
+         "id" : "dep80",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 12.79900036752,
+         "id" : "dep81",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 12.2110000811501,
+         "id" : "dep82",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 13.2330004125799,
+         "id" : "dep83",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 31.7409997806001,
+         "id" : "dep84",
+         "a1" : "r1_c7"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 11.7900003679101,
+         "id" : "dep85",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 11.37700024992,
+         "id" : "dep86",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 10.5489999987201,
+         "id" : "dep87",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 10.9620001167,
+         "id" : "dep88",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 10.0170001387601,
+         "id" : "dep89",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 9.61000006646009,
+         "id" : "dep90",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 9.20000020414,
+         "id" : "dep91",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 8.75800009816999,
+         "id" : "dep92",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 6.86000008136011,
+         "id" : "dep93",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 7.86000024526993,
+         "id" : "dep94",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 8.34300043061012,
+         "id" : "dep95",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 7.39000039174994,
+         "id" : "dep96",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_44",
+         "time" : 6.44200015812999,
+         "id" : "dep97",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 5.87700027972005,
+         "id" : "dep98",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 5.41800027712998,
+         "id" : "dep99",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 4.5980000868401,
+         "id" : "dep100",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 5.00300014390996,
+         "id" : "dep101",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_39",
+         "time" : 3.60700022429,
+         "id" : "dep102",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 4.18500043452013,
+         "id" : "dep103",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_37",
+         "time" : -1,
+         "id" : "dep104",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 43.7690000981099,
+         "id" : "dep105",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 40.9129997715399,
+         "id" : "dep106",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 42.8999997675401,
+         "id" : "dep107",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 43.3330000378201,
+         "id" : "dep108",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 41.30999976769,
+         "id" : "dep109",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 42.4839998595401,
+         "id" : "dep110",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 40.1229998096899,
+         "id" : "dep111",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 42.0920001342899,
+         "id" : "dep112",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 41.7059999890701,
+         "id" : "dep113",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 40.50899995491,
+         "id" : "dep114",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 37.7759998664301,
+         "id" : "dep115",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 39.7419999353599,
+         "id" : "dep116",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 39.2950000241399,
+         "id" : "dep117",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 38.9140001498199,
+         "id" : "dep118",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 38.5300000198199,
+         "id" : "dep119",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 38.1559999659701,
+         "id" : "dep120",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 35.0290001369999,
+         "id" : "dep121",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 37.3909999616499,
+         "id" : "dep122",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 35.4559998959301,
+         "id" : "dep123",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 35.8609999529999,
+         "id" : "dep124",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 36.61100007594,
+         "id" : "dep125",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 36.9959999807199,
+         "id" : "dep126",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 36.2419998273299,
+         "id" : "dep127",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_13",
+         "time" : -1,
+         "id" : "dep128",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 34.4259999692499,
+         "id" : "dep129",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 2.88099981844994,
+         "id" : "dep130",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 2.48799985274991,
+         "id" : "dep131",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 2.05799983814995,
+         "id" : "dep132",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 2.05799983814995,
+         "id" : "dep133",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_8",
+         "time" : -1,
+         "id" : "dep134",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 215.149000287056,
+         "id" : "dep135",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 10.202000383287,
+         "id" : "dep136",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 7.02799996361091,
+         "id" : "dep137",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 11.264000087976,
+         "id" : "dep138",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 11.9219999760389,
+         "id" : "dep139",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 15.9400003030889,
+         "id" : "dep140",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 15.9400003030889,
+         "id" : "dep141",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 4.58199996501196,
+         "id" : "dep142",
+         "a1" : "r1_c1"
+      }
+   ]
+}

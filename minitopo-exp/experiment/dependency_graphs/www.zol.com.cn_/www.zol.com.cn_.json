@@ -1,0 +1,1589 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "www.zol.com.cn_",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.zol.com.cn/",
+         "path" : "/missing/www.zol.com.cn",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 648.202999960631,
+               "time" : 1958.90100020915,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 2607.10400016978
+            },
+            {
+               "s_time" : 4347.46199985966,
+               "time" : 0.08600018918969,
+               "type" : "evalhtml",
+               "id" : "r1_c2",
+               "e_time" : 4347.54800004885
+            },
+            {
+               "s_time" : 4351.79700003937,
+               "time" : 152.6199998334,
+               "type" : "evalhtml",
+               "id" : "r1_c3",
+               "e_time" : 4504.41699987277
+            },
+            {
+               "s_time" : 4505.60599984601,
+               "time" : 5.39400009439032,
+               "type" : "evalhtml",
+               "id" : "r1_c4",
+               "e_time" : 4510.9999999404
+            },
+            {
+               "s_time" : 5313.89199988917,
+               "time" : 3.18700028583044,
+               "type" : "evalhtml",
+               "id" : "r1_c5",
+               "e_time" : 5317.079000175
+            },
+            {
+               "s_time" : 5320.0759999454,
+               "time" : 1949.90300014615,
+               "id" : "r1_c6",
+               "type" : "evalhtml",
+               "e_time" : 7269.97900009155
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 0,
+            "type" : "text/html",
+            "id" : "download_0"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2c.zol-img.com.cn/article/9_60x45/864/li7lO8sQngOLg.jpg",
+         "path" : "/missing/2c.zol-img.com.cn/article/9_60x45/864/li7lO8sQngOLg.jpg",
+         "id" : "r9",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 973.569999914616,
+            "type" : "image/jpeg",
+            "id" : "download_1"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2f.zol-img.com.cn/article/9_60x45/765/liNzZhLPFM2I.jpg",
+         "path" : "/missing/2f.zol-img.com.cn/article/9_60x45/765/liNzZhLPFM2I.jpg",
+         "id" : "r10",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 973.976000212133,
+            "type" : "image/jpeg",
+            "id" : "download_2"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2a.zol-img.com.cn/article/9_100x75/794/lig3kHbBUT3.jpg",
+         "path" : "/missing/2a.zol-img.com.cn/article/9_100x75/794/lig3kHbBUT3.jpg",
+         "id" : "r25",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2357.57600003853,
+            "type" : "image/jpeg",
+            "id" : "download_3"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2a.zol-img.com.cn/article/9_60x45/868/lienGPvp6wNjo.jpg",
+         "path" : "/missing/2a.zol-img.com.cn/article/9_60x45/868/lienGPvp6wNjo.jpg",
+         "id" : "r7",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 972.7389998734,
+            "type" : "image/jpeg",
+            "id" : "download_4"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2f.zol-img.com.cn/article/9_60x45/849/likspKrJJxVA.jpg",
+         "path" : "/missing/2f.zol-img.com.cn/article/9_60x45/849/likspKrJJxVA.jpg",
+         "id" : "r11",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1004.87100007012,
+            "type" : "image/jpeg",
+            "id" : "download_5"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2c.zol-img.com.cn/article/9_100x75/648/liQeGEuMoKT1U.jpg",
+         "path" : "/missing/2c.zol-img.com.cn/article/9_100x75/648/liQeGEuMoKT1U.jpg",
+         "id" : "r19",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1837.66200020909,
+            "type" : "image/jpeg",
+            "id" : "download_6"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2c.zol-img.com.cn/article/9_100x75/186/libYauTMc6HCg.jpg",
+         "path" : "/missing/2c.zol-img.com.cn/article/9_100x75/186/libYauTMc6HCg.jpg",
+         "id" : "r22",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1838.29599991441,
+            "type" : "image/jpeg",
+            "id" : "download_7"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/site-nav.png",
+         "path" : "/missing/icon.zol-img.com.cn/2013/site-nav.png",
+         "id" : "r2",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 958.089000079781,
+            "type" : "image/png",
+            "id" : "download_8"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/mainpage-logo-2013.png",
+         "path" : "/missing/icon.zol-img.com.cn/2013/mainpage-logo-2013.png",
+         "id" : "r3",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1003.62000009045,
+            "type" : "image/png",
+            "id" : "download_9"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/index-icon-20130527.png",
+         "path" : "/missing/icon.zol-img.com.cn/2013/index-icon-20130527.png",
+         "id" : "r4",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1004.06400021166,
+            "type" : "image/png",
+            "id" : "download_10"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/mainpage/js/click.js?1",
+         "path" : "/missing/icon.zol-img.com.cn/mainpage/js/click.js",
+         "id" : "r40",
+         "comps" : [
+            {
+               "s_time" : 4504.45900019258,
+               "time" : 1.1469996534297,
+               "id" : "comp_72",
+               "type" : 1,
+               "e_time" : 4505.60599984601
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2511.64899999276,
+            "type" : "application/x-javascript",
+            "id" : "download_11"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/mainpage/js/index2013.js?20130828",
+         "path" : "/missing/icon.zol-img.com.cn/mainpage/js/index2013.js",
+         "id" : "r39",
+         "comps" : [
+            {
+               "s_time" : 4347.59700018913,
+               "time" : 4.19999985023969,
+               "id" : "comp_62",
+               "type" : 1,
+               "e_time" : 4351.79700003937
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2510.84299990907,
+            "type" : "application/x-javascript",
+            "id" : "download_12"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2e.zol-img.com.cn/article/9_60x45/902/lib1lMFdmpuJo.jpg",
+         "path" : "/missing/2e.zol-img.com.cn/article/9_60x45/902/lib1lMFdmpuJo.jpg",
+         "id" : "r8",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 973.154000006616,
+            "type" : "image/jpeg",
+            "id" : "download_13"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2e.zol-img.com.cn/article/9_100x75/846/liEa1kffFXbgQ.jpg",
+         "path" : "/missing/2e.zol-img.com.cn/article/9_100x75/846/liEa1kffFXbgQ.jpg",
+         "id" : "r24",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1835.17999993637,
+            "type" : "image/jpeg",
+            "id" : "download_14"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2e.zol-img.com.cn/article/9_100x75/506/licKN9PGJ0fxE.jpg",
+         "path" : "/missing/2e.zol-img.com.cn/article/9_100x75/506/licKN9PGJ0fxE.jpg",
+         "id" : "r17",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1834.55300005153,
+            "type" : "image/jpeg",
+            "id" : "download_15"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2d.zol-img.com.cn/article/9_100x75/403/li4vleuK381Uw.jpg",
+         "path" : "/missing/2d.zol-img.com.cn/article/9_100x75/403/li4vleuK381Uw.jpg",
+         "id" : "r20",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1835.80000000075,
+            "type" : "image/jpeg",
+            "id" : "download_16"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2d.zol-img.com.cn/article/9_60x45/955/liCf0gPcwZf8c.jpg",
+         "path" : "/missing/2d.zol-img.com.cn/article/9_60x45/955/liCf0gPcwZf8c.jpg",
+         "id" : "r6",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 971.843000035733,
+            "type" : "image/jpeg",
+            "id" : "download_17"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/public/js/jquery-1.6.1.min.js",
+         "path" : "/missing/icon.zol-img.com.cn/public/js/jquery-1.6.1.min.js",
+         "id" : "r38",
+         "comps" : [
+            {
+               "s_time" : 4269.13399994373,
+               "time" : 78.3279999159304,
+               "id" : "comp_54",
+               "type" : 1,
+               "e_time" : 4347.46199985966
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2509.60800005123,
+            "type" : "application/x-javascript",
+            "id" : "download_18"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2d.zol-img.com.cn/article/9_100x75/133/liNFkZWQssZNM.jpg",
+         "path" : "/missing/2d.zol-img.com.cn/article/9_100x75/133/liNFkZWQssZNM.jpg",
+         "id" : "r21",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1836.42600011081,
+            "type" : "image/jpeg",
+            "id" : "download_19"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/09/1378041401.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/09/1378041401.jpg",
+         "id" : "r15",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1508.73599993065,
+            "type" : "image/jpeg",
+            "id" : "download_20"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377742221.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377742221.jpg",
+         "id" : "r26",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2358.01299987361,
+            "type" : "image/jpeg",
+            "id" : "download_21"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1376532984.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1376532984.jpg",
+         "id" : "r29",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2359.36400014907,
+            "type" : "image/jpeg",
+            "id" : "download_22"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377250913.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377250913.jpg",
+         "id" : "r27",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2358.57699997723,
+            "type" : "image/jpeg",
+            "id" : "download_23"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/2013/08/au_647_5214864ed7e3508_soft_css.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/2013/08/au_647_5214864ed7e3508_soft_css.jpg",
+         "id" : "r13",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1500.30600000173,
+            "type" : "image/jpeg",
+            "id" : "download_24"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377572897.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377572897.jpg",
+         "id" : "r28",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2358.96900016814,
+            "type" : "image/jpeg",
+            "id" : "download_25"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1376044454.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1376044454.jpg",
+         "id" : "r30",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2359.72400009632,
+            "type" : "image/jpeg",
+            "id" : "download_26"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/2013/08/au_810_5214864f2e77f08_soft_css.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/2013/08/au_810_5214864f2e77f08_soft_css.jpg",
+         "id" : "r14",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1837.04600017518,
+            "type" : "image/jpeg",
+            "id" : "download_27"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2b.zol-img.com.cn/article/9_100x75/825/lidaiO3tM9VM6.jpg",
+         "path" : "/missing/2b.zol-img.com.cn/article/9_100x75/825/lidaiO3tM9VM6.jpg",
+         "id" : "r23",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1832.48100010678,
+            "type" : "image/jpeg",
+            "id" : "download_28"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2b.zol-img.com.cn/article/9_100x75/413/lioQTGVlyuzkg.jpg",
+         "path" : "/missing/2b.zol-img.com.cn/article/9_100x75/413/lioQTGVlyuzkg.jpg",
+         "id" : "r18",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1530.08100017905,
+            "type" : "image/jpeg",
+            "id" : "download_29"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/nav-icon.jpg",
+         "path" : "/missing/icon.zol-img.com.cn/2013/nav-icon.jpg",
+         "id" : "r5",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1004.46399999782,
+            "type" : "image/jpeg",
+            "id" : "download_30"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2012/p_brand.png",
+         "path" : "/missing/icon.zol-img.com.cn/2012/p_brand.png",
+         "id" : "r12",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1833.23600003496,
+            "type" : "image/png",
+            "id" : "download_31"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/footer.png",
+         "path" : "/missing/icon.zol-img.com.cn/2013/footer.png",
+         "id" : "r35",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2606.10300023109,
+            "type" : "image/png",
+            "id" : "download_32"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/new_icon.png",
+         "path" : "/missing/icon.zol-img.com.cn/2013/new_icon.png",
+         "id" : "r16",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1833.92200013623,
+            "type" : "image/png",
+            "id" : "download_33"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2011/police_0414.gif",
+         "path" : "/missing/icon.zol-img.com.cn/2011/police_0414.gif",
+         "id" : "r36",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2606.66499985382,
+            "type" : "image/gif",
+            "id" : "download_34"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://js.zol.com.cn/pv.js",
+         "path" : "/missing/js.zol.com.cn/pv.js",
+         "id" : "r41",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2512.32200022787,
+            "type" : "application/javascript",
+            "id" : "download_35"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picb.zol-img.com.cn/2013/08/1376881270.jpg",
+         "path" : "/missing/picb.zol-img.com.cn/2013/08/1376881270.jpg",
+         "id" : "r32",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 1840.74900019914,
+            "type" : "image/jpeg",
+            "id" : "download_36"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picb.zol-img.com.cn/2013/08/1376881236.jpg",
+         "path" : "/missing/picb.zol-img.com.cn/2013/08/1376881236.jpg",
+         "id" : "r33",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2360.85500009358,
+            "type" : "image/jpeg",
+            "id" : "download_37"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dw.cbsi.com.cn/js/dw.js",
+         "path" : "/missing/dw.cbsi.com.cn/js/dw.js",
+         "id" : "r42",
+         "comps" : [
+            {
+               "s_time" : 5316.69399980456,
+               "time" : 3.38200014084032,
+               "id" : "comp_83",
+               "type" : 1,
+               "e_time" : 5320.0759999454
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2512.70500011742,
+            "type" : "application/javascript",
+            "id" : "download_38"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://icon.zol-img.com.cn/2013/weixin.jpg",
+         "path" : "/missing/icon.zol-img.com.cn/2013/weixin.jpg",
+         "id" : "r37",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2607.10400016978,
+            "type" : "image/jpeg",
+            "id" : "download_39"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1376532074.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1376532074.jpg",
+         "id" : "r31",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2360.08200002834,
+            "type" : "image/jpeg",
+            "id" : "download_40"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377656557.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377656557.jpg",
+         "id" : "r34",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 2360.47200020403,
+            "type" : "image/jpeg",
+            "id" : "download_41"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://zdw.w8.com.cn/p.ht?h=&t=1378095963506791&c=",
+         "path" : "/missing/zdw.w8.com.cn/p.ht",
+         "id" : "r43",
+         "comps" : [
+            {
+               "s_time" : 5305.88500015438,
+               "time" : 8.00699973479004,
+               "id" : "comp_79",
+               "type" : 1,
+               "e_time" : 5313.89199988917
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 4510.9999999404,
+            "type" : "application/x-javascript",
+            "id" : "download_42"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/dot.gif",
+         "path" : "/missing/pic.zol-img.com.cn/dot.gif",
+         "id" : "r44",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5314.60099993274,
+            "type" : "image/gif",
+            "id" : "download_43"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/ga.js",
+         "path" : "/pages/linkedin.com/www.google-analytics.com/ga.js",
+         "id" : "r46",
+         "comps" : [
+            {
+               "s_time" : 5940.73199992999,
+               "time" : 62.4110000208102,
+               "id" : "comp_106",
+               "type" : 2,
+               "e_time" : 6003.1429999508
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5317.079000175,
+            "type" : "text/javascript",
+            "id" : "download_44"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pv.zol.com.cn/images/pvhit0001.gif?t=1378095963506791&subcat=0&vuserid=&&ip_ck=5s+C4PP1j7QuMTgzNzkyLjEzNzgwOTU5NjQ=&lv=1378095964&vn=1&sr=2048x1152&sc=24&fl=11.8&ti=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%20-%20%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%8C%BA%E6%9C%80%E5%85%B7%E5%95%86%E4%B8%9A%E4%BB%B7%E5%80%BC%E7%9A%84IT%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99%20-%20The%20most%20valuable%20and%20professional%20IT%20business%20website%20in%20Greater%20China&se=932f255477a3c70d0619fcff8a108401&uv=128.208.4.212&cv=&zmac=0&manuid=0&ldt=6485&mzcv=&mztext=&third_ip_ck=5s+C4PP1j7QuMTgzNzkyLjEzNzgwOTU5NjQ=",
+         "path" : "/missing/pv.zol.com.cn/images/pvhit0001.gif",
+         "id" : "r45",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5315.21699996665,
+            "type" : "image/gif",
+            "id" : "download_45"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://imp.zol.com.cn/imphit0001.gif?impid=smcmp1&barid=71037&type=1&tmp=1378095964332",
+         "path" : "/missing/imp.zol.com.cn/imphit0001.gif",
+         "id" : "r48",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5334.3500001356,
+            "type" : "image/gif",
+            "id" : "download_46"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://www.google-analytics.com/__utm.gif?utmwv=5.4.4&utms=1&utmn=1448486131&utmhn=www.zol.com.cn&utmcs=GBK&utmsr=2048x1152&utmvp=937x999&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%20-%20%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%8C%BA%E6%9C%80%E5%85%B7%E5%95%86%E4%B8%9A%E4%BB%B7%E5%80%BC%E7%9A%84IT%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99%20-%20The%20most%20valuable%20and%20professional%20IT%20business%20website%20in%20Greater%20China&utmhid=331306985&utmr=-&utmp=%2F&utmht=1378095964995&utmac=UA-5405767-1&utmcc=__utma%3D139727160.2095675866.1378095965.1378095965.1378095965.1%3B%2B__utmz%3D139727160.1378095965.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=q~",
+         "path" : "/missing/www.google-analytics.com/__utm.gif",
+         "id" : "r73",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5999.46400010958,
+            "type" : "image/gif",
+            "id" : "download_47"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picb.zol-img.com.cn/2013/09/1378028519.jpg",
+         "path" : "/missing/picb.zol-img.com.cn/2013/09/1378028519.jpg",
+         "id" : "r55",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5902.89699984714,
+            "type" : "image/jpeg",
+            "id" : "download_48"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377856560.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377856560.jpg",
+         "id" : "r62",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5912.30899980292,
+            "type" : "image/jpeg",
+            "id" : "download_49"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picb.zol-img.com.cn/2013/09/1378028872.jpg",
+         "path" : "/missing/picb.zol-img.com.cn/2013/09/1378028872.jpg",
+         "id" : "r56",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5914.45600008592,
+            "type" : "image/jpeg",
+            "id" : "download_50"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://ca.cbsi.com.cn/rpv?s=zol&on=zol&id=71037&tmp=1378095964332",
+         "path" : "/missing/ca.cbsi.com.cn/rpv",
+         "id" : "r49",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5338.99800013751,
+            "type" : "text/html",
+            "id" : "download_51"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201308/qch63995hp760_0831.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201308/qch63995hp760_0831.jpg",
+         "id" : "r51",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5919.36600022018,
+            "type" : "image/jpeg",
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201308/gt63838hp100_0830.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201308/gt63838hp100_0830.jpg",
+         "id" : "r52",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5919.74999988452,
+            "type" : "image/jpeg",
+            "id" : "download_53"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377856418.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377856418.jpg",
+         "id" : "r63",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5921.30000004545,
+            "type" : "image/jpeg",
+            "id" : "download_54"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/08/1377856396.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/08/1377856396.jpg",
+         "id" : "r64",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5921.69999983162,
+            "type" : "image/jpeg",
+            "id" : "download_55"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://dw.cbsi.com.cn/clear/redx/c.gif?ts=1378095964320&sid=73&ld=www.zol.com.cn&ldc=eeaafd73-b17f-4a4e-9ce3-76e166f8386f&brflv=11.8.800&brwinsz=952x1014&brscrsz=2048x1152&brlang=en-US&tcset=utf8&im=dwjs&srcurl=http%3A%2F%2Fwww.zol.com.cn%2F&title=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%20-%20%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%8C%BA%E6%9C%80%E5%85%B7%E5%95%86%E4%B8%9A%E4%BB%B7%E5%80%BC%E7%9A%84IT%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99%20-%20The%20most%20valuable%20and%20professional%20IT%20business%20website%20in%20Greater%20China",
+         "path" : "/missing/dw.cbsi.com.cn/clear/redx/c.gif",
+         "id" : "r47",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5938.37899994105,
+            "type" : "image/gif",
+            "id" : "download_56"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picb.zol-img.com.cn/2013/08/1377855764.jpg",
+         "path" : "/missing/picb.zol-img.com.cn/2013/08/1377855764.jpg",
+         "id" : "r57",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5915.12000001967,
+            "type" : "image/jpeg",
+            "id" : "download_57"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201304/sliderad3e_0428.swf",
+         "path" : "/missing/pic.zol-img.com.cn/201304/sliderad3e_0428.swf",
+         "id" : "r68",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5940.83200022578,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_58"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201304/sliderad3e_0428.swf",
+         "path" : "/missing/pic.zol-img.com.cn/201304/sliderad3e_0428.swf",
+         "id" : "r66",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5940.37800002843,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_59"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201309/mic62743hp760tt_0902.swf",
+         "path" : "/missing/pic.zol-img.com.cn/201309/mic62743hp760tt_0902.swf",
+         "id" : "r70",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5941.21300010011,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_60"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201309/mic62743hpcarzy_c_0902.swf",
+         "path" : "/missing/pic.zol-img.com.cn/201309/mic62743hpcarzy_c_0902.swf",
+         "id" : "r72",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5941.58399989828,
+            "type" : "application/x-shockwave-flash",
+            "id" : "download_61"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picc.zol-img.com.cn/2013/09/1377966382.jpg",
+         "path" : "/missing/picc.zol-img.com.cn/2013/09/1377966382.jpg",
+         "id" : "r74",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6197.77600001544,
+            "type" : "image/jpeg",
+            "id" : "download_62"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pica.zol-img.com.cn/2013/09/1378028004.jpg",
+         "path" : "/missing/pica.zol-img.com.cn/2013/09/1378028004.jpg",
+         "id" : "r59",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5905.29499994591,
+            "type" : "image/jpeg",
+            "id" : "download_63"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pica.zol-img.com.cn/2013/09/1378089189.jpg",
+         "path" : "/missing/pica.zol-img.com.cn/2013/09/1378089189.jpg",
+         "id" : "r60",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5918.92800014466,
+            "type" : "image/jpeg",
+            "id" : "download_64"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://picf.zol-img.com.cn/2013/08/1377848549.jpg",
+         "path" : "/missing/picf.zol-img.com.cn/2013/08/1377848549.jpg",
+         "id" : "r61",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5906.91100014374,
+            "type" : "image/jpeg",
+            "id" : "download_65"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://intf.zol.com.cn/intf_ip/get_ip2py.php?jsname=locale_ip_city&jsshen=locale_ip_province&_=1378095964871",
+         "path" : "/missing/intf.zol.com.cn/intf_ip/get_ip2py.php",
+         "id" : "r50",
+         "comps" : [
+            {
+               "s_time" : 6762.51000026241,
+               "time" : 0.401999801400052,
+               "id" : "comp_136",
+               "type" : 2,
+               "e_time" : 6762.91200006381
+            }
+         ],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5879.78400010616,
+            "type" : "text/html",
+            "id" : "download_66"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201308/gt63838hp20_0830.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201308/gt63838hp20_0830.jpg",
+         "id" : "r53",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5920.14499986544,
+            "type" : "image/jpeg",
+            "id" : "download_67"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201308/lg63602hp430_0819.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201308/lg63602hp430_0819.jpg",
+         "id" : "r54",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5920.52299994975,
+            "type" : "image/jpeg",
+            "id" : "download_68"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pvm.zol.com.cn/images/pvhit0001.gif?t=1378095963506791&subcat=0&vuserid=&&ip_ck=5s+C4PP1j7QuMTgzNzkyLjEzNzgwOTU5NjQ=&lv=1378095964&vn=1&sr=2048x1152&sc=24&fl=11.8&ti=%E4%B8%AD%E5%85%B3%E6%9D%91%E5%9C%A8%E7%BA%BF%20-%20%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%8C%BA%E6%9C%80%E5%85%B7%E5%95%86%E4%B8%9A%E4%BB%B7%E5%80%BC%E7%9A%84IT%E4%B8%93%E4%B8%9A%E7%BD%91%E7%AB%99%20-%20The%20most%20valuable%20and%20professional%20IT%20business%20website%20in%20Greater%20China&se=932f255477a3c70d0619fcff8a108401&uv=128.208.4.212&cv=&zmac=0&manuid=0&ldt=6485&mzcv=&mztext=&third_ip_ck=5s+C4PP1j7QuMTgzNzkyLjEzNzgwOTU5NjQ=",
+         "path" : "/missing/pvm.zol.com.cn/images/pvhit0001.gif",
+         "id" : "r75",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6261.30399992689,
+            "type" : "image/gif",
+            "id" : "download_69"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201309/sam59810hp250_0902.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201309/sam59810hp250_0902.jpg",
+         "id" : "r58",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 5920.91599991545,
+            "type" : "image/jpeg",
+            "id" : "download_70"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.zol.com.cn/statics/all_price_article/locale_city_right_beijingshi_2013.html",
+         "path" : "/missing/www.zol.com.cn/statics/all_price_article/locale_city_right_beijingshi_2013.html",
+         "id" : "r77",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6779.18499987572,
+            "type" : "text/html",
+            "id" : "download_71"
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "url" : "http://www.zol.com.cn/statics/all_price_article/locale_city_beijingshi_2013.html",
+         "path" : "/missing/www.zol.com.cn/statics/all_price_article/locale_city_beijingshi_2013.html",
+         "id" : "r76",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 6778.55300018564,
+            "type" : "text/html",
+            "id" : "download_72"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201306/zol14590righta_0627.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201306/zol14590righta_0627.jpg",
+         "id" : "r81",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7254.62700007483,
+            "type" : "image/jpeg",
+            "id" : "download_73"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://pic.zol-img.com.cn/201308/zol14590right_0808.jpg",
+         "path" : "/missing/pic.zol-img.com.cn/201308/zol14590right_0808.jpg",
+         "id" : "r79",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7254.20199986547,
+            "type" : "image/jpeg",
+            "id" : "download_74"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://2e.zol-img.com.cn/article/9_150x118/384/liGWz62vLwkVs.jpg",
+         "path" : "/missing/2e.zol-img.com.cn/article/9_150x118/384/liGWz62vLwkVs.jpg",
+         "id" : "r86",
+         "comps" : [],
+         "host" : "ultralisk.cs.washington.edu",
+         "download" : {
+            "s_time" : 7269.86399991438,
+            "type" : "image/jpeg",
+            "id" : "download_75"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "deps" : [
+      {
+         "a2" : "r1_c2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "comp_54"
+      },
+      {
+         "a2" : "r1_c3",
+         "time" : -1,
+         "id" : "dep2",
+         "a1" : "comp_62"
+      },
+      {
+         "a2" : "r1_c4",
+         "time" : -1,
+         "id" : "dep3",
+         "a1" : "comp_72"
+      },
+      {
+         "a2" : "r1_c5",
+         "time" : -1,
+         "id" : "dep4",
+         "a1" : "comp_79"
+      },
+      {
+         "a2" : "r1_c6",
+         "time" : -1,
+         "id" : "dep5",
+         "a1" : "comp_83"
+      },
+      {
+         "a2" : "comp_62",
+         "time" : -1,
+         "id" : "dep6",
+         "a1" : "comp_54"
+      },
+      {
+         "a2" : "download_75",
+         "time" : 1949.78799996898,
+         "id" : "dep7",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_74",
+         "time" : 1934.12599992007,
+         "id" : "dep8",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_73",
+         "time" : 1934.55100012943,
+         "id" : "dep9",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_72",
+         "time" : 1458.47700024024,
+         "id" : "dep10",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_71",
+         "time" : 1459.10899993032,
+         "id" : "dep11",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_70",
+         "time" : 600.83999997005,
+         "id" : "dep12",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_69",
+         "time" : 941.22799998149,
+         "id" : "dep13",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_68",
+         "time" : 600.447000004349,
+         "id" : "dep14",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_67",
+         "time" : 600.068999920039,
+         "id" : "dep15",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_66",
+         "time" : 559.70800016076,
+         "id" : "dep16",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_65",
+         "time" : 586.83500019834,
+         "id" : "dep17",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_64",
+         "time" : 598.852000199259,
+         "id" : "dep18",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_63",
+         "time" : 585.219000000509,
+         "id" : "dep19",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_62",
+         "time" : 877.70000007004,
+         "id" : "dep20",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_61",
+         "time" : 621.50799995288,
+         "id" : "dep21",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_60",
+         "time" : 621.137000154709,
+         "id" : "dep22",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_59",
+         "time" : 620.302000083029,
+         "id" : "dep23",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_58",
+         "time" : 620.756000280379,
+         "id" : "dep24",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_57",
+         "time" : 595.04400007427,
+         "id" : "dep25",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_56",
+         "time" : 618.30299999565,
+         "id" : "dep26",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_55",
+         "time" : 601.623999886219,
+         "id" : "dep27",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_54",
+         "time" : 601.22400010005,
+         "id" : "dep28",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_53",
+         "time" : 599.673999939119,
+         "id" : "dep29",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_52",
+         "time" : 599.290000274779,
+         "id" : "dep30",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_51",
+         "time" : 18.9220001921094,
+         "id" : "dep31",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_50",
+         "time" : 594.38000014052,
+         "id" : "dep32",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_49",
+         "time" : 592.23299985752,
+         "id" : "dep33",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_48",
+         "time" : 582.82099990174,
+         "id" : "dep34",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_47",
+         "time" : 679.38800016418,
+         "id" : "dep35",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_46",
+         "time" : 14.2740001901993,
+         "id" : "dep36",
+         "a1" : "r1_c6"
+      },
+      {
+         "a2" : "download_45",
+         "time" : 1.32500007748058,
+         "id" : "dep37",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_44",
+         "time" : -1,
+         "id" : "dep38",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_43",
+         "time" : 0.709000043570086,
+         "id" : "dep39",
+         "a1" : "r1_c5"
+      },
+      {
+         "a2" : "download_42",
+         "time" : -1,
+         "id" : "dep40",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_42",
+         "time" : 5.39400009439032,
+         "id" : "dep41",
+         "a1" : "r1_c4"
+      },
+      {
+         "a2" : "download_41",
+         "time" : 1712.2690002434,
+         "id" : "dep42",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_40",
+         "time" : 1711.87900006771,
+         "id" : "dep43",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_39",
+         "time" : -1,
+         "id" : "dep44",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_38",
+         "time" : 1864.50200015679,
+         "id" : "dep45",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_37",
+         "time" : 1712.65200013295,
+         "id" : "dep46",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_36",
+         "time" : 1192.54600023851,
+         "id" : "dep47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_35",
+         "time" : 1864.11900026724,
+         "id" : "dep48",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "time" : 1958.46199989319,
+         "id" : "dep49",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_33",
+         "time" : 1185.7190001756,
+         "id" : "dep50",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_32",
+         "time" : 1957.90000027046,
+         "id" : "dep51",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_31",
+         "time" : 1185.03300007433,
+         "id" : "dep52",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_30",
+         "time" : 356.261000037189,
+         "id" : "dep53",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_29",
+         "time" : 881.878000218419,
+         "id" : "dep54",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_28",
+         "time" : 1184.27800014615,
+         "id" : "dep55",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_27",
+         "time" : 1188.84300021455,
+         "id" : "dep56",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_26",
+         "time" : 1711.52100013569,
+         "id" : "dep57",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_25",
+         "time" : 1710.76600020751,
+         "id" : "dep58",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_24",
+         "time" : 852.103000041099,
+         "id" : "dep59",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_23",
+         "time" : 1710.3740000166,
+         "id" : "dep60",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_22",
+         "time" : 1711.16100018844,
+         "id" : "dep61",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_21",
+         "time" : 1709.80999991298,
+         "id" : "dep62",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "time" : 860.532999970019,
+         "id" : "dep63",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_19",
+         "time" : 1188.22300015018,
+         "id" : "dep64",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_18",
+         "time" : 1861.4050000906,
+         "id" : "dep65",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "time" : 323.640000075102,
+         "id" : "dep66",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_16",
+         "time" : 1187.59700004012,
+         "id" : "dep67",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_15",
+         "time" : 1186.3500000909,
+         "id" : "dep68",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_14",
+         "time" : 1186.97699997574,
+         "id" : "dep69",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_13",
+         "time" : 324.951000045985,
+         "id" : "dep70",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_12",
+         "time" : 1862.63999994844,
+         "id" : "dep71",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_11",
+         "time" : 1863.44600003213,
+         "id" : "dep72",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_10",
+         "time" : 355.861000251029,
+         "id" : "dep73",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_9",
+         "time" : 355.417000129819,
+         "id" : "dep74",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_8",
+         "time" : 309.88600011915,
+         "id" : "dep75",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_7",
+         "time" : 1190.09299995378,
+         "id" : "dep76",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_6",
+         "time" : 1189.45900024846,
+         "id" : "dep77",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_5",
+         "time" : 356.668000109489,
+         "id" : "dep78",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_4",
+         "time" : 324.535999912769,
+         "id" : "dep79",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_3",
+         "time" : 1709.3730000779,
+         "id" : "dep80",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_2",
+         "time" : 325.773000251502,
+         "id" : "dep81",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 325.366999953985,
+         "id" : "dep82",
+         "a1" : "r1_c1"
+      }
+   ]
+}
