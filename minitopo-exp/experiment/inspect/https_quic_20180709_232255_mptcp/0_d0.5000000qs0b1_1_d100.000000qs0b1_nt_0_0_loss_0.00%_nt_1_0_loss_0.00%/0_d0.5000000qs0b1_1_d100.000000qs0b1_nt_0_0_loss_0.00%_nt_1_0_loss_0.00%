@@ -1,8 +1,0 @@
-leftSubnet:10.0.
-rightSubnet:10.1.
-topoType:MultiIf
-path_0:0.5000000,10,1,0.0
-path_1:100.000000,17,1,0.0
-changeNetem:yes
-netemAt_0:0,loss 0.00%
-netemAt_1:0,loss 0.00%

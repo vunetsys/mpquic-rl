@@ -1,7 +1,0 @@
-Bandwidth RTT       Website Scheduler Page Load Time Render Time Object Index  Folder
-1.000000 20.000000 www.bing.com_    none    0.124991    -9223372036.85 0.051587  https_quic_20191011_163902_mptcp
-1.000000 20.000000 www.bing.com_    none    0.124868    -9223372036.85 0.051633  https_quic_20191011_164043_mptcp
-1.000000 20.000000 www.bing.com_    none    0.391854    -9223372036.85 0.061443  https_quic_20191011_164252_mptcp
-1.000000 20.000000 www.bing.com_    none    0.155811    -9223372036.85 0.067031  https_quic_20191011_183430_mptcp
-1.000000 20.000000 www.bing.com_    none    0.127966    -9223372036.85 0.052691  https_quic_20191011_183526_mptcp
-1.000000 20.000000 www.bing.com_    none    0.124594    -9223372036.85 0.051227  https_quic_20191011_183603_mptcp
