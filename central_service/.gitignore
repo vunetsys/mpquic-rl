@@ -147,6 +147,7 @@ static
 logs/
 results/
 environment/dependency_graphs/
+topos.json
 
 # VsCode
 .vscode/

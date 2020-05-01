@@ -58,14 +58,25 @@ def environment(stop_env: mp.Event, times=5):
             logger.error(ex)
             break
         time.sleep(0.1)
+
+    if not stop_env.is_set():
+        stop_env.set()
     env.close()
 
 # Return all useful variables all at once
 def getTrainingVariables(request):
-    return request['Path1']['SmoothedRTT'], request['Path1']['Bandwidth'], request['Path1']['Packets'], \
-        request['Path1']['Retransmissions'], request['Path1']['Losses'], \
-        request['Path2']['SmoothedRTT'], request['Path2']['Bandwidth'], request['Path2']['Packets'], \
-        request['Path2']['Retransmissions'], request['Path2']['Losses']
+    # This might come in random order
+    # Check and reverse them
+    if request['Path1']['PathID'] == 1:
+        return request['Path1']['SmoothedRTT'], request['Path1']['Bandwidth'], request['Path1']['Packets'], \
+            request['Path1']['Retransmissions'], request['Path1']['Losses'], \
+            request['Path2']['SmoothedRTT'], request['Path2']['Bandwidth'], request['Path2']['Packets'], \
+            request['Path2']['Retransmissions'], request['Path2']['Losses']
+    else:
+        return request['Path2']['SmoothedRTT'], request['Path2']['Bandwidth'], request['Path2']['Packets'], \
+            request['Path2']['Retransmissions'], request['Path2']['Losses'], \
+            request['Path1']['SmoothedRTT'], request['Path1']['Bandwidth'], request['Path1']['Packets'], \
+            request['Path1']['Retransmissions'], request['Path1']['Losses']
 
 def agent():
     np.random.seed(RANDOM_SEED)
@@ -133,7 +144,7 @@ def agent():
         # critic_gradient_batch = []
         
 
-        while True:
+        while not stop_env.is_set():
             request = get_request(tqueue, logger)
 
             path1_smoothed_RTT, path1_bandwidth, path1_packets, \
