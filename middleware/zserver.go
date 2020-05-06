@@ -21,10 +21,10 @@ type ZServer struct {
 }
 
 // Message ...
-type Message struct {
-	ID   int
-	Data []string
-}
+// type Message struct {
+// 	ID   int
+// 	Data []string
+// }
 
 // NewServer instantiates a new server
 func NewServer(servertype zmq.Type, endpoint string) (s *ZServer) {
