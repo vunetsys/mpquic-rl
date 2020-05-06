@@ -2,47 +2,39 @@
 # get or put a request to queue
 # blocking operation with a small timeout
 import queue
+import multiprocessing as mp
 
+def get_request(queue: queue.Queue, logger, end_of_run: mp.Event = None):
+    logger.info("Waiting for request...")
+    if end_of_run is not None:
+        while not end_of_run.is_set():
+            try:
+                req = queue.get(timeout=0.05)
+                return req
+            except Exception as ex:
+                # logger.error(ex)
+                continue
+        return None
+    else:
+        try:
+            req = queue.get()
+            return req
+        except Exception as ex:
+            logger.error(ex)
 
-def get_request(tqueue: queue.Queue, logger):
-    try:
-        logger.info("Waiting for request...")
-        req = tqueue.get()
-        return req
-    except Exception as ex:
-        logger.error(ex)
-
-def put_response(response, tqueue: queue.Queue, logger):
-    try:    
-        logger.info("Putting request")
-        tqueue.put(response)
-    except Exception as ex:
-        logger.error(ex)
-            
-
-# def get_request(tqueue: queue.Queue, logger):
-#     while True:
-#         try:
-#             logger.info("Waiting for request...")
-#             req = tqueue.get(True)
-#             return req
-#         # --if we make it nonblocking we need this exception
-#         # except queue.Empty:
-#         #     logger.info("Queue is empty")
-#         #     continue
-#         except Exception as ex:
-#             logger.error(ex)
-#             continue
-            
-
-# def put_response(response, tqueue: queue.Queue, logger):
-#     while True:
-#         try:
-#             logger.info("Putting request...")
-#             tqueue.put(response, True)
-#             break
-#         # -- if we make it nonblocking we need this exception
-#         # except queue.Full:
-#         #     logger.info("Queue is full")
-#         except Exception as ex:
-#             logger.error(ex)
+def put_response(response, queue: queue.Queue, logger, end_of_run: mp.Event = None):
+    logger.info("Putting response...")
+    if end_of_run is not None:
+        while not end_of_run.is_set():
+            try:
+                queue.put(response, timeout=0.05)
+                return response
+            except Exception as ex:
+                # logger.error(ex)
+                continue
+        return None
+    else:
+        try:
+            queue.put(response)
+        except Exception as ex:
+            logger.error(ex)

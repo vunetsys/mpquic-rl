@@ -9,6 +9,7 @@ import signal
 
 # local imports
 from centraltrainer.request_handler import RequestHandler
+from centraltrainer.collector import Collector
 from environment.environment import Environment
 from utils.logger import config_logger
 from utils.queue_ops import get_request, put_response
@@ -40,25 +41,31 @@ LOG_FILE = './results/log'
 NN_MODEL = None
 
 
-def environment(stop_env: mp.Event, times=5):
+def environment(stop_env: mp.Event, end_of_run: mp.Event, times=5):
     logger = config_logger('environment', filepath='./logs/environment.log')
     env = Environment(logger=logger, times=times)
 
     # Lets measure env runs in time
     while not stop_env.is_set():
-        try:
-            now = time.time() 
-            env.run()
-            end = time.time()
 
-            diff = int (end - now)
-            logger.debug("Time to execute one run: {}s".format(diff))
-            break
-        except Exception as ex:
-            logger.error(ex)
-            break
+        # Only the agent can unblock this loop, after a training-batch has been completed
+        while not end_of_run.is_set():
+            try:
+                now = time.time() 
+                env.run()
+                end = time.time()
+
+                diff = int (end - now)
+                logger.debug("Time to execute one run: {}s".format(diff))
+
+                end_of_run.set() # set the end of run so our agent knows
+            except Exception as ex:
+                logger.error(ex)
+                break
         time.sleep(0.1)
 
+    # Closing environment, inform others that this is the end 
+    # By raising the stop_env flag
     if not stop_env.is_set():
         stop_env.set()
     env.close()
@@ -92,17 +99,23 @@ def agent():
     rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host='192.168.122.15', port='5555')
     rhandler.start()
 
-    # Spawn environment
+    # Spawn collector thread
+    cqueue = queue.Queue(0)
+    collector = Collector(2, "collector-thread", cqueue, host='192.168.122.15', port='5556')
+    collector.start()
+
+    # Spawn environment # process -- not a thread
     times = 1
     stop_env = mp.Event()
-    env = mp.Process(target=environment, args=(stop_env, times))
+    end_of_run = mp.Event()
+    env = mp.Process(target=environment, args=(stop_env, end_of_run, times))
     env.start()
 
-    tp_list = [rhandler, env]
+    tp_list = [rhandler, collector, env]
 
 
     # Main training loop
-    logger = config_logger('agent')
+    logger = config_logger('agent', './logs/agent.log')
     logger.info("Run Agent until training stops...")
 
     with tf.Session() as sess, open(LOG_FILE, 'wb') as log_file:
@@ -143,49 +156,65 @@ def agent():
         # actor_gradient_batch = []
         # critic_gradient_batch = []
         
+        list_states = []
+        while not stop_env.is_set() or not end_of_run.is_set():
+            request = get_request(tqueue, logger, end_of_run=end_of_run)
 
-        while not stop_env.is_set():
-            request = get_request(tqueue, logger)
+            if request is None and end_of_run.is_set():
+                logger.info("end_of_run is set, batch update")
 
-            path1_smoothed_RTT, path1_bandwidth, path1_packets, \
-            path1_retransmissions, path1_losses, \
-            path2_smoothed_RTT, path2_bandwidth, path2_packets, \
-            path2_retransmissions, path2_losses, \
-                = getTrainingVariables(request) # replace later with get_request call
+                # get all stream_info from queue
+                stream_info = []
+                for elem in list(cqueue.queue):
+                    stream_info.append(elem)
+                # clear the queue
+                with cqueue.mutex:
+                    cqueue.queue.clear()
+                logger.info("STREAM_INFO LEN MUST BE EQUAL TO list_States")
+                assert len(list_states) == len(stream_info)
+            else:
+                list_states.append(request)
 
-            # reward is aggregated bandwidth minus avg smoothed RTT minus - aggr packet losses 
-            aggr_bandwidth = path1_bandwidth + path2_bandwidth
-            avg_smooth_rtt = (path1_smoothed_RTT + path2_smoothed_RTT) / 2.0
-            aggr_lost_packets = path1_losses + path2_losses
-            a = 0.5 
-            b = 0.1
-            reward = aggr_bandwidth - (a * avg_smooth_rtt) - (b * aggr_lost_packets) 
+                path1_smoothed_RTT, path1_bandwidth, path1_packets, \
+                path1_retransmissions, path1_losses, \
+                path2_smoothed_RTT, path2_bandwidth, path2_packets, \
+                path2_retransmissions, path2_losses, \
+                    = getTrainingVariables(request) # replace later with get_request call
 
-            # test reward
-            logger.info("Reward this round {}".format(reward))
+                # reward is aggregated bandwidth minus avg smoothed RTT minus - aggr packet losses 
+                aggr_bandwidth = path1_bandwidth + path2_bandwidth
+                avg_smooth_rtt = (path1_smoothed_RTT + path2_smoothed_RTT) / 2.0
+                aggr_lost_packets = path1_losses + path2_losses
+                a = 0.5 
+                b = 0.1
+                reward = aggr_bandwidth - (a * avg_smooth_rtt) - (b * aggr_lost_packets) 
 
-            # the action is from the last decision
-            # this is to make the framework similar to the real
-            # delay, sleep_time, buffer_size, rebuf, \
-            # video_chunk_size, next_video_chunk_sizes, \
-            # end_of_video, video_chunk_remain = \
-            #     net_env.get_video_chunk(bit_rate)
+                # test reward
+                logger.info("Reward this round {}".format(reward))
 
-            # time_stamp += delay  # in ms
-            # time_stamp += sleep_time  # in ms
+                # the action is from the last decision
+                # this is to make the framework similar to the real
+                # delay, sleep_time, buffer_size, rebuf, \
+                # video_chunk_size, next_video_chunk_sizes, \
+                # end_of_video, video_chunk_remain = \
+                #     net_env.get_video_chunk(bit_rate)
+
+                # time_stamp += delay  # in ms
+                # time_stamp += sleep_time  # in ms
 
 
 
-            response = [request['ID'], request['Path1']['PathID']]
-            response = [str(r).encode('utf-8') for r in response]
-            time.sleep(0.5)
+                response = [request['ID'], request['Path1']['PathID']]
+                response = [str(r).encode('utf-8') for r in response]
+                time.sleep(0.2)
 
-            put_response(response, tqueue, logger)
+                put_response(response, tqueue, logger)
             time.sleep(0.01)
 
     # send kill signal to all
     stop_env.set()
     rhandler.stophandler()
+    collector.stophandler()
 
     # wait for threads and process to finish gracefully...
     for tp in tp_list:
