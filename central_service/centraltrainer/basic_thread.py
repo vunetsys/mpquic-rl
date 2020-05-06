@@ -14,8 +14,8 @@ from utils.logger import config_logger
 
 class BasicThread(threading.Thread):
     '''
-        This is our BasicThread configuration that will be implemented
-        from our threads
+        This is BasicThread configuration that will be implemented
+        in middleware threads (request handler, collector)
     '''
     def __init__(self, threadID: int, threadName: str, queue: queue.Queue):
         threading.Thread.__init__(self)
@@ -32,18 +32,18 @@ class BasicThread(threading.Thread):
         self.run()
 
     def getresponse(self):
-        while not self.__stoprequest.isSet():
+        while not self._stoprequest.isSet():
             try:
-                resp = self.__tqueue.get(True, 0.05)
+                resp = self._queue.get(True, 0.05)
                 return resp
             except queue.Empty:
                 self.pinfo("Queue is empty")
                 continue
 
     def putrequest(self, data):
-        while not self.__stoprequest.isSet():
+        while not self._stoprequest.isSet():
             try:
-                self.__tqueue.put(data, True, 0.05)
+                self._queue.put(data, True, 0.05)
                 break
             except Exception as ex:
                 self.pinfo("Cannot put item into Queue")
@@ -56,7 +56,7 @@ class BasicThread(threading.Thread):
         self.__logger.info(msg)
 
     def stophandler(self):
-        self.__stoprequest.set()
+        self._stoprequest.set()
 
     def close(self):
         self.close()
