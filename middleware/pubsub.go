@@ -10,23 +10,19 @@ import (
 // PubSub ...
 type PubSub = BasicConfig
 
-// Message ...
-// type Message struct {
-// 	ID   int
-// 	Data []string
-// }
-
 // NewConfig instantiates a new server
 func NewConfig(servertype zmq.Type, endpoint string) (pubsub *PubSub) {
 	pubsub = &BasicConfig{}
 	var err error
 
 	pubsub.socket, err = zmq.NewSocket(servertype)
-	pubsub.bind(endpoint)
 
 	if err != nil {
+		fmt.Println("Error in NewSocket")
 		fmt.Println(err.Error())
 	}
+
+	pubsub.bind(endpoint)
 
 	pubsub.poller = zmq.NewPoller()
 	pubsub.poller.Add(pubsub.socket, zmq.POLLIN)
@@ -39,13 +35,14 @@ func (pubsub *PubSub) bind(endpoint string) {
 	err := pubsub.socket.Bind(endpoint)
 
 	if err != nil {
+		fmt.Println("Error binding")
 		fmt.Println(err.Error())
 	}
 }
 
 // Close ...
 func (pubsub *PubSub) Close() {
-	pubsub.Close()
+	pubsub.socket.Close()
 }
 
 // Send sends a message

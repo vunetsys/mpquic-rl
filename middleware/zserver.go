@@ -55,7 +55,7 @@ func (s *ZServer) bind(endpoint string) {
 
 // Close ...
 func (s *ZServer) Close() {
-	s.Close()
+	s.socket.Close()
 }
 
 // Request sends a message

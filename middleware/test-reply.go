@@ -23,7 +23,6 @@ func listenAndForward(wg *sync.WaitGroup) {
 	for {
 		// Get initial request from GOServer
 		request, err = server.RecvMessage()
-
 		if err != nil {
 			fmt.Println(err.Error())
 			break
@@ -54,10 +53,13 @@ func listenAndForward(wg *sync.WaitGroup) {
 }
 
 func subscribeAndForward(wg *sync.WaitGroup) {
-	subscriber := NewConfig(zmq.SUB, "ipc:///tmp/zmqsub")
+	subscriber := NewConfig(zmq.SUB, "ipc:///tmp/zmqpubsub")
 	publisher := NewConfig(zmq.PUB, "tcp://*:5556")
 	message := &Message{}
 	var err error
+
+	// subscribe to all
+	subscriber.socket.SetSubscribe("")
 
 	defer subscriber.Close()
 	defer publisher.Close()
