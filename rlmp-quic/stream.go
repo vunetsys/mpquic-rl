@@ -31,6 +31,9 @@ type stream struct {
 	size       protocol.ByteCount //Byte
 	checksize  bool               //whether the size is recorded
 
+	//Marios: keep track request path
+	requestPath string
+
 	onData func()
 	// onReset is a callback that should send a RST_STREAM
 	onReset func(protocol.StreamID, protocol.ByteCount)

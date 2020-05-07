@@ -1112,6 +1112,27 @@ func (s *session) GetOrOpenStreamPrioritySize(id protocol.StreamID, priority *pr
 	return nil, err
 }
 
+// Marios:
+func (s *session) GetOrOpenStreamPrioritySizePath(id protocol.StreamID, priority *protocol.Priority, requestPath string) (Stream, error) {
+	str, err := s.streamsMap.GetOrOpenStreamPrioritySize(id, priority)
+	if s.perspective == protocol.PerspectiveServer {
+		if utils.Debug() {
+			utils.Debugf("GetOrOpenStreamPrioritySize in Server: Weight %d, Dependency %d, Exclusive %t\n", priority.Weight, priority.Dependency, priority.Exclusive)
+		}
+	}
+	if str != nil {
+		s.SetStreamPriority(id, priority)
+		//SHI: add log
+		s.streamTree.printTree()
+		//Marios: add path to stream
+		str.requestPath = requestPath
+		return str, err
+	}
+
+	// make sure to return an actual nil value here, not an Stream with value nil
+	return nil, err
+}
+
 // AcceptStream returns the next stream openend by the peer
 func (s *session) AcceptStream() (Stream, error) {
 	return s.streamsMap.AcceptStream()

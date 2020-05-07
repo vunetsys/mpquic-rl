@@ -22,6 +22,10 @@ import (
 	"golang.org/x/net/http2"
 )
 
+// Marios global ZPublisher
+var publisher *quic.ZPublisher
+var totalStreamIDCounter uint32 = 5
+
 var hclient *http.Client
 
 //ObjFinish contains the total number of objs to be download, and the current downloaded objs number
@@ -74,6 +78,7 @@ type Obj struct {
 	Dependers     []*Dep
 	Root          bool
 	PriorityParam *http2.PriorityParam
+	StreamID      uint32
 }
 
 //Dep is the dependency struct
@@ -608,6 +613,8 @@ func shiFirefoxGet(obj *Obj, wg *sync.WaitGroup, wgAll *sync.WaitGroup) {
 	go func(pth string) {
 
 		obj.Download.Lock.Lock()
+		obj.StreamID = totalStreamIDCounter
+		totalStreamIDCounter += 2
 		obj.Download.Started = true
 		obj.Download.StartTime = time.Now()
 		obj.Download.Lock.Unlock()
@@ -801,7 +808,14 @@ func onCompletion(start time.Time) {
 		objCompletionTime := obj.Download.CompleteTime.Sub(obj.Download.
 			StartTime)
 		fmt.Println("obj", obj.ID, obj.Download.Type, "z",
-			objCompletionTime)
+			objCompletionTime, obj.Path)
+
+		// Marios: Publish
+		streamInfo := &quic.StreamInfo{
+			StreamID:       obj.StreamID,
+			ObjectID:       obj.ID,
+			CompletionTime: objCompletionTime.Seconds()}
+		publisher.Publish(streamInfo)
 	}
 	elapsed := time.Since(start).Seconds()
 	fmt.Println("Page Load Time (8):", elapsed)
@@ -861,6 +875,10 @@ func main() {
 			}
 		}
 	}
+
+	// Marios: Create ZPublisher
+	publisher = quic.NewPublisher()
+	publisher.Connect("ipc:///tmp/zmqpubsub")
 
 	// ======== begin browse ========
 	utils.Infof("Begin browse: obj number = %d\n", len(objs))

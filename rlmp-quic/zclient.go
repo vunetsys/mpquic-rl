@@ -7,6 +7,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/lucas-clemente/quic-go/internal/protocol"
 	"github.com/lucas-clemente/quic-go/internal/utils"
 	zmq "github.com/pebbe/zmq4"
 )
@@ -38,15 +39,15 @@ type PathStats struct {
 
 // Request ...
 type Request struct {
-	ID    int
-	Path1 *PathStats
-	Path2 *PathStats
+	StreamID protocol.StreamID
+	Path1    *PathStats
+	Path2    *PathStats
 }
 
 // Response ...
 type Response struct {
-	ID     int
-	PathID uint8
+	StreamID protocol.StreamID
+	PathID   uint8
 }
 
 // NewClient instantiates a new zmq.Request client and a zmq.Poller
@@ -107,7 +108,8 @@ func (client *ZClient) Response() (response *Response, err error) {
 				panic("len(reply) != 2")
 			}
 
-			response.ID, _ = strconv.Atoi(reply[0])
+			cstrID, _ := strconv.ParseUint(reply[0], 10, 8) // don't care about the error thug life
+			response.StreamID = protocol.StreamID(cstrID)
 			// response.PathID = reply[1:]
 			// pathID, cerr := strconv.ParseUint(reply[1], 10, 8)
 			var pathID uint64
@@ -127,7 +129,7 @@ func (client *ZClient) Response() (response *Response, err error) {
 // Request ...
 func (client *ZClient) Request(request *Request) (err error) {
 	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d\n",
-		request.ID,
+		request.StreamID,
 		request.Path1.PathID,
 		request.Path1.Bandwidth,
 		request.Path1.SmoothedRTT,
@@ -136,7 +138,7 @@ func (client *ZClient) Request(request *Request) (err error) {
 		request.Path1.Losses)
 
 	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d\n",
-		request.ID,
+		request.StreamID,
 		request.Path2.PathID,
 		request.Path2.Bandwidth,
 		request.Path2.SmoothedRTT,
@@ -148,7 +150,7 @@ func (client *ZClient) Request(request *Request) (err error) {
 	packedRequest := new(bytes.Buffer)
 	json.NewEncoder(packedRequest).Encode(request)
 
-	bsent, err := client.socket.SendMessage(request.ID, packedRequest.Bytes())
+	bsent, err := client.socket.SendMessage(request.StreamID, packedRequest.Bytes())
 	if err != nil || bsent <= 0 {
 		utils.Errorf("Error in Sending Request\n")
 		utils.Errorf(err.Error())

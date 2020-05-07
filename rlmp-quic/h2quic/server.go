@@ -25,6 +25,7 @@ type streamCreator interface {
 	GetOrOpenStream(protocol.StreamID) (quic.Stream, error)
 	GetOrOpenStreamPriority(protocol.StreamID, *protocol.Priority) (quic.Stream, error)
 	GetOrOpenStreamPrioritySize(protocol.StreamID, *protocol.Priority) (quic.Stream, error)
+	GetOrOpenStreamPrioritySizePath(protocol.StreamID, *protocol.Priority, string) (quic.Stream, error)
 	SetStreamPriority(protocol.StreamID, *protocol.Priority) error
 }
 
@@ -214,7 +215,9 @@ func (s *Server) handleRequest(session streamCreator, headerStream quic.Stream, 
 	priorityTran.Dependency = protocol.StreamID(h2headersFrame.Priority.StreamDep)
 	priorityTran.Exclusive = h2headersFrame.Priority.Exclusive
 
-	dataStream, err := session.GetOrOpenStreamPrioritySize(protocol.StreamID(h2headersFrame.StreamID), priorityTran)
+	// Marios: record also request path
+	dataStream, err := session.GetOrOpenStreamPrioritySizePath(protocol.StreamID(h2headersFrame.StreamID), priorityTran, req.RequestURI)
+	// dataStream, err := session.GetOrOpenStreamPrioritySize(protocol.StreamID(h2headersFrame.StreamID), priorityTran)
 
 	if err != nil {
 		return err

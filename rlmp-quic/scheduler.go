@@ -1,7 +1,6 @@
 package quic
 
 import (
-	"math/rand"
 	"sort"
 	"time"
 
@@ -218,10 +217,11 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 					}
 
 					// PRint my bs
-					// msPathsTest := sch.choosePathsRL(s, stream.streamID, stream.priority.Weight)
-					// for pth, vol := range msPathsTest {
-					// 	utils.Infof("MSPATHSTEST: PathID: %x (%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
-					// }
+					msPathsTest := sch.choosePathsRL(s, stream.streamID, stream.priority.Weight)
+					for pth, vol := range msPathsTest {
+						utils.Infof("MSPATHSTEST: PathID: %x (%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
+						utils.Infof("StreamPath: %s", stream.requestPath)
+					}
 
 					selectedPths := sch.choosePaths(s, stream.streamID, stream.priority.Weight)
 					if len(selectedPths) == 0 {
@@ -812,6 +812,13 @@ pathLoop:
 		avalPaths = append(avalPaths, pth)
 	}
 
+	if len(avalPaths) < 2 {
+		utils.Infof("AVAILABLE PATHS: %d", len(avalPaths))
+		var selectedPathID protocol.PathID = protocol.PathID(protocol.InitialPathID)
+		selectedPaths[s.paths[selectedPathID]] = float64(stream.size)
+		return selectedPaths
+	}
+
 	// Add statistics for each Path
 	for _, pth := range avalPaths {
 		var id uint8 = uint8(pth.pathID)
@@ -838,9 +845,9 @@ pathLoop:
 	start := time.Now()
 
 	request := &Request{
-		ID:    rand.Intn(1000),
-		Path1: pathStats[0],
-		Path2: pathStats[1]}
+		StreamID: strID,
+		Path1:    pathStats[0],
+		Path2:    pathStats[1]}
 
 	// utils.Infof("Request %d %s %s", request.ID, request.Path1.PathID, request.Path2.PathID)
 
@@ -857,7 +864,7 @@ pathLoop:
 	}
 
 	elapsed := time.Since(start)
-	utils.Infof("ZClient Response.ID: %d, Response.PathID: %d\n", response.ID, response.PathID)
+	// utils.Infof("ZClient Response.ID: %d, Response.PathID: %d\n", response.ID, response.PathID)
 	utils.Infof("Communication overhead %s", elapsed)
 	//-----------------------------------------------------------------------------------------
 
