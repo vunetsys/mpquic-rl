@@ -101,7 +101,7 @@ def agent():
 
     # Spawn collector thread
     cqueue = queue.Queue(0)
-    collector = Collector(2, "collector-thread", cqueue, host='192.168.122.15', port='5556')
+    collector = Collector(2, "collector-thread", queue=cqueue, host='192.168.122.15', port='5556')
     collector.start()
 
     # Spawn environment # process -- not a thread
@@ -171,7 +171,12 @@ def agent():
                 with cqueue.mutex:
                     cqueue.queue.clear()
                 logger.info("STREAM_INFO LEN MUST BE EQUAL TO list_States")
+
+                sorted_stream_info = sorted(stream_info, key=lambda k : k['StreamID'])
+                logger.info(sorted_stream_info)
+
                 assert len(list_states) == len(stream_info)
+                break
             else:
                 list_states.append(request)
 
@@ -204,7 +209,7 @@ def agent():
 
 
 
-                response = [request['ID'], request['Path1']['PathID']]
+                response = [request['StreamID'], request['Path1']['PathID']]
                 response = [str(r).encode('utf-8') for r in response]
                 time.sleep(0.2)
 

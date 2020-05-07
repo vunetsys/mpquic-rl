@@ -27,6 +27,7 @@ class Collector(BasicThread):
         self.__context = zmq.Context()
         self._subscriber = self.__context.socket(zmq.SUB)
         self._subscriber.connect("tcp://%s:%s" % (self.__host, self.__port))
+        self._subscriber.subscribe("")
 
         self.__poller = zmq.Poller()
         self.__poller.register(self._subscriber, zmq.POLLIN)
@@ -40,7 +41,7 @@ class Collector(BasicThread):
         while not self._stoprequest.isSet():
             try:
                 # Poll for a reply => time is ms
-                if (self.__poller.poll(timeout=50)):
+                if (self.__poller.poll(timeout=10)):
                     # Receive request from middleware
                     try:
                         data = self._subscriber.recv_multipart(zmq.NOBLOCK)
@@ -54,9 +55,6 @@ class Collector(BasicThread):
                     
                     # put stream info on the Queue (blocking operation)
                     self.putrequest(json_data)
-
-                    # this small sleeps, prevents RH from reading his own response
-                    time.sleep(0.01)
             except Exception as ex:
                 self.pdebug(ex)
         self.close()
