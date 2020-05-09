@@ -1,7 +1,6 @@
 # global imports
 import os
 import threading, queue
-import multiprocessing as mp
 import numpy as np
 import tensorflow as tf
 import time
@@ -42,37 +41,6 @@ LOG_FILE = './results/log'
 NN_MODEL = None
 
 
-def environment(stop_env: mp.Event, end_of_run: mp.Event, times=5):
-    logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(logger=logger, times=times)
-
-    # Lets measure env runs in time
-    while not stop_env.is_set():
-
-        # Only the agent can unblock this loop, after a training-batch has been completed
-        while not end_of_run.is_set():
-            try:
-                now = time.time() 
-                env.run()
-                end = time.time()
-
-                diff = int (end - now)
-                logger.debug("Time to execute one run: {}s".format(diff))
-
-                end_of_run.set() # set the end of run so our agent knows
-                # env.spawn_middleware() # restart middleware 
-            except Exception as ex:
-                logger.error(ex)
-                break
-        time.sleep(0.1)
-
-    # Closing environment, inform others that this is the end 
-    # By raising the stop_env flag
-    if not stop_env.is_set():
-        stop_env.set()
-    env.close()
-        
-
 def agent():
     np.random.seed(RANDOM_SEED)
 
@@ -92,11 +60,9 @@ def agent():
     collector = Collector(2, "collector-thread", queue=cqueue, host='192.168.122.15', port='5556')
     collector.start()
 
-    # Spawn environment # process -- not a thread
-    times = 1
-    stop_env = mp.Event()
-    end_of_run = mp.Event()
-    env = mp.Process(target=environment, args=(stop_env, end_of_run, times))
+    # Spawn environment thread
+    end_of_run = threading.Event()
+    env = Environment(3, "environment", end_of_run)
     env.start()
 
     tp_list = [rhandler, collector, env]
@@ -145,7 +111,7 @@ def agent():
         # critic_gradient_batch = []
         
         list_states = []
-        while not stop_env.is_set() or not end_of_run.is_set():
+        while not end_of_run.is_set():
             request = get_request(tqueue, logger, end_of_run=end_of_run)
 
             if request is None and end_of_run.is_set():
@@ -166,12 +132,16 @@ def agent():
                     logger.info(stream)
                     logger.info(list_states[i]) # print this on index based
 
+
+                # get next bdw from env
+                bdw_path1, bdw_path2 = env.session.getCurrentBandwidth()
+                logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_path1, bdw_path2))
+
                 
                 # Proceed to next run
                 stream_info.clear()
                 list_states.clear()
                 end_of_run.clear()
-                
             else:
                 list_states.append(request)
 
@@ -210,7 +180,7 @@ def agent():
             time.sleep(0.01)
 
     # send kill signal to all
-    stop_env.set()
+    env.stopenv()
     rhandler.stophandler()
     collector.stophandler()
 
