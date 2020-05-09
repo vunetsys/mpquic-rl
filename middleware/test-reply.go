@@ -77,7 +77,7 @@ func subscribeAndForward(wg *sync.WaitGroup) {
 
 	for {
 		message, err = subscriber.RecvMessage()
-		fmt.Println(message)
+		//fmt.Println(message)
 		if err != nil {
 			fmt.Println(err.Error())
 			break
@@ -93,6 +93,44 @@ func subscribeAndForward(wg *sync.WaitGroup) {
 		//fmt.Println("SAF: ", loopCounter)
 	}
 }
+
+// Note: Extra method with that sends confirmation back to client/publisher
+// (to be removed)
+
+// func subscribeAndForward(wg *sync.WaitGroup) {
+// 	server := NewServer(zmq.REP, "ipc:///tmp/pubsub")
+// 	publisher := NewConfig(zmq.PUB, "tcp://*:5556")
+// 	message := &Message{}
+// 	var err error
+
+// 	defer server.Close()
+// 	defer publisher.Close()
+// 	defer wg.Done()
+
+// 	fmt.Println("SubscribeAndForward")
+
+// 	for {
+// 		message, err = server.RecvMessage()
+// 		fmt.Println(message)
+// 		if err != nil {
+// 			fmt.Println(err.Error())
+// 			break
+// 		}
+
+// 		err = publisher.Send(message)
+// 		if err != nil {
+// 			fmt.Println(err.Error())
+// 			break
+// 		}
+
+// 		// Forward response back to GOServer
+// 		err = server.Request(message)
+// 		if err != nil {
+// 			fmt.Println(err.Error())
+// 			break
+// 		}
+// 	}
+// }
 
 func main() {
 	var wg sync.WaitGroup

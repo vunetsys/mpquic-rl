@@ -23,11 +23,17 @@ func NewConfig(servertype zmq.Type, endpoint string) (pubsub *PubSub) {
 	}
 
 	pubsub.bind(endpoint)
+	pubsub.setLingerInfinite()
 
 	pubsub.poller = zmq.NewPoller()
 	pubsub.poller.Add(pubsub.socket, zmq.POLLIN)
 
 	return
+}
+
+// SetLingerInfinite
+func (pubsub *PubSub) setLingerInfinite() {
+	pubsub.socket.SetLinger(-1)
 }
 
 // Bind to an endpoint

@@ -10,7 +10,7 @@ import (
 
 const (
 	globalTimeout  = 2500 * time.Millisecond
-	requestTimeout = 20 * time.Millisecond
+	requestTimeout = 10 * time.Millisecond
 	maxRetries     = 3 // before we abandon
 )
 
