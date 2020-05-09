@@ -797,11 +797,13 @@ pathLoop:
 	for pathID, pth := range s.paths {
 
 		if !pth.SendingAllowed() {
+			utils.Infof("pth.SendingAllowed() == false")
 			continue pathLoop
 		}
 
 		// If this path is potentially failed, do not consider it for sending
 		if pth.potentiallyFailed.Get() {
+			utils.Infof("pth.potentiallyFailed == true")
 			continue pathLoop
 		}
 
@@ -845,9 +847,10 @@ pathLoop:
 	start := time.Now()
 
 	request := &Request{
-		StreamID: strID,
-		Path1:    pathStats[0],
-		Path2:    pathStats[1]}
+		StreamID:    strID,
+		RequestPath: stream.requestPath,
+		Path1:       pathStats[0],
+		Path2:       pathStats[1]}
 
 	// utils.Infof("Request %d %s %s", request.ID, request.Path1.PathID, request.Path2.PathID)
 

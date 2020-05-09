@@ -39,9 +39,10 @@ type PathStats struct {
 
 // Request ...
 type Request struct {
-	StreamID protocol.StreamID
-	Path1    *PathStats
-	Path2    *PathStats
+	StreamID    protocol.StreamID
+	RequestPath string
+	Path1       *PathStats
+	Path2       *PathStats
 }
 
 // Response ...
@@ -128,23 +129,25 @@ func (client *ZClient) Response() (response *Response, err error) {
 
 // Request ...
 func (client *ZClient) Request(request *Request) (err error) {
-	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d\n",
+	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d, rpath: %s\n",
 		request.StreamID,
 		request.Path1.PathID,
 		request.Path1.Bandwidth,
 		request.Path1.SmoothedRTT,
 		request.Path1.Packets,
 		request.Path1.Retransmissions,
-		request.Path1.Losses)
+		request.Path1.Losses,
+		request.RequestPath)
 
-	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d\n",
+	utils.Infof("ID %d, pathID %s, bandwidth %d, smoothedRTT %d, packets %d, retransmissions %d, losses %d, rpath: %s\n",
 		request.StreamID,
 		request.Path2.PathID,
 		request.Path2.Bandwidth,
 		request.Path2.SmoothedRTT,
 		request.Path2.Packets,
 		request.Path2.Retransmissions,
-		request.Path2.Losses)
+		request.Path2.Losses,
+		request.RequestPath)
 
 	// first we have to pack our struct into json -> []byte
 	packedRequest := new(bytes.Buffer)
@@ -158,56 +161,3 @@ func (client *ZClient) Request(request *Request) (err error) {
 
 	return err
 }
-
-// Previous method that handled both request and response, now split in two
-// Request ...
-// func (client *ZClient) Request(request *Message) (response *Message, err error) {
-// 	response = &Message{}
-// 	reply := []string{}
-
-// 	// prefix sequence
-// 	if client.sequence == math.MaxUint64 {
-// 		client.sequence = 0
-// 	}
-// 	client.sequence++
-
-// 	// utils.Infof("request.ID: %d", request.ID)
-// 	// utils.Infof("request.Data: %s", request.Data)
-// 	// utils.Infof("client.sequence: %d", client.sequence)
-
-// 	bsent, err := client.socket.SendMessage(request.ID, request.Data)
-
-// 	if err != nil || bsent == 0 {
-// 		utils.Errorf("Error in request")
-// 		utils.Errorf(err.Error())
-// 	}
-
-// 	poller := zmq.NewPoller()
-// 	poller.Add(client.socket, zmq.POLLIN)
-// 	for {
-// 		polled, err := poller.Poll(requestTimeout)
-// 		if err == nil && len(polled) > 0 {
-// 			// reply
-// 			reply, _ = client.socket.RecvMessage(0)
-// 			if len(reply) != 2 {
-// 				panic("len(reply) != 2")
-// 			}
-// 			response.ID, _ = strconv.Atoi(reply[0])
-// 			response.Data = reply[1:]
-// 			// sequence := reply[2]
-// 			// sequenceNbr, _ := strconv.ParseUint(sequence, 10, 64)
-
-// 			//utils.Infof("sequenceNbr: %d == client.sequence: %d", sequenceNbr, client.sequence)
-// 			break
-// 			// if sequenceNbr == client.sequence {
-// 			// 	utils.Infof("Break the spell")
-// 			// 	break
-// 			// }
-// 		}
-// 	}
-
-// 	if len(reply) == 0 {
-// 		err = errors.New("No reply")
-// 	}
-// 	return
-// }

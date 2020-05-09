@@ -25,6 +25,7 @@ import (
 // Marios global ZPublisher
 var publisher *quic.ZPublisher
 var totalStreamIDCounter uint32 = 5
+var publishLock = &sync.Mutex{}
 
 var hclient *http.Client
 
@@ -657,6 +658,22 @@ func shiFirefoxGet(obj *Obj, wg *sync.WaitGroup, wgAll *sync.WaitGroup) {
 		}
 		objFinish.Lock.Unlock()
 
+		// Marios: Publish stream info
+		// The lock is necessary since the PUB/SUB zmq spec does not guarantee reliability
+		// I noticed cases, when last one (or two) messages did not get received by the middleware
+		// Probably some race condition between streams(--objs) publishing at the same time
+		// Alternative is to use confirmation, but the mutex lock,
+		// and the 10ms sleep to ensure the message has been transmited before releasing __does the trick__
+		publishLock.Lock()
+		streamInfo := &quic.StreamInfo{
+			StreamID:       obj.StreamID,
+			ObjectID:       obj.ID,
+			CompletionTime: obj.Download.CompleteTime.Sub(obj.Download.StartTime).Seconds(),
+			Path:           obj.Path}
+		publisher.Publish(streamInfo) // send message
+		time.Sleep(10 * time.Millisecond)
+		publishLock.Unlock()
+
 		if strings.Contains(obj.Download.Type, "css") || strings.Contains(obj.Download.Type, "js") || strings.Contains(obj.Download.Type, "javascript") {
 			wg.Done()
 		}
@@ -809,13 +826,6 @@ func onCompletion(start time.Time) {
 			StartTime)
 		fmt.Println("obj", obj.ID, obj.Download.Type, "z",
 			objCompletionTime, obj.Path)
-
-		// Marios: Publish
-		streamInfo := &quic.StreamInfo{
-			StreamID:       obj.StreamID,
-			ObjectID:       obj.ID,
-			CompletionTime: objCompletionTime.Seconds()}
-		publisher.Publish(streamInfo)
 	}
 	elapsed := time.Since(start).Seconds()
 	fmt.Println("Page Load Time (8):", elapsed)
@@ -878,7 +888,8 @@ func main() {
 
 	// Marios: Create ZPublisher
 	publisher = quic.NewPublisher()
-	publisher.Connect("ipc:///tmp/zmqpubsub")
+	publisher.Connect("ipc:///tmp/pubsub")
+	defer publisher.Close()
 
 	// ======== begin browse ========
 	utils.Infof("Begin browse: obj number = %d\n", len(objs))

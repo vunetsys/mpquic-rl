@@ -3,6 +3,8 @@ package quic
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
+	"time"
 
 	"github.com/lucas-clemente/quic-go/internal/utils"
 	zmq "github.com/pebbe/zmq4"
@@ -22,6 +24,7 @@ type StreamInfo struct {
 	StreamID       uint32
 	ObjectID       string
 	CompletionTime float64
+	Path           string
 	// StartTime  time.Time
 	// EndTime    time.Time
 }
@@ -37,10 +40,19 @@ func NewPublisher() (publisher *ZPublisher) {
 		utils.Errorf(err.Error())
 	}
 
+	publisher.setLingerInfinite()
+
 	publisher.poller = zmq.NewPoller()
 	publisher.poller.Add(publisher.socket, zmq.POLLIN)
 
 	return
+}
+
+// setLingerInfinite ..
+func (publisher *ZPublisher) setLingerInfinite() {
+	if err := publisher.socket.SetLinger(-1); err != nil {
+		panic("Cannot set Linger to infinite")
+	}
 }
 
 // Connect ..
@@ -65,15 +77,16 @@ func (publisher *ZPublisher) Bind(endpoint string) {
 
 // Close ...
 func (publisher *ZPublisher) Close() {
-	publisher.Close()
+	publisher.socket.Close()
 }
 
 // Publish messages so everyone listening can receive
 func (publisher *ZPublisher) Publish(streamInfo *StreamInfo) (err error) {
-	utils.Infof("StreamID %d, ObjectID: %s, CompletionTime: %d\n",
+	utils.Infof("StreamID %d, ObjectID: %s, CompletionTime: %d, Path: %s\n",
 		streamInfo.StreamID,
 		streamInfo.ObjectID,
-		streamInfo.CompletionTime)
+		streamInfo.CompletionTime,
+		streamInfo.Path)
 
 	// first we have to pack our struct into json -> []byte
 	packedMessage := new(bytes.Buffer)
@@ -86,4 +99,29 @@ func (publisher *ZPublisher) Publish(streamInfo *StreamInfo) (err error) {
 	}
 
 	return err
+}
+
+// RecvConfirmation ...
+func (publisher *ZPublisher) RecvConfirmation() (err error) {
+	reply := []string{}
+
+	endtime := time.Now().Add(globalTimeout)
+
+	for {
+		polled, err := publisher.poller.Poll(endtime.Sub(time.Now()))
+		if err == nil && len(polled) > 0 {
+			// reply
+			reply, _ = publisher.socket.RecvMessage(0)
+			if len(reply) != 2 {
+				panic("len(reply) != 2")
+			}
+
+			break
+		}
+	}
+
+	if len(reply) == 0 {
+		err = errors.New("No Reply")
+	}
+	return
 }
