@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"time"
 
 	zmq "github.com/pebbe/zmq4"
 )
@@ -73,6 +74,7 @@ func (pubsub *PubSub) RecvMessage() (message *Message, err error) {
 			message.Data = rawMessage[1:]
 			break
 		}
+		time.Sleep(10 * time.Millisecond)
 	}
 	return
 }

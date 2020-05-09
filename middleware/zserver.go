@@ -86,6 +86,7 @@ func (s *ZServer) RecvMessage() (request *Message, err error) {
 			request.Data = rawRequest[1:]
 			break
 		}
+		time.Sleep(10 * time.Millisecond)
 	}
 	return
 }

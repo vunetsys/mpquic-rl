@@ -20,6 +20,8 @@ func listenAndForward(wg *sync.WaitGroup) {
 
 	fmt.Println("ListenAndForward")
 
+	var loopCounter int = 0
+
 	for {
 		// Get initial request from GOServer
 		request, err = server.RecvMessage()
@@ -48,6 +50,9 @@ func listenAndForward(wg *sync.WaitGroup) {
 			fmt.Println(err.Error())
 			break
 		}
+
+		loopCounter++
+		fmt.Println("LAF: ", loopCounter)
 	}
 
 }
@@ -67,6 +72,8 @@ func subscribeAndForward(wg *sync.WaitGroup) {
 
 	fmt.Println("SubscribeAndForward")
 
+	var loopCounter int = 0
+
 	for {
 		message, err = subscriber.RecvMessage()
 		if err != nil {
@@ -79,6 +86,9 @@ func subscribeAndForward(wg *sync.WaitGroup) {
 			fmt.Println(err.Error())
 			break
 		}
+
+		loopCounter++
+		fmt.Println("SAF: ", loopCounter)
 	}
 }
 
