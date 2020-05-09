@@ -75,6 +75,7 @@ func (s *ZServer) RecvMessage() (request *Message, err error) {
 
 	for {
 		polled, err := s.poller.Poll(requestTimeout)
+		//fmt.Println("zserver polling")
 		if err == nil && len(polled) > 0 {
 			// reply
 			rawRequest, _ = s.socket.RecvMessage(0)
@@ -86,7 +87,7 @@ func (s *ZServer) RecvMessage() (request *Message, err error) {
 			request.Data = rawRequest[1:]
 			break
 		}
-		time.Sleep(10 * time.Millisecond)
+		//time.Sleep(10 * time.Millisecond)
 	}
 	return
 }
