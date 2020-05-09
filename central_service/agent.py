@@ -13,6 +13,7 @@ from centraltrainer.collector import Collector
 from environment.environment import Environment
 from utils.logger import config_logger
 from utils.queue_ops import get_request, put_response
+from utils.data_transf import arrangeStateStreamsInfo, getTrainingVariables
 from training import a3c
 from training import load_trace
 
@@ -59,6 +60,7 @@ def environment(stop_env: mp.Event, end_of_run: mp.Event, times=5):
                 logger.debug("Time to execute one run: {}s".format(diff))
 
                 end_of_run.set() # set the end of run so our agent knows
+                # env.spawn_middleware() # restart middleware 
             except Exception as ex:
                 logger.error(ex)
                 break
@@ -69,21 +71,7 @@ def environment(stop_env: mp.Event, end_of_run: mp.Event, times=5):
     if not stop_env.is_set():
         stop_env.set()
     env.close()
-
-# Return all useful variables all at once
-def getTrainingVariables(request):
-    # This might come in random order
-    # Check and reverse them
-    if request['Path1']['PathID'] == 1:
-        return request['Path1']['SmoothedRTT'], request['Path1']['Bandwidth'], request['Path1']['Packets'], \
-            request['Path1']['Retransmissions'], request['Path1']['Losses'], \
-            request['Path2']['SmoothedRTT'], request['Path2']['Bandwidth'], request['Path2']['Packets'], \
-            request['Path2']['Retransmissions'], request['Path2']['Losses']
-    else:
-        return request['Path2']['SmoothedRTT'], request['Path2']['Bandwidth'], request['Path2']['Packets'], \
-            request['Path2']['Retransmissions'], request['Path2']['Losses'], \
-            request['Path1']['SmoothedRTT'], request['Path1']['Bandwidth'], request['Path1']['Packets'], \
-            request['Path1']['Retransmissions'], request['Path1']['Losses']
+        
 
 def agent():
     np.random.seed(RANDOM_SEED)
@@ -161,22 +149,29 @@ def agent():
             request = get_request(tqueue, logger, end_of_run=end_of_run)
 
             if request is None and end_of_run.is_set():
-                logger.info("end_of_run is set, batch update")
+                logger.info("END_OF_RUN is set, BATCH UPDATE")
 
-                # get all stream_info from queue
+                # get all stream_info from collector's queue
                 stream_info = []
-                for elem in list(cqueue.queue):
-                    stream_info.append(elem)
-                # clear the queue
                 with cqueue.mutex:
+                    for elem in list(cqueue.queue):
+                        stream_info.append(elem)
+                    # clear the queue
                     cqueue.queue.clear()
-                logger.info("STREAM_INFO LEN MUST BE EQUAL TO list_States")
 
-                sorted_stream_info = sorted(stream_info, key=lambda k : k['StreamID'])
-                logger.info(sorted_stream_info)
+                # Validate
+                logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
+                stream_info = arrangeStateStreamsInfo(list_states, stream_info)
+                for i, stream in enumerate(stream_info):
+                    logger.info(stream)
+                    logger.info(list_states[i]) # print this on index based
 
-                assert len(list_states) == len(stream_info)
-                break
+                
+                # Proceed to next run
+                stream_info.clear()
+                list_states.clear()
+                end_of_run.clear()
+                
             else:
                 list_states.append(request)
 
@@ -206,8 +201,6 @@ def agent():
 
                 # time_stamp += delay  # in ms
                 # time_stamp += sleep_time  # in ms
-
-
 
                 response = [request['StreamID'], request['Path1']['PathID']]
                 response = [str(r).encode('utf-8') for r in response]

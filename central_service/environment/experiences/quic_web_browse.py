@@ -62,7 +62,7 @@ def quicTests(topos, protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
                     JSON_FILE: "www.google.com_",   # specify websites to download
                     PROJECT: "quic-go",     # quic-go is the prioritized stream scheduling project, mp-quic is the original multipath-quic project
                     PATH_SCHEDULER:"MultiPath",   # quic-go param: MultiPath; SinglePath
-                    BROWSER:"Safari",
+                    BROWSER:"Firefox",
                     QUIC_MULTIPATH: kwargs["multipath"],
                     RMEM: (10240, 87380, 16777216),
                     # single file transfer parameters
