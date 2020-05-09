@@ -51,8 +51,8 @@ def saveToposJSON():
         json.dump(mptcpTopos, fp)
 
 
-def loadToposJSON():
-    with open(TOPOS_JSON_FILE, 'r') as fp:
+def loadToposJSON(fpath=TOPOS_JSON_FILE):
+    with open(fpath, 'r') as fp:
         mptcpTopos = json.load(fp)
 
     return mptcpTopos
