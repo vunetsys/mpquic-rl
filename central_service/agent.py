@@ -93,7 +93,6 @@ def agent():
     collector.start()
 
     # Spawn environment # process -- not a thread
-    times = 1
     stop_env = mp.Event()
     end_of_run = mp.Event()
     env = mp.Process(target=environment, args=(stop_env, end_of_run))
@@ -145,7 +144,7 @@ def agent():
         # critic_gradient_batch = []
         
         list_states = []
-        while not stop_env.is_set() or not end_of_run.is_set():
+        while not end_of_run.is_set():
             request = get_request(tqueue, logger, end_of_run=end_of_run)
 
             if request is None and end_of_run.is_set():
@@ -166,12 +165,16 @@ def agent():
                     logger.info(stream)
                     logger.info(list_states[i]) # print this on index based
 
+
+                # get next bdw from env
+                bdw_path1, bdw_path2 = env.session.getCurrentBandwidth()
+                logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_path1, bdw_path2))
+
                 
                 # Proceed to next run
                 stream_info.clear()
                 list_states.clear()
                 end_of_run.clear()
-                
             else:
                 list_states.append(request)
 
@@ -210,7 +213,7 @@ def agent():
             time.sleep(0.01)
 
     # send kill signal to all
-    stop_env.set()
+    env.stopenv()
     rhandler.stophandler()
     collector.stophandler()
 

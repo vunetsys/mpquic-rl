@@ -1,4 +1,5 @@
 import numpy as np
+import threading
 import multiprocessing as mp
 import subprocess
 import time
@@ -8,6 +9,7 @@ import os
 # from .experiences.quic_mptcp_https_tests_expdes_wsp_highbdp_loss_quic_marios import launchTests
 # from .experiences.quic_dualfile_offline import launchTests 
 from .experiences.quic_web_browse import launchTests
+from utils.logger import config_logger
 
 
 MIDDLEWARE_SOURCE_REMOTE_PATH = "~/go/src/github.com/mkanakis/zserver"
