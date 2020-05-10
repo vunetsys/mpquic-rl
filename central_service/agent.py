@@ -106,46 +106,45 @@ def agent():
     logger = config_logger('agent', './logs/agent.log')
     logger.info("Run Agent until training stops...")
 
-    with tf.Session() as sess, open(LOG_FILE, 'wb') as log_file:
-        # actor = a3c.ActorNetwork(sess,
-        #                          state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
-        #                          learning_rate=ACTOR_LR_RATE)
+    with tf.Session() as sess, open(LOG_FILE, 'w') as log_file:
+        actor = a3c.ActorNetwork(sess,
+                                 state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
+                                 learning_rate=ACTOR_LR_RATE)
 
-        # critic = a3c.CriticNetwork(sess,
-        #                            state_dim=[S_INFO, S_LEN],
-        #                            learning_rate=CRITIC_LR_RATE)
+        critic = a3c.CriticNetwork(sess,
+                                   state_dim=[S_INFO, S_LEN],
+                                   learning_rate=CRITIC_LR_RATE)
 
-        # summary_ops, summary_vars = a3c.build_summaries()
+        summary_ops, summary_vars = a3c.build_summaries()
 
-        # sess.run(tf.global_variables_initializer())
-        # writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph)  # training monitor
-        # saver = tf.train.Saver()  # save neural net parameters
+        sess.run(tf.global_variables_initializer())
+        writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph)  # training monitor
+        saver = tf.train.Saver()  # save neural net parameters
 
         # # restore neural net parameters
-        # nn_model = NN_MODEL
-        # if nn_model is not None:  # nn_model is the path to file
-        #     saver.restore(sess, nn_model)
-        #     print("Model restored.")
+        nn_model = NN_MODEL
+        if nn_model is not None:  # nn_model is the path to file
+            saver.restore(sess, nn_model)
+            print("Model restored.")
 
-        # epoch = 0
-        # time_stamp = 0
+        epoch = 0
+        time_stamp = 0
 
-        # last_path = DEFAULT_PATH
-        # path = DEFAULT_PATH
+        last_path = DEFAULT_PATH
+        path = DEFAULT_PATH
 
-        # action_vec = np.zeros(A_DIM)
-        # action_vec[bit_rate] = 1
+        action_vec = np.zeros(A_DIM)
+        action_vec[path] = 1
 
-        # s_batch = [np.zeros((S_INFO, S_LEN))]
-        # a_batch = [action_vec]
-        # r_batch = []
-        # entropy_record = []
+        s_batch = [np.zeros((S_INFO, S_LEN))]
+        a_batch = [action_vec]
+        r_batch = []
+        entropy_record = []
 
-        # actor_gradient_batch = []
-        # critic_gradient_batch = []
+        actor_gradient_batch = []
+        critic_gradient_batch = []
         
         list_states = []
-        rewards = []
         while not end_of_run.is_set():
             # Get scheduling request from rhandler thread
             request = get_request(tqueue, logger, end_of_run=end_of_run)
@@ -175,10 +174,40 @@ def agent():
                     # This means that small completion times (1<=) get praised
                     # But large completion times (>=1) gets double the damage
                     reward = 1 - (stream['CompletionTime'] ** 2) 
-                    rewards.append(reward)
+                    r_batch.append(reward)
+
+                # r_batch.append(0)
                 
-                logger.info(rewards)
-                
+                logger.info(r_batch)
+
+                actor_gradient, critic_gradient, td_batch = \
+                    a3c.compute_gradients(s_batch=np.stack(s_batch[1:], axis=0),  # ignore the first chuck
+                                          a_batch=np.vstack(a_batch[1:]),  # since we don't have the
+                                          r_batch=np.vstack(r_batch[1:]),  # control over it
+                                          terminal=True, actor=actor, critic=critic)
+                td_loss = np.mean(td_batch)
+
+                actor_gradient_batch.append(actor_gradient)
+                critic_gradient_batch.append(critic_gradient)
+
+
+                logger.debug ("====")
+                logger.debug ("Epoch: {}".format(epoch))
+                msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch), np.mean(entropy_record))
+                logger.debug (msg)
+                logger.debug ("====")
+
+                summary_str = sess.run(summary_ops, feed_dict={
+                    summary_vars[0]: td_loss,
+                    summary_vars[1]: np.mean(r_batch),
+                    summary_vars[2]: np.mean(entropy_record)
+                })
+
+                writer.add_summary(summary_str, epoch)
+                writer.flush()
+
+                entropy_record = []
+
                 # Proceed to next run
                 stream_info.clear()
                 list_states.clear()
@@ -197,12 +226,66 @@ def agent():
                 path2_retransmissions, path2_losses, \
                     = getTrainingVariables(request)
 
-                # time_stamp += delay  # in ms
+                time_stamp += 1  # in ms
                 # time_stamp += sleep_time  # in ms
 
-                response = [request['StreamID'], request['Path1']['PathID']]
+                last_path = path
+
+                # retrieve previous state
+                if len(s_batch) == 0:
+                    state = [np.zeros((S_INFO, S_LEN))]
+                else:
+                    state = np.array(s_batch[-1], copy=True)
+
+                # dequeue history record
+                state = np.roll(state, -1, axis=1)
+
+                # this should be S_INFO number of terms
+                state[0, -1] = bdw_paths[0] # bandwidth path1
+                state[1, -1] = bdw_paths[1] # bandwidth path2
+                state[2, -1] = path1_smoothed_RTT
+                state[3, -1] = path2_smoothed_RTT 
+                state[4, -1] = path1_retransmissions
+                state[5, -1] = path2_retransmissions
+                state[6, -1] = path1_losses
+                state[7, -1] = path2_losses
+
+
+                s_batch.append(state)
+                with np.printoptions(precision=5, suppress=True):
+                    logger.debug(state)
+
+                action_prob = actor.predict(np.reshape(state, (1, S_INFO, S_LEN)))
+                logger.debug("ACTION_PROB: {}".format(action_prob))
+
+                action_cumsum = np.cumsum(action_prob)
+                logger.debug("ACTION_CUMSUM: {}".format(action_cumsum))
+
+                path = (action_cumsum > np.random.randint(1, RAND_RANGE) / float(RAND_RANGE)).argmax()
+
+                action_vec = np.zeros(A_DIM)
+                action_vec[path] = 1
+                a_batch.append(action_vec)
+                with np.printoptions(precision=5, suppress=True):
+                    logger.debug(a_batch)
+
+                logger.debug("PATH: {}".format(path))
+
+                entropy_record.append(a3c.compute_entropy(action_prob[0]))
+
+                # log time_stamp, bit_rate, buffer_size, reward
+                log_file.write(str(time_stamp) + '\t' +
+                            str(PATHS[path]) + '\t' +
+                            str(bdw_paths[0]) + '\t' +
+                            str(bdw_paths[1]) + '\t' +
+                            str(path1_smoothed_RTT) + '\t' +
+                            str(path2_smoothed_RTT) + '\t\n')
+                log_file.flush()
+
+                # response = [request['StreamID'], request['Path1']['PathID']]
+                response = [request['StreamID'], path]
                 response = [str(r).encode('utf-8') for r in response]
-                time.sleep(0.2)
+                # time.sleep(0.2)
 
                 put_response(response, tqueue, logger)
             time.sleep(0.01)
