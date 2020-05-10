@@ -18,20 +18,15 @@ from training import a3c
 from training import load_trace
 
 # ---------- Global Variables ----------
-S_INFO = 8  # subflow_throughput_measurement, average_congestion_window_size, subflow_mean_RTT, n_unacked_packets, n_retransmitted_packets
+S_INFO = 8  # bandwidth_path_i, path_i_mean_RTT, path_i_retransmitted_packets, path_i_lost_packets
 S_LEN = 8  # take how many frames in the past
-A_DIM = 2
+A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 TRAIN_SEQ_LEN = 100  # take as a train batch
 MODEL_SAVE_INTERVAL = 100
-# VIDEO_BIT_RATE = [300,750,1200,1850,2850,4300]  # Kbps
-PATHS = [1, 3]
+PATHS = [1, 3] # correspond to path ids
 BUFFER_NORM_FACTOR = 10.0
-CHUNK_TIL_VIDEO_END_CAP = 48.0
-M_IN_K = 1000.0
-REBUF_PENALTY = 4.3  # 1 sec rebuffering -> 3 Mbps
-SMOOTH_PENALTY = 1
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
@@ -42,9 +37,9 @@ LOG_FILE = './results/log'
 NN_MODEL = None
 
 
-def environment(stop_env: mp.Event, end_of_run: mp.Event):
+def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
     logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(logger=logger)
+    env = Environment(bdw_paths, logger=logger)
 
     # Lets measure env runs in time
     while not stop_env.is_set():
@@ -52,9 +47,15 @@ def environment(stop_env: mp.Event, end_of_run: mp.Event):
         # Only the agent can unblock this loop, after a training-batch has been completed
         while not end_of_run.is_set():
             try:
+                # update environment config from session
+                env.updateEnvironment()
+
+                # run a single session & measure
+                #-------------------
                 now = time.time() 
                 env.run()
                 end = time.time()
+                #-------------------
 
                 diff = int (end - now)
                 logger.debug("Time to execute one run: {}s".format(diff))
@@ -76,8 +77,6 @@ def environment(stop_env: mp.Event, end_of_run: mp.Event):
 def agent():
     np.random.seed(RANDOM_SEED)
 
-    assert len(PATHS) == A_DIM
-
     # Create results path
     if not os.path.exists(SUMMARY_DIR):
         os.makedirs(SUMMARY_DIR)
@@ -93,11 +92,13 @@ def agent():
     collector.start()
 
     # Spawn environment # process -- not a thread
+    bdw_paths = mp.Array('i', 2)
     stop_env = mp.Event()
     end_of_run = mp.Event()
-    env = mp.Process(target=environment, args=(stop_env, end_of_run))
+    env = mp.Process(target=environment, args=(bdw_paths, stop_env, end_of_run))
     env.start()
 
+    # keep record of threads and processes
     tp_list = [rhandler, collector, env]
 
 
@@ -144,7 +145,9 @@ def agent():
         # critic_gradient_batch = []
         
         list_states = []
+        rewards = []
         while not end_of_run.is_set():
+            # Get scheduling request from rhandler thread
             request = get_request(tqueue, logger, end_of_run=end_of_run)
 
             if request is None and end_of_run.is_set():
@@ -166,10 +169,15 @@ def agent():
                     logger.info(list_states[i]) # print this on index based
 
 
-                # get next bdw from env
-                bdw_path1, bdw_path2 = env.session.getCurrentBandwidth()
-                logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_path1, bdw_path2))
-
+                # Do a batch update!
+                for stream in stream_info:
+                    # Reward is 1 minus the square of the mean completion time
+                    # This means that small completion times (1<=) get praised
+                    # But large completion times (>=1) gets double the damage
+                    reward = 1 - (stream['CompletionTime'] ** 2) 
+                    rewards.append(reward)
+                
+                logger.info(rewards)
                 
                 # Proceed to next run
                 stream_info.clear()
@@ -178,29 +186,16 @@ def agent():
             else:
                 list_states.append(request)
 
+                # get bdw from env - multiprocessing.sharedMemory/bdw_paths/array
+                logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_paths[0], bdw_paths[1]))
+
+                # The bandwidth metrics coming from MPQUIC are not correct
+                # constant values not upgraded
                 path1_smoothed_RTT, path1_bandwidth, path1_packets, \
                 path1_retransmissions, path1_losses, \
                 path2_smoothed_RTT, path2_bandwidth, path2_packets, \
                 path2_retransmissions, path2_losses, \
-                    = getTrainingVariables(request) # replace later with get_request call
-
-                # reward is aggregated bandwidth minus avg smoothed RTT minus - aggr packet losses 
-                aggr_bandwidth = path1_bandwidth + path2_bandwidth
-                avg_smooth_rtt = (path1_smoothed_RTT + path2_smoothed_RTT) / 2.0
-                aggr_lost_packets = path1_losses + path2_losses
-                a = 0.5 
-                b = 0.1
-                reward = aggr_bandwidth - (a * avg_smooth_rtt) - (b * aggr_lost_packets) 
-
-                # test reward
-                logger.info("Reward this round {}".format(reward))
-
-                # the action is from the last decision
-                # this is to make the framework similar to the real
-                # delay, sleep_time, buffer_size, rebuf, \
-                # video_chunk_size, next_video_chunk_sizes, \
-                # end_of_video, video_chunk_remain = \
-                #     net_env.get_video_chunk(bit_rate)
+                    = getTrainingVariables(request)
 
                 # time_stamp += delay  # in ms
                 # time_stamp += sleep_time  # in ms
@@ -213,7 +208,7 @@ def agent():
             time.sleep(0.01)
 
     # send kill signal to all
-    env.stopenv()
+    stop_env.set()
     rhandler.stophandler()
     collector.stophandler()
 

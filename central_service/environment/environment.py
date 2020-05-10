@@ -57,16 +57,19 @@ class Session:
 
     def getCurrentBandwidth(self):
         topo = self.getCurrentTopo()
-        return topo['paths'][0]['bandwidth'], topo['paths'][1]['bandwidth']
+        return int(topo['paths'][0]['bandwidth']), int(topo['paths'][1]['bandwidth'])
 
 
 class Environment:
-    def __init__(self, logger, remoteHostname="mininet@192.168.122.15", remotePort="22"):
+    def __init__(self, bdw_paths, logger, remoteHostname="mininet@192.168.122.15", remotePort="22"):
         self._totalRuns = 0
         self._logger = logger
 
         # Session object
         self.session = Session()
+        self.curr_topo = Session().getCurrentTopo()
+        self.curr_graph = Session().getCurrentGraph()
+        self.bdw_paths = bdw_paths
 
         # Spawn Middleware
         self._remoteHostname = remoteHostname
@@ -92,27 +95,38 @@ class Environment:
                         stderr=subprocess.PIPE,
                         shell=False)
 
-    def run(self):
-        topo = [self.session.getCurrentTopo()]
-        self._logger.info(topo)
+    def getNetemToTuple(self, topo):
+        '''in json -> tuple (0 0 loss 1.69%) is stored as [0, 0, loss 1.69%]
+            revert it back to tuple, otherwise error is produced
+        '''
         topo[0]['netem'][0] = (topo[0]['netem'][0][0], topo[0]['netem'][0][1], topo[0]['netem'][0][2])
         topo[0]['netem'][1] = (topo[0]['netem'][1][0], topo[0]['netem'][1][1], topo[0]['netem'][1][2])
+        return topo
 
 
-        self._logger.info(topo)
+    def updateEnvironment(self):
+        ''' One step update 
+            First load current values, then move to next!
+        '''
+        topo = [self.session.getCurrentTopo()]
+        self.curr_topo = self.getNetemToTuple(topo)
+        self.curr_graph = self.session.getCurrentGraph()
 
-        graph = self.session.getCurrentGraph()
+        bdw_path1, bdw_path2 = self.session.getCurrentBandwidth()
+        self.bdw_paths[0] = bdw_path1
+        self.bdw_paths[1] = bdw_path2
 
+        self.session.nextTopo()
+        self.session.nextGraph()
+        
+
+    def run(self):
         self._totalRuns += 1
         message = "Run Number: {}" 
         self._logger.info(message.format(self._totalRuns))
 
-        launchTests(topo, graph)
+        launchTests(self.curr_topo, self.curr_graph)
 
-        # update topology
-        # update configuration
-        self.session.nextTopo()
-        self.session.nextGraph()
 
     def close(self):
         self.stop_middleware()

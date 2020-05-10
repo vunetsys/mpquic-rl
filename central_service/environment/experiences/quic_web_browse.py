@@ -53,7 +53,7 @@ def getPostProcessingList(**kwargs):
     return toReturn
 
 
-def quicTests(graph, topos=DEFAULT_TOPOLOGY, protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
+def quicTests(topos=DEFAULT_TOPOLOGY, graph="www.google.com_", protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
     experienceLauncher = ExperienceLauncher(REMOTE_SERVER_RUNNER_HOSTNAME, REMOTE_SERVER_RUNNER_PORT)
 
     def testsXp(**kwargs):
@@ -135,7 +135,7 @@ def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandw
     return mptcpTopos
 
 
-def launchTests(topos, graph):
+def launchTests(topology, graph):
     # topology = [
     #     {'netem': [(0, 0, 'loss 1.56%'), (1, 0, 'loss 1.19%')], 
     #     'paths': [
@@ -143,5 +143,4 @@ def launchTests(topos, graph):
     #         {'bandwidth': '45', 'delay': '13.3', 'queuingDelay': '0.063'}
     #     ]}
     # ]
-
-    quicTests(graph, topology)
+    quicTests(topology, graph)

@@ -20,8 +20,8 @@ def getTrainingVariables(request):
 def arrangeStateStreamsInfo(states, stream_info):
     '''
         Concurrency in MPQUIC results in slightly different ordering of stream_ids,
-        Since we care only about the server side of events (for training and validation)
-        We rearrange the stream_info based on the states received
+        Since we only care about the server side of events (for training and validation)
+        We rearrange the stream_info based on the order of states received
         As a matching value we have the request-path (e.g. /index.html == /index.html)
     '''
     assert (len(states) == len(stream_info))
