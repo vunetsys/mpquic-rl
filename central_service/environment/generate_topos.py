@@ -21,7 +21,8 @@ def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandw
     for _ in range(nbMptcpTopos):
         mptcpTopo = {PATHS: [], NETEM: []}
         for nbPath in range(pathsPerTopo):
-            bandwidthPath = "{0:.2f}".format(np.random.uniform(low=bandwidth[0], high=bandwidth[1]))
+            bandwidthPath = "{0}".format(np.random.randint(low=bandwidth[0], high=bandwidth[1]))
+            # bandwidthPath = "{0:.2f}".format(np.random.uniform(low=bandwidth[0], high=bandwidth[1]))
             rttPath = "{0:.0f}".format(np.random.uniform(low=rtt[0], high=rtt[1]))
             delayPath = "{0:.1f}".format(float(rttPath) / 2.0)
             lossPath = "{0:.2f}".format(np.random.uniform(low=loss[0], high=loss[1]))
@@ -46,7 +47,7 @@ def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandw
 
 
 def saveToposJSON():
-    mptcpTopos = generateExperimentalDesignRandomTopos(nbMptcpTopos=1)
+    mptcpTopos = generateExperimentalDesignRandomTopos(nbMptcpTopos=10)
     with open(TOPOS_JSON_FILE, 'w') as fp:
         json.dump(mptcpTopos, fp)
 

@@ -17,6 +17,15 @@ from .core.core import ExperienceLauncher, experiment, experimentFor, experiment
 REMOTE_SERVER_RUNNER_HOSTNAME = ["mininet@192.168.122.15"]
 REMOTE_SERVER_RUNNER_PORT = ["22"]
 
+DEFAULT_TOPOLOGY = [
+        {'netem': [(0, 0, 'loss 1.56%'), (1, 0, 'loss 1.19%')], 
+        'paths': [  
+                    {'queuingDelay': '0.954', 'delay': '5.000000', 'bandwidth': '100'}, 
+                    {'queuingDelay': '1.269', 'delay': '5.000000', 'bandwidth': '25'}
+                ]
+        }
+    ]
+
 
 def getPostProcessingList(**kwargs):
     toReturn = []
@@ -44,7 +53,7 @@ def getPostProcessingList(**kwargs):
     return toReturn
 
 
-def quicTests(topos, protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
+def quicTests(graph, topos=DEFAULT_TOPOLOGY, protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
     experienceLauncher = ExperienceLauncher(REMOTE_SERVER_RUNNER_HOSTNAME, REMOTE_SERVER_RUNNER_PORT)
 
     def testsXp(**kwargs):
@@ -59,7 +68,7 @@ def quicTests(topos, protocol="mptcp", tmpfs="/mnt/tmpfs"): #work path
                     SERVER_PCAP: "yes",
                     HTTPS_FILE: "random",
                     WEB_BROWSE: "1",     # single file transfer: 0  ;  web browse: 1
-                    JSON_FILE: "www.google.com_",   # specify websites to download
+                    JSON_FILE: graph,   # specify websites to download
                     PROJECT: "quic-go",     # quic-go is the prioritized stream scheduling project, mp-quic is the original multipath-quic project
                     PATH_SCHEDULER:"MultiPath",   # quic-go param: MultiPath; SinglePath
                     BROWSER:"Firefox",
@@ -126,21 +135,13 @@ def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandw
     return mptcpTopos
 
 
-def launchTests(times=1):
-    mptcpTopos = [
-        {'netem': [(0, 0, 'loss 1.56%'), (1, 0, 'loss 1.19%')], 
-        'paths': [  
-                    {'queuingDelay': '0.954', 'delay': '5.000000', 'bandwidth': '100'}, 
-                    {'queuingDelay': '1.269', 'delay': '5.000000', 'bandwidth': '25'}
-                ]
-        }
-    ]
-    
-    # mptcpTopos = [{
-    #     'paths': [{'queuingDelay': '0.954', 'delay': '84.1', 'bandwidth': '51.83'}, {'queuingDelay': '1.269', 'delay': '106.1', 'bandwidth': '45.38'}], 
-    #     'netem': [(0, 0, 'loss 1.56%'), (1, 0, 'loss 1.19%')]
-    # }]
-    for _ in range(times):
-        quicTests(mptcpTopos)
+def launchTests(topos, graph):
+    # topology = [
+    #     {'netem': [(0, 0, 'loss 1.56%'), (1, 0, 'loss 1.19%')], 
+    #     'paths': [
+    #         {'bandwidth': '51', 'delay': '10.5', 'queuingDelay': '0.048'}, 
+    #         {'bandwidth': '45', 'delay': '13.3', 'queuingDelay': '0.063'}
+    #     ]}
+    # ]
 
-# launchTests(times=1)
+    quicTests(graph, topology)

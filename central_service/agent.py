@@ -42,9 +42,9 @@ LOG_FILE = './results/log'
 NN_MODEL = None
 
 
-def environment(stop_env: mp.Event, end_of_run: mp.Event, times=5):
+def environment(stop_env: mp.Event, end_of_run: mp.Event):
     logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(logger=logger, times=times)
+    env = Environment(logger=logger)
 
     # Lets measure env runs in time
     while not stop_env.is_set():
@@ -96,7 +96,7 @@ def agent():
     times = 1
     stop_env = mp.Event()
     end_of_run = mp.Event()
-    env = mp.Process(target=environment, args=(stop_env, end_of_run, times))
+    env = mp.Process(target=environment, args=(stop_env, end_of_run))
     env.start()
 
     tp_list = [rhandler, collector, env]
