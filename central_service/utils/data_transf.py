@@ -1,5 +1,26 @@
 # Some useful operations on data we need for our training
 
+def allUnique(x, debug=False):
+    '''
+        Simplest way to check if all items in a list are unique
+        with early exit
+    '''
+    # return len(x) == len(set(x))
+    if debug:
+        seen = set()
+        for i in x:
+            if i in seen:
+                print("Not unique: {}".format(i))
+            else:
+                seen.add(i)
+        print ("allUnique len(x) = {} and len(seen) = {}".format(len(x), len(seen)))
+        return len(x) == len(seen)
+
+    seen = set()
+    return not any(i in seen or seen.add(i) for i in x)
+
+
+
 def getTrainingVariables(request):
     '''
         Return all necessary state/training variables from the request

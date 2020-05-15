@@ -12,10 +12,10 @@ from experiences.core.generate_xp import XP_TYPE, SCHEDULER_CLIENT, SCHEDULER_SE
     HTTPS_RANDOM_SIZE5, PRIORITY_5
 
 
-TOPOS_JSON_FILE='topos.json'
+TOPOS_JSON_FILE='./environment/topos.json'
 
 
-def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandwidth=(0.1, 100), rtt=(0, 50), queuingDelay=(0.0, 0.1), loss=(0.0, 2.5)):
+def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandwidth=(1, 100), rtt=(0, 50), queuingDelay=(0.0, 0.1), loss=(0.0, 2.5)):
     """ Assume only two paths per MPTCP topology, uniform distribution """
     mptcpTopos = []
     for _ in range(nbMptcpTopos):
@@ -47,9 +47,9 @@ def generateExperimentalDesignRandomTopos(nbMptcpTopos=10, pathsPerTopo=2, bandw
 
 
 def saveToposJSON():
-    mptcpTopos = generateExperimentalDesignRandomTopos(nbMptcpTopos=10)
+    mptcpTopos = generateExperimentalDesignRandomTopos(nbMptcpTopos=100)
     with open(TOPOS_JSON_FILE, 'w') as fp:
-        json.dump(mptcpTopos, fp)
+        json.dump(mptcpTopos, fp, indent=4)
 
 
 def loadToposJSON(fpath=TOPOS_JSON_FILE):

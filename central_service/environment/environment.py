@@ -5,6 +5,7 @@ import subprocess
 import time
 import json
 import os
+import random
 
 # from .experiences.quic_mptcp_https_tests_expdes_wsp_highbdp_loss_quic_marios import launchTests
 # from .experiences.quic_dualfile_offline import launchTests 
@@ -21,13 +22,22 @@ class Session:
         for our environment!
         It is utilized by both agent and environment
     '''
-    def __init__(self, topologies='./environment/topos.json', dgraphs='./environment/dependency_graphs'):
-        self._topoIndex = 0
-        self._graphIndex = 0
+    def __init__(self, topologies='./environment/topos.json', dgraphs='./environment/graphs.json'):
+        self._index = 0
 
         self._topologies, self._len_topo = self.loadTopologies(topologies)
         self._graphs, self._len_graph  = self.loadDependencyGraphs(dgraphs)
 
+        self._pairs = self.generatePairs()
+
+
+    def generatePairs(self):
+        tuple_list = []
+        for i in range(self._len_topo):
+            for j in range(self._len_graph):
+                tuple_list.append((i, j))
+
+        return random.sample(tuple_list, len(tuple_list))
 
     def loadTopologies(self, file):
         topos = []
@@ -37,22 +47,27 @@ class Session:
         return topos, len(topos)
 
     def loadDependencyGraphs(self, file):
-        output = [dI for dI in os.listdir(file) if os.path.isdir(os.path.join(file,dI))]
+        graphs = []
+        with open(file, 'r') as fp:
+            graphs = json.load(fp)
+
+        output = [elem['file'] for elem in graphs]
         return output, len(output)
 
     # nextTopo and nextGraph allow only one thread at both methods at a time!
-    def nextTopo(self):
-        self._topoIndex = (self._topoIndex + 1) % self._len_topo
+    def nextRun(self):
+        self._index += 1
 
-    def nextGraph(self):
-        self._graphIndex = (self._graphIndex + 1) % self._len_graph
+        if self._index >= len(self._pairs):
+            return -1
+        return self._index 
 
     def getCurrentTopo(self):
-        topo = self._topologies[self._topoIndex]
+        topo = self._topologies[self._pairs[self._index][0]]
         return topo
 
     def getCurrentGraph(self):
-        graph = self._graphs[self._graphIndex]
+        graph = self._graphs[self._pairs[self._index][1]]
         return graph
 
     def getCurrentBandwidth(self):
@@ -103,7 +118,6 @@ class Environment:
         topo[0]['netem'][1] = (topo[0]['netem'][1][0], topo[0]['netem'][1][1], topo[0]['netem'][1][2])
         return topo
 
-
     def updateEnvironment(self):
         ''' One step update 
             First load current values, then move to next!
@@ -116,17 +130,14 @@ class Environment:
         self.bdw_paths[0] = bdw_path1
         self.bdw_paths[1] = bdw_path2
 
-        self.session.nextTopo()
-        self.session.nextGraph()
+        return self.session.nextRun()
         
-
     def run(self):
         self._totalRuns += 1
         message = "Run Number: {}" 
         self._logger.info(message.format(self._totalRuns))
 
         launchTests(self.curr_topo, self.curr_graph)
-
 
     def close(self):
         self.stop_middleware()

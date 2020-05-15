@@ -13,17 +13,18 @@ from centraltrainer.collector import Collector
 from environment.environment import Environment
 from utils.logger import config_logger
 from utils.queue_ops import get_request, put_response
-from utils.data_transf import arrangeStateStreamsInfo, getTrainingVariables
+from utils.data_transf import arrangeStateStreamsInfo, getTrainingVariables, allUnique
 from training import a3c
 from training import load_trace
 
 # ---------- Global Variables ----------
-S_INFO = 8  # bandwidth_path_i, path_i_mean_RTT, path_i_retransmitted_packets, path_i_lost_packets
+S_INFO = 6  # bandwidth_path_i, path_i_mean_RTT, path_i_retransmitted_packets + path_i_lost_packets
 S_LEN = 8  # take how many frames in the past
 A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
-TRAIN_SEQ_LEN = 100  # take as a train batch
+# TRAIN_SEQ_LEN = 100  # take as a train batch
+TRAIN_SEQ_LEN = 64 # take as a train batch
 MODEL_SAVE_INTERVAL = 100
 PATHS = [1, 3] # correspond to path ids
 BUFFER_NORM_FACTOR = 10.0
@@ -48,7 +49,10 @@ def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
         while not end_of_run.is_set():
             try:
                 # update environment config from session
-                env.updateEnvironment()
+                if env.updateEnvironment() == -1:
+                    stop_env.set()
+                    end_of_run.set()
+                    break
 
                 # run a single session & measure
                 #-------------------
@@ -67,10 +71,6 @@ def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
                 break
         time.sleep(0.1)
 
-    # Closing environment, inform others that this is the end 
-    # By raising the stop_env flag
-    if not stop_env.is_set():
-        stop_env.set()
     env.close()
         
 
@@ -149,6 +149,10 @@ def agent():
             # Get scheduling request from rhandler thread
             request = get_request(tqueue, logger, end_of_run=end_of_run)
 
+            # end of iterations -> exit loop -> save -> bb
+            if stop_env.is_set():
+                break
+
             if request is None and end_of_run.is_set():
                 logger.info("END_OF_RUN is set, BATCH UPDATE")
 
@@ -163,12 +167,16 @@ def agent():
                 # Validate
                 logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
                 stream_info = arrangeStateStreamsInfo(list_states, stream_info)
+
+                list_ids = [stream['StreamID'] for stream in stream_info]
+                logger.info("all_unique: {}".format(allUnique(list_ids, debug=True)))
+                
                 for i, stream in enumerate(stream_info):
                     logger.info(stream)
                     logger.info(list_states[i]) # print this on index based
 
 
-                # Do a batch update!
+                # For each stream calculate a reward
                 for stream in stream_info:
                     # Reward is 1 minus the square of the mean completion time
                     # This means that small completion times (1<=) get praised
@@ -176,15 +184,58 @@ def agent():
                     reward = 1 - (stream['CompletionTime'] ** 2) 
                     r_batch.append(reward)
 
-                # r_batch.append(0)
+                print ("r_batch: {} == {} :s_batch".format(len(r_batch), len(s_batch)))
+                print ("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(r_batch.shape[0], s_batch.shape[0]))
+
+                # r_batch.append(0) this works not sure why though
                 
                 logger.info(r_batch)
 
+                # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
+                # ----------------------------------------------------------------------------------------------------
+                div  = len(r_batch) // TRAIN_SEQ_LEN
+                mod  = len(r_batch) % TRAIN_SEQ_LEN
+                logger.debug("REMAINDER {}".format(div))
+                start = 1
+                end = TRAIN_SEQ_LEN
+                for i in range(div):
+                    actor_gradient, critic_gradient, td_batch = \
+                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
+                                            a_batch=np.vstack(a_batch[start:end]),  # since we don't have the
+                                            r_batch=np.vstack(r_batch[start:end]),  # control over it
+                                            terminal=True, actor=actor, critic=critic)
+                    td_loss = np.mean(td_batch)
+
+                    actor_gradient_batch.append(actor_gradient)
+                    critic_gradient_batch.append(critic_gradient)
+
+
+                    logger.debug ("====")
+                    logger.debug ("Epoch: {}".format(epoch))
+                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch), np.mean(entropy_record))
+                    logger.debug (msg)
+                    logger.debug ("====")
+
+                    summary_str = sess.run(summary_ops, feed_dict={
+                        summary_vars[0]: td_loss,
+                        summary_vars[1]: np.mean(r_batch),
+                        summary_vars[2]: np.mean(entropy_record)
+                    })
+
+                    writer.add_summary(summary_str, epoch)
+                    writer.flush()
+
+                    start   += (end - 1)
+                    end     += TRAIN_SEQ_LEN
+                # ----------------------------------------------------------------------------------------------------
+
+                # One final training step with MOD operation
+                # ----------------------------------------------------------------------------------------------------
                 actor_gradient, critic_gradient, td_batch = \
-                    a3c.compute_gradients(s_batch=np.stack(s_batch[1:], axis=0),  # ignore the first chuck
-                                          a_batch=np.vstack(a_batch[1:]),  # since we don't have the
-                                          r_batch=np.vstack(r_batch[1:]),  # control over it
-                                          terminal=True, actor=actor, critic=critic)
+                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
+                                            a_batch=np.vstack(a_batch[start:]),  # since we don't have the
+                                            r_batch=np.vstack(r_batch[start:]),  # control over it
+                                            terminal=True, actor=actor, critic=critic)
                 td_loss = np.mean(td_batch)
 
                 actor_gradient_batch.append(actor_gradient)
@@ -205,6 +256,7 @@ def agent():
 
                 writer.add_summary(summary_str, epoch)
                 writer.flush()
+                # ----------------------------------------------------------------------------------------------------
 
                 entropy_record = []
 
@@ -243,31 +295,24 @@ def agent():
                 # this should be S_INFO number of terms
                 state[0, -1] = bdw_paths[0] # bandwidth path1
                 state[1, -1] = bdw_paths[1] # bandwidth path2
-                state[2, -1] = path1_smoothed_RTT
-                state[3, -1] = path2_smoothed_RTT 
-                state[4, -1] = path1_retransmissions
-                state[5, -1] = path2_retransmissions
-                state[6, -1] = path1_losses
-                state[7, -1] = path2_losses
+                state[2, -1] = path1_smoothed_RTT * 100
+                state[3, -1] = path2_smoothed_RTT * 100
+                state[4, -1] = path1_retransmissions + path1_losses
+                state[5, -1] = path2_retransmissions + path2_losses
+                # state[6, -1] = path1_losses
+                # state[7, -1] = path2_losses
 
 
                 s_batch.append(state)
-                with np.printoptions(precision=5, suppress=True):
-                    logger.debug(state)
+                
 
                 action_prob = actor.predict(np.reshape(state, (1, S_INFO, S_LEN)))
-                logger.debug("ACTION_PROB: {}".format(action_prob))
-
                 action_cumsum = np.cumsum(action_prob)
-                logger.debug("ACTION_CUMSUM: {}".format(action_cumsum))
-
                 path = (action_cumsum > np.random.randint(1, RAND_RANGE) / float(RAND_RANGE)).argmax()
 
                 action_vec = np.zeros(A_DIM)
                 action_vec[path] = 1
                 a_batch.append(action_vec)
-                with np.printoptions(precision=5, suppress=True):
-                    logger.debug(a_batch)
 
                 logger.debug("PATH: {}".format(path))
 
@@ -278,15 +323,13 @@ def agent():
                             str(PATHS[path]) + '\t' +
                             str(bdw_paths[0]) + '\t' +
                             str(bdw_paths[1]) + '\t' +
-                            str(path1_smoothed_RTT) + '\t' +
-                            str(path2_smoothed_RTT) + '\t\n')
+                            str(path1_smoothed_RTT * 100) + '\t' +
+                            str(path2_smoothed_RTT * 100) + '\t\n')
                 log_file.flush()
 
                 # response = [request['StreamID'], request['Path1']['PathID']]
                 response = [request['StreamID'], path]
                 response = [str(r).encode('utf-8') for r in response]
-                # time.sleep(0.2)
-
                 put_response(response, tqueue, logger)
             time.sleep(0.01)
 
