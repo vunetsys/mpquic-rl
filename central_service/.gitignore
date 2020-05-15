@@ -148,6 +148,9 @@ logs/
 results/
 environment/dependency_graphs/
 topos.json
+graphs.json
+test_graphs.json
+train_graphs.json
 
 # VsCode
 .vscode/
