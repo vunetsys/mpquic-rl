@@ -217,17 +217,15 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 					}
 
 					// PRint my bs
-					msPathsTest := sch.choosePathsRL(s, stream.streamID, stream.priority.Weight)
-					for pth, vol := range msPathsTest {
-						utils.Infof("MSPATHSTEST: PathID: %x (%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
-						utils.Infof("StreamPath: %s", stream.requestPath)
-					}
+					// msPathsTest := sch.choosePathsRL(s, stream.streamID, stream.priority.Weight)
+					// for pth, vol := range msPathsTest {
+					// 	utils.Infof("MSPATHSTEST: PathID: %x (%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
+					// 	utils.Infof("StreamPath: %s", stream.requestPath)
+					// }
 
-					selectedPths := sch.choosePaths(s, stream.streamID, stream.priority.Weight)
+					selectedPths := sch.choosePathsRL(s, stream.streamID)
 					if len(selectedPths) == 0 {
-						if utils.Debug() {
-							utils.Debugf("SHI: fail to assign path to stream %d", stream.streamID)
-						}
+						utils.Infof("MARIOS: fail to assign path to stream %d", stream.streamID)
 						if stream.checksize == true {
 							// only assign path when the stream size is known
 							// return error under the condition that fail to assign with stream size detected
@@ -235,8 +233,22 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 							return false, sch.ackRemainingPaths(s, windowUpdateFrames)
 						}
 						return true, nil
-
 					}
+
+					// selectedPths := sch.choosePaths(s, stream.streamID, stream.priority.Weight)
+					// if len(selectedPths) == 0 {
+					// 	if utils.Debug() {
+					// 		utils.Debugf("SHI: fail to assign path to stream %d", stream.streamID)
+					// 	}
+					// 	if stream.checksize == true {
+					// 		// only assign path when the stream size is known
+					// 		// return error under the condition that fail to assign with stream size detected
+					// 		windowUpdateFrames := s.getWindowUpdateFrames(false)
+					// 		return false, sch.ackRemainingPaths(s, windowUpdateFrames)
+					// 	}
+					// 	return true, nil
+					// }
+
 					utils.Infof("ScheduleToMultiplePaths():\n")
 					printStreamInfo(stream)
 					printAllPathsInfo(s)
@@ -246,7 +258,6 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 						pth.streamIDs = append(pth.streamIDs, stream.streamID)
 						sch.numstreams[pth.pathID]++ //update stream quota
 						utils.Infof("assigned to path %x(%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
-
 					}
 
 				}
@@ -751,7 +762,7 @@ pathLoop:
 }
 
 // For now almost replica of SHI:choosePaths
-func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID, priority uint8) (selectedPaths map[*path]float64) {
+func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID) (selectedPaths map[*path]float64) {
 	stream := s.streamsMap.streams[strID]
 
 	// assign path only if the size of a flow is detected
@@ -772,12 +783,7 @@ func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID, priorit
 	}
 
 	var avalPaths []*path
-	//var sortedPathsBdw []protocol.PathID // maps are unordered, thus use array
 	selectedPaths = make(map[*path]float64)
-	//pathsOwd := make(map[protocol.PathID]float64)
-	//pathsBdw := make(map[protocol.PathID]float64)
-	//pathsVolume := make(map[protocol.PathID]float64)
-	//volume := float64(stream.size) * 8 //bit
 
 	var pathStats []*PathStats // slice
 
@@ -815,10 +821,8 @@ pathLoop:
 	}
 
 	if len(avalPaths) < 2 {
-		utils.Infof("AVAILABLE PATHS: %d", len(avalPaths))
-		var selectedPathID protocol.PathID = protocol.PathID(protocol.InitialPathID)
-		selectedPaths[s.paths[selectedPathID]] = float64(stream.size)
-		return selectedPaths
+		utils.Infof("AVAILPATHS < 2: %d", len(avalPaths))
+		return nil
 	}
 
 	// Add statistics for each Path
