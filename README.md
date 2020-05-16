@@ -22,7 +22,7 @@ _Steps_:
 
   2. Copy the contents of 'minitopo/' under VM's '~/git/minitopo/src/'
 
-  3. Move (as in mv) the original quic-go directory under '~/go/src/github.com/lucas-clemente/quic-go/' to  '~/go/src/github.com/lucas-clemente/mp-quic'
+  3. Move (as in mv) the original quic-go directory under '\~/go/src/github.com/lucas-clemente/quic-go/' to  '~/go/src/github.com/lucas-clemente/mp-quic'
 
   4. Under the original '~/go/src/github.com/lucas-clemente/quic-go/' copy all contents of 'mpquic-rl'
 
