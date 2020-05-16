@@ -9,7 +9,7 @@ class MpConfig:
 	def configureNetwork(self):
 		print("Configure interfaces....Generic call ?")
 		self.configureInterfaces()
-		# self.configureRoute()
+		self.configureRoute()
 
 	def getMidL2RInterface(self, id):
 		"get Middle link, left to right interface"

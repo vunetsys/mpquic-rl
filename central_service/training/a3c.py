@@ -4,10 +4,10 @@ import tflearn
 
 
 GAMMA = 0.99
-A_DIM = 6
+A_DIM = 2
 ENTROPY_WEIGHT = 0.5
 ENTROPY_EPS = 1e-6
-S_INFO = 4
+# S_INFO = 4
 
 
 class ActorNetwork(object):
