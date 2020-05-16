@@ -1,8 +1,8 @@
-## Marios Evangelos Kanakis - MSc Thesis Project
-
 ## DRL Scheduler for MP-QUIC protocol
 
-### Instalation Guide (WIP)
+### Marios Evangelos Kanakis - MSc Thesis Project
+
+#### Instalation Guide (WIP)
 
 * Grab the original MP-QUIC VM image from https://multipath-quic.org/2017/12/09/artifacts-available.html 
 
