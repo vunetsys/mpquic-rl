@@ -1,0 +1,13 @@
+
+# On the guest Mininet OS
+# You need to install libzmq3 for using the pebbe/zmq4 golang package
+# To do so, ssh to the machine and run the following commands
+
+
+# NOTE: If you want you can directly use the last command
+
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/network:/messaging:/zeromq:/release-stable/xUbuntu_14.04/ /' > /etc/apt/sources.list.d/network:messaging:zeromq:release-stable.list"
+wget -nv https://download.opensuse.org/repositories/network:messaging:zeromq:release-stable/xUbuntu_14.04/Release.key -O Release.key
+sudo apt-key add - < Release.key
+sudo apt-get update
+sudo apt-get install libzmq3-dev

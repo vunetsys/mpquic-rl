@@ -22,14 +22,13 @@ class Session:
         for our environment!
         It is utilized by both agent and environment
     '''
-    def __init__(self, topologies='./environment/topos.json', dgraphs='./environment/graphs.json'):
+    def __init__(self, topologies='./environment/topos.json', dgraphs='./environment/train_graphs.json'):
         self._index = 0
 
         self._topologies, self._len_topo = self.loadTopologies(topologies)
         self._graphs, self._len_graph  = self.loadDependencyGraphs(dgraphs)
 
         self._pairs = self.generatePairs()
-
 
     def generatePairs(self):
         tuple_list = []
@@ -54,7 +53,6 @@ class Session:
         output = [elem['file'] for elem in graphs]
         return output, len(output)
 
-    # nextTopo and nextGraph allow only one thread at both methods at a time!
     def nextRun(self):
         self._index += 1
 
@@ -76,7 +74,7 @@ class Session:
 
 
 class Environment:
-    def __init__(self, bdw_paths, logger, remoteHostname="mininet@192.168.122.15", remotePort="22"):
+    def __init__(self, bdw_paths, logger, remoteHostname="mininet@192.168.122.157", remotePort="22"):
         self._totalRuns = 0
         self._logger = logger
 
@@ -92,8 +90,10 @@ class Environment:
         self.spawn_middleware()
 
     def spawn_middleware(self):
-        # Beforing spawning a middleware,
-        # Ensure that previous ones are killed!
+        ''' This method might seem more like a restart.
+            First, it kills __if and any__ existing middlewares, and then spawns a new one.
+            Small sleep to ensure previous one is killed.
+        '''
         self.stop_middleware()
         time.sleep(0.5)
         ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, MIDDLEWARE_BIN_REMOTE_PATH]
@@ -119,7 +119,7 @@ class Environment:
         return topo
 
     def updateEnvironment(self):
-        ''' One step update 
+        ''' One step update. 
             First load current values, then move to next!
         '''
         topo = [self.session.getCurrentTopo()]
@@ -134,10 +134,11 @@ class Environment:
         
     def run(self):
         self._totalRuns += 1
-        message = "Run Number: {}" 
-        self._logger.info(message.format(self._totalRuns))
+        message = "Run Number: {}, Graph: {}" 
+        self._logger.info(message.format(self._totalRuns, self.curr_graph))
 
         launchTests(self.curr_topo, self.curr_graph)
+        # launchTests(1)
 
     def close(self):
         self.stop_middleware()

@@ -14,7 +14,7 @@ from .core.generate_xp import XP_TYPE, SCHEDULER_CLIENT, SCHEDULER_SERVER, CC, \
 from .core.core import ExperienceLauncher, experiment, experimentFor, experimentTopos
 
 
-REMOTE_SERVER_RUNNER_HOSTNAME = ["mininet@192.168.122.15"]
+REMOTE_SERVER_RUNNER_HOSTNAME = ["mininet@192.168.122.157"]
 REMOTE_SERVER_RUNNER_PORT = ["22"]
 
 DEFAULT_TOPOLOGY = [

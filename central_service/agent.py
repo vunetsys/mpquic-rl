@@ -38,9 +38,13 @@ LOG_FILE = './results/log'
 NN_MODEL = None
 
 
+SSH_HOST = '192.168.122.157'
+
 def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
+    rhostname = 'mininet' + '@' + SSH_HOST
+    
     logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(bdw_paths, logger=logger)
+    env = Environment(bdw_paths, logger=logger, remoteHostname=rhostname)
 
     # Lets measure env runs in time
     while not stop_env.is_set():
@@ -83,12 +87,12 @@ def agent():
 
     # Spawn request handler
     tqueue = queue.Queue(1)
-    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host='192.168.122.15', port='5555')
+    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=SSH_HOST, port='5555')
     rhandler.start()
 
     # Spawn collector thread
     cqueue = queue.Queue(0)
-    collector = Collector(2, "collector-thread", queue=cqueue, host='192.168.122.15', port='5556')
+    collector = Collector(2, "collector-thread", queue=cqueue, host=SSH_HOST, port='5556')
     collector.start()
 
     # Spawn environment # process -- not a thread
@@ -185,7 +189,9 @@ def agent():
                     r_batch.append(reward)
 
                 print ("r_batch: {} == {} :s_batch".format(len(r_batch), len(s_batch)))
-                print ("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(r_batch.shape[0], s_batch.shape[0]))
+                tmp_s_batch = np.stack(s_batch[1:TRAIN_SEQ_LEN], axis=0)
+                tmp_r_batch = np.vstack(r_batch[1:TRAIN_SEQ_LEN])
+                print ("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
 
                 # r_batch.append(0) this works not sure why though
                 
@@ -328,7 +334,7 @@ def agent():
                 log_file.flush()
 
                 # response = [request['StreamID'], request['Path1']['PathID']]
-                response = [request['StreamID'], path]
+                response = [request['StreamID'], PATHS[path]]
                 response = [str(r).encode('utf-8') for r in response]
                 put_response(response, tqueue, logger)
             time.sleep(0.01)
