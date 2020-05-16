@@ -34,7 +34,7 @@ _Steps_:
 
   7. Create a directory 'server' under '~/go/src/github.com/lucas-clemente/'
 
-        i. Inside the server directory extract the server.tar.gz with the missing and pages directories -
+        i. Inside the server directory extract the server.tar.gz with the `missing` and `pages` directories respectively
 
   8. Everytime you start up the VM, remember to run the './mount_tmpfs.sh' under '~/' 
   
