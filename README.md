@@ -1,8 +1,9 @@
-## Marios Evangelos Kanakis - MSc Thesis Project
 
 ## DRL Scheduler for MP-QUIC protocol
 
-### Instalation Guide (WIP)
+### Marios Evangelos Kanakis - MSc Thesis Project
+
+#### Instalation Guide (WIP)
 
 Following steps are the initial VM setup for running any kind of experiments with Multipath QUIC protocol, courtesy of the original MP-QUIC authors (put refs;). The environment/experiments setup is from PStream (put refs;), as well as the stream scheduling code (`mpquic-rl`) which is used as the basis for building our RL agent.
 
