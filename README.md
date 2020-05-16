@@ -1,5 +1,5 @@
 
-## DRL Scheduler for MP-QUIC protocol
+## DRL Scheduler for Multipath - QUIC
 
 ### Marios Evangelos Kanakis - MSc Thesis Project
 
