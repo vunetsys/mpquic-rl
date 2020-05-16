@@ -13,27 +13,30 @@ __*Information*__ on how to run the agent, should be available under `central_se
 _Steps_:
 
   1. Grab the original MP-QUIC VM image from https://multipath-quic.org/2017/12/09/artifacts-available.html 
+      
+      i. Start up the VM  with KEMU
 
-  2. Start up the VM  with KEMU
+      ii. SSH Into the VM (user: mininet, pass: mininet)
 
-  3. SSH Into the VM (user: mininet, pass: mininet)
+      iii. Place your ssh public keys under ~/.ssh/authorized_keys (from link above this is step 3 from end)
 
-  4. Place your ssh public keys under ~/.ssh/authorized_keys (from link above this is step 3 from end)
+  2. Copy the contents of 'minitopo/' under VM's '~/git/minitopo/src/'
 
-  5. From 'our' repo, copy the contents of 'minitopo/' under VM's '~/git/minitopo/src/'
+  3. Move (as in mv) the original quic-go directory under '~/go/src/github.com/lucas-clemente/quic-go/' to  '~/go/src/github.com/lucas-clemente/mp-quic'
 
-  6. Move (as in mv) the original quic-go directory under '~/go/src/github.com/lucas-clemente/quic-go/' to  '~/go/src/github.com/lucas-clemente/mp-quic'
+  4. Under the original '~/go/src/github.com/lucas-clemente/quic-go/' copy all contents of 'mpquic-rl'
 
-  7. Under the original '~/go/src/github.com/lucas-clemente/quic-go/' copy all contents of 'mpquic-rl' from the repo
+  5. Under '~/go/src/github.com/mkanakis/test-zmq/reply/' place the contents of 'middleware' (This path will change in a subsequent version)
 
-  8. Under '~/go/src/github.com/mkanakis/test-zmq/reply/' place the contents of dir 'middleware' (This path will change in a subsequent version)
+  6. Create a directory 'client' under '~/go/src/github.com/lucas-clemente/'
 
-  9. Create a directory 'client' under '~/go/src/github.com/lucas-clemente/'
+        i. Inside the client directory copy the folder 'dependency_graphs'
 
-  10. Inside the client directory copy the folder 'dependency_graphs'
+  7. Create a directory 'server' under '~/go/src/github.com/lucas-clemente/'
 
-  11. Create a directory 'server' under '~/go/src/github.com/lucas-clemente/'
+        i. Inside the server directory extract the server.tar.gz with the missing and pages directories -
 
-  12. Inside the server directory extract the server.tar.gz with the missing and pages directories -> downloaded from here http://wprof.cs.washington.edu/spdy/tool/ (in the section 'Dependency Graph')
-
-  13. Everytime you start up the VM, remember to run the './mount_tmpfs.sh' under '~/' 
+  8. Everytime you start up the VM, remember to run the './mount_tmpfs.sh' under '~/' 
+  
+ 
+The dependency_graphs and the server files for step 6. and 7. can be downloaded from [here (in the section 'Dependency Graph')]( http://wprof.cs.washington.edu/spdy/tool/).
