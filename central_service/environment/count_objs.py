@@ -32,29 +32,29 @@ with open('./objs.json', 'w') as fp:
     json.dump(order_by_max, fp, ensure_ascii=True, indent=4, sort_keys=True)
 
 
-# count_object value that contains >= 64 objects/stream
-lar64 = [elem for elem in order_by_max if elem['size'] >= 64]
+# count_object value that contains >= 32 objects/stream and less than 100
+lar32 = [elem for elem in order_by_max if elem['size'] >= 32 and elem['size'] <= 100]
 print ("---------------------------------------------------------")
-print ("Objects in dependency graph that contain >= 64 files: {}".format(len(lar64)))
+print ("Objects in dependency graph that contain >= 32 files: {}".format(len(lar32)))
 print ("---------------------------------------------------------")
 
 
-# count_total_objects from graphs that contain >= 64 files 
-totalsize64 = 0
-for elem in lar64:
-    totalsize64 += elem['size']
+# count_total_objects from graphs that contain >= 32 files and less than 100 
+totalsize32 = 0
+for elem in lar32:
+    totalsize32 += elem['size']
 print ("--------------------------------------------------------------")
-print ("Total number of files in graphs that contain >= 64 files: {}".format(totalsize64))
+print ("Total number of files in graphs that contain >= 32 files: {}".format(totalsize32))
 print ("--------------------------------------------------------------")
 
 
-# print objects >= 64 one by one for manual validation
+# print objects >= 32 one by one for manual validation
 print ("--------------------------------------------------------------")
-for index, elem in enumerate(lar64):
+for index, elem in enumerate(lar32):
     print ("{}, \t {}\t\t, size: {}".format(index+1, elem['file'], elem['size']))
 print ("--------------------------------------------------------------")
 
 
 # save graphs for training
 with open('./graphs.json', 'w') as fp:
-    json.dump(lar64, fp, ensure_ascii=True, indent=4, sort_keys=True)
+    json.dump(lar32, fp, ensure_ascii=True, indent=4, sort_keys=True)
