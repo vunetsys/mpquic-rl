@@ -24,14 +24,14 @@ A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
-TRAIN_SEQ_LEN = 64 # take as a train batch
+TRAIN_SEQ_LEN = 32 # take as a train batch
 MODEL_SAVE_INTERVAL = 100
 PATHS = [1, 3] # correspond to path ids
 BUFFER_NORM_FACTOR = 10.0
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
-GRADIENT_BATCH_SIZE = 16
+GRADIENT_BATCH_SIZE = 8
 SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
@@ -39,6 +39,7 @@ NN_MODEL = None
 
 
 SSH_HOST = '192.168.122.157'
+
 
 def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
     rhostname = 'mininet' + '@' + SSH_HOST
@@ -158,7 +159,7 @@ def agent():
                 break
 
             if request is None and end_of_run.is_set():
-                logger.info("END_OF_RUN is set, BATCH UPDATE")
+                logger.info("END_OF_RUN => BATCH UPDATE")
 
                 # get all stream_info from collector's queue
                 stream_info = []
@@ -169,18 +170,30 @@ def agent():
                     cqueue.queue.clear()
 
                 # Validate
+                # Proceed to next run
                 logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
+                if len(list_states) != len(stream_info) or len(list_states) == 0:
+                    entropy_record = []
+                    del s_batch[:]
+                    del a_batch[:]
+                    del r_batch[:]
+                    stream_info.clear()
+                    list_states.clear()
+                    end_of_run.clear()
+                    time.sleep(0.01)
+                    continue
+
+                # Re-order rewards
                 stream_info = arrangeStateStreamsInfo(list_states, stream_info)
-
                 list_ids = [stream['StreamID'] for stream in stream_info]
-                logger.info("all_unique: {}".format(allUnique(list_ids, debug=True)))
+                logger.info("all unique: {}".format(allUnique(list_ids, debug=True)))
                 
-                for i, stream in enumerate(stream_info):
-                    logger.info(stream)
-                    logger.info(list_states[i]) # print this on index based
-
+                # for i, stream in enumerate(stream_info):
+                #     logger.info(stream)
+                #     logger.info(list_states[i]) # print this on index based
 
                 # For each stream calculate a reward
+                # r_batch.append(0)
                 for stream in stream_info:
                     # Reward is 1 minus the square of the mean completion time
                     # This means that small completion times (1<=) get praised
@@ -188,22 +201,16 @@ def agent():
                     reward = 1 - (stream['CompletionTime'] ** 2) 
                     r_batch.append(reward)
 
-                print ("r_batch: {} == {} :s_batch".format(len(r_batch), len(s_batch)))
-                tmp_s_batch = np.stack(s_batch[1:TRAIN_SEQ_LEN], axis=0)
-                tmp_r_batch = np.vstack(r_batch[1:TRAIN_SEQ_LEN])
-                print ("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
-
-                # r_batch.append(0) this works not sure why though
-                
-                logger.info(r_batch)
+                tmp_s_batch = np.stack(s_batch[:], axis=0)
+                tmp_r_batch = np.vstack(r_batch[:])
+                logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
 
                 # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
                 # ----------------------------------------------------------------------------------------------------
                 div  = len(r_batch) // TRAIN_SEQ_LEN
-                mod  = len(r_batch) % TRAIN_SEQ_LEN
-                logger.debug("REMAINDER {}".format(div))
                 start = 1
                 end = TRAIN_SEQ_LEN
+                logger.debug("DIVISION: {}".format(div))
                 for i in range(div):
                     actor_gradient, critic_gradient, td_batch = \
                         a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
@@ -218,14 +225,14 @@ def agent():
 
                     logger.debug ("====")
                     logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch), np.mean(entropy_record))
+                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
                     logger.debug (msg)
                     logger.debug ("====")
 
                     summary_str = sess.run(summary_ops, feed_dict={
                         summary_vars[0]: td_loss,
-                        summary_vars[1]: np.mean(r_batch),
-                        summary_vars[2]: np.mean(entropy_record)
+                        summary_vars[1]: np.mean(r_batch[start:end]),
+                        summary_vars[2]: np.mean(entropy_record[start:end])
                     })
 
                     writer.add_summary(summary_str, epoch)
@@ -235,38 +242,58 @@ def agent():
                     end     += TRAIN_SEQ_LEN
                 # ----------------------------------------------------------------------------------------------------
 
-                # One final training step with MOD operation
+                # One final training step with remaining samples
                 # ----------------------------------------------------------------------------------------------------
-                actor_gradient, critic_gradient, td_batch = \
-                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
-                                            a_batch=np.vstack(a_batch[start:]),  # since we don't have the
-                                            r_batch=np.vstack(r_batch[start:]),  # control over it
-                                            terminal=True, actor=actor, critic=critic)
-                td_loss = np.mean(td_batch)
+                logger.debug("FINAL TRAINING STEP")
+                logger.debug("Start: {}, End: {}".format(start, end))
+                # If there is a smaller difference, leave it be might introduce more noise.
+                if (len(r_batch) - start) > GRADIENT_BATCH_SIZE: 
+                    actor_gradient, critic_gradient, td_batch = \
+                            a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
+                                                a_batch=np.vstack(a_batch[start:]),  # since we don't have the
+                                                r_batch=np.vstack(r_batch[start:]),  # control over it
+                                                terminal=True, actor=actor, critic=critic)
+                    td_loss = np.mean(td_batch)
 
-                actor_gradient_batch.append(actor_gradient)
-                critic_gradient_batch.append(critic_gradient)
+                    actor_gradient_batch.append(actor_gradient)
+                    critic_gradient_batch.append(critic_gradient)
 
 
-                logger.debug ("====")
-                logger.debug ("Epoch: {}".format(epoch))
-                msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch), np.mean(entropy_record))
-                logger.debug (msg)
-                logger.debug ("====")
+                    logger.debug ("====")
+                    logger.debug ("Epoch: {}".format(epoch))
+                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
+                    logger.debug (msg)
+                    logger.debug ("====")
 
-                summary_str = sess.run(summary_ops, feed_dict={
-                    summary_vars[0]: td_loss,
-                    summary_vars[1]: np.mean(r_batch),
-                    summary_vars[2]: np.mean(entropy_record)
-                })
+                    summary_str = sess.run(summary_ops, feed_dict={
+                        summary_vars[0]: td_loss,
+                        summary_vars[1]: np.mean(r_batch[start:end]),
+                        summary_vars[2]: np.mean(entropy_record[start:end])
+                    })
 
-                writer.add_summary(summary_str, epoch)
-                writer.flush()
+                    writer.add_summary(summary_str, epoch)
+                    writer.flush()
                 # ----------------------------------------------------------------------------------------------------
+
+                # Update gradients
+                if len(actor_gradient_batch) >= GRADIENT_BATCH_SIZE:
+                    assert len(actor_gradient_batch) == len(critic_gradient_batch)
+
+                    for i in range(len(actor_gradient_batch)):
+                        actor.apply_gradients(actor_gradient_batch[i])
+                        critic.apply_gradients(critic_gradient_batch[i])
+
+                    epoch += 1
+                    if epoch % MODEL_SAVE_INTERVAL == 0:
+                        save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt")
+                        logger.log("Model saved in file {}".format(save_path))
 
                 entropy_record = []
 
-                # Proceed to next run
+                # Clear all before proceeding to next run
+                del s_batch[:]
+                del a_batch[:]
+                del r_batch[:]
                 stream_info.clear()
                 list_states.clear()
                 end_of_run.clear()
@@ -285,18 +312,18 @@ def agent():
                     = getTrainingVariables(request)
 
                 time_stamp += 1  # in ms
-                # time_stamp += sleep_time  # in ms
-
                 last_path = path
 
                 # retrieve previous state
                 if len(s_batch) == 0:
-                    state = [np.zeros((S_INFO, S_LEN))]
+                    logger.error("GAMW TO STRAVRO MOY DILADI EINAI SOVARO TWRA AUTO?")
+                    state = np.zeros((S_INFO, S_LEN))
                 else:
                     state = np.array(s_batch[-1], copy=True)
 
                 # dequeue history record
                 state = np.roll(state, -1, axis=1)
+                logger.error(state)
 
                 # this should be S_INFO number of terms
                 state[0, -1] = bdw_paths[0] # bandwidth path1
@@ -308,9 +335,7 @@ def agent():
                 # state[6, -1] = path1_losses
                 # state[7, -1] = path2_losses
 
-
                 s_batch.append(state)
-                
 
                 action_prob = actor.predict(np.reshape(state, (1, S_INFO, S_LEN)))
                 action_cumsum = np.cumsum(action_prob)
@@ -333,7 +358,6 @@ def agent():
                             str(path2_smoothed_RTT * 100) + '\t\n')
                 log_file.flush()
 
-                # response = [request['StreamID'], request['Path1']['PathID']]
                 response = [request['StreamID'], PATHS[path]]
                 response = [str(r).encode('utf-8') for r in response]
                 put_response(response, tqueue, logger)

@@ -11,7 +11,8 @@ import threading
 
 """ Let 2 hours to complete the experiment """
 # This should be sufficient for the worst case topology (~0.10 Mbps to download 20 MB on single-path)
-THREAD_TIMEOUT = 7200
+# THREAD_TIMEOUT = 7200
+THREAD_TIMEOUT = 45
 
 
 """ Some useful functions """
