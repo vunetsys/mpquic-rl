@@ -204,6 +204,12 @@ def agent():
                 tmp_s_batch = np.stack(s_batch[:], axis=0)
                 tmp_r_batch = np.vstack(r_batch[:])
                 logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
+                if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
+                    logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
+                    logger.debug(tmp_s_batch[0])
+
+                    r_batch.insert(0, 0)
+
 
                 # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
                 # ----------------------------------------------------------------------------------------------------
@@ -238,7 +244,7 @@ def agent():
                     writer.add_summary(summary_str, epoch)
                     writer.flush()
 
-                    start   += (end - 1)
+                    start   += (TRAIN_SEQ_LEN - 1)
                     end     += TRAIN_SEQ_LEN
                 # ----------------------------------------------------------------------------------------------------
 
@@ -316,14 +322,12 @@ def agent():
 
                 # retrieve previous state
                 if len(s_batch) == 0:
-                    logger.error("GAMW TO STRAVRO MOY DILADI EINAI SOVARO TWRA AUTO?")
                     state = np.zeros((S_INFO, S_LEN))
                 else:
                     state = np.array(s_batch[-1], copy=True)
 
                 # dequeue history record
                 state = np.roll(state, -1, axis=1)
-                logger.error(state)
 
                 # this should be S_INFO number of terms
                 state[0, -1] = bdw_paths[0] # bandwidth path1
