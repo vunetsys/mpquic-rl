@@ -25,9 +25,8 @@ ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
 TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 100
+MODEL_SAVE_INTERVAL = 1
 PATHS = [1, 3] # correspond to path ids
-BUFFER_NORM_FACTOR = 10.0
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
@@ -292,7 +291,6 @@ def agent():
                     epoch += 1
                     if epoch % MODEL_SAVE_INTERVAL == 0:
                         save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt")
-                        logger.log("Model saved in file {}".format(save_path))
 
                 entropy_record = []
 

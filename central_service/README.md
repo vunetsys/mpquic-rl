@@ -36,11 +36,14 @@ Protocol Issues:
 - When 2. occurs, next episode is typically _fine_
 
 
-Notes / Training Issues: 
+Training Issues: 
+1. Only _52_ steps out of _222_ iterations were valid for training. (rest discarded due to _Active Issues_ above)
+2. Results of Tensorboard in => figures/23_05_2020
+3. With Firefox, and because of concurrency, network statistics are not updated frequently!!! 
+
+Notes: 
 1. Most of the training values are default from Pensieve except:
     1. BATCH_TRAINING_SIZE down to 32 from 100 
-2. Only _52_ steps out of _222_ iterations were valid for training. (rest discarded due to _Active Issues_ above)
-3. Results of Tensorboard in => figures/23_05_2020
-4. **After few iterations, agent selects only first Path**
-5. With Firefox, and because of concurrency, network statistics are not updated frequently!!! 
+2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_)
+3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path 
 ---

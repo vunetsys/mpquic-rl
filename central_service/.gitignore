@@ -152,6 +152,7 @@ topos.json
 graphs.json
 test_graphs.json
 train_graphs.json
+experiments/
 
 # VsCode
 .vscode/
