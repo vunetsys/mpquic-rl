@@ -897,6 +897,7 @@ func (sch *scheduler) choosePaths(s *session, strID protocol.StreamID, priority 
 			utils.Infof("Detected: Stream %d with file size %d bytes\n", strID, stream.size)
 
 		} else {
+			//stream.getDataForWriting(0)
 			utils.Infof("Not Detected: Stream %d not detected file size \n", strID)
 
 			return nil //size value undetected, do not assign path
