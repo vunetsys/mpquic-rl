@@ -147,6 +147,7 @@ static
 logs/
 results/
 environment/dependency_graphs/
+environment/batch_run.txt
 topos.json
 graphs.json
 test_graphs.json
