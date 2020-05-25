@@ -27,10 +27,20 @@ state[4, -1] = path1_retransmissions + path1_losses
 state[5, -1] = path2_retransmissions + path2_losses
 ```
 
+Active Issues:
+1. File size not found (random appearance) leads to:
+    1. OBIT Not matching (cryptographic)
+2. Packet too large (random appearance)
+
+- When 1. occurs, 1.1. follows immediately after (so two episodes are lost)
+- When 2. occurs, next episode is typically _fine_
+
+
 Notes: 
-1. Most of the training values are default for Pensieve except:
+1. Most of the training values are default from Pensieve except:
     1. BATCH_TRAINING_SIZE down to 32 from 100 
-2. Only _52_ steps out of _222_ iterations were valid for training.
+2. Only _52_ steps out of _222_ iterations were valid for training. (rest discarded due to _Active Issues_ above)
 3. Results of Tensorboard in => figures/23_05_2020
-4. **After few iterations, agent selects only Path 0** 
+4. **After few iterations, agent selects only first Path**
+5. With Firefox, and because of concurrency, network statistics are not updated frequently!!! 
 ---

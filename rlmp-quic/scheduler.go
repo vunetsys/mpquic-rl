@@ -775,7 +775,7 @@ func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID) (select
 			utils.Infof("Detected: Stream %d with file size %d bytes\n", strID, stream.size)
 
 		} else {
-			utils.Infof("Not Detected: Stream %d not detected file size \n", strID)
+			//utils.Infof("Not Detected: Stream %d not detected file size \n", strID)
 
 			return nil //size value undetected, do not assign path
 
@@ -821,7 +821,7 @@ pathLoop:
 	}
 
 	if len(avalPaths) < 2 {
-		utils.Infof("AVAILPATHS < 2: %d", len(avalPaths))
+		//utils.Infof("AVAILPATHS < 2: %d", len(avalPaths))
 		return nil
 	}
 
