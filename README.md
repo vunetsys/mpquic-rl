@@ -1,8 +1,9 @@
-## Marios Evangelos Kanakis - MSc Thesis Project
 
-## DRL Scheduler for MP-QUIC protocol
+## DRL Scheduler for Multipath - QUIC
 
-### Instalation Guide (WIP)
+### Marios Evangelos Kanakis - MSc Thesis Project
+
+#### Instalation Guide (WIP)
 
 Following steps are the initial VM setup for running any kind of experiments with Multipath QUIC protocol, courtesy of the original MP-QUIC authors (put refs;). The environment/experiments setup is from PStream (put refs;), as well as the stream scheduling code (`mpquic-rl`) which is used as the basis for building our RL agent.
 
@@ -34,7 +35,7 @@ _Steps_:
 
   7. Create a directory 'server' under '~/go/src/github.com/lucas-clemente/'
 
-        i. Inside the server directory extract the server.tar.gz with the missing and pages directories -
+        i. Inside the server directory extract the server.tar.gz with the `missing` and `pages` directories respectively
 
   8. Everytime you start up the VM, remember to run the './mount_tmpfs.sh' under '~/' 
   
