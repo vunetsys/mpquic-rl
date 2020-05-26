@@ -2,39 +2,23 @@
 # get or put a request to queue
 # blocking operation with a small timeout
 import queue
+from threading import Event
 import multiprocessing as mp
 
 def get_request(queue: queue.Queue, logger, end_of_run: mp.Event = None):
-    logger.info("Waiting for request...")
-    if end_of_run is not None:
-        while not end_of_run.is_set():
-            try:
-                req = queue.get(timeout=0.05)
-                return req
-            except Exception as ex:
-                # logger.error(ex)
-                continue
-        return None
-    else:
+    # logger.info("Waiting for request...")
+    while not end_of_run.is_set():
         try:
-            req = queue.get()
-            return req
+            req, evt = queue.get(timeout=0.05)
+            return req, evt
         except Exception as ex:
-            logger.error(ex)
+            # logger.error(ex)
+            continue
+    return None, None
 
-def put_response(response, queue: queue.Queue, logger, end_of_run: mp.Event = None):
-    logger.info("Putting response...")
-    if end_of_run is not None:
-        while not end_of_run.is_set():
-            try:
-                queue.put(response, timeout=0.05)
-                return response
-            except Exception as ex:
-                # logger.error(ex)
-                continue
-        return None
-    else:
-        try:
-            queue.put(response)
-        except Exception as ex:
-            logger.error(ex)
+def put_response(response, queue: queue.Queue, logger):
+    # logger.info("Putting response...")
+    try:
+        queue.put(response)
+    except Exception as ex:
+        logger.error(ex)

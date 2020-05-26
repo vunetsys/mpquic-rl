@@ -25,7 +25,7 @@ ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
 TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 1
+MODEL_SAVE_INTERVAL = 8
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
@@ -151,7 +151,7 @@ def agent():
         list_states = []
         while not end_of_run.is_set():
             # Get scheduling request from rhandler thread
-            request = get_request(tqueue, logger, end_of_run=end_of_run)
+            request, ev1 = get_request(tqueue, logger, end_of_run=end_of_run)
 
             # end of iterations -> exit loop -> save -> bb
             if stop_env.is_set():
@@ -170,7 +170,7 @@ def agent():
 
                 # Validate
                 # Proceed to next run
-                logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
+                # logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
                 if len(list_states) != len(stream_info) or len(list_states) == 0:
                     entropy_record = []
                     del s_batch[:]
@@ -191,18 +191,20 @@ def agent():
                 #     logger.info(stream)
                 #     logger.info(list_states[i]) # print this on index based
 
+
                 # For each stream calculate a reward
-                # r_batch.append(0)
+                completion_times = []
                 for stream in stream_info:
                     # Reward is 1 minus the square of the mean completion time
                     # This means that small completion times (1<=) get praised
                     # But large completion times (>=1) gets double the damage
                     reward = 1 - (stream['CompletionTime'] ** 2) 
                     r_batch.append(reward)
+                    completion_times.append(stream['CompletionTime'])
 
                 tmp_s_batch = np.stack(s_batch[:], axis=0)
                 tmp_r_batch = np.vstack(r_batch[:])
-                logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
+                # logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
                 if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
                     logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
                     logger.debug(tmp_s_batch[0])
@@ -215,7 +217,7 @@ def agent():
                 div  = len(r_batch) // TRAIN_SEQ_LEN
                 start = 1
                 end = TRAIN_SEQ_LEN
-                logger.debug("DIVISION: {}".format(div))
+                # logger.debug("DIVISION: {}".format(div))
                 for i in range(div):
                     actor_gradient, critic_gradient, td_batch = \
                         a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
@@ -227,21 +229,11 @@ def agent():
                     actor_gradient_batch.append(actor_gradient)
                     critic_gradient_batch.append(critic_gradient)
 
-
                     logger.debug ("====")
                     logger.debug ("Epoch: {}".format(epoch))
                     msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
                     logger.debug (msg)
                     logger.debug ("====")
-
-                    summary_str = sess.run(summary_ops, feed_dict={
-                        summary_vars[0]: td_loss,
-                        summary_vars[1]: np.mean(r_batch[start:end]),
-                        summary_vars[2]: np.mean(entropy_record[start:end])
-                    })
-
-                    writer.add_summary(summary_str, epoch)
-                    writer.flush()
 
                     start   += (TRAIN_SEQ_LEN - 1)
                     end     += TRAIN_SEQ_LEN
@@ -269,15 +261,19 @@ def agent():
                     msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
                     logger.debug (msg)
                     logger.debug ("====")
+                # ----------------------------------------------------------------------------------------------------
 
-                    summary_str = sess.run(summary_ops, feed_dict={
+                # Print summary for tensorflow
+                # ----------------------------------------------------------------------------------------------------
+                summary_str = sess.run(summary_ops, feed_dict={
                         summary_vars[0]: td_loss,
-                        summary_vars[1]: np.mean(r_batch[start:end]),
-                        summary_vars[2]: np.mean(entropy_record[start:end])
+                        summary_vars[1]: np.mean(r_batch),
+                        summary_vars[2]: np.mean(entropy_record),
+                        summary_vars[3]: np.mean(completion_times)
                     })
 
-                    writer.add_summary(summary_str, epoch)
-                    writer.flush()
+                writer.add_summary(summary_str, epoch)
+                writer.flush()
                 # ----------------------------------------------------------------------------------------------------
 
                 # Update gradients
@@ -302,10 +298,11 @@ def agent():
                 list_states.clear()
                 end_of_run.clear()
             else:
+                ev1.set() # let `producer` (rh) know we received request
                 list_states.append(request)
 
                 # get bdw from env - multiprocessing.sharedMemory/bdw_paths/array
-                logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_paths[0], bdw_paths[1]))
+                # logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_paths[0], bdw_paths[1]))
 
                 # The bandwidth metrics coming from MPQUIC are not correct
                 # constant values not upgraded
@@ -360,10 +357,12 @@ def agent():
                             str(path2_smoothed_RTT * 100) + '\t\n')
                 log_file.flush()
 
+                # prepare response
                 response = [request['StreamID'], PATHS[path]]
                 response = [str(r).encode('utf-8') for r in response]
-                put_response(response, tqueue, logger)
-            time.sleep(0.01)
+                ev2 = threading.Event()
+                put_response((response, ev2), tqueue, logger)
+                ev2.wait() # blocks until `consumer` (i.e. rh) receives response
 
     # send kill signal to all
     stop_env.set()

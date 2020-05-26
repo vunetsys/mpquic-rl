@@ -53,16 +53,12 @@ class RequestHandler(threading.Thread):
                     self.pinfo(json_data)
                     
                     # put request on the Queue (blocking operation)
-                    self.putrequest(json_data)
-
-                    # this small sleeps, prevents RH from reading his own response
-                    time.sleep(0.01)
+                    ev1 = threading.Event()
+                    self.putrequest(json_data, ev1)
+                    ev1.wait() # blocks until `consumer` (i.e. agent) receives request
                     
-                    # receive response from Queue (blocking operation)
-                    # Crazy times, crazy python
-                    # resp is not needed at all after realizing I was sending back "data" see below
-                    # This is by reference, so data contains the changed value...
-                    response = self.getresponse()
+                    response, ev2 = self.getresponse()
+                    ev2.set() # lets `producer` (i.e. agent) know the response has been received
 
                     self.pinfo(response)
                     self.pinfo("Got my response from agent -- forwarding to quic")
@@ -76,16 +72,16 @@ class RequestHandler(threading.Thread):
     def getresponse(self):
         while not self.__stoprequest.isSet():
             try:
-                resp = self.__tqueue.get(True, 0.05)
-                return resp
+                resp, flag = self.__tqueue.get(True, 0.05)
+                return resp, flag
             except queue.Empty:
                 self.pinfo("Queue is empty")
                 continue
 
-    def putrequest(self, data):
+    def putrequest(self, data, flag):
         while not self.__stoprequest.isSet():
             try:
-                self.__tqueue.put(data, True, 0.05)
+                self.__tqueue.put((data, flag), True, 0.05)
                 break
             except Exception as ex:
                 self.pinfo("Cannot put item into Queue")

@@ -1,7 +1,26 @@
 ### Captain's Log (Training)
 
-### 23/5/2020 - Current
+
+### 26/5/2020 - Current
+Training with:
+```
+BATCH_TRAINING_SIZE: One streaming (32-100),
+rest same as 23/5
+```
+
+```
+Same state as 23/5
+```
+
+Protocol/Training Issues:
+* Same as 23/5
+
+Notes: 
+1. Feature normalization
 ---
+
+
+### 23/5/2020 - 26/5/2020
 
 Training with:
 ```
@@ -44,6 +63,11 @@ Training Issues:
 Notes: 
 1. Most of the training values are default from Pensieve except:
     1. BATCH_TRAINING_SIZE down to 32 from 100 
-2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_)
-3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path 
+2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_) (probably local optima) -- **~50 iterations**
+3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path -- **~70 iterations**
+4. **Third Run:** More samples than before, again more balance in path selection (does not seem to converge) -- **~100 iterations**
+5. **Fourth Run:** Entropy converges to zero again after ~90-100 steps, selects only Path 0 (local optima). -- **~150 iterations** -- **total execution time: ***~3hours20minutes***
+6. **Fifth Run:** Entropy gets _very close_ to zero but still not zero, after ~200 steps (best run so far), temporal difference (also converges around 0, maybe a good indication of good results?). -- **~220** execution time: ***~3hours40minutes***
+
+**Fifth Run. fixed logging, now logs per whole episode, instead of logging per training batch (<32) !!!, more accurate than previous graphs**
 ---

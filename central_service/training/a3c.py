@@ -279,8 +279,10 @@ def build_summaries():
     tf.summary.scalar("Eps_total_reward", eps_total_reward)
     avg_entropy = tf.Variable(0.)
     tf.summary.scalar("Avg_entropy", avg_entropy)
+    avg_completion_time = tf.Variable(0.)
+    tf.summary.scalar("Avg_completion_time", avg_completion_time)
 
-    summary_vars = [td_loss, eps_total_reward, avg_entropy]
+    summary_vars = [td_loss, eps_total_reward, avg_entropy, avg_completion_time]
     summary_ops = tf.summary.merge_all()
 
     return summary_ops, summary_vars
