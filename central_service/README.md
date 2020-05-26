@@ -16,17 +16,11 @@ Protocol/Training Issues:
 * Same as 23/5
 
 Notes: 
-1. Most of the training values are default from Pensieve except:
-    1. BATCH_TRAINING_SIZE down to 32 from 100 
-2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_) (probably local optima) -- **~50 iterations**
-3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path -- **~70 iterations**
-4. **Third Run:** More samples than before, again more balance in path selection (does not seem to converge) -- **~100 iterations**
-5. **Fourth Run:** Entropy converges to zero again after ~90-100 steps, selects only Path 0 (local optima). -- **~150 iterations** -- **total execution time: ***~3hours20minutes***
+1. Feature normalization
 ---
 
 
 ### 23/5/2020 - 26/5/2020
----
 
 Training with:
 ```
