@@ -228,7 +228,7 @@ def agent():
                                 str(path1_retransmissions+path1_losses) + '\t' +
                                 str(path2_retransmissions+path2_losses) + '\t' +
                                 str(stream['CompletionTime']) + '\t' +
-                                str(stream['Path']) '\n')
+                                str(stream['Path']) + '\n')
                     log_file.flush()
                     time_stamp += 1
 
