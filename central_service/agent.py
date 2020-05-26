@@ -151,7 +151,7 @@ def agent():
         list_states = []
         while not end_of_run.is_set():
             # Get scheduling request from rhandler thread
-            request = get_request(tqueue, logger, end_of_run=end_of_run)
+            request, ev1 = get_request(tqueue, logger, end_of_run=end_of_run)
 
             # end of iterations -> exit loop -> save -> bb
             if stop_env.is_set():
@@ -302,6 +302,7 @@ def agent():
                 list_states.clear()
                 end_of_run.clear()
             else:
+                ev1.set() # let `producer` (rh) know we received request
                 list_states.append(request)
 
                 # get bdw from env - multiprocessing.sharedMemory/bdw_paths/array
@@ -360,10 +361,12 @@ def agent():
                             str(path2_smoothed_RTT * 100) + '\t\n')
                 log_file.flush()
 
+                # prepare response
                 response = [request['StreamID'], PATHS[path]]
                 response = [str(r).encode('utf-8') for r in response]
-                put_response(response, tqueue, logger)
-            time.sleep(0.01)
+                ev2 = threading.Event()
+                put_response((response, ev2), tqueue, logger)
+                ev2.wait() # blocks until `consumer` (i.e. rh) receives response
 
     # send kill signal to all
     stop_env.set()
