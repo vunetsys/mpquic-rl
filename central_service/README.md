@@ -44,6 +44,7 @@ Training Issues:
 Notes: 
 1. Most of the training values are default from Pensieve except:
     1. BATCH_TRAINING_SIZE down to 32 from 100 
-2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_)
-3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path 
+2. **First Run:** After few iterations, agent selects only first Path (_5362_ to _486_) (probably local optima)
+3. **Second Run:** More balanced, _~2147_ selections of 1st path and _~3564_ of second path
+4. **Third Run:** More samples than before, again more balance in path selection (does not seem to converge)
 ---
