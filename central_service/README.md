@@ -3,13 +3,23 @@
 
 ### 26/5/2020 - Current
 Training with:
+``` json
+Same as 23/5
 ```
-BATCH_TRAINING_SIZE: One streaming (32-100),
-rest same as 23/5
-```
+States:
 
-```
-Same state as 23/5
+Normalized State input.
+Values used are observations from previous runs.
+Bandwidth we already know beforehand it ranges [1, 100].
+
+Formula: (x - min) / (max - mix)
+``` python
+state[0, -1] = (bdw_paths[0] - 1.0) / (100.0 - 1.0) # bandwidth path1
+state[1, -1] = (bdw_paths[1] - 1.0) / (100.0 - 1.0) # bandwidth path2
+state[2, -1] = ((path1_smoothed_RTT * 1000.0) - 1.0) / (120.0) # max RTT so far 120ms 
+state[3, -1] = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+state[4, -1] = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
+state[5, -1] = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
 ```
 
 Protocol/Training Issues:
@@ -17,13 +27,17 @@ Protocol/Training Issues:
 
 Notes: 
 1. Feature normalization
+2. **1st Run:** Much better results than previous run (might be random need to run more cases). Overall, training seems to be more stable than in previous training sessions, and the graphs validate that. It seems like the run is converging gradually.
+    1. ***Logging happens once per request, it doesn't happen once per training step*** 
+    2. Iterations: ~350
+    3. Execution time: Similar to 23/5
 ---
 
 
 ### 23/5/2020 - 26/5/2020
 
 Training with:
-```
+``` json
 BATCH_TRAINING_SIZE: 32,
 GRAPHS_SIZE : 57,
 TOPOLOGIES_SIZE: 100,
@@ -36,8 +50,8 @@ ACTOR_LR_RATE: 0.0001,
 CRITIC_LR_RATE: 0.001,
 S_LEN: 8  # take how many frames in the past
 ```
-
-```
+States: 
+``` python
 state[0, -1] = bdw_paths[0] # bandwidth path1
 state[1, -1] = bdw_paths[1] # bandwidth path2
 state[2, -1] = path1_smoothed_RTT * 100

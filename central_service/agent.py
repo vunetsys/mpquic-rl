@@ -191,7 +191,6 @@ def agent():
                 #     logger.info(stream)
                 #     logger.info(list_states[i]) # print this on index based
 
-
                 # For each stream calculate a reward
                 completion_times = []
                 for stream in stream_info:
@@ -202,6 +201,7 @@ def agent():
                     r_batch.append(reward)
                     completion_times.append(stream['CompletionTime'])
 
+                # Check if we have a stream[0] = 0 add -> 0 to r_batch
                 tmp_s_batch = np.stack(s_batch[:], axis=0)
                 tmp_r_batch = np.vstack(r_batch[:])
                 # logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
@@ -211,6 +211,26 @@ def agent():
 
                     r_batch.insert(0, 0)
 
+                # Save metrics for debugging
+                # log time_stamp, bit_rate, buffer_size, reward
+                for index, stream in enumerate(stream_info):
+                    path1_smoothed_RTT, path1_bandwidth, path1_packets, \
+                    path1_retransmissions, path1_losses, \
+                    path2_smoothed_RTT, path2_bandwidth, path2_packets, \
+                    path2_retransmissions, path2_losses, \
+                        = getTrainingVariables(list_states[index])
+                    log_file.write(str(time_stamp) + '\t' +
+                                str(PATHS[path]) + '\t' +
+                                str(bdw_paths[0]) + '\t' +
+                                str(bdw_paths[1]) + '\t' +
+                                str(path1_smoothed_RTT) + '\t' +
+                                str(path2_smoothed_RTT) + '\t' +
+                                str(path1_retransmissions+path1_losses) + '\t' +
+                                str(path2_retransmissions+path2_losses) + '\t' +
+                                str(stream['CompletionTime']) + '\t' +
+                                str(stream['Path']) + '\n')
+                    log_file.flush()
+                    time_stamp += 1
 
                 # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
                 # ----------------------------------------------------------------------------------------------------
@@ -325,12 +345,12 @@ def agent():
                 state = np.roll(state, -1, axis=1)
 
                 # this should be S_INFO number of terms
-                state[0, -1] = bdw_paths[0] # bandwidth path1
-                state[1, -1] = bdw_paths[1] # bandwidth path2
-                state[2, -1] = path1_smoothed_RTT * 100
-                state[3, -1] = path2_smoothed_RTT * 100
-                state[4, -1] = path1_retransmissions + path1_losses
-                state[5, -1] = path2_retransmissions + path2_losses
+                state[0, -1] = (bdw_paths[0] - 1.0) / (100.0 - 1.0) # bandwidth path1
+                state[1, -1] = (bdw_paths[1] - 1.0) / (100.0 - 1.0) # bandwidth path2
+                state[2, -1] = ((path1_smoothed_RTT * 1000.0) - 1.0) / (120.0) # max RTT so far 120ms 
+                state[3, -1] = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+                state[4, -1] = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
+                state[5, -1] = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
                 # state[6, -1] = path1_losses
                 # state[7, -1] = path2_losses
 
@@ -349,13 +369,13 @@ def agent():
                 entropy_record.append(a3c.compute_entropy(action_prob[0]))
 
                 # log time_stamp, bit_rate, buffer_size, reward
-                log_file.write(str(time_stamp) + '\t' +
-                            str(PATHS[path]) + '\t' +
-                            str(bdw_paths[0]) + '\t' +
-                            str(bdw_paths[1]) + '\t' +
-                            str(path1_smoothed_RTT * 100) + '\t' +
-                            str(path2_smoothed_RTT * 100) + '\t\n')
-                log_file.flush()
+                # log_file.write(str(time_stamp) + '\t' +
+                #             str(PATHS[path]) + '\t' +
+                #             str(bdw_paths[0]) + '\t' +
+                #             str(bdw_paths[1]) + '\t' +
+                #             str(path1_smoothed_RTT * 100) + '\t' +
+                #             str(path2_smoothed_RTT * 100) + '\t\n')
+                # log_file.flush()
 
                 # prepare response
                 response = [request['StreamID'], PATHS[path]]
