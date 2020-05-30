@@ -43,8 +43,14 @@ SSH_HOST = '192.168.122.157'
 def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
     rhostname = 'mininet' + '@' + SSH_HOST
     
+    config = {
+        'server': 'ipc:///tmp/zmq1',
+        'client': 'tcp://*:5555',
+        'publisher': 'tcp://*:5556',
+        'subscriber': 'ipc:///tmp/pubsub1'
+    }
     logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(bdw_paths, logger=logger, remoteHostname=rhostname)
+    env = Environment(bdw_paths, logger=logger, mconfig=config, remoteHostname=rhostname)
 
     # Lets measure env runs in time
     while not stop_env.is_set():

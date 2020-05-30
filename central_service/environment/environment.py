@@ -13,8 +13,8 @@ from .experiences.quic_web_browse import launchTests
 from utils.logger import config_logger
 
 
-MIDDLEWARE_SOURCE_REMOTE_PATH = "~/go/src/github.com/mkanakis/zserver"
-MIDDLEWARE_BIN_REMOTE_PATH = "./go/bin/reply"
+MIDDLEWARE_SOURCE_REMOTE_PATH = "~/go/src/github.com/mkanakis/middleware"
+MIDDLEWARE_BIN_REMOTE_PATH = "./go/bin/middleware"
 
 class Session:
     '''
@@ -74,7 +74,7 @@ class Session:
 
 
 class Environment:
-    def __init__(self, bdw_paths, logger, remoteHostname="mininet@192.168.122.157", remotePort="22"):
+    def __init__(self, bdw_paths, logger, mconfig, remoteHostname="mininet@192.168.122.157", remotePort="22"):
         self._totalRuns = 0
         self._logger = logger
 
@@ -85,9 +85,17 @@ class Environment:
         self.bdw_paths = bdw_paths
 
         # Spawn Middleware
+        self._spawn_cmd = self.construct_cmd(mconfig)
         self._remoteHostname = remoteHostname
         self._remotePort = remotePort
         self.spawn_middleware()
+
+    def construct_cmd(self, config):
+        return "{} sv={} cl={} pub={} sub={}".format(MIDDLEWARE_BIN_REMOTE_PATH,
+                                                    config['server'], 
+                                                    config['client'], 
+                                                    config['publisher'], 
+                                                    config['subscriber'])
 
     def spawn_middleware(self):
         ''' This method might seem more like a restart.
@@ -96,19 +104,32 @@ class Environment:
         '''
         self.stop_middleware()
         time.sleep(0.5)
-        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, MIDDLEWARE_BIN_REMOTE_PATH]
+        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, self._spawn_cmd]
         subprocess.Popen(ssh_cmd, 
                         stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE, 
                         shell=False)
 
     def stop_middleware(self):
-        kill_cmd = "killall " + MIDDLEWARE_BIN_REMOTE_PATH
-        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, kill_cmd]
-        subprocess.Popen(ssh_cmd,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.PIPE,
-                        shell=False)
+        # kill_cmd = "killall {}".format(MIDDLEWARE_BIN_REMOTE_PATH)
+        ps_cmd = "ps -A"
+        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, ps_cmd]
+        p = subprocess.Popen(ssh_cmd,
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            shell=False, 
+                            text=True)
+        out, err = p.communicate()
+
+        for line in out.splitlines():
+            if self._spawn_cmd in line:
+                pid = line.split(None, 1)[0]
+                kill_cmd = "kill " + pid
+                subprocess.Popen(kill_cmd,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE,
+                                shell=False)
+
 
     def getNetemToTuple(self, topo):
         '''in json -> tuple (0 0 loss 1.69%) is stored as [0, 0, loss 1.69%]
@@ -138,7 +159,6 @@ class Environment:
         self._logger.info(message.format(self._totalRuns, self.curr_graph))
 
         launchTests(self.curr_topo, self.curr_graph)
-        # launchTests(1)
 
     def close(self):
         self.stop_middleware()
