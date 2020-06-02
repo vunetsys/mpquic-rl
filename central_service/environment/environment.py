@@ -117,7 +117,7 @@ class Environment:
         p = subprocess.Popen(ssh_cmd,
                             stdout=subprocess.PIPE,
                             stderr=subprocess.PIPE,
-                            shell=False, 
+                            shell=False,
                             text=True)
         out, err = p.communicate()
 

@@ -2,6 +2,7 @@
 import os
 import threading, queue
 import multiprocessing as mp
+import logging
 import numpy as np
 import tensorflow as tf
 import time
@@ -16,6 +17,7 @@ from utils.queue_ops import get_request, put_response
 from utils.data_transf import arrangeStateStreamsInfo, getTrainingVariables, allUnique
 from training import a3c
 from training import load_trace
+
 
 # ---------- Global Variables ----------
 S_INFO = 6  # bandwidth_path_i, path_i_mean_RTT, path_i_retransmitted_packets + path_i_lost_packets
@@ -35,70 +37,149 @@ SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
 NN_MODEL = None
+NUM_AGENTS = 2
+
+BASE_PORT = 5555
+SSH_HOST = ['192.168.122.157', '192.168.122.15']
 
 
-SSH_HOST = '192.168.122.157'
+def central_agent(net_params_queues, exp_queues):
+    assert len(net_params_queues) == NUM_AGENTS
+    assert len(exp_queues) == NUM_AGENTS
 
-
-def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
-    rhostname = 'mininet' + '@' + SSH_HOST
+    logging.basicConfig(filename=LOG_FILE + '_central',
+                        filemode='w',
+                        level=logging.INFO)
     
-    config = {
-        'server': 'ipc:///tmp/zmq',
-        'client': 'tcp://*:5555',
-        'publisher': 'tcp://*:5556',
-        'subscriber': 'ipc:///tmp/pubsub'
-    }
-    logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(bdw_paths, logger=logger, mconfig=config, remoteHostname=rhostname)
+    with tf.Session() as sess, open(LOG_FILE + '_test', 'w') as test_log_file:
+        actor = a3c.ActorNetwork(sess,
+                                 state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
+                                 learning_rate=ACTOR_LR_RATE)
 
-    # Lets measure env runs in time
-    while not stop_env.is_set():
+        critic = a3c.CriticNetwork(sess,
+                                   state_dim=[S_INFO, S_LEN], 
+                                   learning_rate=CRITIC_LR_RATE)
 
-        # Only the agent can unblock this loop, after a training-batch has been completed
-        while not end_of_run.is_set():
-            try:
-                # update environment config from session
-                if env.updateEnvironment() == -1:
-                    stop_env.set()
-                    end_of_run.set()
-                    break
+        summary_ops, summary_vars = a3c.build_summaries()
 
-                # run a single session & measure
-                #-------------------
-                now = time.time() 
-                env.run()
-                end = time.time()
-                #-------------------
+        sess.run(tf.global_variables_initializer())
+        writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph) # training monitor
+        saver = tf.train.Saver() # save neural net parameters
 
-                diff = int (end - now)
-                logger.debug("Time to execute one run: {}s".format(diff))
-
-                end_of_run.set() # set the end of run so our agent knows
-                # env.spawn_middleware() # restart middleware 
-            except Exception as ex:
-                logger.error(ex)
-                break
-        time.sleep(0.1)
-
-    env.close()
+        # restore neural net parameters
+        nn_model = NN_MODEL
+        if nn_model is not None: # nn_model is the path to file
+            saver.restore(sess, nn_model)
+            print ("Model Restored.")
         
+        epoch = 0
 
-def agent():
-    np.random.seed(RANDOM_SEED)
+        # assemble experiences from agents, compute the gradients
+        while True:
+            # synchronize the network parameters of work agent
+            actor_net_params = actor.get_network_params()
+            critic_net_params = critic.get_network_params()
+            for i in range(NUM_AGENTS):
+                net_params_queues[i].put([actor_net_params, critic_net_params])
+                # Note: this is synchronous version of the parallel training,
+                # which is easier to understand and probe. The framework can be
+                # fairly easily modified to support asynchronous training.
+                # Some practices of asynchronous training (lock-free SGD at
+                # its core) are nicely explained in the following two papers:
+                # https://arxiv.org/abs/1602.01783
+                # https://arxiv.org/abs/1106.5730
+            
+            # record average reward and td loss change
+            # in the experiences from the agents
+            total_batch_len = 0.0
+            total_reward = 0.0
+            total_td_loss = 0.0
+            total_entropy = 0.0
+            total_agents = 0.0 
 
-    # Create results path
-    if not os.path.exists(SUMMARY_DIR):
-        os.makedirs(SUMMARY_DIR)
+            # assemble experiences from the agents
+            actor_gradient_batch = []
+            critic_gradient_batch = []
 
+            for i in range(NUM_AGENTS):
+                s_batch, a_batch, r_batch, terminal, info, c_times = exp_queues[i].get()
+
+                actor_gradient, critic_gradient, td_batch = \
+                    a3c.compute_gradients(
+                        s_batch=np.stack(s_batch, axis=0),
+                        a_batch=np.vstack(a_batch),
+                        r_batch=np.vstack(r_batch),
+                        terminal=terminal, actor=actor, critic=critic)
+
+                actor_gradient_batch.append(actor_gradient)
+                critic_gradient_batch.append(critic_gradient)
+
+                total_reward += np.sum(r_batch)
+                total_td_loss += np.sum(td_batch)
+                total_batch_len += len(r_batch)
+                total_agents += 1.0
+                total_entropy += np.sum(info['entropy'])
+                total_completion_time += np.sum(c_times)
+
+            # compute aggregated gradient
+            assert NUM_AGENTS == len(actor_gradient_batch)
+            assert len(actor_gradient_batch) == len(critic_gradient_batch)
+            # assembled_actor_gradient = actor_gradient_batch[0]
+            # assembled_critic_gradient = critic_gradient_batch[0]
+            # for i in xrange(len(actor_gradient_batch) - 1):
+            #     for j in xrange(len(assembled_actor_gradient)):
+            #             assembled_actor_gradient[j] += actor_gradient_batch[i][j]
+            #             assembled_critic_gradient[j] += critic_gradient_batch[i][j]
+            # actor.apply_gradients(assembled_actor_gradient)
+            # critic.apply_gradients(assembled_critic_gradient)
+            for i in range(len(actor_gradient_batch)):
+                actor.apply_gradients(actor_gradient_batch[i])
+                critic.apply_gradients(critic_gradient_batch[i])
+            
+            # log training information
+            epoch += 1
+            avg_reward = total_reward  / total_agents
+            avg_td_loss = total_td_loss / total_batch_len
+            avg_entropy = total_entropy / total_batch_len
+            avg_completion_time = total_completion_time / total_batch_len
+
+            logging.info('Epoch: ' + str(epoch) +
+                         ' TD_loss: ' + str(avg_td_loss) +
+                         ' Avg_reward: ' + str(avg_reward) +
+                         ' Avg_entropy: ' + str(avg_entropy) +
+                         ' Avg_completion_time: ' + str(avg_completion_time))
+
+            summary_str = sess.run(summary_ops, feed_dict={
+                summary_vars[0]: avg_td_loss,
+                summary_vars[1]: avg_reward,
+                summary_vars[2]: avg_entropy,
+                summary_vars[3]: avg_completion_time
+            })
+
+            writer.add_summary(summary_str, epoch)
+            writer.flush()
+
+            if epoch % MODEL_SAVE_INTERVAL == 0:
+                # Save the neural net parameters to disk
+                save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" +
+                                        str(epoch) + ".ckpt")
+                logging.info("Model saved in file: " + save_path)
+                # some sort of testing takes place here, not in our case!
+                # or not yet...
+
+
+def environment():
+    pass
+
+def agent(agent_id, host, port, net_params_queue, exp_queues):
     # Spawn request handler
     tqueue = queue.Queue(1)
-    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=SSH_HOST, port='5555')
+    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=host, port=str(port))
     rhandler.start()
 
     # Spawn collector thread
     cqueue = queue.Queue(0)
-    collector = Collector(2, "collector-thread", queue=cqueue, host=SSH_HOST, port='5556')
+    collector = Collector(2, "collector-thread", queue=cqueue, host=host, port=str(port+1))
     collector.start()
 
     # Spawn environment # process -- not a thread
@@ -111,12 +192,12 @@ def agent():
     # keep record of threads and processes
     tp_list = [rhandler, collector, env]
 
-
     # Main training loop
-    logger = config_logger('agent', './logs/agent.log')
+    LOG_FILENAME = 'agent_{}'.format(agent_id)
+    logger = config_logger('agent', './logs/{}.log'.format(LOG_FILENAME))
     logger.info("Run Agent until training stops...")
 
-    with tf.Session() as sess, open(LOG_FILE, 'w') as log_file:
+    with tf.Session() as sess, open(LOG_FILE + '_' + LOG_FILENAME, 'w') as log_file:
         actor = a3c.ActorNetwork(sess,
                                  state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
                                  learning_rate=ACTOR_LR_RATE)
@@ -125,19 +206,11 @@ def agent():
                                    state_dim=[S_INFO, S_LEN],
                                    learning_rate=CRITIC_LR_RATE)
 
-        summary_ops, summary_vars = a3c.build_summaries()
+        # initial synchronization of the network parameters from the coordinator
+        actor_net_params, critic_net_params = net_params_queue.get()
+        actor.set_network_params(actor_net_params)
+        critic.set_network_params(critic_net_params)
 
-        sess.run(tf.global_variables_initializer())
-        writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph)  # training monitor
-        saver = tf.train.Saver()  # save neural net parameters
-
-        # # restore neural net parameters
-        nn_model = NN_MODEL
-        if nn_model is not None:  # nn_model is the path to file
-            saver.restore(sess, nn_model)
-            print("Model restored.")
-
-        epoch = 0
         time_stamp = 0
 
         last_path = DEFAULT_PATH
@@ -151,9 +224,6 @@ def agent():
         r_batch = []
         entropy_record = []
 
-        actor_gradient_batch = []
-        critic_gradient_batch = []
-        
         list_states = []
         while not end_of_run.is_set():
             # Get scheduling request from rhandler thread
@@ -375,13 +445,15 @@ def agent():
                 entropy_record.append(a3c.compute_entropy(action_prob[0]))
 
                 # log time_stamp, bit_rate, buffer_size, reward
-                # log_file.write(str(time_stamp) + '\t' +
-                #             str(PATHS[path]) + '\t' +
-                #             str(bdw_paths[0]) + '\t' +
-                #             str(bdw_paths[1]) + '\t' +
-                #             str(path1_smoothed_RTT * 100) + '\t' +
-                #             str(path2_smoothed_RTT * 100) + '\t\n')
-                # log_file.flush()
+                log_file.write(str(time_stamp) + '\t' +
+                            str(PATHS[path]) + '\t' +
+                            str(bdw_paths[0]) + '\t' +
+                            str(bdw_paths[1]) + '\t' +
+                            str(path1_smoothed_RTT) + '\t' +
+                            str(path2_smoothed_RTT) + '\t' + 
+                            str(path1_retransmissions + path1_losses) + '\t' +
+                            str(path2_retransmissions + path2_losses) + '\t\n')
+                log_file.flush()
 
                 # prepare response
                 response = [request['StreamID'], PATHS[path]]
@@ -398,11 +470,47 @@ def agent():
     # wait for threads and process to finish gracefully...
     for tp in tp_list:
         tp.join()
-    
 
 def main():
-    agent()
+    np.random.seed(RANDOM_SEED)
+
+    assert len(PATHS) == A_DIM
+
+    # create result directory
+    if not os.path.exists(SUMMARY_DIR):
+        os.makedirs(SUMMARY_DIR)
+
+    # inter-process communication queues
+    net_params_queues = []
+    exp_queues = []
+    for i in range(NUM_AGENTS):
+        net_params_queues.append(mp.Queue(1))
+        exp_queues.append(mp.Queue(1))
+
+    # create a coordinator and multiple agent processes
+    # (note: threading is not desirable due to python GIL)
+    coordinator = mp.Process(target=central_agent,
+                             args=(net_params_queues, exp_queues))
+    coordinator.start()
+
+    agents = []
+    for i in range(NUM_AGENTS):
+        host = SSH_HOST[i]
+        port = BASE_PORT
+        agents.append(mp.Process(target=agent,
+                                 args=(i,
+                                       host,
+                                       port,
+                                       net_params_queues[i],
+                                       exp_queues[i])))
+        BASE_PORT += 2 # ports: 5555, 5556, 5557, 5558
+
+    for i in range(NUM_AGENTS):
+        agents[i].start()
+
+    # wait unit training is done
+    coordinator.join()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
