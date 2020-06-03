@@ -124,14 +124,6 @@ def central_agent(net_params_queues, exp_queues):
             # compute aggregated gradient
             assert NUM_AGENTS == len(actor_gradient_batch)
             assert len(actor_gradient_batch) == len(critic_gradient_batch)
-            # assembled_actor_gradient = actor_gradient_batch[0]
-            # assembled_critic_gradient = critic_gradient_batch[0]
-            # for i in xrange(len(actor_gradient_batch) - 1):
-            #     for j in xrange(len(assembled_actor_gradient)):
-            #             assembled_actor_gradient[j] += actor_gradient_batch[i][j]
-            #             assembled_critic_gradient[j] += critic_gradient_batch[i][j]
-            # actor.apply_gradients(assembled_actor_gradient)
-            # critic.apply_gradients(assembled_critic_gradient)
             for i in range(len(actor_gradient_batch)):
                 actor.apply_gradients(actor_gradient_batch[i])
                 critic.apply_gradients(critic_gradient_batch[i])
@@ -171,7 +163,8 @@ def central_agent(net_params_queues, exp_queues):
 def environment():
     pass
 
-def agent(agent_id, host, port, net_params_queue, exp_queues):
+
+def agent(agent_id, host, port, net_params_queue, exp_queue):
     # Spawn request handler
     tqueue = queue.Queue(1)
     rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=host, port=str(port))
@@ -225,7 +218,7 @@ def agent(agent_id, host, port, net_params_queue, exp_queues):
         entropy_record = []
 
         list_states = []
-        while not end_of_run.is_set():
+        while True:
             # Get scheduling request from rhandler thread
             request, ev1 = get_request(tqueue, logger, end_of_run=end_of_run)
 
@@ -245,7 +238,7 @@ def agent(agent_id, host, port, net_params_queue, exp_queues):
                     cqueue.queue.clear()
 
                 # Validate
-                # Proceed to next run
+                # If invalid => Proceed to next run
                 # logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
                 if len(list_states) != len(stream_info) or len(list_states) == 0:
                     entropy_record = []
@@ -284,7 +277,6 @@ def agent(agent_id, host, port, net_params_queue, exp_queues):
                 if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
                     logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
                     logger.debug(tmp_s_batch[0])
-
                     r_batch.insert(0, 0)
 
                 # Save metrics for debugging
@@ -308,88 +300,26 @@ def agent(agent_id, host, port, net_params_queue, exp_queues):
                     log_file.flush()
                     time_stamp += 1
 
-                # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
-                # ----------------------------------------------------------------------------------------------------
-                div  = len(r_batch) // TRAIN_SEQ_LEN
-                start = 1
-                end = TRAIN_SEQ_LEN
-                # logger.debug("DIVISION: {}".format(div))
-                for i in range(div):
-                    actor_gradient, critic_gradient, td_batch = \
-                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
-                                            a_batch=np.vstack(a_batch[start:end]),  # since we don't have the
-                                            r_batch=np.vstack(r_batch[start:end]),  # control over it
-                                            terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
+                # report experience to the coordinator
+                exp_queue.put([s_batch[1:],  # ignore the first chuck
+                                a_batch[1:],  # since we don't have the
+                                r_batch[1:],  # control over it
+                                True,
+                                {'entropy': entropy_record},
+                                completion_times])
 
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
+                # synchronize the network parameters from the coordinator
+                actor_net_params, critic_net_params = net_params_queue.get()
+                actor.set_network_params(actor_net_params)
+                critic.set_network_params(critic_net_params)
 
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-
-                    start   += (TRAIN_SEQ_LEN - 1)
-                    end     += TRAIN_SEQ_LEN
-                # ----------------------------------------------------------------------------------------------------
-
-                # One final training step with remaining samples
-                # ----------------------------------------------------------------------------------------------------
-                logger.debug("FINAL TRAINING STEP")
-                logger.debug("Start: {}, End: {}".format(start, end))
-                # If there is a smaller difference, leave it be might introduce more noise.
-                if (len(r_batch) - start) > GRADIENT_BATCH_SIZE: 
-                    actor_gradient, critic_gradient, td_batch = \
-                            a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
-                                                a_batch=np.vstack(a_batch[start:]),  # since we don't have the
-                                                r_batch=np.vstack(r_batch[start:]),  # control over it
-                                                terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
-
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
-
-
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-                # ----------------------------------------------------------------------------------------------------
-
-                # Print summary for tensorflow
-                # ----------------------------------------------------------------------------------------------------
-                summary_str = sess.run(summary_ops, feed_dict={
-                        summary_vars[0]: td_loss,
-                        summary_vars[1]: np.mean(r_batch),
-                        summary_vars[2]: np.mean(entropy_record),
-                        summary_vars[3]: np.mean(completion_times)
-                    })
-
-                writer.add_summary(summary_str, epoch)
-                writer.flush()
-                # ----------------------------------------------------------------------------------------------------
-
-                # Update gradients
-                if len(actor_gradient_batch) >= GRADIENT_BATCH_SIZE:
-                    assert len(actor_gradient_batch) == len(critic_gradient_batch)
-
-                    for i in range(len(actor_gradient_batch)):
-                        actor.apply_gradients(actor_gradient_batch[i])
-                        critic.apply_gradients(critic_gradient_batch[i])
-
-                    epoch += 1
-                    if epoch % MODEL_SAVE_INTERVAL == 0:
-                        save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt")
-
-                entropy_record = []
+                log_file.write('\n')  # so that in the log we know where video ends
 
                 # Clear all before proceeding to next run
                 del s_batch[:]
                 del a_batch[:]
                 del r_batch[:]
+                del entropy_record[:]
                 stream_info.clear()
                 list_states.clear()
                 end_of_run.clear()
