@@ -2,6 +2,7 @@
 import os
 import threading, queue
 import multiprocessing as mp
+import logging
 import numpy as np
 import tensorflow as tf
 import time
@@ -17,6 +18,7 @@ from utils.data_transf import arrangeStateStreamsInfo, getTrainingVariables, all
 from training import a3c
 from training import load_trace
 
+
 # ---------- Global Variables ----------
 S_INFO = 6  # bandwidth_path_i, path_i_mean_RTT, path_i_retransmitted_packets + path_i_lost_packets
 S_LEN = 8  # take how many frames in the past
@@ -24,8 +26,8 @@ A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
-TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 8
+TRAIN_SEQ_LEN = 100 # take as a train batch
+MODEL_SAVE_INTERVAL = 64
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
@@ -35,21 +37,142 @@ SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
 NN_MODEL = None
+NUM_AGENTS = 1
+
+BASE_PORT = 5555
+SSH_HOST = ['192.168.122.157', '192.168.122.15']
 
 
-SSH_HOST = '192.168.122.157'
+def central_agent(net_params_queues, exp_queues):
+    assert len(net_params_queues) == NUM_AGENTS
+    assert len(exp_queues) == NUM_AGENTS
+
+    logging.basicConfig(filename=LOG_FILE + '_central',
+                        filemode='w',
+                        level=logging.INFO)
+    
+    with tf.Session() as sess, open(LOG_FILE + '_test', 'w') as test_log_file:
+        actor = a3c.ActorNetwork(sess,
+                                 state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
+                                 learning_rate=ACTOR_LR_RATE)
+
+        critic = a3c.CriticNetwork(sess,
+                                   state_dim=[S_INFO, S_LEN], 
+                                   learning_rate=CRITIC_LR_RATE)
+
+        summary_ops, summary_vars = a3c.build_summaries()
+
+        sess.run(tf.global_variables_initializer())
+        writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph) # training monitor
+        saver = tf.train.Saver() # save neural net parameters
+
+        # restore neural net parameters
+        nn_model = NN_MODEL
+        if nn_model is not None: # nn_model is the path to file
+            saver.restore(sess, nn_model)
+            print ("Model Restored.")
+        
+        epoch = 0
+
+        # assemble experiences from agents, compute the gradients
+        while True:
+            # synchronize the network parameters of work agent
+            actor_net_params = actor.get_network_params()
+            critic_net_params = critic.get_network_params()
+            for i in range(NUM_AGENTS):
+                net_params_queues[i].put([actor_net_params, critic_net_params])
+                # Note: this is synchronous version of the parallel training,
+                # which is easier to understand and probe. The framework can be
+                # fairly easily modified to support asynchronous training.
+                # Some practices of asynchronous training (lock-free SGD at
+                # its core) are nicely explained in the following two papers:
+                # https://arxiv.org/abs/1602.01783
+                # https://arxiv.org/abs/1106.5730
+            
+            # record average reward and td loss change
+            # in the experiences from the agents
+            total_batch_len = 0.0
+            total_reward = 0.0
+            total_td_loss = 0.0
+            total_entropy = 0.0
+            total_agents = 0.0 
+
+            # assemble experiences from the agents
+            actor_gradient_batch = []
+            critic_gradient_batch = []
+
+            for i in range(NUM_AGENTS):
+                s_batch, a_batch, r_batch, terminal, info, c_times = exp_queues[i].get()
+
+                actor_gradient, critic_gradient, td_batch = \
+                    a3c.compute_gradients(
+                        s_batch=np.stack(s_batch, axis=0),
+                        a_batch=np.vstack(a_batch),
+                        r_batch=np.vstack(r_batch),
+                        terminal=terminal, actor=actor, critic=critic)
+
+                actor_gradient_batch.append(actor_gradient)
+                critic_gradient_batch.append(critic_gradient)
+
+                total_reward += np.sum(r_batch)
+                total_td_loss += np.sum(td_batch)
+                total_batch_len += len(r_batch)
+                total_agents += 1.0
+                total_entropy += np.sum(info['entropy'])
+                total_completion_time += np.sum(c_times)
+
+            # compute aggregated gradient
+            assert NUM_AGENTS == len(actor_gradient_batch)
+            assert len(actor_gradient_batch) == len(critic_gradient_batch)
+            for i in range(len(actor_gradient_batch)):
+                actor.apply_gradients(actor_gradient_batch[i])
+                critic.apply_gradients(critic_gradient_batch[i])
+            
+            # log training information
+            epoch += 1
+            avg_reward = total_reward  / total_agents
+            avg_td_loss = total_td_loss / total_batch_len
+            avg_entropy = total_entropy / total_batch_len
+            avg_completion_time = total_completion_time / total_batch_len
+
+            logging.info('Epoch: ' + str(epoch) +
+                         ' TD_loss: ' + str(avg_td_loss) +
+                         ' Avg_reward: ' + str(avg_reward) +
+                         ' Avg_entropy: ' + str(avg_entropy) +
+                         ' Avg_completion_time: ' + str(avg_completion_time))
+
+            summary_str = sess.run(summary_ops, feed_dict={
+                summary_vars[0]: avg_td_loss,
+                summary_vars[1]: avg_reward,
+                summary_vars[2]: avg_entropy,
+                summary_vars[3]: avg_completion_time
+            })
+
+            writer.add_summary(summary_str, epoch)
+            writer.flush()
+
+            if epoch % MODEL_SAVE_INTERVAL == 0:
+                # Save the neural net parameters to disk
+                save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" +
+                                        str(epoch) + ".ckpt")
+                logging.info("Model saved in file: " + save_path)
+                # some sort of testing takes place here, not in our case!
+                # or not yet...
 
 
-def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
-    rhostname = 'mininet' + '@' + SSH_HOST
+def environment(agent_id: int, host: str, port: int, bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
+    rhostname = 'mininet' + '@' + host
     
     config = {
         'server': 'ipc:///tmp/zmq',
-        'client': 'tcp://*:5555',
-        'publisher': 'tcp://*:5556',
+        'client': 'tcp://*:{}'.format(str(port)),
+        'publisher': 'tcp://*:{}'.format(str(port+1)),
         'subscriber': 'ipc:///tmp/pubsub'
     }
-    logger = config_logger('environment', filepath='./logs/environment.log')
+    logger = config_logger('environment', filepath='./logs/environment_{}.log'.format(agent_id))
+    logger.info("HOST: " + host)
+    logger.info("PORT: " + str(port))
+    logger.info(config)
     env = Environment(bdw_paths, logger=logger, mconfig=config, remoteHostname=rhostname)
 
     # Lets measure env runs in time
@@ -82,41 +205,39 @@ def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
         time.sleep(0.1)
 
     env.close()
-        
 
-def agent():
-    np.random.seed(RANDOM_SEED)
 
-    # Create results path
-    if not os.path.exists(SUMMARY_DIR):
-        os.makedirs(SUMMARY_DIR)
-
+def agent(agent_id, host, port, net_params_queue, exp_queue):
     # Spawn request handler
     tqueue = queue.Queue(1)
-    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=SSH_HOST, port='5555')
+    rhandler = RequestHandler(1, "rhandler-thread", tqueue=tqueue, host=host, port=str(port))
     rhandler.start()
 
     # Spawn collector thread
     cqueue = queue.Queue(0)
-    collector = Collector(2, "collector-thread", queue=cqueue, host=SSH_HOST, port='5556')
+    collector = Collector(2, "collector-thread", queue=cqueue, host=host, port=str(port+1))
     collector.start()
 
     # Spawn environment # process -- not a thread
     bdw_paths = mp.Array('i', 2)
     stop_env = mp.Event()
     end_of_run = mp.Event()
-    env = mp.Process(target=environment, args=(bdw_paths, stop_env, end_of_run))
+    env = mp.Process(target=environment, args=(agent_id, host, port, bdw_paths, stop_env, end_of_run))
     env.start()
 
     # keep record of threads and processes
     tp_list = [rhandler, collector, env]
 
-
     # Main training loop
-    logger = config_logger('agent', './logs/agent.log')
+    LOG_FILENAME = 'agent_{}'.format(agent_id)
+    logger = config_logger('agent', './logs/{}.log'.format(LOG_FILENAME))
     logger.info("Run Agent until training stops...")
+    logger.info("HOST: {}".format(host))
+    logger.info("PORT_1: {}".format(str(port)))
+    logger.info("PORT_2: {}".format(str(port+1)))
 
-    with tf.Session() as sess, open(LOG_FILE, 'w') as log_file:
+
+    with tf.Session() as sess, open(LOG_FILE + '_' + LOG_FILENAME, 'w') as log_file:
         actor = a3c.ActorNetwork(sess,
                                  state_dim=[S_INFO, S_LEN], action_dim=A_DIM,
                                  learning_rate=ACTOR_LR_RATE)
@@ -125,19 +246,11 @@ def agent():
                                    state_dim=[S_INFO, S_LEN],
                                    learning_rate=CRITIC_LR_RATE)
 
-        summary_ops, summary_vars = a3c.build_summaries()
+        # initial synchronization of the network parameters from the coordinator
+        actor_net_params, critic_net_params = net_params_queue.get()
+        actor.set_network_params(actor_net_params)
+        critic.set_network_params(critic_net_params)
 
-        sess.run(tf.global_variables_initializer())
-        writer = tf.summary.FileWriter(SUMMARY_DIR, sess.graph)  # training monitor
-        saver = tf.train.Saver()  # save neural net parameters
-
-        # # restore neural net parameters
-        nn_model = NN_MODEL
-        if nn_model is not None:  # nn_model is the path to file
-            saver.restore(sess, nn_model)
-            print("Model restored.")
-
-        epoch = 0
         time_stamp = 0
 
         last_path = DEFAULT_PATH
@@ -151,11 +264,8 @@ def agent():
         r_batch = []
         entropy_record = []
 
-        actor_gradient_batch = []
-        critic_gradient_batch = []
-        
         list_states = []
-        while not end_of_run.is_set():
+        while True:
             # Get scheduling request from rhandler thread
             request, ev1 = get_request(tqueue, logger, end_of_run=end_of_run)
 
@@ -175,7 +285,7 @@ def agent():
                     cqueue.queue.clear()
 
                 # Validate
-                # Proceed to next run
+                # If invalid => Proceed to next run
                 # logger.info("len(list_states) {} == len(stream_info) {}".format(len(list_states), len(stream_info)))
                 if len(list_states) != len(stream_info) or len(list_states) == 0:
                     entropy_record = []
@@ -214,7 +324,6 @@ def agent():
                 if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
                     logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
                     logger.debug(tmp_s_batch[0])
-
                     r_batch.insert(0, 0)
 
                 # Save metrics for debugging
@@ -238,88 +347,26 @@ def agent():
                     log_file.flush()
                     time_stamp += 1
 
-                # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
-                # ----------------------------------------------------------------------------------------------------
-                div  = len(r_batch) // TRAIN_SEQ_LEN
-                start = 1
-                end = TRAIN_SEQ_LEN
-                # logger.debug("DIVISION: {}".format(div))
-                for i in range(div):
-                    actor_gradient, critic_gradient, td_batch = \
-                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
-                                            a_batch=np.vstack(a_batch[start:end]),  # since we don't have the
-                                            r_batch=np.vstack(r_batch[start:end]),  # control over it
-                                            terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
+                # report experience to the coordinator
+                exp_queue.put([s_batch[1:],  # ignore the first chuck
+                                a_batch[1:],  # since we don't have the
+                                r_batch[1:],  # control over it
+                                True,
+                                {'entropy': entropy_record},
+                                completion_times])
 
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
+                # synchronize the network parameters from the coordinator
+                actor_net_params, critic_net_params = net_params_queue.get()
+                actor.set_network_params(actor_net_params)
+                critic.set_network_params(critic_net_params)
 
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-
-                    start   += (TRAIN_SEQ_LEN - 1)
-                    end     += TRAIN_SEQ_LEN
-                # ----------------------------------------------------------------------------------------------------
-
-                # One final training step with remaining samples
-                # ----------------------------------------------------------------------------------------------------
-                logger.debug("FINAL TRAINING STEP")
-                logger.debug("Start: {}, End: {}".format(start, end))
-                # If there is a smaller difference, leave it be might introduce more noise.
-                if (len(r_batch) - start) > GRADIENT_BATCH_SIZE: 
-                    actor_gradient, critic_gradient, td_batch = \
-                            a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
-                                                a_batch=np.vstack(a_batch[start:]),  # since we don't have the
-                                                r_batch=np.vstack(r_batch[start:]),  # control over it
-                                                terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
-
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
-
-
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-                # ----------------------------------------------------------------------------------------------------
-
-                # Print summary for tensorflow
-                # ----------------------------------------------------------------------------------------------------
-                summary_str = sess.run(summary_ops, feed_dict={
-                        summary_vars[0]: td_loss,
-                        summary_vars[1]: np.mean(r_batch),
-                        summary_vars[2]: np.mean(entropy_record),
-                        summary_vars[3]: np.mean(completion_times)
-                    })
-
-                writer.add_summary(summary_str, epoch)
-                writer.flush()
-                # ----------------------------------------------------------------------------------------------------
-
-                # Update gradients
-                if len(actor_gradient_batch) >= GRADIENT_BATCH_SIZE:
-                    assert len(actor_gradient_batch) == len(critic_gradient_batch)
-
-                    for i in range(len(actor_gradient_batch)):
-                        actor.apply_gradients(actor_gradient_batch[i])
-                        critic.apply_gradients(critic_gradient_batch[i])
-
-                    epoch += 1
-                    if epoch % MODEL_SAVE_INTERVAL == 0:
-                        save_path = saver.save(sess, SUMMARY_DIR + "/nn_model_ep_" + str(epoch) + ".ckpt")
-
-                entropy_record = []
+                log_file.write('\n')  # so that in the log we know where video ends
 
                 # Clear all before proceeding to next run
                 del s_batch[:]
                 del a_batch[:]
                 del r_batch[:]
+                del entropy_record[:]
                 stream_info.clear()
                 list_states.clear()
                 end_of_run.clear()
@@ -375,13 +422,15 @@ def agent():
                 entropy_record.append(a3c.compute_entropy(action_prob[0]))
 
                 # log time_stamp, bit_rate, buffer_size, reward
-                # log_file.write(str(time_stamp) + '\t' +
-                #             str(PATHS[path]) + '\t' +
-                #             str(bdw_paths[0]) + '\t' +
-                #             str(bdw_paths[1]) + '\t' +
-                #             str(path1_smoothed_RTT * 100) + '\t' +
-                #             str(path2_smoothed_RTT * 100) + '\t\n')
-                # log_file.flush()
+                log_file.write(str(time_stamp) + '\t' +
+                            str(PATHS[path]) + '\t' +
+                            str(bdw_paths[0]) + '\t' +
+                            str(bdw_paths[1]) + '\t' +
+                            str(path1_smoothed_RTT) + '\t' +
+                            str(path2_smoothed_RTT) + '\t' + 
+                            str(path1_retransmissions + path1_losses) + '\t' +
+                            str(path2_retransmissions + path2_losses) + '\t\n')
+                log_file.flush()
 
                 # prepare response
                 response = [request['StreamID'], PATHS[path]]
@@ -398,11 +447,47 @@ def agent():
     # wait for threads and process to finish gracefully...
     for tp in tp_list:
         tp.join()
-    
+
 
 def main():
-    agent()
+    np.random.seed(RANDOM_SEED)
+
+    assert len(PATHS) == A_DIM
+
+    # create result directory
+    if not os.path.exists(SUMMARY_DIR):
+        os.makedirs(SUMMARY_DIR)
+
+    # inter-process communication queues
+    net_params_queues = []
+    exp_queues = []
+    for i in range(NUM_AGENTS):
+        net_params_queues.append(mp.Queue(1))
+        exp_queues.append(mp.Queue(1))
+
+    # create a coordinator and multiple agent processes
+    # (note: threading is not desirable due to python GIL)
+    coordinator = mp.Process(target=central_agent,
+                             args=(net_params_queues, exp_queues))
+    coordinator.start()
+
+    agents = []
+    port = BASE_PORT
+    for i in range(NUM_AGENTS):
+        agents.append(mp.Process(target=agent,
+                                 args=(i,
+                                       SSH_HOST[i],
+                                       port,
+                                       net_params_queues[i],
+                                       exp_queues[i])))
+        port += 2 # ports: (5555, 5556), (5557, 5558)
+
+    for i in range(NUM_AGENTS):
+        agents[i].start()
+
+    # wait unit training is done
+    coordinator.join()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
