@@ -146,6 +146,7 @@ static
 # Ignore logs for now
 logs/
 results/
+results (copy)/
 environment/dependency_graphs/
 environment/batch_run.txt
 topos.json
