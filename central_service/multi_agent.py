@@ -26,8 +26,8 @@ A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
-TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 8
+TRAIN_SEQ_LEN = 100 # take as a train batch
+MODEL_SAVE_INTERVAL = 64
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
@@ -37,7 +37,7 @@ SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
 NN_MODEL = None
-NUM_AGENTS = 2
+NUM_AGENTS = 1
 
 BASE_PORT = 5555
 SSH_HOST = ['192.168.122.157', '192.168.122.15']
@@ -160,8 +160,51 @@ def central_agent(net_params_queues, exp_queues):
                 # or not yet...
 
 
-def environment():
-    pass
+def environment(agent_id: int, host: str, port: int, bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
+    rhostname = 'mininet' + '@' + host
+    
+    config = {
+        'server': 'ipc:///tmp/zmq',
+        'client': 'tcp://*:{}'.format(str(port)),
+        'publisher': 'tcp://*:{}'.format(str(port+1)),
+        'subscriber': 'ipc:///tmp/pubsub'
+    }
+    logger = config_logger('environment', filepath='./logs/environment_{}.log'.format(agent_id))
+    logger.info("HOST: " + host)
+    logger.info("PORT: " + str(port))
+    logger.info(config)
+    env = Environment(bdw_paths, logger=logger, mconfig=config, remoteHostname=rhostname)
+
+    # Lets measure env runs in time
+    while not stop_env.is_set():
+
+        # Only the agent can unblock this loop, after a training-batch has been completed
+        while not end_of_run.is_set():
+            try:
+                # update environment config from session
+                if env.updateEnvironment() == -1:
+                    stop_env.set()
+                    end_of_run.set()
+                    break
+
+                # run a single session & measure
+                #-------------------
+                now = time.time() 
+                env.run()
+                end = time.time()
+                #-------------------
+
+                diff = int (end - now)
+                logger.debug("Time to execute one run: {}s".format(diff))
+
+                end_of_run.set() # set the end of run so our agent knows
+                # env.spawn_middleware() # restart middleware 
+            except Exception as ex:
+                logger.error(ex)
+                break
+        time.sleep(0.1)
+
+    env.close()
 
 
 def agent(agent_id, host, port, net_params_queue, exp_queue):
@@ -179,7 +222,7 @@ def agent(agent_id, host, port, net_params_queue, exp_queue):
     bdw_paths = mp.Array('i', 2)
     stop_env = mp.Event()
     end_of_run = mp.Event()
-    env = mp.Process(target=environment, args=(bdw_paths, stop_env, end_of_run))
+    env = mp.Process(target=environment, args=(agent_id, host, port, bdw_paths, stop_env, end_of_run))
     env.start()
 
     # keep record of threads and processes
@@ -189,6 +232,10 @@ def agent(agent_id, host, port, net_params_queue, exp_queue):
     LOG_FILENAME = 'agent_{}'.format(agent_id)
     logger = config_logger('agent', './logs/{}.log'.format(LOG_FILENAME))
     logger.info("Run Agent until training stops...")
+    logger.info("HOST: {}".format(host))
+    logger.info("PORT_1: {}".format(str(port)))
+    logger.info("PORT_2: {}".format(str(port+1)))
+
 
     with tf.Session() as sess, open(LOG_FILE + '_' + LOG_FILENAME, 'w') as log_file:
         actor = a3c.ActorNetwork(sess,
@@ -401,6 +448,7 @@ def agent(agent_id, host, port, net_params_queue, exp_queue):
     for tp in tp_list:
         tp.join()
 
+
 def main():
     np.random.seed(RANDOM_SEED)
 
@@ -424,16 +472,15 @@ def main():
     coordinator.start()
 
     agents = []
+    port = BASE_PORT
     for i in range(NUM_AGENTS):
-        host = SSH_HOST[i]
-        port = BASE_PORT
         agents.append(mp.Process(target=agent,
                                  args=(i,
-                                       host,
+                                       SSH_HOST[i],
                                        port,
                                        net_params_queues[i],
                                        exp_queues[i])))
-        BASE_PORT += 2 # ports: 5555, 5556, 5557, 5558
+        port += 2 # ports: (5555, 5556), (5557, 5558)
 
     for i in range(NUM_AGENTS):
         agents[i].start()
