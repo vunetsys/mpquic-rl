@@ -34,7 +34,7 @@ GRADIENT_BATCH_SIZE = 8
 SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
-NN_MODEL = None
+NN_MODEL = './results/nn_model_ep_344.ckpt'
 
 
 SSH_HOST = '192.168.122.157'

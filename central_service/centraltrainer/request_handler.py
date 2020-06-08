@@ -12,7 +12,7 @@ from utils.logger import config_logger
 
 class RequestHandler(threading.Thread):
     ''' RequestHandler will receive requests from MPQUIC
-        Pass on the requests to the CentralTrainer
+        Pass on the requests to the agent
         Obtain a response (scheduling-related) and send it back
     '''
     def __init__(self, threadID: int, threadName: str, tqueue: queue.Queue, host:str="localhost", port:str="5555"):

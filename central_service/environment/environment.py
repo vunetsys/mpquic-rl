@@ -91,7 +91,7 @@ class Environment:
         self.spawn_middleware()
 
     def construct_cmd(self, config):
-        return "{} sv={} cl={} pub={} sub={}".format(MIDDLEWARE_BIN_REMOTE_PATH,
+        return "{} -sv {} -cl {} -pub {} -sub {}".format(MIDDLEWARE_BIN_REMOTE_PATH,
                                                     config['server'], 
                                                     config['client'], 
                                                     config['publisher'], 
@@ -111,25 +111,12 @@ class Environment:
                         shell=False)
 
     def stop_middleware(self):
-        # kill_cmd = "killall {}".format(MIDDLEWARE_BIN_REMOTE_PATH)
-        ps_cmd = "ps -A"
-        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, ps_cmd]
-        p = subprocess.Popen(ssh_cmd,
-                            stdout=subprocess.PIPE,
-                            stderr=subprocess.PIPE,
-                            shell=False,
-                            text=True)
-        out, err = p.communicate()
-
-        for line in out.splitlines():
-            if self._spawn_cmd in line:
-                pid = line.split(None, 1)[0]
-                kill_cmd = "kill " + pid
-                subprocess.Popen(kill_cmd,
-                                stdout=subprocess.PIPE,
-                                stderr=subprocess.PIPE,
-                                shell=False)
-
+        kill_cmd = "killall {}".format(MIDDLEWARE_BIN_REMOTE_PATH)
+        ssh_cmd = ["ssh", "-p", self._remotePort, self._remoteHostname, kill_cmd]
+        subprocess.Popen(ssh_cmd,
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.PIPE,
+                        shell=False)
 
     def getNetemToTuple(self, topo):
         '''in json -> tuple (0 0 loss 1.69%) is stored as [0, 0, loss 1.69%]
