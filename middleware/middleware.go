@@ -9,8 +9,6 @@ import (
 )
 
 func listenAndForward(serverAddrs *string, clientAddrs *string, wg *sync.WaitGroup) {
-	// server := NewServer(zmq.REP, "ipc:///tmp/zmq")
-	// client := NewServer(zmq.REQ, "tcp://*:5555")
 	server := NewServer(zmq.REP, *serverAddrs)
 	client := NewServer(zmq.REQ, *clientAddrs)
 
@@ -56,8 +54,6 @@ func listenAndForward(serverAddrs *string, clientAddrs *string, wg *sync.WaitGro
 }
 
 func subscribeAndForward(pubAddrs *string, subAddrs *string, wg *sync.WaitGroup) {
-	// subscriber := NewConfig(zmq.SUB, "ipc:///tmp/pubsub")
-	// publisher := NewConfig(zmq.PUB, "tcp://*:5556")
 	publisher := NewConfig(zmq.PUB, *pubAddrs)
 	subscriber := NewConfig(zmq.SUB, *subAddrs)
 
