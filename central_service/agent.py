@@ -24,8 +24,8 @@ A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
-TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 8
+TRAIN_SEQ_LEN = 100 # take as a train batch
+MODEL_SAVE_INTERVAL = 128
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
@@ -34,7 +34,9 @@ GRADIENT_BATCH_SIZE = 8
 SUMMARY_DIR = './results'
 LOG_FILE = './results/log'
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
-NN_MODEL = './results/nn_model_ep_344.ckpt'
+NN_MODEL = './results/nn_model_ep_640.ckpt'
+# NN_MODEL = None
+EPOCH = 640 # global epoch for initial value
 
 
 SSH_HOST = '192.168.122.157'
@@ -137,7 +139,7 @@ def agent():
             saver.restore(sess, nn_model)
             print("Model restored.")
 
-        epoch = 0
+        epoch = EPOCH
         time_stamp = 0
 
         last_path = DEFAULT_PATH
@@ -238,55 +240,23 @@ def agent():
                     log_file.flush()
                     time_stamp += 1
 
-                # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
+                # Single Training step
                 # ----------------------------------------------------------------------------------------------------
-                div  = len(r_batch) // TRAIN_SEQ_LEN
-                start = 1
-                end = TRAIN_SEQ_LEN
-                # logger.debug("DIVISION: {}".format(div))
-                for i in range(div):
-                    actor_gradient, critic_gradient, td_batch = \
-                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
-                                            a_batch=np.vstack(a_batch[start:end]),  # since we don't have the
-                                            r_batch=np.vstack(r_batch[start:end]),  # control over it
-                                            terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
+                actor_gradient, critic_gradient, td_batch = \
+                    a3c.compute_gradients(s_batch=np.stack(s_batch[1:], axis=0),  # ignore the first chuck
+                                        a_batch=np.vstack(a_batch[1:]),  # since we don't have the
+                                        r_batch=np.vstack(r_batch[1:]),  # control over it
+                                        terminal=True, actor=actor, critic=critic)
+                td_loss = np.mean(td_batch)
 
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
+                actor_gradient_batch.append(actor_gradient)
+                critic_gradient_batch.append(critic_gradient)
 
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-
-                    start   += (TRAIN_SEQ_LEN - 1)
-                    end     += TRAIN_SEQ_LEN
-                # ----------------------------------------------------------------------------------------------------
-
-                # One final training step with remaining samples
-                # ----------------------------------------------------------------------------------------------------
-                logger.debug("FINAL TRAINING STEP")
-                logger.debug("Start: {}, End: {}".format(start, end))
-                # If there is a smaller difference, leave it be might introduce more noise.
-                if (len(r_batch) - start) > GRADIENT_BATCH_SIZE: 
-                    actor_gradient, critic_gradient, td_batch = \
-                            a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
-                                                a_batch=np.vstack(a_batch[start:]),  # since we don't have the
-                                                r_batch=np.vstack(r_batch[start:]),  # control over it
-                                                terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
-
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
-
-
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
+                logger.debug ("====")
+                logger.debug ("Epoch: {}".format(epoch))
+                msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[1:]), np.mean(entropy_record[1:]))
+                logger.debug (msg)
+                logger.debug ("====")
                 # ----------------------------------------------------------------------------------------------------
 
                 # Print summary for tensorflow

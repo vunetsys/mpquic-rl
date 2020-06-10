@@ -1,7 +1,35 @@
 ### Captain's Log (Training)
 
 
-### 26/5/2020 - Current
+### 9/6/2020 - Current
+Training with:
+``` json
+
+```
+
+States:
+* Same as previous run
+
+Protocol/Training Issues: 
+* Same as 23/
+
+Notes:
+1. a3c => Modified NN inputs in both Actor and Critic networks
+    1. There was a [bug](https://github.com/hongzimao/pensieve/issues/20), which used twice the input state 4
+   which in our case represents path1_packet_retransmissions + losses instead of utilizing path2_retr + losses
+    2.  In addition, this particular state (`split_4`) was a `conv_1d` layer which did not make sense in our use case, so turned it into `fully_connected layer`
+2. a3c => Updated `entropy_weight` to `1.0` for this run, in subsequent runs will reduce it towards 0.1
+    1. As stated in the paper the `entropy_weight` begins at `1.0` and decreases till `0.1` (decaying), however this was not
+    illustrated in code, where the weight was initialized as `0.5`!
+3. agent => Increased batch training size to 100 as original implementation.
+
+Runs:
+1. Entropy converged to zero after ~350 epochs. Stopped it.
+2. Continuing from 256 of previous run. Restarted whenever entropy covnerged to zero, more than ~1024 epochs
+3. 
+---
+
+### 26/5/2020 - 9/6/2020
 Training with:
 ``` json
 Same as 23/5
