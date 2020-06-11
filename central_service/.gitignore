@@ -149,9 +149,9 @@ results/
 results (copy)/
 environment/dependency_graphs/
 environment/batch_run.txt
+evaluation/batch_run.txt
 topos.json
 graphs.json
-test_graphs.json
 train_graphs.json
 experiments/
 
