@@ -66,7 +66,7 @@ def main():
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
 
-            fp.write("{},\t{},\t{}\n".format(counter, graph, topo))
+            fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
             counter += 1
 
             try:
