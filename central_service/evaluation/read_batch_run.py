@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 def retrieve_clogs():
     QUIC_PREFIX = 'quic' + '/' + '1'
     CLIENT_FILE = 'quic_client.log'
-    folder = './'
+    folder = './vanilla_exp'
     subfolders = [ f.path for f in sorted(os.scandir(folder), key=os.path.getctime) if f.is_dir() ]
 
     curated_file_list = []
@@ -91,7 +91,7 @@ def plot_data(data):
 
     fig = plt.figure(figsize=(9, 3))
     # plt.subplot(131)
-    plt.bar(names, values)
+    plt.bar(names, values, color='r')
 
     plt.ylabel('Average stream completion time (ms)')
     plt.suptitle('Categorical Plotting')

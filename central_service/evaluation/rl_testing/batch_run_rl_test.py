@@ -57,12 +57,12 @@ def load_or_generate_pairs():
         return pairs       
             
 
-def spawn_nn_inference():
+def restart_nn_inference(bdw_path1, bdw_path2):
     import subprocess
-    PYTHON_NN_INFERENCE = './go/bin/middleware'
+    PYTHON_NN_INFERENCE = 'python3 ./git/nn_testing/nn_inference.py'
 
     def send_cmd(cmd):
-        REMOTE_PORT = '8022'
+        REMOTE_PORT = '22'
         REMOTE_HOST = 'mininet@192.168.122.157'
         ssh_cmd = ["ssh", "-p", REMOTE_PORT, REMOTE_HOST, cmd]
         subprocess.Popen(ssh_cmd,
@@ -72,7 +72,8 @@ def spawn_nn_inference():
     
     send_cmd("killall {}".format(PYTHON_NN_INFERENCE))
     time.sleep(0.5)
-    send_cmd(PYTHON_NN_INFERENCE)
+    spawn_cmd = PYTHON_NN_INFERENCE + " {} {}".format(str(bdw_path1), str(bdw_path2))
+    send_cmd(spawn_cmd)
 
 
 def main():
@@ -84,11 +85,15 @@ def main():
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
 
+            bdw_path1 = p['topo']['paths'][0]['bandwidth']
+            bdw_path2 = p['topo']['paths'][0]['bandwidth'] 
+
             fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
             counter += 1
 
             try:
                 start = time.time()
+                restart_nn_inference(bdw_path1, bdw_path2)
                 launchTests(topo, graph)
                 end = time.time()
 
