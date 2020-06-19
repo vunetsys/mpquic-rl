@@ -69,7 +69,7 @@ def quicTests(topos=DEFAULT_TOPOLOGY, graph="www.google.com_", protocol="mptcp",
                     HTTPS_FILE: "random",
                     WEB_BROWSE: "1",     # single file transfer: 0  ;  web browse: 1
                     JSON_FILE: graph,   # specify websites to download
-                    PROJECT: "mp-quic",     # quic-go is the prioritized stream scheduling project, mp-quic is the original multipath-quic project
+                    PROJECT: "quic-go",     # quic-go is the prioritized stream scheduling project, mp-quic is the original multipath-quic project
                     PATH_SCHEDULER:"MultiPath",   # quic-go param: MultiPath; SinglePath
                     BROWSER:"Firefox",
                     QUIC_MULTIPATH: kwargs["multipath"],

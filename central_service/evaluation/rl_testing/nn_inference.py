@@ -68,7 +68,7 @@ def handle_requests(host, bdw_path1, bdw_path2):
         init_action = np.zeros(A_DIM)
         init_action[DEFAULT_PATH] = 0
 
-        s_batch = [np.zeros(S_INFO, S_LEN)]
+        s_batch = [np.zeros((S_INFO, S_LEN))]
 
         # ZMQ Context
         context = zmq.Context()

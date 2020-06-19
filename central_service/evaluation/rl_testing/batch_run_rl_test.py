@@ -58,10 +58,10 @@ def load_or_generate_pairs():
             
 
 def restart_nn_inference(bdw_path1, bdw_path2):
-    import subprocess
-    PYTHON_NN_INFERENCE = 'python3 ./git/nn_testing/nn_inference.py'
+    PYTHON_NN_INFERENCE = 'python3.6'
 
     def send_cmd(cmd):
+        import subprocess
         REMOTE_PORT = '22'
         REMOTE_HOST = 'mininet@192.168.122.157'
         ssh_cmd = ["ssh", "-p", REMOTE_PORT, REMOTE_HOST, cmd]
@@ -69,10 +69,10 @@ def restart_nn_inference(bdw_path1, bdw_path2):
                         stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE,
                         shell=False)
-    
+
     send_cmd("killall {}".format(PYTHON_NN_INFERENCE))
     time.sleep(0.5)
-    spawn_cmd = PYTHON_NN_INFERENCE + " {} {}".format(str(bdw_path1), str(bdw_path2))
+    spawn_cmd = "{} {} {} {}".format("python3.6", "./git/nn_testing/nn_inference.py",str(bdw_path1), str(bdw_path2))
     send_cmd(spawn_cmd)
 
 
@@ -86,7 +86,7 @@ def main():
             topo = getNetemToTuple([p['topo']])
 
             bdw_path1 = p['topo']['paths'][0]['bandwidth']
-            bdw_path2 = p['topo']['paths'][0]['bandwidth'] 
+            bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
 
             fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
             counter += 1
@@ -101,7 +101,6 @@ def main():
                 print("runtime: {}s".format(diff))
             except Exception as ex:
                 print (ex)
-
 
 
 if __name__ == "__main__":

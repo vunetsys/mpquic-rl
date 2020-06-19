@@ -4,11 +4,11 @@
 import os
 import matplotlib.pyplot as plt
 
+ROOT_FOLDER = './rl_testing'
 
-def retrieve_clogs():
+def retrieve_clogs(folder):
     QUIC_PREFIX = 'quic' + '/' + '1'
     CLIENT_FILE = 'quic_client.log'
-    folder = './vanilla_exp'
     subfolders = [ f.path for f in sorted(os.scandir(folder), key=os.path.getctime) if f.is_dir() ]
 
     curated_file_list = []
@@ -57,10 +57,11 @@ def load_data(client_logs: list):
     return all_data
             
 
-def plot_data(data):
+def plot_data(data_no_rl, data_rl):
     import json
 
-    values = [d['avg_c_times'] for d in data]
+    values_no_rl = [d['avg_c_times'] for d in data_no_rl]
+    values_rl = [d['avg_c_times'] for d in data_rl]
 
     def preprocess_bandwidth(data):
         '''not optimal, it is what it is'''
@@ -80,34 +81,41 @@ def plot_data(data):
             pre_json.append("".join(tmp))
     
         return [json.loads(j) for j in pre_json]
-    bdw = preprocess_bandwidth(data)
+    bdw_no_rl = preprocess_bandwidth(data_no_rl)
+    bdw_rl = preprocess_bandwidth(data_rl)
     
     names = []
-    for i, d in enumerate(data):
+    for i, d in enumerate(data_no_rl):
         name = d['graph'].split(',\t')[1]
-        name += '_' + bdw[i]['paths'][0]['bandwidth'] +\
-                '_' + bdw[i]['paths'][1]['bandwidth']
+        name += '_' + bdw_no_rl[i]['paths'][0]['bandwidth'] +\
+                '_' + bdw_no_rl[i]['paths'][1]['bandwidth']
         names.append(name)
 
     fig = plt.figure(figsize=(9, 3))
     # plt.subplot(131)
-    plt.bar(names, values, color='r')
+    plt.bar(names, values_rl, color='b', label='RL')
+    plt.bar(names, values_no_rl, color='r', label='Vanilla')
+    plt.legend()
 
     plt.ylabel('Average stream completion time (ms)')
     plt.suptitle('Categorical Plotting')
 
     fig.autofmt_xdate() # make space for and rotate the x-axis tick labels
-    plt.xticks(rotation=90, ha='right')
+    plt.xticks(rotation=45, ha='right')
     plt.show()
 
 
 def main():
-    client_logs = retrieve_clogs()
-    assert len(client_logs) == 100
+    client_logs_no_rl = retrieve_clogs('./vanilla_exp')
+    assert len(client_logs_no_rl) == 100
+    client_logs_rl = retrieve_clogs(ROOT_FOLDER)
+    assert len(client_logs_rl) == 100
 
-    data = load_data(client_logs)
 
-    plot_data(data)
+    data_no_rl = load_data(client_logs_no_rl)
+    data_rl = load_data(client_logs_rl)
+
+    plot_data(data_no_rl, data_rl)
 
 if __name__ == "__main__":
     main()
