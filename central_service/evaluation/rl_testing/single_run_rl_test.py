@@ -89,30 +89,26 @@ def main():
     for g in graphs_to_execute:
         p = pairs[g]
         print (p)
-        exit(0)
 
-    counter = 1
-    with open('./batch_run_rl.txt', 'w') as fp:
-        for p in pairs:
-            graph = p['graph']['file']
-            topo = getNetemToTuple([p['topo']])
+        graph = p['graph']['file']
+        topo = getNetemToTuple([p['topo']])
 
-            bdw_path1 = p['topo']['paths'][0]['bandwidth']
-            bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
+        bdw_path1 = p['topo']['paths'][0]['bandwidth']
+        bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
 
-            fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
-            counter += 1
+        fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
+        counter += 1
 
-            try:
-                start = time.time()
-                restart_nn_inference(bdw_path1, bdw_path2)
-                launchTests(topo, graph)
-                end = time.time()
+        try:
+            start = time.time()
+            restart_nn_inference(bdw_path1, bdw_path2)
+            launchTests(topo, graph)
+            end = time.time()
 
-                diff = int(start - end)
-                print("runtime: {}s".format(diff))
-            except Exception as ex:
-                print (ex)
+            diff = int(start - end)
+            print("runtime: {}s".format(diff))
+        except Exception as ex:
+            print (ex)
 
 
 if __name__ == "__main__":
