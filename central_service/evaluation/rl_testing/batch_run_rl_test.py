@@ -13,9 +13,9 @@ from experiences.quic_web_browse import launchTests
 
 
 # global vars
-TOPOS_FP = './topos.json'
-GRAPHS_FP = './test_graphs.json'
-TG_PAIRS = './pairs_topos_graphs.json'
+TOPOS_FP = './../topos.json'
+GRAPHS_FP = './../test_graphs.json'
+TG_PAIRS = './../pairs_topos_graphs.json'
 random.seed(42)
 
 
@@ -40,7 +40,7 @@ def load_or_generate_pairs():
             for j in range(len(graphs)):
                 tuple_list.append((i, j))
 
-        pairs = random.sample(tuple_list, 100)
+        pairs = random.sample(tuple_list, 10)
         output = []
         for (t, g) in pairs:
             pair = {
