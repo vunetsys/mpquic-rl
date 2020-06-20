@@ -4,7 +4,7 @@
 import os
 import matplotlib.pyplot as plt
 
-ROOT_FOLDER = './rl_testing'
+ROOT_FOLDER = './rl_testing/1_r/'
 
 def retrieve_clogs(folder):
     QUIC_PREFIX = 'quic' + '/' + '1'
@@ -20,6 +20,8 @@ def retrieve_clogs(folder):
                     fp = s + '/' + d + '/' + QUIC_PREFIX + '/' + CLIENT_FILE
                     if os.path.isfile(fp):
                         curated_file_list.append(fp)
+                    else:
+                        print (fp)
     return curated_file_list
 
 
@@ -104,16 +106,24 @@ def plot_data(data_no_rl, data_rl):
     plt.xticks(rotation=45, ha='right')
     plt.show()
 
+def validate_order(data_no_rl, data_rl):
+    for i, d in enumerate(data_no_rl):
+        print(d)
+        print(data_rl[i])
+
 
 def main():
-    client_logs_no_rl = retrieve_clogs('./vanilla_exp')
-    assert len(client_logs_no_rl) == 100
+    client_logs_no_rl = retrieve_clogs('./vanilla_exp/1_r/')
+    assert len(client_logs_no_rl) == 90
     client_logs_rl = retrieve_clogs(ROOT_FOLDER)
-    assert len(client_logs_rl) == 100
+    print(len(client_logs_rl))
+    assert len(client_logs_rl) == 90
 
 
     data_no_rl = load_data(client_logs_no_rl)
     data_rl = load_data(client_logs_rl)
+
+    validate_order(data_no_rl, data_rl)
 
     plot_data(data_no_rl, data_rl)
 
