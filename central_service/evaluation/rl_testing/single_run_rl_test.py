@@ -14,9 +14,9 @@ from experiences.quic_web_browse import launchTests
 
 
 # global vars
-TOPOS_FP = './topos.json'
-GRAPHS_FP = './test_graphs.json'
-TG_PAIRS = './pairs_topos_graphs.json'
+TOPOS_FP = './../topos.json'
+GRAPHS_FP = './../test_graphs.json'
+TG_PAIRS = './../pairs_topos_graphs.json'
 random.seed(42)
 
 
@@ -86,6 +86,7 @@ def main():
     graphs_to_execute = [(int(g)-1) for g in graphs_to_execute]
     pairs = load_or_generate_pairs()
 
+    counter = 1
     for g in graphs_to_execute:
         p = pairs[g]
         print (p)
@@ -96,7 +97,7 @@ def main():
         bdw_path1 = p['topo']['paths'][0]['bandwidth']
         bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
 
-        fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
+        # fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
         counter += 1
 
         try:

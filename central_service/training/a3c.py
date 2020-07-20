@@ -6,7 +6,7 @@ import tflearn
 GAMMA = 0.99
 A_DIM = 2
 # ENTROPY_WEIGHT = 0.5
-ENTROPY_WEIGHT = 0.5 # will drop it later on
+ENTROPY_WEIGHT = 5.0 # will drop it later on
 ENTROPY_EPS = 1e-6
 # S_INFO = 4
 

@@ -25,19 +25,23 @@ ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
 TRAIN_SEQ_LEN = 100 # take as a train batch
-MODEL_SAVE_INTERVAL = 128
+MODEL_SAVE_INTERVAL = 64
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
 GRADIENT_BATCH_SIZE = 8
-SUMMARY_DIR = './results'
-LOG_FILE = './results/log'
-# log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
-NN_MODEL = './results/nn_model_ep_640.ckpt'
-# NN_MODEL = None
-EPOCH = 640 # global epoch for initial value
+# SUMMARY_DIR = './results'
+SUMMARY_DIR = './results_poly_highentropy'
 
+# LOG_FILE = './results/log'
+LOG_FILE = './results_poly_highentropy/log'
+
+# log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
+# NN_MODEL = './results/nn_model_ep_6080.ckpt'
+NN_MODEL = './results_poly_highentropy/nn_model_ep_704.ckpt'
+# EPOCH = 6456 # global epoch for initial value
+EPOCH = 752
 
 SSH_HOST = '192.168.122.157'
 
@@ -142,7 +146,6 @@ def agent():
         epoch = EPOCH
         time_stamp = 0
 
-        last_path = DEFAULT_PATH
         path = DEFAULT_PATH
 
         action_vec = np.zeros(A_DIM)
@@ -201,11 +204,30 @@ def agent():
 
                 # For each stream calculate a reward
                 completion_times = []
-                for stream in stream_info:
+                for index,stream in enumerate(stream_info):
                     # Reward is 1 minus the square of the mean completion time
                     # This means that small completion times (1<=) get praised
                     # But large completion times (>=1) gets double the damage
-                    reward = 1 - (stream['CompletionTime'] ** 2) 
+                    # reward = 1 - (stream['CompletionTime'] ** 2) 
+                    # reward = -np.log10(stream['CompletionTime'])
+                    path1_smoothed_RTT, path1_bandwidth, path1_packets, \
+                    path1_retransmissions, path1_losses, \
+                    path2_smoothed_RTT, path2_bandwidth, path2_packets, \
+                    path2_retransmissions, path2_losses, \
+                        = getTrainingVariables(list_states[index])
+
+                    # normalized_bwd_path0 = (bdw_paths[0] - 1.0) / (100.0 - 1.0)
+                    # normalized_bwd_path1 = (bdw_paths[1] - 1.0) / (100.0 - 1.0)
+                    normalized_srtt_path0 = ((path1_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+                    normalized_srtt_path1 = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+                    normalized_loss_path0 = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
+                    normalized_loss_path1 = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
+
+                    # aggr_bdw = normalized_bwd_path0 + normalized_bwd_path1
+                    aggr_srtt = normalized_srtt_path0 + normalized_srtt_path1
+                    aggr_loss = normalized_loss_path0 + normalized_loss_path1
+
+                    reward = -np.log10(stream['CompletionTime']) - (1.0 * aggr_srtt) - (1.0 * aggr_loss)
                     r_batch.append(reward)
                     completion_times.append(stream['CompletionTime'])
 

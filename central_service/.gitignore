@@ -146,7 +146,9 @@ static
 # Ignore logs for now
 logs/
 results/
-results (copy)/
+results_log_reward/
+results_poly/
+results_poly_highentropy/
 environment/dependency_graphs/
 environment/batch_run.txt
 evaluation/batch_run.txt
