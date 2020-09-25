@@ -18,7 +18,7 @@ GRAPHS_FP = './../test_graphs.json'
 
 # TG_PAIRS = './../pairs_topos_graphs.json'
 # TG_PAIRS = './../scenarios/google_com.json'
-TG_PAIRS = ['./../scenarios/youtube.json', './../scenarios/renren.json', './../scenarios/dropbox_google.json']
+TG_PAIRS = ['./../scenarios/aws_amazon.json', './../scenarios/alipay.json']
 
 
 random.seed(42)
@@ -82,20 +82,39 @@ def restart_nn_inference(bdw_path1, bdw_path2):
 
 
 def main():
+    # for _ in range (10):
+    #     counter = 1
+    #     with open('./batch_run_rl.txt', 'w') as fp:
+    #         for p in pairs:
+    #             graph = p['graph']['file']
+    #             topo = getNetemToTuple([p['topo']])
+
+    #             bdw_path1 = p['topo']['paths'][0]['bandwidth']
+    #             bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
+
+    #             fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
+    #             counter += 1
+
+    #             try:
+    #                 start = time.time()
+    #                 restart_nn_inference(bdw_path1, bdw_path2)
+    #                 launchTests(topo, graph)
+    #                 end = time.time()
+
+    #                 diff = int(start - end)
+    #                 print("runtime: {}s".format(diff))
+    #             except Exception as ex:
+    #                 print (ex)
 
     pairs = load_or_generate_pairs(TG_PAIRS[0])
     counter = 1
-    with open('./batch_run_youtube.txt', 'w') as fp:
+    with open('./batch_run_aws.txt', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
 
-            bdw_path1 = p['topo']['paths'][0]['bandwidth']
-            bdw_path2 = p['topo']['paths'][1]['bandwidth'] 
-
             fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
             counter += 1
-            restart_nn_inference(bdw_path1, bdw_path2)
 
             for _ in range(10):
                 try:
@@ -111,42 +130,13 @@ def main():
 
     pairs = load_or_generate_pairs(TG_PAIRS[1])
     counter = 1
-    with open('./batch_run_renren.txt', 'w') as fp:
+    with open('./batch_run_alipay.txt', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
 
-            bdw_path1 = p['topo']['paths'][0]['bandwidth']
-            bdw_path2 = p['topo']['paths'][1]['bandwidth']
-
             fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
             counter += 1
-            restart_nn_inference(bdw_path1, bdw_path2)
-
-            for _ in range(10):
-                try:
-                    start = time.time()
-                    launchTests(topo, graph)
-                    end = time.time()
-
-                    diff = int(start - end)
-                    print("runtime: {}s".format(diff))
-                except Exception as ex:
-                    print (ex)
-
-    pairs = load_or_generate_pairs(TG_PAIRS[2])
-    counter = 1
-    with open('./batch_run_dropbox.txt', 'w') as fp:
-        for p in pairs:
-            graph = p['graph']['file']
-            topo = getNetemToTuple([p['topo']])
-
-            bdw_path1 = p['topo']['paths'][0]['bandwidth']
-            bdw_path2 = p['topo']['paths'][1]['bandwidth']
-
-            fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
-            counter += 1
-            restart_nn_inference(bdw_path1, bdw_path2)
 
             for _ in range(10):
                 try:

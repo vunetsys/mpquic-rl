@@ -17,7 +17,8 @@ TOPOS_FP = './../topos.json'
 GRAPHS_FP = './../test_graphs.json'
 
 # TG_PAIRS = './../pairs_topos_graphs.json'
-TG_PAIRS = './../scenarios/yelp_seattle_hete.json'
+TG_PAIRS = ['./../scenarios/aws_amazon.json', './../scenarios/alipay.json']
+
 
 random.seed(42)
 
@@ -31,8 +32,8 @@ def getNetemToTuple(topo):
     return topo
 
 
-def load_or_generate_pairs():
-    if not os.path.isfile(TG_PAIRS):
+def load_or_generate_pairs(file):
+    if not os.path.isfile(file):
         with open(TOPOS_FP, 'r') as fp:
             topos = json.load(fp)
         with open(GRAPHS_FP, 'r') as fp:
@@ -51,39 +52,20 @@ def load_or_generate_pairs():
                 'topo': topos[t]
             }
             output.append(pair)
-        with open(TG_PAIRS, 'w') as fp:
+        with open(file, 'w') as fp:
             json.dump(output, fp, indent=4)
         return output
     else:
-        with open(TG_PAIRS, 'r') as fp:
+        with open(file, 'r') as fp:
             pairs = json.load(fp)
         return pairs       
             
 
 def main():
-    pairs = load_or_generate_pairs()
-
-    # counter = 1
-    # with open('./batch_run.txt', 'w') as fp:
-    #     for p in pairs:
-    #         graph = p['graph']['file']
-    #         topo = getNetemToTuple([p['topo']])
-
-    #         fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
-    #         counter += 1
-
-    #         try:
-    #             start = time.time()
-    #             launchTests(topo, graph)
-    #             end = time.time()
-
-    #             diff = int(start - end)
-    #             print("runtime: {}s".format(diff))
-    #         except Exception as ex:
-    #             print (ex)
+    pairs = load_or_generate_pairs(TG_PAIRS[0])
 
     counter = 1
-    with open('./batch_run.txt', 'w') as fp:
+    with open('./batch_run_aws.txt', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
@@ -102,6 +84,31 @@ def main():
                     print("runtime: {}s".format(diff))
                 except Exception as ex:
                     print (ex)
+
+
+    pairs = load_or_generate_pairs(TG_PAIRS[1])
+
+    counter = 1
+    with open('./batch_run_alipay.txt', 'w') as fp:
+        for p in pairs:
+            graph = p['graph']['file']
+            topo = getNetemToTuple([p['topo']])
+
+
+            fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
+            counter += 1
+
+            for _ in range(10):
+                try:
+                    start = time.time()
+                    launchTests(topo, graph)
+                    end = time.time()
+
+                    diff = int(start - end)
+                    print("runtime: {}s".format(diff))
+                except Exception as ex:
+                    print (ex)
+    
 
 
 

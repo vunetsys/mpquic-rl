@@ -32,16 +32,16 @@ RANDOM_SEED = 42
 RAND_RANGE = 1000000
 GRADIENT_BATCH_SIZE = 8
 # SUMMARY_DIR = './results'
-SUMMARY_DIR = './results_poly_highentropy'
+SUMMARY_DIR = './results_poly_bdw'
 
 # LOG_FILE = './results/log'
-LOG_FILE = './results_poly_highentropy/log'
+LOG_FILE = './results_poly_bdw/log'
 
 # log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
 # NN_MODEL = './results/nn_model_ep_6080.ckpt'
-NN_MODEL = './results_poly_highentropy/nn_model_ep_704.ckpt'
+NN_MODEL = './results_poly_bdw/nn_model_ep_3904.ckpt'
 # EPOCH = 6456 # global epoch for initial value
-EPOCH = 752
+EPOCH = 3983
 
 SSH_HOST = '192.168.122.157'
 
@@ -216,8 +216,8 @@ def agent():
                     path2_retransmissions, path2_losses, \
                         = getTrainingVariables(list_states[index])
 
-                    # normalized_bwd_path0 = (bdw_paths[0] - 1.0) / (100.0 - 1.0)
-                    # normalized_bwd_path1 = (bdw_paths[1] - 1.0) / (100.0 - 1.0)
+                    normalized_bwd_path0 = (bdw_paths[0] - 1.0) / (100.0 - 1.0)
+                    normalized_bwd_path1 = (bdw_paths[1] - 1.0) / (100.0 - 1.0)
                     normalized_srtt_path0 = ((path1_smoothed_RTT * 1000.0) - 1.0) / (120.0)
                     normalized_srtt_path1 = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
                     normalized_loss_path0 = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
@@ -227,7 +227,8 @@ def agent():
                     aggr_srtt = normalized_srtt_path0 + normalized_srtt_path1
                     aggr_loss = normalized_loss_path0 + normalized_loss_path1
 
-                    reward = -np.log10(stream['CompletionTime']) - (1.0 * aggr_srtt) - (1.0 * aggr_loss)
+                    # reward = -np.log10(stream['CompletionTime']) - (1.0 * aggr_srtt) - (1.0 * aggr_loss)
+                    reward = (a_batch[index][0]* normalized_bwd_path0 + a_batch[index][1]*normalized_bwd_path1) - stream['CompletionTime'] - (0.8*aggr_srtt) - (1.0 * aggr_loss)
                     r_batch.append(reward)
                     completion_times.append(stream['CompletionTime'])
 
@@ -376,7 +377,7 @@ def agent():
                 # log_file.flush()
 
                 # prepare response
-                response = [request['StreamID'], PATHS[path]]
+                response = [request['StreamID'], PATHS[path]] #, action_prob[0][0]]
                 response = [str(r).encode('utf-8') for r in response]
                 ev2 = threading.Event()
                 put_response((response, ev2), tqueue, logger)

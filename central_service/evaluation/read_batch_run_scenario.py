@@ -10,11 +10,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-ROOT_FOLDER = ['./rl_testing/rl_exp/scenarios/yelp_hete/', './vanilla_testing/vanilla_exp/yelp_hete/']
-# PATH_SUFFIX = ['1_r_yelp_low/', '2_r_yelp_high/','3_r_yelp_low_lossy/', '4_r_yelp_high_lossy']
-PATH_SUFFIX = ['']
+ROOT_FOLDER = ['./rl_testing/rl_exp/scenarios/youtube/4_r_3900/', './vanilla_testing/vanilla_exp/youtube/']
+# ROOT_FOLDER = ['./rl_testing/rl_exp/scenarios/aws/', './stream_testing/stream_exp/aws/']
 
-OUTPUT_FN = ['./r_eval_rl_poly_6080.json', './r_eval_vanilla.json']
+
+# PATH_SUFFIX = ['1_r_aws_low/', '2_r_aws_high/','3_r_aws_low_lossy/', '4_r_aws_high_lossy']
+
+PATH_SUFFIX = ['1_r_youtube/', '2_r_youtube/','3_r_youtube/', '4_r_youtube/', '5_r_youtube/']
+# ,'5_r_all_around/','6_r_all_around/','7_r_all_around/','8_r_all_around/','9_r_all_around/'
+# ,'10_r_all_around/','11_r_all_around/','12_r_all_around/','13_r_all_around/','14_r_all_around/'
+# ,'15_r_all_around/','16_r_all_around/','17_r_all_around/','18_r_all_around/','19_r_all_around/'
+# ,'20_r_all_around/']
+
+# PATH_SUFFIX = ['']
+
+OUTPUT_FN = ['./r_eval_rl_poly_youtube_3900_4.json', './r_eval_vanilla_stream_youtube.json']
+
+BATCH_RUN_FILE = './scenarios/batch_run_youtube.txt'
 
 
 def retrieve_clogs(folder):
@@ -78,7 +90,7 @@ def load_data(batch_run_info: str, filename: str, client_logs: list):
 
 def main():
 
-    batch_run_info = open('./batch_run.txt').read().splitlines()
+    batch_run_info = open(BATCH_RUN_FILE).read().splitlines()
 
     for idx, fp in enumerate(ROOT_FOLDER):
 
@@ -88,7 +100,6 @@ def main():
             c_logs_sorted = retrieve_clogs(full_path)
 
             output_data.append(load_data(batch_run_info[i], '', c_logs_sorted))
-
 
         with open(OUTPUT_FN[idx], 'w') as fp:
             fp.write(json.dumps(output_data, indent=4))
