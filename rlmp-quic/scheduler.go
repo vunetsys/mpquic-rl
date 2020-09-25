@@ -225,20 +225,6 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 						return false, sch.ackRemainingPaths(s, windowUpdateFrames)
 					}
 
-					// selectedPths := sch.choosePaths(s, stream.streamID, stream.priority.Weight)
-					// if len(selectedPths) == 0 {
-					// 	if utils.Debug() {
-					// 		utils.Debugf("SHI: fail to assign path to stream %d", stream.streamID)
-					// 	}
-					// 	if stream.checksize == true {
-					// 		// only assign path when the stream size is known
-					// 		// return error under the condition that fail to assign with stream size detected
-					// 		windowUpdateFrames := s.getWindowUpdateFrames(false)
-					// 		return false, sch.ackRemainingPaths(s, windowUpdateFrames)
-					// 	}
-					// 	return true, nil
-					// }
-
 					utils.Infof("ScheduleToMultiplePaths():\n")
 					printStreamInfo(stream)
 					printAllPathsInfo(s)
@@ -754,6 +740,7 @@ pathLoop:
 func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID) (selectedPaths map[*path]float64) {
 	stream := s.streamsMap.streams[strID]
 
+	// Comment: Sometimes checking for a stream size fails!
 	// assign path only if the size of a flow is detected
 	// if stream.checksize == false {
 	// 	stream.size = stream.lenOfDataForWriting() //return Byte
