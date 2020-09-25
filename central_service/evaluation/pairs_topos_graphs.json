@@ -1,0 +1,642 @@
+[
+    {
+        "graph": {
+            "file": "www.msn.com_",
+            "size": 51
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "88",
+                    "delay": "17.0",
+                    "queuingDelay": "0.084"
+                },
+                {
+                    "bandwidth": "10",
+                    "delay": "2.5",
+                    "queuingDelay": "0.022"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.97%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 2.18%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "aws.amazon.com_",
+            "size": 47
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "75",
+                    "delay": "4.5",
+                    "queuingDelay": "0.001"
+                },
+                {
+                    "bandwidth": "34",
+                    "delay": "12.0",
+                    "queuingDelay": "0.015"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.68%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.26%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yelp.com_seattle",
+            "size": 70
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "56",
+                    "delay": "18.0",
+                    "queuingDelay": "0.096"
+                },
+                {
+                    "bandwidth": "80",
+                    "delay": "23.0",
+                    "queuingDelay": "0.062"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.83%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.41%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.tumblr.com_",
+            "size": 32
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "15",
+                    "delay": "3.5",
+                    "queuingDelay": "0.099"
+                },
+                {
+                    "bandwidth": "5",
+                    "delay": "12.5",
+                    "queuingDelay": "0.015"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.18%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.27%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.alibaba.com_",
+            "size": 38
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "45",
+                    "delay": "14.0",
+                    "queuingDelay": "0.058"
+                },
+                {
+                    "bandwidth": "45",
+                    "delay": "18.5",
+                    "queuingDelay": "0.088"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.33%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.75%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yelp.com_seattle",
+            "size": 70
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "81",
+                    "delay": "11.5",
+                    "queuingDelay": "0.058"
+                },
+                {
+                    "bandwidth": "85",
+                    "delay": "23.0",
+                    "queuingDelay": "0.099"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.73%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.54%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.amazon.es_",
+            "size": 67
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "35",
+                    "delay": "7.5",
+                    "queuingDelay": "0.003"
+                },
+                {
+                    "bandwidth": "20",
+                    "delay": "20.5",
+                    "queuingDelay": "0.045"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.50%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.70%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.dropbox.com_",
+            "size": 35
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "66",
+                    "delay": "25.0",
+                    "queuingDelay": "0.015"
+                },
+                {
+                    "bandwidth": "72",
+                    "delay": "16.5",
+                    "queuingDelay": "0.072"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.09%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.51%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.dropbox.com_",
+            "size": 35
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "3",
+                    "delay": "5.0",
+                    "queuingDelay": "0.018"
+                },
+                {
+                    "bandwidth": "41",
+                    "delay": "13.5",
+                    "queuingDelay": "0.099"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.66%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 2.29%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yahoo.com_",
+            "size": 49
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "31",
+                    "delay": "5.0",
+                    "queuingDelay": "0.097"
+                },
+                {
+                    "bandwidth": "32",
+                    "delay": "13.5",
+                    "queuingDelay": "0.092"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.74%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.58%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yahoo.com_",
+            "size": 49
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "14",
+                    "delay": "21.5",
+                    "queuingDelay": "0.060"
+                },
+                {
+                    "bandwidth": "18",
+                    "delay": "2.0",
+                    "queuingDelay": "0.084"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.72%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 2.05%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.amazon.es_",
+            "size": 67
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "47",
+                    "delay": "23.5",
+                    "queuingDelay": "0.042"
+                },
+                {
+                    "bandwidth": "20",
+                    "delay": "17.0",
+                    "queuingDelay": "0.005"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.69%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.46%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yahoo.com_",
+            "size": 49
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "96",
+                    "delay": "19.0",
+                    "queuingDelay": "0.068"
+                },
+                {
+                    "bandwidth": "74",
+                    "delay": "19.0",
+                    "queuingDelay": "0.024"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 0.16%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 1.13%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yelp.com_seattle",
+            "size": 70
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "82",
+                    "delay": "21.5",
+                    "queuingDelay": "0.016"
+                },
+                {
+                    "bandwidth": "98",
+                    "delay": "14.0",
+                    "queuingDelay": "0.085"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.31%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.04%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.amazon.es_",
+            "size": 67
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "82",
+                    "delay": "21.5",
+                    "queuingDelay": "0.016"
+                },
+                {
+                    "bandwidth": "98",
+                    "delay": "14.0",
+                    "queuingDelay": "0.085"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.31%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.04%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.yelp.com_seattle",
+            "size": 70
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "38",
+                    "delay": "17.0",
+                    "queuingDelay": "0.038"
+                },
+                {
+                    "bandwidth": "3",
+                    "delay": "9.0",
+                    "queuingDelay": "0.029"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.91%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.69%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.dropbox.com_",
+            "size": 35
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "6",
+                    "delay": "12.5",
+                    "queuingDelay": "0.039"
+                },
+                {
+                    "bandwidth": "35",
+                    "delay": "4.0",
+                    "queuingDelay": "0.032"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.84%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.98%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "renren.com_",
+            "size": 35
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "69",
+                    "delay": "15.0",
+                    "queuingDelay": "0.046"
+                },
+                {
+                    "bandwidth": "26",
+                    "delay": "15.0",
+                    "queuingDelay": "0.046"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.25%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.52%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "www.wellsfargo.com_",
+            "size": 60
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "90",
+                    "delay": "6.0",
+                    "queuingDelay": "0.054"
+                },
+                {
+                    "bandwidth": "43",
+                    "delay": "18.5",
+                    "queuingDelay": "0.077"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.62%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 0.29%"
+                ]
+            ]
+        }
+    },
+    {
+        "graph": {
+            "file": "renren.com_",
+            "size": 35
+        },
+        "topo": {
+            "paths": [
+                {
+                    "bandwidth": "71",
+                    "delay": "7.0",
+                    "queuingDelay": "0.030"
+                },
+                {
+                    "bandwidth": "63",
+                    "delay": "11.0",
+                    "queuingDelay": "0.047"
+                }
+            ],
+            "netem": [
+                [
+                    0,
+                    0,
+                    "loss 1.74%"
+                ],
+                [
+                    1,
+                    0,
+                    "loss 2.48%"
+                ]
+            ]
+        }
+    }
+]

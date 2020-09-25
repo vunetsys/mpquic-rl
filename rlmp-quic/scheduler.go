@@ -216,23 +216,13 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 						return true, nil
 					}
 
-					// PRint my bs
-					// msPathsTest := sch.choosePathsRL(s, stream.streamID, stream.priority.Weight)
-					// for pth, vol := range msPathsTest {
-					// 	utils.Infof("MSPATHSTEST: PathID: %x (%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
-					// 	utils.Infof("StreamPath: %s", stream.requestPath)
-					// }
-
 					selectedPths := sch.choosePathsRL(s, stream.streamID)
 					if len(selectedPths) == 0 {
 						utils.Infof("MARIOS: fail to assign path to stream %d", stream.streamID)
-						if stream.checksize == true {
-							// only assign path when the stream size is known
-							// return error under the condition that fail to assign with stream size detected
-							windowUpdateFrames := s.getWindowUpdateFrames(false)
-							return false, sch.ackRemainingPaths(s, windowUpdateFrames)
-						}
-						return true, nil
+						// only assign path when the stream size is known
+						// return error under the condition that fail to assign with stream size detected
+						windowUpdateFrames := s.getWindowUpdateFrames(false)
+						return false, sch.ackRemainingPaths(s, windowUpdateFrames)
 					}
 
 					// selectedPths := sch.choosePaths(s, stream.streamID, stream.priority.Weight)
@@ -254,12 +244,11 @@ func (sch *scheduler) scheduleToMultiplePaths(s *session) (bool, error) {
 					printAllPathsInfo(s)
 					for pth, vol := range selectedPths {
 						s.streamToPath.Add(stream.streamID, pth.pathID)
-						stream.pathVolume[pth.pathID] = vol
+						stream.pathVolume[pth.pathID] = 0
 						pth.streamIDs = append(pth.streamIDs, stream.streamID)
 						sch.numstreams[pth.pathID]++ //update stream quota
 						utils.Infof("assigned to path %x(%s RTT) with volume %f bytes\n", pth.pathID, pth.rttStats.SmoothedRTT(), vol)
 					}
-
 				}
 
 			}
@@ -766,21 +755,21 @@ func (sch *scheduler) choosePathsRL(s *session, strID protocol.StreamID) (select
 	stream := s.streamsMap.streams[strID]
 
 	// assign path only if the size of a flow is detected
-	if stream.checksize == false {
-		stream.size = stream.lenOfDataForWriting() //return Byte
-		if stream.size != 0 {
-			stream.checksize = true
+	// if stream.checksize == false {
+	// 	stream.size = stream.lenOfDataForWriting() //return Byte
+	// 	if stream.size != 0 {
+	// 		stream.checksize = true
 
-			//TODO: Stream size limited with 32768 bytes
-			utils.Infof("Detected: Stream %d with file size %d bytes\n", strID, stream.size)
+	// 		//TODO: Stream size limited with 32768 bytes
+	// 		utils.Infof("Detected: Stream %d with file size %d bytes\n", strID, stream.size)
 
-		} else {
-			//utils.Infof("Not Detected: Stream %d not detected file size \n", strID)
+	// 	} else {
+	// 		//utils.Infof("Not Detected: Stream %d not detected file size \n", strID)
 
-			return nil //size value undetected, do not assign path
+	// 		return nil //size value undetected, do not assign path
 
-		}
-	}
+	// 	}
+	// }
 
 	var avalPaths []*path
 	selectedPaths = make(map[*path]float64)
