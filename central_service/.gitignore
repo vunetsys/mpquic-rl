@@ -146,11 +146,17 @@ static
 # Ignore logs for now
 logs/
 results/
+results_log_reward/
+results_poly/
+results_poly_highentropy/
+results_poly_bdw/
+scenarios/
 environment/dependency_graphs/
 environment/batch_run.txt
+evaluation/backup
+evaluation/batch_run.txt
 topos.json
 graphs.json
-test_graphs.json
 train_graphs.json
 experiments/
 

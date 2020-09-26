@@ -5,7 +5,6 @@ import logging
 import sys
 import json
 
-# sys.path.append("/home/marios/Desktop/thesis_project/official_repo/mpquic-rl/central_service/utils/")
 
 from .basic_thread import BasicThread
 

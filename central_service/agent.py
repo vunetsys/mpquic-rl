@@ -24,18 +24,18 @@ A_DIM = 2 # two actions -> path 1 or path 2
 ACTOR_LR_RATE = 0.0001
 CRITIC_LR_RATE = 0.001
 # TRAIN_SEQ_LEN = 100  # take as a train batch
-TRAIN_SEQ_LEN = 32 # take as a train batch
-MODEL_SAVE_INTERVAL = 8
+TRAIN_SEQ_LEN = 100 # take as a train batch
+MODEL_SAVE_INTERVAL = 64
 PATHS = [1, 3] # correspond to path ids
 DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
 GRADIENT_BATCH_SIZE = 8
-SUMMARY_DIR = './results'
-LOG_FILE = './results/log'
-# log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
-NN_MODEL = None
 
+SUMMARY_DIR = ''
+LOG_FILE = ''
+NN_MODEL = ''
+EPOCH = 0
 
 SSH_HOST = '192.168.122.157'
 
@@ -43,8 +43,14 @@ SSH_HOST = '192.168.122.157'
 def environment(bdw_paths: mp.Array, stop_env: mp.Event, end_of_run: mp.Event):
     rhostname = 'mininet' + '@' + SSH_HOST
     
+    config = {
+        'server': 'ipc:///tmp/zmq',
+        'client': 'tcp://*:5555',
+        'publisher': 'tcp://*:5556',
+        'subscriber': 'ipc:///tmp/pubsub'
+    }
     logger = config_logger('environment', filepath='./logs/environment.log')
-    env = Environment(bdw_paths, logger=logger, remoteHostname=rhostname)
+    env = Environment(bdw_paths, logger=logger, mconfig=config, remoteHostname=rhostname)
 
     # Lets measure env runs in time
     while not stop_env.is_set():
@@ -131,10 +137,9 @@ def agent():
             saver.restore(sess, nn_model)
             print("Model restored.")
 
-        epoch = 0
+        epoch = EPOCH
         time_stamp = 0
 
-        last_path = DEFAULT_PATH
         path = DEFAULT_PATH
 
         action_vec = np.zeros(A_DIM)
@@ -193,22 +198,34 @@ def agent():
 
                 # For each stream calculate a reward
                 completion_times = []
-                for stream in stream_info:
-                    # Reward is 1 minus the square of the mean completion time
-                    # This means that small completion times (1<=) get praised
-                    # But large completion times (>=1) gets double the damage
-                    reward = 1 - (stream['CompletionTime'] ** 2) 
+                for index,stream in enumerate(stream_info):
+                    path1_smoothed_RTT, path1_bandwidth, path1_packets, \
+                    path1_retransmissions, path1_losses, \
+                    path2_smoothed_RTT, path2_bandwidth, path2_packets, \
+                    path2_retransmissions, path2_losses, \
+                        = getTrainingVariables(list_states[index])
+
+                    normalized_bwd_path0 = (bdw_paths[0] - 1.0) / (100.0 - 1.0)
+                    normalized_bwd_path1 = (bdw_paths[1] - 1.0) / (100.0 - 1.0)
+                    normalized_srtt_path0 = ((path1_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+                    normalized_srtt_path1 = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
+                    normalized_loss_path0 = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
+                    normalized_loss_path1 = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
+
+                    # aggr_bdw = normalized_bwd_path0 + normalized_bwd_path1
+                    aggr_srtt = normalized_srtt_path0 + normalized_srtt_path1
+                    aggr_loss = normalized_loss_path0 + normalized_loss_path1
+
+                    reward = (a_batch[index][0]* normalized_bwd_path0 + a_batch[index][1]*normalized_bwd_path1) - stream['CompletionTime'] - (0.8*aggr_srtt) - (1.0 * aggr_loss)
                     r_batch.append(reward)
                     completion_times.append(stream['CompletionTime'])
 
                 # Check if we have a stream[0] = 0 add -> 0 to r_batch
                 tmp_s_batch = np.stack(s_batch[:], axis=0)
                 tmp_r_batch = np.vstack(r_batch[:])
-                # logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
                 if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
                     logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
                     logger.debug(tmp_s_batch[0])
-
                     r_batch.insert(0, 0)
 
                 # Save metrics for debugging
@@ -232,55 +249,23 @@ def agent():
                     log_file.flush()
                     time_stamp += 1
 
-                # Training step for div // TRAIN_SEQ_LEN (e.g. sequence => [64, 64, ..., 16]) last one is remainder
+                # Single Training step
                 # ----------------------------------------------------------------------------------------------------
-                div  = len(r_batch) // TRAIN_SEQ_LEN
-                start = 1
-                end = TRAIN_SEQ_LEN
-                # logger.debug("DIVISION: {}".format(div))
-                for i in range(div):
-                    actor_gradient, critic_gradient, td_batch = \
-                        a3c.compute_gradients(s_batch=np.stack(s_batch[start:end], axis=0),  # ignore the first chuck
-                                            a_batch=np.vstack(a_batch[start:end]),  # since we don't have the
-                                            r_batch=np.vstack(r_batch[start:end]),  # control over it
-                                            terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
+                actor_gradient, critic_gradient, td_batch = \
+                    a3c.compute_gradients(s_batch=np.stack(s_batch[1:], axis=0),  # ignore the first chuck
+                                        a_batch=np.vstack(a_batch[1:]),  # since we don't have the
+                                        r_batch=np.vstack(r_batch[1:]),  # control over it
+                                        terminal=True, actor=actor, critic=critic)
+                td_loss = np.mean(td_batch)
 
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
+                actor_gradient_batch.append(actor_gradient)
+                critic_gradient_batch.append(critic_gradient)
 
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
-
-                    start   += (TRAIN_SEQ_LEN - 1)
-                    end     += TRAIN_SEQ_LEN
-                # ----------------------------------------------------------------------------------------------------
-
-                # One final training step with remaining samples
-                # ----------------------------------------------------------------------------------------------------
-                logger.debug("FINAL TRAINING STEP")
-                logger.debug("Start: {}, End: {}".format(start, end))
-                # If there is a smaller difference, leave it be might introduce more noise.
-                if (len(r_batch) - start) > GRADIENT_BATCH_SIZE: 
-                    actor_gradient, critic_gradient, td_batch = \
-                            a3c.compute_gradients(s_batch=np.stack(s_batch[start:], axis=0),  # ignore the first chuck
-                                                a_batch=np.vstack(a_batch[start:]),  # since we don't have the
-                                                r_batch=np.vstack(r_batch[start:]),  # control over it
-                                                terminal=True, actor=actor, critic=critic)
-                    td_loss = np.mean(td_batch)
-
-                    actor_gradient_batch.append(actor_gradient)
-                    critic_gradient_batch.append(critic_gradient)
-
-
-                    logger.debug ("====")
-                    logger.debug ("Epoch: {}".format(epoch))
-                    msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[start:end]), np.mean(entropy_record[start:end]))
-                    logger.debug (msg)
-                    logger.debug ("====")
+                logger.debug ("====")
+                logger.debug ("Epoch: {}".format(epoch))
+                msg = "TD_loss: {}, Avg_reward: {}, Avg_entropy: {}".format(td_loss, np.mean(r_batch[1:]), np.mean(entropy_record[1:]))
+                logger.debug (msg)
+                logger.debug ("====")
                 # ----------------------------------------------------------------------------------------------------
 
                 # Print summary for tensorflow
@@ -321,9 +306,6 @@ def agent():
                 ev1.set() # let `producer` (rh) know we received request
                 list_states.append(request)
 
-                # get bdw from env - multiprocessing.sharedMemory/bdw_paths/array
-                # logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_paths[0], bdw_paths[1]))
-
                 # The bandwidth metrics coming from MPQUIC are not correct
                 # constant values not upgraded
                 path1_smoothed_RTT, path1_bandwidth, path1_packets, \
@@ -351,8 +333,6 @@ def agent():
                 state[3, -1] = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
                 state[4, -1] = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
                 state[5, -1] = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
-                # state[6, -1] = path1_losses
-                # state[7, -1] = path2_losses
 
                 s_batch.append(state)
 
@@ -367,15 +347,6 @@ def agent():
                 logger.debug("PATH: {}".format(path))
 
                 entropy_record.append(a3c.compute_entropy(action_prob[0]))
-
-                # log time_stamp, bit_rate, buffer_size, reward
-                # log_file.write(str(time_stamp) + '\t' +
-                #             str(PATHS[path]) + '\t' +
-                #             str(bdw_paths[0]) + '\t' +
-                #             str(bdw_paths[1]) + '\t' +
-                #             str(path1_smoothed_RTT * 100) + '\t' +
-                #             str(path2_smoothed_RTT * 100) + '\t\n')
-                # log_file.flush()
 
                 # prepare response
                 response = [request['StreamID'], PATHS[path]]
