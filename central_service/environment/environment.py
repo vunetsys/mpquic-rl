@@ -7,13 +7,11 @@ import json
 import os
 import random
 
-# from .experiences.quic_mptcp_https_tests_expdes_wsp_highbdp_loss_quic_marios import launchTests
-# from .experiences.quic_dualfile_offline import launchTests 
 from .experiences.quic_web_browse import launchTests
 from utils.logger import config_logger
 
 
-MIDDLEWARE_SOURCE_REMOTE_PATH = "~/go/src/github.com/mkanakis/middleware"
+MIDDLEWARE_SOURCE_REMOTE_PATH = "~/go/src/github.com/{username}/middleware"
 MIDDLEWARE_BIN_REMOTE_PATH = "./go/bin/middleware"
 
 class Session:

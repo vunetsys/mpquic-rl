@@ -10,15 +10,6 @@ with open('./environment/graphs.json', 'r') as fp:
 
 x_train, x_test = train_test_split(data, test_size=0.2, random_state=42, shuffle=True)
 
-# Validation
-# from utils.data_transf import allUnique
-# print(allUnique([elem['file'] for elem in x_train], False))
-# print(allUnique([elem['file'] for elem in x_test], False))
-
-# x_train.extend(x_test)
-# print(allUnique([elem['file'] for elem in x_train], False))
-# End Validation
-
 # Save results
 with open('./environment/train_graphs.json', 'w') as fp:
     json.dump(x_train, fp, ensure_ascii=True, indent=4, sort_keys=True)
