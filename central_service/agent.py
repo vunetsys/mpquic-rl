@@ -31,17 +31,11 @@ DEFAULT_PATH = 1  # default path without agent
 RANDOM_SEED = 42
 RAND_RANGE = 1000000
 GRADIENT_BATCH_SIZE = 8
-# SUMMARY_DIR = './results'
-SUMMARY_DIR = './results_poly_bdw'
 
-# LOG_FILE = './results/log'
-LOG_FILE = './results_poly_bdw/log'
-
-# log in format of time_stamp bit_rate buffer_size rebuffer_time chunk_size download_time reward
-# NN_MODEL = './results/nn_model_ep_6080.ckpt'
-NN_MODEL = './results_poly_bdw/nn_model_ep_3904.ckpt'
-# EPOCH = 6456 # global epoch for initial value
-EPOCH = 3983
+SUMMARY_DIR = ''
+LOG_FILE = ''
+NN_MODEL = ''
+EPOCH = 0
 
 SSH_HOST = '192.168.122.157'
 
@@ -205,11 +199,6 @@ def agent():
                 # For each stream calculate a reward
                 completion_times = []
                 for index,stream in enumerate(stream_info):
-                    # Reward is 1 minus the square of the mean completion time
-                    # This means that small completion times (1<=) get praised
-                    # But large completion times (>=1) gets double the damage
-                    # reward = 1 - (stream['CompletionTime'] ** 2) 
-                    # reward = -np.log10(stream['CompletionTime'])
                     path1_smoothed_RTT, path1_bandwidth, path1_packets, \
                     path1_retransmissions, path1_losses, \
                     path2_smoothed_RTT, path2_bandwidth, path2_packets, \
@@ -227,7 +216,6 @@ def agent():
                     aggr_srtt = normalized_srtt_path0 + normalized_srtt_path1
                     aggr_loss = normalized_loss_path0 + normalized_loss_path1
 
-                    # reward = -np.log10(stream['CompletionTime']) - (1.0 * aggr_srtt) - (1.0 * aggr_loss)
                     reward = (a_batch[index][0]* normalized_bwd_path0 + a_batch[index][1]*normalized_bwd_path1) - stream['CompletionTime'] - (0.8*aggr_srtt) - (1.0 * aggr_loss)
                     r_batch.append(reward)
                     completion_times.append(stream['CompletionTime'])
@@ -235,11 +223,9 @@ def agent():
                 # Check if we have a stream[0] = 0 add -> 0 to r_batch
                 tmp_s_batch = np.stack(s_batch[:], axis=0)
                 tmp_r_batch = np.vstack(r_batch[:])
-                # logger.debug("r_batch.shape[0]: {}rows - s_batch.shape[0]: {}rows ".format(tmp_r_batch.shape[0], tmp_s_batch.shape[0]))
                 if tmp_s_batch.shape[0] > tmp_r_batch.shape[0]:
                     logger.debug("s_batch({}) > r_batch({})".format(tmp_s_batch.shape[0], tmp_r_batch.shape[0]))
                     logger.debug(tmp_s_batch[0])
-
                     r_batch.insert(0, 0)
 
                 # Save metrics for debugging
@@ -320,9 +306,6 @@ def agent():
                 ev1.set() # let `producer` (rh) know we received request
                 list_states.append(request)
 
-                # get bdw from env - multiprocessing.sharedMemory/bdw_paths/array
-                # logger.info("bdw_path1: {}, bdw_path2: {}".format(bdw_paths[0], bdw_paths[1]))
-
                 # The bandwidth metrics coming from MPQUIC are not correct
                 # constant values not upgraded
                 path1_smoothed_RTT, path1_bandwidth, path1_packets, \
@@ -350,8 +333,6 @@ def agent():
                 state[3, -1] = ((path2_smoothed_RTT * 1000.0) - 1.0) / (120.0)
                 state[4, -1] = ((path1_retransmissions + path1_losses) - 0.0) / 20.0
                 state[5, -1] = ((path2_retransmissions + path2_losses) - 0.0) / 20.0
-                # state[6, -1] = path1_losses
-                # state[7, -1] = path2_losses
 
                 s_batch.append(state)
 
@@ -367,17 +348,8 @@ def agent():
 
                 entropy_record.append(a3c.compute_entropy(action_prob[0]))
 
-                # log time_stamp, bit_rate, buffer_size, reward
-                # log_file.write(str(time_stamp) + '\t' +
-                #             str(PATHS[path]) + '\t' +
-                #             str(bdw_paths[0]) + '\t' +
-                #             str(bdw_paths[1]) + '\t' +
-                #             str(path1_smoothed_RTT * 100) + '\t' +
-                #             str(path2_smoothed_RTT * 100) + '\t\n')
-                # log_file.flush()
-
                 # prepare response
-                response = [request['StreamID'], PATHS[path]] #, action_prob[0][0]]
+                response = [request['StreamID'], PATHS[path]]
                 response = [str(r).encode('utf-8') for r in response]
                 ev2 = threading.Event()
                 put_response((response, ev2), tqueue, logger)
