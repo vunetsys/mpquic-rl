@@ -5,10 +5,8 @@ import logging
 import sys
 import json
 
-# sys.path.append("/home/marios/Desktop/central_service/utils/")
 
 from utils.logger import config_logger
-# from logger import config_logger
 
 class RequestHandler(threading.Thread):
     ''' RequestHandler will receive requests from MPQUIC

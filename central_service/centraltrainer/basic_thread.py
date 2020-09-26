@@ -5,8 +5,7 @@ import logging
 import sys
 import json
 
-#sys.path.append("/home/marios/Desktop/central_service/utils/")
-sys.path.append("/home/marios/Desktop/thesis_project/official_repo/mpquic-rl/central_service/")
+sys.path.append("")
 
 
 from utils.logger import config_logger
