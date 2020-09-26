@@ -2,10 +2,10 @@ import os
 import shutil
 
 
-ROOT_FOLDER = './rl_testing/'
-DEST_FOLDER = './rl_testing/rl_exp/poly_reward/model_6080/'
+ROOT_FOLDER = ''
+DEST_FOLDER = ''
 
-NAME_FOLDER_SUFFIX = '_r_20_poly'
+NAME_FOLDER_SUFFIX = ''
 
 # returns folders not client.log files
 def retrieve_clogs_folders(folder):

@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-JSON_FILES = ['./r_eval_rl_poly_5000.json', './r_eval_rl_poly.json','./r_eval_vanilla.json']
+JSON_FILES = ['', '', '']
 
 
 def subcategorybar(ax, X, vals, labels, colors, width=0.4):
@@ -64,7 +64,7 @@ def plot_avg_stream_ctimes(data):
 
     vals = avg_sctime(data)
 
-    labels = ['RL-poly-5000', 'RL-poly-6080','Vanilla']
+    labels = ['', '','']
     colors = ['red', 'green','royalblue']
 
     fig, ax1 = plt.subplots()

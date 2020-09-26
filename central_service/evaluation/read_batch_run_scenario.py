@@ -10,23 +10,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-ROOT_FOLDER = ['./rl_testing/rl_exp/scenarios/youtube/4_r_3900/', './vanilla_testing/vanilla_exp/youtube/']
-# ROOT_FOLDER = ['./rl_testing/rl_exp/scenarios/aws/', './stream_testing/stream_exp/aws/']
+ROOT_FOLDER = ['']
+PATH_SUFFIX = ['']
+OUTPUT_FN = ['']
 
-
-# PATH_SUFFIX = ['1_r_aws_low/', '2_r_aws_high/','3_r_aws_low_lossy/', '4_r_aws_high_lossy']
-
-PATH_SUFFIX = ['1_r_youtube/', '2_r_youtube/','3_r_youtube/', '4_r_youtube/', '5_r_youtube/']
-# ,'5_r_all_around/','6_r_all_around/','7_r_all_around/','8_r_all_around/','9_r_all_around/'
-# ,'10_r_all_around/','11_r_all_around/','12_r_all_around/','13_r_all_around/','14_r_all_around/'
-# ,'15_r_all_around/','16_r_all_around/','17_r_all_around/','18_r_all_around/','19_r_all_around/'
-# ,'20_r_all_around/']
-
-# PATH_SUFFIX = ['']
-
-OUTPUT_FN = ['./r_eval_rl_poly_youtube_3900_4.json', './r_eval_vanilla_stream_youtube.json']
-
-BATCH_RUN_FILE = './scenarios/batch_run_youtube.txt'
+BATCH_RUN_FILE = ''
 
 
 def retrieve_clogs(folder):

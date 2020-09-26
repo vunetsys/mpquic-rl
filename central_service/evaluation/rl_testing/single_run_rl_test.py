@@ -1,7 +1,3 @@
-'''
-    TODO: Write a proper explanation :P
-'''
-
 # global imports
 import json
 import random

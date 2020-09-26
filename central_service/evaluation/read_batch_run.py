@@ -7,17 +7,6 @@ from collections import OrderedDict
 import os
 import matplotlib.pyplot as plt
 
-# RL_EXP_2560_FOLDER = './rl_testing/rl_exp/4_r_1024_20/'
-# RL_EXP_NEW_FOLDER = './rl_testing/rl_exp/11_r_2614_20_new/'
-# RL_EXP_NEW_FOLDER = './rl_testing/rl_exp/5_r_2048_20/'
-# VANILLA_EXP_FOLDER = './vanilla_testing/vanilla_exp/3_r_20/'
-# RL_EXP_2560_FOLDER = './vanilla_testing/vanilla_exp/4_r_20/'
-# RL_EXP_NEW_FOLDER = './vanilla_testing/vanilla_exp/5_r_20/'
-
-VANILLA_EXP_FOLDER = './rl_testing/rl_exp/1_r_20_log/'
-RL_EXP_2560_FOLDER = './rl_testing/rl_exp/2_r_20_log/'
-RL_EXP_NEW_FOLDER = './rl_testing/rl_exp/3_r_20_log/'
-
 
 def retrieve_clogs(folder):
     QUIC_PREFIX = 'quic' + '/' + '1'
@@ -144,40 +133,19 @@ def plot_data(data_no_rl, data_rl_1024, data_rl_2048):
     ax1.set_ylabel('Average stream completion time (ms)')
     subcategorybar(ax1, names, vals, labels, colors)
 
-    # plot total completion time -- This is wrong!!! QUIC-GO has also 'publish' method after downloading a stream
-    # which increases total time, need to remove it for these measurements
-    # vals = [tct_no_rl, tct_rl_1024, tct_rl_2048]
-    # ax2.set_ylabel('Total streams completion time (s)')
-    # subcategorybar(ax2, names, vals, labels, colors)
-
     fig.legend(labels=labels, loc="upper right")
-    # plt.legend()
-    # plt.ylabel('Average stream completion time (ms)')
-    # plt.suptitle('Categorical Plotting')
     plt.show()
 
 
-def validate_order(data_no_rl, data_rl):
-    for i, d in enumerate(data_no_rl):
-        if data_rl[i]['graph'] != d['graph']:
-            print("Something is broken")
-            exit(-1)
-
 
 def main():
-    client_logs_no_rl = retrieve_clogs(VANILLA_EXP_FOLDER)
-    client_logs_rl_2560 = retrieve_clogs(RL_EXP_2560_FOLDER)
-    client_logs_rl_new = retrieve_clogs(RL_EXP_NEW_FOLDER)
+    print ("read comments")
+    # 1. retrieve_clogs
 
+    # 2. load_data
 
-    data_no_rl = load_data('vanilla', client_logs_no_rl)
-    data_rl_2560 = load_data('rl_2560', client_logs_rl_2560)
-    data_rl_new = load_data('rl_new', client_logs_rl_new)
+    # 3. plot_data
 
-    validate_order(data_no_rl, data_rl_2560)
-    validate_order(data_no_rl, data_rl_new)
-
-    plot_data(data_no_rl, data_rl_2560, data_rl_new)
 
 if __name__ == "__main__":
     main()

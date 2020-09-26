@@ -10,9 +10,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-ROOT_FOLDER = ['./rl_testing/rl_exp/poly_reward/model_5000/', './rl_testing/rl_exp/poly_reward/model_6080/','./vanilla_testing/vanilla_exp/']
-PATH_SUFFIX = ['_r_20_poly/', '_r_20_poly/','_r_20/']
-OUTPUT_FN = ['./r_eval_rl_poly_5000.json', './r_eval_rl_poly.json','./r_eval_vanilla.json']
+ROOT_FOLDER = ['', '','']
+PATH_SUFFIX = ['', '','']
+OUTPUT_FN = ['', '','']
 
 
 def retrieve_clogs(folder):

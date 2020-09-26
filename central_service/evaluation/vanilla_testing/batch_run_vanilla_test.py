@@ -1,7 +1,3 @@
-'''
-    TODO: Write a proper explanation :P
-'''
-
 # global imports
 import json
 import random
@@ -15,9 +11,7 @@ from experiences.quic_web_browse import launchTests
 # global vars
 TOPOS_FP = './../topos.json'
 GRAPHS_FP = './../test_graphs.json'
-
-# TG_PAIRS = './../pairs_topos_graphs.json'
-TG_PAIRS = ['./../scenarios/aws_amazon.json', './../scenarios/alipay.json']
+TG_PAIRS = ['']
 
 
 random.seed(42)
@@ -62,10 +56,8 @@ def load_or_generate_pairs(file):
             
 
 def main():
-    pairs = load_or_generate_pairs(TG_PAIRS[0])
-
     counter = 1
-    with open('./batch_run_aws.txt', 'w') as fp:
+    with open('', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
@@ -84,33 +76,6 @@ def main():
                     print("runtime: {}s".format(diff))
                 except Exception as ex:
                     print (ex)
-
-
-    pairs = load_or_generate_pairs(TG_PAIRS[1])
-
-    counter = 1
-    with open('./batch_run_alipay.txt', 'w') as fp:
-        for p in pairs:
-            graph = p['graph']['file']
-            topo = getNetemToTuple([p['topo']])
-
-
-            fp.write("{},\t{},\t{}\n".format(counter, graph, p['topo']))
-            counter += 1
-
-            for _ in range(10):
-                try:
-                    start = time.time()
-                    launchTests(topo, graph)
-                    end = time.time()
-
-                    diff = int(start - end)
-                    print("runtime: {}s".format(diff))
-                except Exception as ex:
-                    print (ex)
-    
-
-
 
 if __name__ == "__main__":
     main()

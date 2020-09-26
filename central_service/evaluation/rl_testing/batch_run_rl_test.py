@@ -1,7 +1,3 @@
-'''
-    TODO: Write a proper explanation :P
-'''
-
 # global imports
 import json
 import random
@@ -15,10 +11,7 @@ from experiences.quic_web_browse import launchTests
 # global vars
 TOPOS_FP = './../topos.json'
 GRAPHS_FP = './../test_graphs.json'
-
-# TG_PAIRS = './../pairs_topos_graphs.json'
-# TG_PAIRS = './../scenarios/google_com.json'
-TG_PAIRS = ['./../scenarios/youtube.json', './../scenarios/renren.json', './../scenarios/dropbox_google.json']
+TG_PAIRS = ['']
 
 
 random.seed(42)
@@ -85,7 +78,7 @@ def main():
 
     pairs = load_or_generate_pairs(TG_PAIRS[0])
     counter = 1
-    with open('./batch_run_youtube.txt', 'w') as fp:
+    with open('', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
@@ -111,7 +104,7 @@ def main():
 
     pairs = load_or_generate_pairs(TG_PAIRS[1])
     counter = 1
-    with open('./batch_run_renren.txt', 'w') as fp:
+    with open('', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])
@@ -136,7 +129,7 @@ def main():
 
     pairs = load_or_generate_pairs(TG_PAIRS[2])
     counter = 1
-    with open('./batch_run_dropbox.txt', 'w') as fp:
+    with open('', 'w') as fp:
         for p in pairs:
             graph = p['graph']['file']
             topo = getNetemToTuple([p['topo']])

@@ -6,22 +6,12 @@ import matplotlib.pyplot as plt
 import math
 
 
-prefix = './results/new/'
-JSON_FILES = [['r_eval_rl_poly_alipay_3900.json', 
-    'r_eval_stream_alipay.json', 
-    'r_eval_vanilla_stream_alipay.json'],
+prefix = ''
+JSON_FILES = []
 
-    ['r_eval_rl_poly_aws_3900.json', 
-    'r_eval_stream_aws.json', 
-    'r_eval_vanilla_stream_aws.json']]
-
-    # ['r_eval_rl_poly_dropbox_3900_2.json', 
-    # 'r_eval_stream_dropbox.json', 
-    # 'r_eval_vanilla_dropbox_google.json']]
-# JSON_FILES = ['./r_eval_stream_dropbox.json', './results/new/r_eval_vanilla_dropbox_google.json']
+    
 
 plt.style.use('./mplstyle')
-# plt.style.use('seaborn')
 
 mpl.rcParams['figure.dpi'] = 200
 
@@ -121,7 +111,7 @@ def plot_avg_stream_ctimes(data):
 
     vals = avg_time(data)
 
-    labels = ['SAILfish','Stream-based MinRTT', 'Packet-based MinRTT']
+    labels = ['','', '']
     colors = ['royalblue', 'green','red']
 
     fig, ax1 = plt.subplots()
@@ -175,7 +165,7 @@ def plot_avg_stream_subplots(data):
         return to_return
 
 
-    labels = ['SAILfish','Stream-based MinRTT', 'Packet-based MinRTT']
+    labels = ['','', '']
     colors = ['#2c7bb6', '#d7191c','#ffffbf']
 
     fig, axs = plt.subplots(1, 2, sharex=True, sharey=True, figsize=set_size('thesis', 1.0,subplots=(1,2)))
@@ -195,31 +185,21 @@ def plot_avg_stream_subplots(data):
 
     vals = avg_time(data[0])
     axs[0].set_ylabel('Average stream completion time (ms)')
-    axs[0].set_title('Alipay')
+    axs[0].set_title('')
     # ax1.legend(labels=labels)
     print (vals)
     subcategorybar(axs[0], names, vals, labels, colors, hatches)
 
     # ax2.legend(labels=labels)
-    axs[1].set_title('AWS Amazon')
+    axs[1].set_title('')
     vals = avg_time(data[1])
     subcategorybar(axs[1], names, vals, labels, colors, hatches)
 
-    # axs[2].set_title('Dropbox')
-    # vals = avg_time(data[2])
-    # # axs[2].legend(labels=labels)
-    # subcategorybar(axs[2], names, vals, labels, colors, hatches)
-
-    # ax3.legend(loc="upper right")
 
     fig.subplots_adjust(left=0.07, bottom=0.00, right=0.99, top=0.80, hspace=0.3, wspace=0.1)
     fig.legend(labels=labels, loc="upper right", ncol=3)
-    
-    # plt.tight_layout()
 
     plt.savefig('./stream_large.pdf', format="pdf", bbox_inches='tight')
-
-    # plt.show()
 
 
 def aggregate_batch_data(data):

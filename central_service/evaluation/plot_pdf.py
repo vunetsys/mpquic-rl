@@ -9,53 +9,9 @@ import math
 from scipy.stats import norm
 
 
-prefix = './results/new/'
+prefix = './results/'
+JSON_FILES = []
 
-# --------------- SMALL ------------------------
-# JSON_FILES = [
-#     'r_eval_rl_poly_google_2624.json', 
-#     'r_eval_stream_google.json', 
-#     'r_eval_vanilla_google.json',
-#     'r_eval_rl_poly_twitter_2624.json', 
-#     'r_eval_stream_twitter.json', 
-#     'r_eval_vanilla_twitter.json', 
-#     'r_eval_rl_poly_facebook_3900.json', 
-#     'r_eval_stream_facebook.json',
-#     'r_eval_vanilla_facebook.json'
-#     ]
-
-# -------------- MEDIUM ------------------------
-# JSON_FILES = [
-#     'r_eval_rl_poly_youtube_3900.json', 
-#     'r_eval_stream_youtube.json',
-#     'r_eval_vanilla_youtube.json', 
-#     'r_eval_rl_poly_renren_3900_2.json', 
-#     'r_eval_stream_renren.json', 
-#     'r_eval_vanilla_renren.json', 
-#     'r_eval_rl_poly_dropbox_3900_2.json',
-#     'r_eval_stream_dropbox.json', 
-#     'r_eval_vanilla_dropbox_google.json',
-#     ]
-
-# -------------- LARGE ------------------------
-JSON_FILES = [
-    'r_eval_rl_poly_alipay_3900.json', 
-    'r_eval_stream_alipay.json', 
-    'r_eval_vanilla_stream_alipay.json',
-    'r_eval_rl_poly_aws_3900.json', 
-    'r_eval_stream_aws.json', 
-    'r_eval_vanilla_stream_aws.json'
-    ]
-
-
-# params = {
-#    'axes.labelsize': 10,
-#    'legend.fontsize': 10,
-#    'xtick.labelsize': 10,
-#    'ytick.labelsize': 10,
-#    'text.usetex': False
-#    }
-# mpl.rcParams.update(params)
 
 plt.style.use('./mplstyle')
 mpl.rcParams['figure.dpi'] = 200
@@ -73,18 +29,7 @@ def figsize(scale):
     fig_height = fig_width*golden_mean*0.5              # height in inches
     fig_size = [fig_width,fig_height]
     return fig_size
-
-
-def calc_percentages(data):
-    network_config = ['LOW', 'LOW DISS', 'HOMOG', 'HIGH DISS', 'HIGH']
-    for i in range(len(JSON_FILES)):
-        avg_d = avg_ctimes(data[i])
-        print("FILE: " + JSON_FILES[i])
-        for k in range(5):
-            print("{}: {}".format(network_config[k], np.mean(avg_d[k])))
-        print("----------------------")
         
-
 def set_size(width, fraction=1, subplots=(1, 1)):
     """Set figure dimensions to avoid scaling in LaTeX.
 
@@ -137,8 +82,6 @@ def avg_ctimes(data):
                 continue
             if math.isnan(run['avg_c_times']):
                 continue
-            # if "alipay" in run['graph']:
-            #     print (run['avg_c_times'])
             avg_ctime.append(run['avg_c_times'])
         total_configs.append(avg_ctime)
     return total_configs
@@ -156,14 +99,13 @@ def aggr_str_compl_times(data):
 def plot_conf_cdf(ax, data, bin=100, linestyle="-", color='blue'):
     x = np.sort(data)
     y = np.arange(len(x))/float(len(x))
-    #print(len(data))
     n, bins, patches = ax.hist(data, bin,  cumulative=True, density=True, histtype='step', 
         fill=False, color=color, alpha=0.8)
     patches[0].set_xy(patches[0].get_xy()[:-1])
     ax.plot(x, y, linestyle=linestyle, color=color)
 
 def plot_cdf_subfigures(data):
-    labels = ['SAILfish', 'Stream-based MinRTT', 'Packet-based MinRTT']
+    labels = ['', '', '']
     colors = ['#2c7bb6', '#d7191c','#fdae61']
 
     fig, axs = plt.subplots(3, 5, sharey=True, figsize=set_size('thesis', 1.0, (3, 5)))
@@ -172,13 +114,13 @@ def plot_cdf_subfigures(data):
     axs[1,0].set_ylabel("CDF")
     axs[2,0].set_ylabel("CDF")
 
-    rows = ['YouTube', 'Renren', 'Dropbox']
+    rows = ['', '', '']
     for ax, row in zip(axs[:,0], rows):
         ax.annotate(row, xy=(0, 0.5), xytext=(-ax.yaxis.labelpad - 5, 0),
                     xycoords=ax.yaxis.label, textcoords='offset points',
                     size='large', ha='right', va='center')
 
-    titles = ['Low BDW Similar', 'Low BDW Dissimilar', 'Homogeneous', 'High BDW Dissimilar', 'High BDW Similar']
+    titles = ['', '', '', '', '']
     for ax, col in zip(axs[0], titles):
         ax.set_title(col)
 
@@ -191,33 +133,21 @@ def plot_cdf_subfigures(data):
             aggr_data = aggr_str_compl_times(data[count])
             count += 1
             for j in range(5):
-                # axs[i,j].set_xlabel(titles[j])
                 axs[i,j].grid(axis='y', color="0.9", linestyle='-', linewidth=1)
                 axs[i,j].spines['top'].set_visible(False)
                 axs[i,j].spines['right'].set_visible(False)
-                # ax.spines['left'].set_visible(False)
                 axs[i,j].set_axisbelow(True)
                 plot_conf_cdf(axs[i,j], aggr_data[j], 100, linestyles[k], colors[k])
 
-    # Use the histogram function to bin the data
-    # counts, bin_edges = np.histogram(avg_ctime, bins=10, density=True)
-    # Now find the cdf
-    # cdf = np.cumsum(counts)
-    # And finally plot the cdf
-    # plt.plot(bin_edges[1:], cdf, 'r--')
-    # manager = plt.get_current_fig_manager()
-    # manager.resize(*manager.window.maxsize())
+    
     fig.subplots_adjust(left=0.05, bottom=0.03, right=0.99, top=0.83, wspace=0.1)
     fig.legend(labels=labels, loc="upper right", ncol=3)
-    # fig.suptitle('Stream Completion Time(ms)')
 
-    # plt.tight_layout()
-    # fig.set_size_inches((8.5, 11), forward=False)
-    plt.savefig('./cdf_medium.pdf', format="pdf", bbox_inches='tight')
+    plt.savefig('', format="pdf", bbox_inches='tight')
     plt.show()
 
 def plot_cdf_single_row(data):
-    labels = ['SAILfish', 'Stream-based MinRTT', 'Packet-based MinRTT']
+    labels = ['', '', '']
     colors = ['#B22400', 'green','#006BB2']
     linestyles = ['--', ':', '-']
     fig, axs = plt.subplots(1, 5, sharey=True, figsize=figsize(1.0))
@@ -225,14 +155,9 @@ def plot_cdf_single_row(data):
 
     axs[0].set_ylabel("CDF")
 
-    rows = ['YouTube', 'Renren', 'Dropbox']
-    # axs[0].annotate(rows[0], xy=(0, 0.5), xytext=(-axs[0].yaxis.labelpad - 5, 0),
-    #     xycoords=axs[0].yaxis.label, textcoords='offset points',
-    #     size='large', ha='right', va='center')
+    rows = ['', '', '']
 
-    titles = ['Low BDW Similar', 'Low BDW Dissimilar', 'Homogeneous', 'High BDW Dissimilar', 'High BDW Similar']
-    # for ax, col in zip(axs, titles):
-    #     ax.set_title(col)
+    titles = ['', '', '', '', '']
 
     count = 0
     for i in range(3):
@@ -248,30 +173,12 @@ def plot_cdf_single_row(data):
                 axs[j].set_axisbelow(True)
                 axs[j].set_title(titles[j])
 
-                # axs[0].annotate(rows[i], xy=(0, 0.5), xytext=(-axs[0].yaxis.labelpad - 5, 0),
-                #     xycoords=ax.yaxis.label, textcoords='offset points',
-                #     size='large', ha='right', va='center')
                 plot_conf_cdf(axs[j], aggr_data[j], 100, linestyles[i], colors[k])
-            # manager = plt.get_current_fig_manager()
-            # manager.resize(*manager.window.maxsize())
             fig.subplots_adjust(left=0.05, bottom=0.03, right=0.99, top=0.65, hspace=0.3, wspace=0.1)
             fig.legend(labels=labels, loc="upper right")
-            # plt.tight_layout()
             plt.savefig('./test_{}.pdf'.format(i), format="pdf", bbox_inches='tight')
 
-    # Use the histogram function to bin the data
-    # counts, bin_edges = np.histogram(avg_ctime, bins=10, density=True)
-    # Now find the cdf
-    # cdf = np.cumsum(counts)
-    # And finally plot the cdf
-    # plt.plot(bin_edges[1:], cdf, 'r--')
-    # manager = plt.get_current_fig_manager()
-    # manager.resize(*manager.window.maxsize())
-    # fig.subplots_adjust(left=0.07, bottom=0.03, right=0.99, top=0.89, wspace=0.1)
-    # fig.legend(labels=labels, loc="upper right")
-    # plt.tight_layout()
-    # fig.set_size_inches((5.5, 11.0), forward=False)
-    plt.savefig('./test.png', dpi=300)
+    plt.savefig('', dpi=300)
     # plt.show()
 
 def main():
@@ -284,8 +191,6 @@ def main():
             
     # plot_cdf_subfigures(data)
     # plot_cdf_single_row(data)
-    calc_percentages(data)
-
 
 if __name__ == "__main__":
     main()
