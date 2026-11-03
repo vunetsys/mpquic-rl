@@ -19,7 +19,7 @@ numpy==1.18.4
 Pillow==7.0.0
 pkg-resources==0.0.0
 protobuf==3.11.3
-pylint==2.4.4
+pylint==4.0.9
 pyparsing==2.4.6
 python-dateutil==2.8.1
 pyzmq==19.0.0
